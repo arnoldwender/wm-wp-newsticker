@@ -1,0 +1,604 @@
+# Translation of wm-newsticker in de_DE
+# Copyright (C) 2026 Wender Media
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-newsticker 2026.1\n"
+"Report-Msgid-Bugs-To: https://wendermedia.com\n"
+"POT-Creation-Date: 2026-08-29 00:24+0000\n"
+"PO-Revision-Date: 2026-08-29 00:24+0000\n"
+"Last-Translator: Arnold Wender <arnold.wender@gmail.com>\n"
+"Language-Team: Wender Media <info@wendermedia.com>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Wender Media Enterprise i18n Engine 2026\n"
+"X-Domain: wm-newsticker\n"
+
+#: wm-newsticker-sk_SK.po:1
+msgid "%d Demo-Beiträge und Showcase-Seiten wurden gelöscht. Der Transient-Cache wurde geleert."
+msgstr "%d Demo-Beiträge und Showcase-Seiten wurden gelöscht. Der Transient-Cache wurde geleert."
+
+#: index.js:865
+msgid "(No text)"
+msgstr "(No text)"
+
+#: wm-newsticker.php:1096
+msgid "1. Block-Konfiguration (Inspector Controls)"
+msgstr "1. Block-Konfiguration (Inspector Controls)"
+
+#: wm-newsticker.php:1110
+msgid "2. Barrierefreiheit & BFSG 2025"
+msgstr "2. Barrierefreiheit & BFSG 2025"
+
+#: wm-newsticker-sk_SK.po:1
+msgid "3. PHP Hook & Filter API für Entwickler"
+msgstr "3. PHP Hook & Filter API für Entwickler"
+
+#: wm-newsticker.php:1145
+msgid "4. Demodaten-Management & Werkseinstellungen (Reset)"
+msgstr "4. Demodaten-Management & Werkseinstellungen (Reset)"
+
+#: wm-newsticker-sk_SK.po:1
+msgid "5. Häufige Fragen & Troubleshooting"
+msgstr "5. Häufige Fragen & Troubleshooting"
+
+#: wm-newsticker-sk_SK.po:1
+msgid "60 FPS GPU-beschleunigter, barrierefreier (BFSG 2025 / WCAG 2.2 AA) Marquee- & News-Ticker-Block für WordPress."
+msgstr "60 FPS GPU-beschleunigter, barrierefreier (BFSG 2025 / WCAG 2.2 AA) Marquee- & News-Ticker-Block für WordPress."
+
+#: index.js:799
+msgid "About"
+msgstr "About"
+
+#: index.js:392
+msgid "Absolute (site format)"
+msgstr "Absolute (site format)"
+
+#: index.js:793
+msgid "Add announcement"
+msgstr "Add announcement"
+
+#: wm-newsticker-sk_SK.po:1
+msgid "Add announcements in the sidebar →"
+msgstr "Add announcements in the sidebar →"
+
+#: index.js:675
+msgid "All categories"
+msgstr "All categories"
+
+#: index.js:687
+msgid "All tags"
+msgstr "All tags"
+
+#: wm-newsticker.php:1071
+msgid "Alle Demo-Daten und Caches wurden restlos bereinigt."
+msgstr "Alle Demo-Daten und Caches wurden restlos bereinigt."
+
+#: index.js:401
+msgid "Animation"
+msgstr "Animation"
+
+#: index.js:403
+msgid "Animation type"
+msgstr "Animation type"
+
+#: index.js:743
+msgid "Announcement text"
+msgstr "Announcement text"
+
+#: index.js:387
+msgid "Ascending (oldest first)"
+msgstr "Ascending (oldest first)"
+
+#: wm-newsticker.php:860
+msgid "Barrierefreiheit (BFSG 2025)"
+msgstr "Barrierefreiheit (BFSG 2025)"
+
+#: wm-newsticker.php:871
+msgid "Block-Dokumentation:"
+msgstr "Block-Dokumentation:"
+
+#: index.js:600
+msgid "Border Radius"
+msgstr "Border Radius"
+
+#: index.js:621
+msgid "Border Style"
+msgstr "Border Style"
+
+#: index.js:611
+msgid "Border Width"
+msgstr "Border Width"
+
+#: index.js:561
+msgid "Border color"
+msgstr "Border color"
+
+#: index.js:634
+msgid "Box Shadow"
+msgstr "Box Shadow"
+
+#: index.js:407
+msgid "Choose how announcements are displayed"
+msgstr "Choose how announcements are displayed"
+
+#: index.js:503
+msgid "Colors"
+msgstr "Colors"
+
+#: index.js:382
+msgid "Comment count"
+msgstr "Comment count"
+
+#: index.js:647
+msgid "Content Source"
+msgstr "Content Source"
+
+#: index.js:436
+msgid "Controls"
+msgstr "Controls"
+
+#: index.js:446
+msgid "Controls position"
+msgstr "Controls position"
+
+#: index.js:625
+msgid "Dashed"
+msgstr "Dashed"
+
+#: index.js:378
+msgid "Date"
+msgstr "Date"
+
+#: index.js:712
+msgid "Date format"
+msgstr "Date format"
+
+#: index.js:780
+msgid "Delete"
+msgstr "Löschen"
+
+#: wm-newsticker-sk_SK.po:1
+msgid "Der Newsticker erfüllt alle Vorgaben des Barrierefreiheitsstärkungsgesetzes 2025 und WCAG 2.2 AA. Animationen stoppen automatisch bei Tastatur-Fokus (:focus-within), Hover (:hover) sowie bei aktivierter Systemeinstellung \"prefers-reduced-motion\"."
+msgstr "Der Newsticker erfüllt alle Vorgaben des Barrierefreiheitsstärkungsgesetzes 2025 und WCAG 2.2 AA. Animationen stoppen automatisch bei Tastatur-Fokus (:focus-within), Hover (:hover) sowie bei aktivierter Systemeinstellung \"prefers-reduced-motion\"."
+
+#: index.js:386
+msgid "Descending (newest first)"
+msgstr "Descending (newest first)"
+
+#: index.js:410
+msgid "Direction"
+msgstr "Direction"
+
+#: index.js:441
+msgid "Display Play/Pause and Prev/Next buttons"
+msgstr "Display Play/Pause and Prev/Next buttons"
+
+#: index.js:34
+msgid "Displays announcements in a ticker format with customizable links."
+msgstr "Displays announcements in a ticker format with customizable links."
+
+#: wm-newsticker.php:1224
+msgid "Dokumentation"
+msgstr "Dokumentation"
+
+#: index.js:626
+msgid "Dotted"
+msgstr "Dotted"
+
+#: index.js:364
+msgid "Down"
+msgstr "Down"
+
+#: wm-newsticker-sk_SK.po:1
+msgid "Dynamische Beiträge werden für 5 Minuten im WordPress Transient Cache zwischengespeichert. Bei jeder Beitrags-Aktualisierung (save_post) oder Löschung wird der Cache automatisch invalidiert."
+msgstr "Dynamische Beiträge werden für 5 Minuten im WordPress Transient Cache zwischengespeichert. Bei jeder Beitrags-Aktualisierung (save_post) oder Löschung wird der Cache automatisch invalidiert."
+
+#: index.js:432
+msgid "Enable for Arabic, Hebrew, etc."
+msgstr "Enable for Arabic, Hebrew, etc."
+
+#: wm-newsticker.php:1047
+msgid "Enterprise Dokumentation & Handbuch"
+msgstr "Enterprise Dokumentation & Handbuch"
+
+#: wm-newsticker.php:872
+msgid "Entwickelt von Wender Media."
+msgstr "Entwickelt von Wender Media."
+
+#: wm-newsticker.php:1059
+msgid "Erfolg: %d Demo-Meldungen und eine interaktive Demo-Hub-Seite wurden erfolgreich erstellt."
+msgstr "Erfolg: %d Demo-Meldungen und eine interaktive Demo-Hub-Seite wurden erfolgreich erstellt."
+
+#: index.js:355
+msgid "Fade"
+msgstr "Fade"
+
+#: index.js:672
+msgid "Filter by category"
+msgstr "Filter by category"
+
+#: index.js:684
+msgid "Filter by tag"
+msgstr "Filter by tag"
+
+#: index.js:488
+msgid "Font size (px)"
+msgstr "Font size (px)"
+
+#: wm-newsticker-sk_SK.po:1
+msgid "Gefahrenbereich: Auf Werkseinstellungen zurücksetzen"
+msgstr "Gefahrenbereich: Auf Werkseinstellungen zurücksetzen"
+
+#: index.js:472
+msgid "General Settings"
+msgstr "General Settings"
+
+#: wm-newsticker.php:1148
+msgid "Generieren Sie Beispielmeldungen und eine fertige Showcase-Gutenberg-Seite zum sofortigen Testen oder bereinigen Sie alle Caches und Beispieldaten."
+msgstr "Generieren Sie Beispielmeldungen und eine fertige Showcase-Gutenberg-Seite zum sofortigen Testen oder bereinigen Sie alle Caches und Beispieldaten."
+
+#: wm-newsticker.php:1225
+msgid "GitHub Repository"
+msgstr "GitHub Repository"
+
+#: wm-newsticker.php:854
+msgid "Gutenberg Block Integration"
+msgstr "Gutenberg Block Integration"
+
+#: wm-newsticker.php:768
+msgid "Hardware-beschleunigter Newsticker aktiv"
+msgstr "Hardware-beschleunigter Newsticker aktiv"
+
+#: index.js:495
+msgid "Height (px)"
+msgstr "Height (px)"
+
+#: index.js:421
+msgid "Higher value = faster"
+msgstr "Higher value = faster"
+
+#: index.js:641
+msgid "Inset"
+msgstr "Inset"
+
+#: index.js:533
+msgid "Label background"
+msgstr "Label background"
+
+#: index.js:474 index.js:547
+msgid "Label text"
+msgstr "Label text"
+
+#: index.js:640
+msgid "Large"
+msgstr "Large"
+
+#: index.js:380
+msgid "Last modified"
+msgstr "Last modified"
+
+#: index.js:478
+msgid "Leave empty to hide the label on the frontend"
+msgstr "Leave empty to hide the label on the frontend"
+
+#: index.js:361 index.js:368
+msgid "Left"
+msgstr "Left"
+
+#: index.js:748
+msgid "Link (optional)"
+msgstr "Link (optional)"
+
+#: wm-newsticker.php:1079
+msgid "Live-Vorschau & Ticker-Test"
+msgstr "Live-Vorschau & Ticker-Test"
+
+#: index.js:720
+msgid "Loading posts..."
+msgstr "Loading posts..."
+
+#: index.js:848
+msgid "Loading..."
+msgstr "Laden..."
+
+#: wm-newsticker-sk_SK.po:1
+msgid "Löscht alle Demo-Beiträge, leert alle Caches und setzt das Plugin auf die Grundeinstellungen zurück."
+msgstr "Löscht alle Demo-Beiträge, leert alle Caches und setzt das Plugin auf die Grundeinstellungen zurück."
+
+#: index.js:373
+msgid "Manual announcements"
+msgstr "Manual announcements"
+
+#: index.js:590
+msgid "Margin"
+msgstr "Margin"
+
+#: index.js:639
+msgid "Medium"
+msgstr "Medium"
+
+#: index.js:773
+msgid "Move down"
+msgstr "Move down"
+
+#: index.js:766
+msgid "Move up"
+msgstr "Move up"
+
+#: wm-newsticker-sk_SK.po:1
+msgid "Möchten Sie alle generierten Demo-Meldungen und Showcase-Seiten löschen?"
+msgstr "Möchten Sie alle generierten Demo-Meldungen und Showcase-Seiten löschen?"
+
+#: index.js:314
+msgid "NEWS"
+msgstr "NEWS"
+
+#: wm-newsticker.php:595
+msgid "News ticker"
+msgstr "News ticker"
+
+#: index.js:33
+msgid "Newsticker"
+msgstr "Newsticker"
+
+#: wm-newsticker.php:689
+msgid "Next"
+msgstr "Next"
+
+#: index.js:848
+msgid "No posts found"
+msgstr "No posts found"
+
+#: index.js:730
+msgid "No posts found with current filters"
+msgstr "No posts found with current filters"
+
+#: index.js:627 index.js:637
+msgid "None"
+msgstr "None"
+
+#: index.js:664
+msgid "Number of posts"
+msgstr "Number of posts"
+
+#: index.js:460
+msgid "Only works with Fade/Slide/Typing animations"
+msgstr "Only works with Fade/Slide/Typing animations"
+
+#: index.js:754
+msgid "Open in new tab"
+msgstr "Open in new tab"
+
+#: index.js:700
+msgid "Order"
+msgstr "Order"
+
+#: index.js:694
+msgid "Order by"
+msgstr "Order by"
+
+#: index.js:580
+msgid "Padding"
+msgstr "Padding"
+
+#: wm-newsticker-sk_SK.po:1
+msgid "Passen Sie die dynamischen Ticker-Einträge programmatisch in Ihrem Theme oder Plugin an:"
+msgstr "Passen Sie die dynamischen Ticker-Einträge programmatisch in Ihrem Theme oder Plugin an:"
+
+#: index.js:424
+msgid "Pause on hover"
+msgstr "Pause on hover"
+
+#: wm-newsticker.php:678
+msgid "Play/Pause"
+msgstr "Play/Pause"
+
+#: index.js:452
+msgid "Play/Pause button"
+msgstr "Play/Pause button"
+
+#: index.js:658
+msgid "Post type"
+msgstr "Post type"
+
+#: index.js:725
+msgid "Preview:"
+msgstr "Preview:"
+
+#: wm-newsticker.php:671
+msgid "Previous"
+msgstr "Previous"
+
+#: index.js:457
+msgid "Previous/Next buttons"
+msgstr "Previous/Next buttons"
+
+#: index.js:463
+msgid "Progress indicator"
+msgstr "Progress indicator"
+
+#: index.js:429
+msgid "RTL (Right-to-Left)"
+msgstr "RTL (Right-to-Left)"
+
+#: index.js:381
+msgid "Random"
+msgstr "Random"
+
+#: index.js:374
+msgid "Recent posts"
+msgstr "Recent posts"
+
+#: index.js:391
+msgid "Relative (e.g., 2 hours ago)"
+msgstr "Relative (e.g., 2 hours ago)"
+
+#: index.js:362 index.js:369
+msgid "Right"
+msgstr "Right"
+
+#: index.js:354
+msgid "Scroll (Marquee)"
+msgstr "Scroll (Marquee)"
+
+#: index.js:679
+msgid "Select a category to filter posts"
+msgstr "Select a category to filter posts"
+
+#: index.js:482
+msgid "Separator"
+msgstr "Separator"
+
+#: index.js:438
+msgid "Show controls"
+msgstr "Show controls"
+
+#: index.js:706
+msgid "Show date"
+msgstr "Show date"
+
+#: wm-newsticker-sk_SK.po:1
+msgid "Showcase & Editor öffnen"
+msgstr "Showcase & Editor öffnen"
+
+#: index.js:466
+msgid "Shows a progress bar at the bottom"
+msgstr "Shows a progress bar at the bottom"
+
+#: index.js:356
+msgid "Slide"
+msgstr "Slide"
+
+#: index.js:638
+msgid "Small"
+msgstr "Small"
+
+#: wm-newsticker.php:1082
+msgid "So rendert der Ticker mit Hardware-Beschleunigung und nativer Barrierefreiheit:"
+msgstr "So rendert der Ticker mit Hardware-Beschleunigung und nativer Barrierefreiheit:"
+
+#: index.js:624
+msgid "Solid"
+msgstr "Solid"
+
+#: index.js:649
+msgid "Source"
+msgstr "Source"
+
+#: index.js:578
+msgid "Spacing & Borders"
+msgstr "Spacing & Borders"
+
+#: index.js:416
+msgid "Speed"
+msgstr "Speed"
+
+#: index.js:519
+msgid "Text color"
+msgstr "Text color"
+
+#: index.js:505
+msgid "Ticker background"
+msgstr "Ticker background"
+
+#: index.js:379
+msgid "Title"
+msgstr "Title"
+
+#: wm-newsticker.php:866
+msgid "Transient Cache & Thundering Herds"
+msgstr "Transient Cache & Thundering Herds"
+
+#: index.js:357
+msgid "Typing"
+msgstr "Typing"
+
+#: wm-newsticker.php:1040
+msgid "Unzureichende Berechtigungen."
+msgstr "Unzureichende Berechtigungen."
+
+#: index.js:363
+msgid "Up"
+msgstr "Up"
+
+#: wm-newsticker-sk_SK.po:1
+msgid "WARNUNG: Sind Sie sicher? Dies leert alle Ticker-Caches und setzt das Plugin zurück!"
+msgstr "WARNUNG: Sind Sie sicher? Dies leert alle Ticker-Caches und setzt das Plugin zurück!"
+
+#: wm-newsticker.php:804 wm-newsticker.php:805 wm-newsticker.php:836 wm-newsticker.php:855
+msgid "WM Newsticker"
+msgstr "WM Newsticker"
+
+#: wm-newsticker.php:835
+msgid "WM Newsticker Handbuch & Konfiguration"
+msgstr "WM Newsticker Handbuch & Konfiguration"
+
+#: wm-newsticker-sk_SK.po:1
+msgid "WM Newsticker — Gutenberg Block Dokumentation & Handbuch"
+msgstr "WM Newsticker — Gutenberg Block Dokumentation & Handbuch"
+
+#: wm-newsticker-sk_SK.po:1
+msgid "WM Newsticker — Handbuch & Dokumentation"
+msgstr "WM Newsticker — Handbuch & Dokumentation"
+
+#: wm-newsticker-sk_SK.po:1
+msgid "WM Newsticker — Übersicht & Showcase"
+msgstr "WM Newsticker — Übersicht & Showcase"
+
+#: wm-newsticker.php:1071
+msgid "Werkseinstellungen wiederhergestellt:"
+msgstr "Werkseinstellungen wiederhergestellt:"
+
+#: wm-newsticker.php:449
+msgid "ago"
+msgstr "ago"
+
+#: index.js:37
+msgid "announcements"
+msgstr "announcements"
+
+#: wm-newsticker-sk_SK.po:1
+msgid "ist ein nativer Gutenberg-Block. Fügen Sie ihn in jedem Beitrag oder jeder Seite über den Gutenberg-Inserter unter der Kategorie \"Widgets\" oder durch Eintippen von \"/newsticker\" ein."
+msgstr "ist ein nativer Gutenberg-Block. Fügen Sie ihn in jedem Beitrag oder jeder Seite über den Gutenberg-Inserter unter der Kategorie \"Widgets\" oder durch Eintippen von \"/newsticker\" ein."
+
+#: index.js:37
+msgid "news"
+msgstr "news"
+
+#: index.js:725
+msgid "posts found"
+msgstr "posts found"
+
+#: index.js:37
+msgid "ticker"
+msgstr "ticker"
+
+#: wm-newsticker-sk_SK.po:1
+msgid "Übersicht & Showcase"
+msgstr "Übersicht & Showcase"
+
+#: wm-newsticker-sk_SK.po:1
+msgid "⚠️ Werkseinstellungen wiederherstellen (Factory Reset)"
+msgstr "⚠️ Werkseinstellungen wiederherstellen (Factory Reset)"
+
+#: wm-newsticker-sk_SK.po:1
+msgid "📖 Handbuch"
+msgstr "📖 Handbuch"
+
+#: wm-newsticker-sk_SK.po:1
+msgid "📖 Handbuch & Vorschau"
+msgstr "📖 Handbuch & Vorschau"
+
+#: wm-newsticker-sk_SK.po:1
+msgid "📢 WM Newsticker — Ticker Engine & Barrierefreie Laufbänder"
+msgstr "📢 WM Newsticker — Ticker Engine & Barrierefreie Laufbänder"
+
+#: wm-newsticker-sk_SK.po:1
+msgid "📥 Demodaten & Showcase-Seite importieren"
+msgstr "📥 Demodaten & Showcase-Seite importieren"
+
+#: wm-newsticker-sk_SK.po:1
+msgid "🗑️ Demodaten bereinigen"
+msgstr "🗑️ Demodaten bereinigen"

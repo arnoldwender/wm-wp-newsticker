@@ -1,0 +1,459 @@
+.wm-newsticker-wrapper {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.wm-newsticker-label {
+    padding: 0 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    z-index: 2;
+    position: relative;
+
+    &::after {
+        content: '';
+        position: absolute;
+        right: -10px;
+        top: 0;
+        bottom: 0;
+        width: 10px;
+        background: linear-gradient(to right, rgba(0,0,0,0.1), transparent);
+    }
+}
+
+.wm-newsticker-content {
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+// =============================================
+// SCROLL ANIMATION (Default)
+// =============================================
+.wm-animation-scroll .wm-newsticker-track {
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+    animation: wm-ticker-scroll-left linear infinite;
+    padding-left: 100%;
+}
+
+.wm-animation-scroll.wm-direction-right .wm-newsticker-track {
+    animation-name: wm-ticker-scroll-right;
+    padding-left: 0;
+    padding-right: 100%;
+}
+
+.wm-animation-scroll .wm-newsticker-track.wm-newsticker-no-duplicate {
+    animation-name: wm-ticker-scroll-left-single;
+}
+
+.wm-animation-scroll.wm-direction-right .wm-newsticker-track.wm-newsticker-no-duplicate {
+    animation-name: wm-ticker-scroll-right-single;
+}
+
+// RTL Support for scroll
+.wm-rtl.wm-animation-scroll .wm-newsticker-track {
+    animation-name: wm-ticker-scroll-right;
+    padding-left: 0;
+    padding-right: 100%;
+}
+
+.wm-rtl.wm-animation-scroll.wm-direction-right .wm-newsticker-track {
+    animation-name: wm-ticker-scroll-left;
+    padding-left: 100%;
+    padding-right: 0;
+}
+
+@keyframes wm-ticker-scroll-left {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+@keyframes wm-ticker-scroll-right {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(50%); }
+}
+
+@keyframes wm-ticker-scroll-left-single {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
+
+@keyframes wm-ticker-scroll-right-single {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(0); }
+}
+
+// =============================================
+// VERTICAL SCROLL (Up/Down)
+// =============================================
+.wm-animation-scroll.wm-direction-up,
+.wm-animation-scroll.wm-direction-down {
+    .wm-newsticker-content {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .wm-newsticker-track {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        padding-top: 100%;
+        animation-name: wm-ticker-scroll-up;
+    }
+}
+
+.wm-animation-scroll.wm-direction-down .wm-newsticker-track {
+    animation-name: wm-ticker-scroll-down;
+    padding-top: 0;
+    padding-bottom: 100%;
+}
+
+@keyframes wm-ticker-scroll-up {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-50%); }
+}
+
+@keyframes wm-ticker-scroll-down {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(50%); }
+}
+
+// =============================================
+// FADE ANIMATION
+// =============================================
+.wm-animation-fade .wm-newsticker-slides {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.wm-animation-fade .wm-newsticker-slide {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+
+    &.active {
+        opacity: 1;
+    }
+
+    &.exit {
+        opacity: 0;
+    }
+}
+
+// =============================================
+// SLIDE ANIMATION
+// =============================================
+.wm-animation-slide .wm-newsticker-slides {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.wm-animation-slide .wm-newsticker-slide {
+    position: absolute;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+
+    &.active {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    &.exit {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+}
+
+.wm-animation-slide.wm-direction-right .wm-newsticker-slide {
+    transform: translateX(-100%);
+
+    &.active {
+        transform: translateX(0);
+    }
+
+    &.exit {
+        transform: translateX(100%);
+    }
+}
+
+.wm-animation-slide.wm-direction-up .wm-newsticker-slide {
+    transform: translateY(100%);
+
+    &.active {
+        transform: translateY(0);
+    }
+
+    &.exit {
+        transform: translateY(-100%);
+    }
+}
+
+.wm-animation-slide.wm-direction-down .wm-newsticker-slide {
+    transform: translateY(-100%);
+
+    &.active {
+        transform: translateY(0);
+    }
+
+    &.exit {
+        transform: translateY(100%);
+    }
+}
+
+// =============================================
+// TYPING ANIMATION
+// =============================================
+.wm-animation-typing .wm-newsticker-slides {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.wm-animation-typing .wm-newsticker-slide {
+    position: absolute;
+    opacity: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 0;
+    transition: max-width 0.05s steps(40, end), opacity 0.3s ease;
+
+    &.active {
+        opacity: 1;
+        max-width: 100%;
+        animation: wm-typing 2s steps(40, end), wm-blink-caret 0.75s step-end infinite;
+        border-right: 2px solid currentColor;
+    }
+
+    &.exit {
+        opacity: 0;
+        max-width: 0;
+    }
+}
+
+@keyframes wm-typing {
+    from { max-width: 0; }
+    to { max-width: 100%; }
+}
+
+@keyframes wm-blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: currentColor; }
+}
+
+// =============================================
+// COMMON STYLES
+// =============================================
+.wm-newsticker-item {
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+    white-space: nowrap;
+
+    &:hover {
+        opacity: 0.8;
+        text-decoration: underline;
+    }
+}
+
+.wm-newsticker-separator {
+    opacity: 0.5;
+    margin: 0 15px;
+}
+
+.wm-newsticker-slide a {
+    text-decoration: none;
+    
+    &:hover {
+        text-decoration: underline;
+        opacity: 0.8;
+    }
+}
+
+// =============================================
+// RTL SUPPORT
+// =============================================
+.wm-rtl {
+    direction: rtl;
+
+    .wm-newsticker-label {
+        &::after {
+            right: auto;
+            left: -10px;
+            background: linear-gradient(to left, rgba(0,0,0,0.1), transparent);
+        }
+    }
+}
+
+// =============================================
+// ALIGNMENT SUPPORT
+// =============================================
+.alignfull .wm-newsticker-wrapper,
+.alignwide .wm-newsticker-wrapper {
+    width: 100%;
+}
+
+// =============================================
+// RESPONSIVE
+// =============================================
+@media (max-width: 782px) {
+    .wm-newsticker-label {
+        padding: 0 10px;
+        font-size: 12px;
+    }
+
+    .wm-newsticker-separator {
+        margin: 0 10px;
+    }
+
+    .wm-newsticker-slides {
+        padding: 0 10px;
+    }
+
+    .wm-newsticker-controls {
+        padding: 0 5px;
+        gap: 2px;
+    }
+
+    .wm-control-btn {
+        padding: 4px;
+    }
+}
+
+// =============================================
+// CONTROLS
+// =============================================
+.wm-newsticker-controls {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 0 10px;
+    flex-shrink: 0;
+    height: 100%;
+}
+
+.wm-control-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 4px;
+    color: inherit;
+    opacity: 0.7;
+    transition: opacity 0.2s ease, background-color 0.2s ease;
+
+    &:hover {
+        opacity: 1;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    &:focus {
+        outline: 2px solid currentColor;
+        outline-offset: 2px;
+    }
+
+    svg {
+        display: block;
+    }
+}
+
+// Has controls layout adjustments
+.wm-has-controls {
+    .wm-newsticker-content {
+        flex: 1;
+        min-width: 0;
+    }
+}
+
+.wm-controls-left {
+    .wm-newsticker-controls {
+        order: -1;
+    }
+}
+
+// =============================================
+// PROGRESS BAR
+// =============================================
+.wm-newsticker-progress {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: rgba(255, 255, 255, 0.2);
+    overflow: hidden;
+}
+
+.wm-newsticker-progress-bar {
+    height: 100%;
+    background: currentColor;
+    opacity: 0.6;
+    width: 0;
+    animation: wm-progress-fill linear infinite;
+}
+
+@keyframes wm-progress-fill {
+    0% { width: 0; }
+    100% { width: 100%; }
+}
+
+// =============================================
+// REDUCED MOTION SUPPORT (Accessibility)
+// =============================================
+@media (prefers-reduced-motion: reduce) {
+    .wm-newsticker-wrapper {
+        .wm-newsticker-track {
+            animation: none;
+            padding-left: 15px;
+        }
+
+        .wm-newsticker-slide {
+            transition: none;
+
+            &.active {
+                animation: none;
+                border-right: none;
+            }
+        }
+
+        .wm-newsticker-progress-bar {
+            animation: none;
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,11 @@
+<wpml-config>
+    <gutenberg-blocks>
+        <gutenberg-block type="wm/newsticker" translate="1">
+            <key name="labelText" />
+            <key name="separator" />
+            <key name="items">
+                <key name="text" />
+            </key>
+        </gutenberg-block>
+    </gutenberg-blocks>
+</wpml-config>

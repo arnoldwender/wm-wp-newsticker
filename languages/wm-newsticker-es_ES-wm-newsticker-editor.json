@@ -1,0 +1,330 @@
+{
+  "translation-revision-date": "2024-01-01T00:00:00+00:00",
+  "generator": "WM Newsticker",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-newsticker",
+        "lang": "es_ES",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "Newsticker": [
+        "Newsticker"
+      ],
+      "Displays announcements in a ticker format with customizable links.": [
+        "Muestra anuncios en formato ticker con enlaces personalizables."
+      ],
+      "news": [
+        "noticias"
+      ],
+      "ticker": [
+        "ticker"
+      ],
+      "announcements": [
+        "anuncios"
+      ],
+      "General Settings": [
+        "Configuración General"
+      ],
+      "Label text": [
+        "Color texto label"
+      ],
+      "Leave empty to hide the label": [
+        "Déjalo vacío para ocultar la etiqueta"
+      ],
+      "Separator": [
+        "Separador"
+      ],
+      "Speed": [
+        "Velocidad"
+      ],
+      "Higher value = faster": [
+        "Mayor valor = más rápido"
+      ],
+      "Font size (px)": [
+        "Tamaño de fuente (px)"
+      ],
+      "Height (px)": [
+        "Altura (px)"
+      ],
+      "Pause on hover": [
+        "Pausar al pasar el mouse"
+      ],
+      "Colors": [
+        "Colores"
+      ],
+      "Ticker background": [
+        "Fondo del ticker"
+      ],
+      "Text color": [
+        "Color del texto"
+      ],
+      "Label background": [
+        "Fondo de la etiqueta"
+      ],
+      "Label text color": [
+        "Texto de la etiqueta"
+      ],
+      "Announcements": [
+        "Anuncios"
+      ],
+      "Announcement text": [
+        "Texto del anuncio"
+      ],
+      "Link (optional)": [
+        "Enlace (opcional)"
+      ],
+      "Open in new tab": [
+        "Abrir en nueva pestaña"
+      ],
+      "Move up": [
+        "Mover arriba"
+      ],
+      "Move down": [
+        "Mover abajo"
+      ],
+      "Delete": [
+        "Eliminar"
+      ],
+      "Add announcement": [
+        "Añadir anuncio"
+      ],
+      "Add announcements in the sidebar →": [
+        "Añade anuncios en el panel lateral →"
+      ],
+      "(No text)": [
+        "(Sin texto)"
+      ],
+      "NEWS": [
+        "NOTICIAS"
+      ],
+      "About": [
+        "Acerca de"
+      ],
+      "Developed by": [
+        "Desarrollado por"
+      ],
+      "Animation": [
+        "Animación"
+      ],
+      "Animation type": [
+        "Tipo de animación"
+      ],
+      "Choose how announcements are displayed": [
+        "Elige cómo se muestran los anuncios"
+      ],
+      "Scroll (Marquee)": [
+        "Scroll (Marquesina)"
+      ],
+      "Fade": [
+        "Desvanecer"
+      ],
+      "Slide": [
+        "Deslizar"
+      ],
+      "Typing": [
+        "Máquina de escribir"
+      ],
+      "Direction": [
+        "Dirección"
+      ],
+      "Left": [
+        "Izquierda"
+      ],
+      "Right": [
+        "Derecha"
+      ],
+      "Up": [
+        "Arriba"
+      ],
+      "Down": [
+        "Abajo"
+      ],
+      "RTL (Right-to-Left)": [
+        "RTL (Derecha a Izquierda)"
+      ],
+      "Enable for Arabic, Hebrew, etc.": [
+        "Activar para árabe, hebreo, etc."
+      ],
+      "Controls": [
+        "Controles"
+      ],
+      "Show controls": [
+        "Mostrar controles"
+      ],
+      "Display Play/Pause and Prev/Next buttons": [
+        "Mostrar botones Play/Pausa y Anterior/Siguiente"
+      ],
+      "Controls position": [
+        "Posición de controles"
+      ],
+      "Play/Pause button": [
+        "Botón Play/Pausa"
+      ],
+      "Previous/Next buttons": [
+        "Botones Anterior/Siguiente"
+      ],
+      "Only works with Fade/Slide/Typing animations": [
+        "Solo funciona con animaciones Desvanecer/Deslizar/Máquina de escribir"
+      ],
+      "Progress indicator": [
+        "Indicador de progreso"
+      ],
+      "Shows a progress bar at the bottom": [
+        "Muestra una barra de progreso en la parte inferior"
+      ],
+      "Previous": [
+        "Anterior"
+      ],
+      "Next": [
+        "Siguiente"
+      ],
+      "Play/Pause": [
+        "Play/Pausa"
+      ],
+      "Content Source": [
+        "Fuente de contenido"
+      ],
+      "Source": [
+        "Fuente"
+      ],
+      "Manual announcements": [
+        "Anuncios manuales"
+      ],
+      "Recent posts": [
+        "Entradas recientes"
+      ],
+      "Post type": [
+        "Tipo de entrada"
+      ],
+      "Number of posts": [
+        "Número de entradas"
+      ],
+      "Filter by category": [
+        "Filtrar por categoría"
+      ],
+      "All categories": [
+        "Todas las categorías"
+      ],
+      "Select a category to filter posts": [
+        "Selecciona una categoría para filtrar"
+      ],
+      "Filter by tag": [
+        "Filtrar por etiqueta"
+      ],
+      "All tags": [
+        "Todas las etiquetas"
+      ],
+      "Order by": [
+        "Ordenar por"
+      ],
+      "Date": [
+        "Fecha"
+      ],
+      "Title": [
+        "Título"
+      ],
+      "Last modified": [
+        "Última modificación"
+      ],
+      "Random": [
+        "Aleatorio"
+      ],
+      "Comment count": [
+        "Número de comentarios"
+      ],
+      "Order": [
+        "Orden"
+      ],
+      "Descending (newest first)": [
+        "Descendente (más recientes primero)"
+      ],
+      "Ascending (oldest first)": [
+        "Ascendente (más antiguos primero)"
+      ],
+      "Show date": [
+        "Mostrar fecha"
+      ],
+      "Date format": [
+        "Formato de fecha"
+      ],
+      "Relative (e.g., 2 hours ago)": [
+        "Relativo (ej. hace 2 horas)"
+      ],
+      "Absolute (site format)": [
+        "Absoluto (formato del sitio)"
+      ],
+      "Loading posts...": [
+        "Cargando entradas..."
+      ],
+      "Preview:": [
+        "Vista previa:"
+      ],
+      "posts found": [
+        "entradas encontradas"
+      ],
+      "No posts found with current filters": [
+        "No se encontraron entradas con los filtros actuales"
+      ],
+      "No posts found": [
+        "No se encontraron entradas"
+      ],
+      "Loading...": [
+        "Cargando..."
+      ],
+      "ago": [
+        "atrás"
+      ],
+      "Spacing & Borders": [
+        "Espaciado y Bordes"
+      ],
+      "Padding": [
+        "Relleno"
+      ],
+      "Margin": [
+        "Margen"
+      ],
+      "Border Radius": [
+        "Radio de borde"
+      ],
+      "Border Width": [
+        "Ancho de borde"
+      ],
+      "Border Style": [
+        "Estilo de borde"
+      ],
+      "Solid": [
+        "Sólido"
+      ],
+      "Dashed": [
+        "Guiones"
+      ],
+      "Dotted": [
+        "Puntos"
+      ],
+      "None": [
+        "Ninguno"
+      ],
+      "Box Shadow": [
+        "Sombra"
+      ],
+      "Small": [
+        "Pequeña"
+      ],
+      "Medium": [
+        "Mediana"
+      ],
+      "Large": [
+        "Grande"
+      ],
+      "Inset": [
+        "Interior"
+      ],
+      "Border color": [
+        "Color de borde"
+      ]
+    }
+  }
+}

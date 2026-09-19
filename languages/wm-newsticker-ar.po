@@ -1,0 +1,152 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-newsticker 1.0.0\n"
+"Report-Msgid-Bugs-To: https://www.wendermedia.com\n"
+"POT-Creation-Date: 2026-08-27 12:00+0200\n"
+"PO-Revision-Date: 2026-08-27 12:00+0200\n"
+"Last-Translator: Arnold Wender <info@wendermedia.com>\n"
+"Language-Team: Wender Media <info@wendermedia.com>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Wender Media i18n Studio\n"
+
+msgid "%d Demo-Beiträge und Showcase-Seiten wurden gelöscht. Der Transient-Cache wurde geleert."
+msgstr "%d تم حذف المشاركات التجريبية وصفحات العرض. تم مسح ذاكرة التخزين المؤقت المؤقتة."
+
+msgid "1. Block-Konfiguration (Inspector Controls)"
+msgstr "1. تكوين الكتلة (ضوابط المفتش)"
+
+msgid "2. Barrierefreiheit & BFSG 2025"
+msgstr "2. إمكانية الوصول وBFSG 2025"
+
+msgid "3. PHP Hook & Filter API für Entwickler"
+msgstr "3. PHP Hook & Filter API للمطورين"
+
+msgid "4. Demodaten-Management & Werkseinstellungen (Reset)"
+msgstr "4. إدارة البيانات التجريبية وإعدادات المصنع (إعادة الضبط)"
+
+msgid "5. Häufige Fragen & Troubleshooting"
+msgstr "5. الأسئلة المتداولة واستكشاف الأخطاء وإصلاحها"
+
+msgid "60 FPS GPU-beschleunigter, barrierefreier (BFSG 2025 / WCAG 2.2 AA) Marquee- & News-Ticker-Block für WordPress."
+msgstr "60 إطارًا في الثانية مُسرَّعة بواسطة وحدة معالجة الرسومات، ويمكن الوصول إليها (BFSG 2025 / WCAG 2.2 AA) وكتلة شريط الأخبار لـ WordPress."
+
+msgid "Alle Demo-Daten und Caches wurden restlos bereinigt."
+msgstr "تم تنظيف جميع البيانات التجريبية وذاكرة التخزين المؤقت بالكامل."
+
+msgid "Barrierefreiheit (BFSG 2025)"
+msgstr "إمكانية الوصول (BFSG 2025)"
+
+msgid "Block-Dokumentation:"
+msgstr "وثائق الحظر:"
+
+msgid "Der Newsticker erfüllt alle Vorgaben des Barrierefreiheitsstärkungsgesetzes 2025 und WCAG 2.2 AA. Animationen stoppen automatisch bei Tastatur-Fokus (:focus-within), Hover (:hover) sowie bei aktivierter Systemeinstellung \"prefers-reduced-motion\"."
+msgstr "يفي شريط الأخبار بجميع متطلبات قانون تعزيز إمكانية الوصول لعام 2025 وWCAG 2.2 AA. تتوقف الرسوم المتحركة تلقائيًا مع تركيز لوحة المفاتيح (:focus-within)، والتمرير (:hover)، وعند تنشيط إعداد النظام \"prefers-reduced-motion\"."
+
+msgid "Dokumentation"
+msgstr "التوثيق"
+
+msgid "Dynamische Beiträge werden für 5 Minuten im WordPress Transient Cache zwischengespeichert. Bei jeder Beitrags-Aktualisierung (save_post) oder Löschung wird der Cache automatisch invalidiert."
+msgstr "يتم تخزين المنشورات الديناميكية مؤقتًا في ذاكرة التخزين المؤقت المؤقتة في WordPress لمدة 5 دقائق. يتم إبطال ذاكرة التخزين المؤقت تلقائيًا في كل مرة يتم فيها تحديث منشور (save_post) أو حذفه."
+
+msgid "Enterprise Dokumentation & Handbuch"
+msgstr "وثائق ودليل المؤسسة"
+
+msgid "Entwickelt von Wender Media."
+msgstr "تم تطويره بواسطة ويندر ميديا."
+
+msgid "Erfolg: %d Demo-Meldungen und eine interaktive Demo-Hub-Seite wurden erfolgreich erstellt."
+msgstr "النجاح: %d تم إنشاء الرسائل التجريبية وصفحة مركز العروض التوضيحية التفاعلية بنجاح."
+
+msgid "Gefahrenbereich: Auf Werkseinstellungen zurücksetzen"
+msgstr "منطقة الخطر: إعادة التعيين إلى إعدادات المصنع"
+
+msgid "Generieren Sie Beispielmeldungen und eine fertige Showcase-Gutenberg-Seite zum sofortigen Testen oder bereinigen Sie alle Caches und Beispieldaten."
+msgstr "قم بإنشاء رسائل نموذجية وصفحة Showcase Gutenberg النهائية للاختبار الفوري أو تنظيف جميع ذاكرات التخزين المؤقت وعينات البيانات."
+
+msgid "GitHub Repository"
+msgstr "مستودع جيثب"
+
+msgid "Gutenberg Block Integration"
+msgstr "تكامل كتلة جوتنبرج"
+
+msgid "Live-Vorschau & Ticker-Test"
+msgstr "المعاينة المباشرة واختبار الشريط"
+
+msgid "Löscht alle Demo-Beiträge, leert alle Caches und setzt das Plugin auf die Grundeinstellungen zurück."
+msgstr "يحذف جميع المنشورات التجريبية، ويمسح جميع ذاكرات التخزين المؤقت ويعيد تعيين المكون الإضافي إلى إعداداته الافتراضية."
+
+msgid "Möchten Sie alle generierten Demo-Meldungen und Showcase-Seiten löschen?"
+msgstr "هل تريد حذف جميع الرسائل التجريبية وصفحات العرض التي تم إنشاؤها؟"
+
+msgid "News ticker"
+msgstr "شريط الأخبار"
+
+msgid "Next"
+msgstr "التالي"
+
+msgid "Passen Sie die dynamischen Ticker-Einträge programmatisch in Ihrem Theme oder Plugin an:"
+msgstr "قم بتخصيص إدخالات المؤشر الديناميكي برمجيًا في القالب أو المكون الإضافي الخاص بك:"
+
+msgid "Play/Pause"
+msgstr "تشغيل/إيقاف مؤقت"
+
+msgid "Previous"
+msgstr "سابق"
+
+msgid "So rendert der Ticker mit Hardware-Beschleunigung und nativer Barrierefreiheit:"
+msgstr "هذه هي الطريقة التي يتم بها عرض المؤشر مع تسريع الأجهزة وإمكانية الوصول الأصلية:"
+
+msgid "Transient Cache & Thundering Herds"
+msgstr "مخبأ عابر وقطعان مدوية"
+
+msgid "Unzureichende Berechtigungen."
+msgstr "أذونات غير كافية."
+
+msgid "WARNUNG: Sind Sie sicher? Dies leert alle Ticker-Caches und setzt das Plugin zurück!"
+msgstr "تحذير: هل أنت متأكد؟ سيؤدي هذا إلى مسح كافة ذاكرة التخزين المؤقت للشريط وإعادة تعيين البرنامج المساعد!"
+
+msgid "WM Newsticker"
+msgstr "شريط أخبار كأس العالم"
+
+msgid "WM Newsticker Handbuch & Konfiguration"
+msgstr "دليل وتكوين WM Newsticker"
+
+msgid "WM Newsticker — Gutenberg Block Dokumentation & Handbuch"
+msgstr "WM Newsticker — توثيق ودليل كتلة جوتنبرج"
+
+msgid "WM Newsticker — Handbuch & Dokumentation"
+msgstr "WM Newsticker - الدليل والوثائق"
+
+msgid "WM Newsticker — Übersicht & Showcase"
+msgstr "شريط أخبار كأس العالم — نظرة عامة وعرض"
+
+msgid "Werkseinstellungen wiederhergestellt:"
+msgstr "استعادة إعدادات المصنع:"
+
+msgid "ago"
+msgstr "منذ"
+
+msgid "ist ein nativer Gutenberg-Block. Fügen Sie ihn in jedem Beitrag oder jeder Seite über den Gutenberg-Inserter unter der Kategorie \"Widgets\" oder durch Eintippen von \"/newsticker\" ein."
+msgstr "هي كتلة غوتنبرغ الأصلية. قم بإدراجه في أي منشور أو صفحة باستخدام مُدرج Gutenberg ضمن فئة \"Widgets\" أو عن طريق كتابة \"/newsticker\"."
+
+msgid "Übersicht & Showcase"
+msgstr "نظرة عامة وعرض"
+
+msgid "⚠️ Werkseinstellungen wiederherstellen (Factory Reset)"
+msgstr "⚠️ استعادة إعدادات المصنع (إعادة ضبط المصنع)"
+
+msgid "📖 Handbuch"
+msgstr "📖 دليل"
+
+msgid "📖 Handbuch & Vorschau"
+msgstr "📖 الدليل والمعاينة"
+
+msgid "📥 Demodaten & Showcase-Seite importieren"
+msgstr "📥 استيراد البيانات التجريبية وصفحة العرض"
+
+msgid "🗑️ Demodaten bereinigen"
+msgstr "🗑️ تنظيف البيانات التجريبية"
+

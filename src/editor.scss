@@ -1,0 +1,221 @@
+.wm-newsticker-editor {
+    .wm-newsticker-preview {
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        border-radius: 4px;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    }
+
+    .wm-newsticker-label {
+        padding: 0 15px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        white-space: nowrap;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        flex-shrink: 0;
+    }
+
+    .wm-newsticker-content {
+        flex: 1;
+        padding: 0 15px;
+        overflow: hidden;
+    }
+
+    .wm-newsticker-track {
+        white-space: nowrap;
+        
+        .has-link {
+            text-decoration: underline;
+            text-decoration-style: dotted;
+            cursor: pointer;
+        }
+    }
+
+    .wm-newsticker-separator {
+        opacity: 0.6;
+    }
+
+    .wm-newsticker-placeholder {
+        opacity: 0.7;
+        font-style: italic;
+    }
+}
+
+// Sidebar item panel
+.wm-newsticker-item-panel {
+    background: #f0f0f1;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 4px;
+    border-left: 3px solid #007cba;
+
+    .components-base-control {
+        margin-bottom: 8px;
+    }
+
+    .wm-newsticker-item-controls {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        padding-top: 20px;
+
+        .components-button {
+            min-width: 36px;
+            justify-content: center;
+        }
+    }
+}
+
+// Credits section
+.wm-newsticker-credits {
+    text-align: center;
+    padding: 10px 0;
+
+    p {
+        margin: 5px 0;
+    }
+
+    a {
+        color: #007cba;
+        text-decoration: none;
+        font-weight: 600;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .wm-newsticker-version {
+        font-size: 11px;
+        color: #757575;
+        margin-top: 10px;
+    }
+}
+
+// Animation type badge
+.wm-newsticker-animation-badge {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 9px;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.wm-newsticker-preview {
+    position: relative;
+}
+
+// Controls preview in editor
+.wm-newsticker-controls-preview {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 0 10px;
+    opacity: 0.7;
+
+    .wm-ctrl-icon {
+        font-size: 10px;
+    }
+}
+
+.wm-newsticker-progress-preview {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: rgba(255, 255, 255, 0.2);
+
+    .wm-newsticker-progress-bar-preview {
+        height: 100%;
+        width: 60%;
+        background: currentColor;
+        opacity: 0.6;
+    }
+}
+
+// Loading state
+.wm-newsticker-loading {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px;
+    color: #757575;
+    font-size: 13px;
+
+    .components-spinner {
+        margin: 0;
+    }
+}
+
+// Compact color controls
+.wm-color-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.wm-color-control {
+    margin-bottom: 0 !important;
+
+    .components-base-control__label {
+        margin-bottom: 4px;
+        font-size: 11px;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+}
+
+.wm-color-input-row {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+
+    input[type="color"] {
+        width: 36px;
+        height: 36px;
+        padding: 2px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        cursor: pointer;
+        flex-shrink: 0;
+
+        &::-webkit-color-swatch-wrapper {
+            padding: 2px;
+        }
+
+        &::-webkit-color-swatch {
+            border: none;
+            border-radius: 2px;
+        }
+    }
+
+    .wm-color-text {
+        flex: 1;
+
+        .components-text-control__input {
+            font-family: monospace;
+            font-size: 12px;
+            padding: 6px 8px;
+            height: 36px;
+        }
+    }
+
+    .components-base-control__field {
+        margin-bottom: 0;
+    }
+}
+
+// Spacing controls styling
+.components-box-control {
+    margin-bottom: 16px;
+}

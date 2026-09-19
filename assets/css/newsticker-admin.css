@@ -1,0 +1,138 @@
+/**
+ * WM Newsticker — admin layer on top of the Wender Media family sheets.
+ *
+ * Loaded after wm-admin-tokens.css and wm-admin-ui.css (byte-identical copies of the hub's
+ * canonical files). Only what the family sheet does not cover lives here: the handbook cards,
+ * the live preview frame, the demo-data actions and the danger zone. Family tokens only; the
+ * page carried 70 inline style attributes and 53 hex colours until 2026-09-14.
+ */
+
+.wm-newsticker-admin-wrap {
+	max-width: var(--wm-content-max);
+}
+
+/* Card titles: dashicon + text */
+.wm-newsticker-card-title {
+	display: flex;
+	align-items: center;
+	gap: var(--wm-space-2);
+	margin: 0 0 var(--wm-space-3);
+	font-size: var(--wm-text-lg);
+	font-weight: 700;
+	color: var(--wm-text-primary);
+}
+
+.wm-newsticker-card-title .dashicons {
+	color: var(--wm-accent-primary);
+}
+
+.wm-newsticker-section,
+.wm-newsticker-grid {
+	margin-bottom: var(--wm-space-6);
+}
+
+.wm-newsticker-list {
+	list-style: disc;
+	margin: 0 0 0 20px;
+	color: var(--wm-text-secondary);
+	font-size: var(--wm-text-base);
+	line-height: 1.6;
+}
+
+.wm-newsticker-list li {
+	margin-bottom: var(--wm-space-2);
+}
+
+.wm-newsticker-list strong,
+.wm-newsticker-list code {
+	color: var(--wm-text-primary);
+}
+
+/* Live preview: the block's real frontend output inside the card */
+.wm-newsticker-preview {
+	border-radius: var(--wm-radius-sm);
+	overflow: hidden;
+}
+
+.wm-newsticker-preview .wm-newsticker-wrapper {
+	margin: 0;
+}
+
+/* WordPress core paints every <code> with its own grey; inside the family code block the
+   <pre> already carries the surface. */
+.wm-newsticker-admin-wrap .wm-code-block code {
+	background: transparent;
+	padding: 0;
+	font-size: inherit;
+}
+
+/* Demo-data actions */
+.wm-newsticker-actions-row {
+	display: flex;
+	gap: var(--wm-space-4);
+	flex-wrap: wrap;
+	align-items: center;
+	margin-bottom: var(--wm-space-5);
+}
+
+.wm-newsticker-actions-row form {
+	display: inline;
+}
+
+.wm-newsticker-admin-wrap .button .dashicons {
+	vertical-align: text-bottom;
+	margin-right: 2px;
+}
+
+.wm-newsticker-btn-danger-text {
+	color: var(--wm-danger);
+	border-color: var(--wm-danger-border);
+}
+
+.wm-newsticker-btn-danger-text:hover,
+.wm-newsticker-btn-danger-text:focus {
+	color: var(--wm-danger);
+	border-color: var(--wm-danger);
+	background: var(--wm-danger-bg);
+}
+
+.wm-newsticker-divider {
+	border: 0;
+	border-top: 1px solid var(--wm-border-subtle);
+	margin: var(--wm-space-4) 0;
+}
+
+.wm-newsticker-danger-zone {
+	background: var(--wm-danger-bg);
+	border: 1px solid var(--wm-danger-border);
+	border-radius: var(--wm-radius-sm);
+	padding: var(--wm-space-4);
+}
+
+.wm-newsticker-danger-zone h3 {
+	display: flex;
+	align-items: center;
+	gap: var(--wm-space-1);
+	margin: 0 0 var(--wm-space-1);
+	color: var(--wm-danger);
+	font-size: var(--wm-text-base);
+}
+
+.wm-newsticker-danger-zone p {
+	color: var(--wm-text-secondary);
+	font-size: var(--wm-text-sm);
+	margin: 0 0 var(--wm-space-3);
+}
+
+/* Dashboard widget: the banner icon is a dashicon, sized like the family's emoji slot */
+.wm-newsticker-dash-widget .wm-dash-banner-icon .dashicons {
+	font-size: 20px;
+	width: 20px;
+	height: 20px;
+}
+
+@media (max-width: 960px) {
+	.wm-newsticker-grid {
+		grid-template-columns: 1fr;
+	}
+}

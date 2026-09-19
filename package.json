@@ -1,0 +1,20 @@
+{
+  "name": "wm-newsticker",
+  "version": "1.4.7",
+  "description": "A Gutenberg block for animated news tickers",
+  "author": "Arnold Wender",
+  "license": "GPL-2.0-or-later",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "wp-scripts build src/index.js src/frontend.js",
+    "start": "wp-scripts start src/index.js src/frontend.js",
+    "plugin-zip": "wp-scripts plugin-zip",
+    "format": "wp-scripts format",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "postbuild": "node bin/harden-build-assets.mjs"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^31.4.0"
+  }
+}

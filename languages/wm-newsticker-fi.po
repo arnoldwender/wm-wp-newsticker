@@ -1,0 +1,152 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-newsticker 1.0.0\n"
+"Report-Msgid-Bugs-To: https://www.wendermedia.com\n"
+"POT-Creation-Date: 2026-08-27 12:00+0200\n"
+"PO-Revision-Date: 2026-08-27 12:00+0200\n"
+"Last-Translator: Arnold Wender <info@wendermedia.com>\n"
+"Language-Team: Wender Media <info@wendermedia.com>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Wender Media i18n Studio\n"
+
+msgid "%d Demo-Beiträge und Showcase-Seiten wurden gelöscht. Der Transient-Cache wurde geleert."
+msgstr "%d Demo-Beiträge und Showcase-Seiten wurden gelöscht. Der Transient-Cache wurde geleert."
+
+msgid "1. Block-Konfiguration (Inspector Controls)"
+msgstr "1. Block-Konfiguration (Inspector Controls)"
+
+msgid "2. Barrierefreiheit & BFSG 2025"
+msgstr "2. Barrierefreiheit & BFSG 2025"
+
+msgid "3. PHP Hook & Filter API für Entwickler"
+msgstr "3. PHP Hook & Filter API für Entwickler"
+
+msgid "4. Demodaten-Management & Werkseinstellungen (Reset)"
+msgstr "4. Demodaten-Management & Werkseinstellungen (Reset)"
+
+msgid "5. Häufige Fragen & Troubleshooting"
+msgstr "5. Häufige Fragen & Troubleshooting"
+
+msgid "60 FPS GPU-beschleunigter, barrierefreier (BFSG 2025 / WCAG 2.2 AA) Marquee- & News-Ticker-Block für WordPress."
+msgstr "60 FPS GPU-beschleunigter, barrierefreier (BFSG 2025 / WCAG 2.2 AA) Marquee- & News-Ticker-Block für WordPress."
+
+msgid "Alle Demo-Daten und Caches wurden restlos bereinigt."
+msgstr "Alle Demo-Daten und Caches wurden restlos bereinigt."
+
+msgid "Barrierefreiheit (BFSG 2025)"
+msgstr "Barrierefreiheit (BFSG 2025)"
+
+msgid "Block-Dokumentation:"
+msgstr "Block-Dokumentation:"
+
+msgid "Der Newsticker erfüllt alle Vorgaben des Barrierefreiheitsstärkungsgesetzes 2025 und WCAG 2.2 AA. Animationen stoppen automatisch bei Tastatur-Fokus (:focus-within), Hover (:hover) sowie bei aktivierter Systemeinstellung \"prefers-reduced-motion\"."
+msgstr "Der Newsticker erfüllt alle Vorgaben des Barrierefreiheitsstärkungsgesetzes 2025 und WCAG 2.2 AA. Animationen stoppen automatisch bei Tastatur-Fokus (:focus-within), Hover (:hover) sowie bei aktivierter Systemeinstellung \"prefers-reduced-motion\"."
+
+msgid "Dokumentation"
+msgstr "Dokumentation"
+
+msgid "Dynamische Beiträge werden für 5 Minuten im WordPress Transient Cache zwischengespeichert. Bei jeder Beitrags-Aktualisierung (save_post) oder Löschung wird der Cache automatisch invalidiert."
+msgstr "Dynamische Beiträge werden für 5 Minuten im WordPress Transient Cache zwischengespeichert. Bei jeder Beitrags-Aktualisierung (save_post) oder Löschung wird der Cache automatisch invalidiert."
+
+msgid "Enterprise Dokumentation & Handbuch"
+msgstr "Enterprise Dokumentation & Handbuch"
+
+msgid "Entwickelt von Wender Media."
+msgstr "Entwickelt von Wender Media."
+
+msgid "Erfolg: %d Demo-Meldungen und eine interaktive Demo-Hub-Seite wurden erfolgreich erstellt."
+msgstr "Erfolg: %d Demo-Meldungen und eine interaktive Demo-Hub-Seite wurden erfolgreich erstellt."
+
+msgid "Gefahrenbereich: Auf Werkseinstellungen zurücksetzen"
+msgstr "Gefahrenbereich: Auf Werkseinstellungen zurücksetzen"
+
+msgid "Generieren Sie Beispielmeldungen und eine fertige Showcase-Gutenberg-Seite zum sofortigen Testen oder bereinigen Sie alle Caches und Beispieldaten."
+msgstr "Generieren Sie Beispielmeldungen und eine fertige Showcase-Gutenberg-Seite zum sofortigen Testen oder bereinigen Sie alle Caches und Beispieldaten."
+
+msgid "GitHub Repository"
+msgstr "GitHub Repository"
+
+msgid "Gutenberg Block Integration"
+msgstr "Gutenberg Block Integration"
+
+msgid "Live-Vorschau & Ticker-Test"
+msgstr "Live-Vorschau & Ticker-Test"
+
+msgid "Löscht alle Demo-Beiträge, leert alle Caches und setzt das Plugin auf die Grundeinstellungen zurück."
+msgstr "Löscht alle Demo-Beiträge, leert alle Caches und setzt das Plugin auf die Grundeinstellungen zurück."
+
+msgid "Möchten Sie alle generierten Demo-Meldungen und Showcase-Seiten löschen?"
+msgstr "Möchten Sie alle generierten Demo-Meldungen und Showcase-Seiten löschen?"
+
+msgid "News ticker"
+msgstr "News ticker"
+
+msgid "Next"
+msgstr "Next"
+
+msgid "Passen Sie die dynamischen Ticker-Einträge programmatisch in Ihrem Theme oder Plugin an:"
+msgstr "Passen Sie die dynamischen Ticker-Einträge programmatisch in Ihrem Theme oder Plugin an:"
+
+msgid "Play/Pause"
+msgstr "Play/Pause"
+
+msgid "Previous"
+msgstr "Previous"
+
+msgid "So rendert der Ticker mit Hardware-Beschleunigung und nativer Barrierefreiheit:"
+msgstr "So rendert der Ticker mit Hardware-Beschleunigung und nativer Barrierefreiheit:"
+
+msgid "Transient Cache & Thundering Herds"
+msgstr "Transient Cache & Thundering Herds"
+
+msgid "Unzureichende Berechtigungen."
+msgstr "Unzureichende Berechtigungen."
+
+msgid "WARNUNG: Sind Sie sicher? Dies leert alle Ticker-Caches und setzt das Plugin zurück!"
+msgstr "WARNUNG: Sind Sie sicher? Dies leert alle Ticker-Caches und setzt das Plugin zurück!"
+
+msgid "WM Newsticker"
+msgstr "WM Newsticker"
+
+msgid "WM Newsticker Handbuch & Konfiguration"
+msgstr "WM Newsticker Handbuch & Konfiguration"
+
+msgid "WM Newsticker — Gutenberg Block Dokumentation & Handbuch"
+msgstr "WM Newsticker — Gutenberg Block Dokumentation & Handbuch"
+
+msgid "WM Newsticker — Handbuch & Dokumentation"
+msgstr "WM Newsticker — Handbuch & Dokumentation"
+
+msgid "WM Newsticker — Übersicht & Showcase"
+msgstr "WM Newsticker — Übersicht & Showcase"
+
+msgid "Werkseinstellungen wiederhergestellt:"
+msgstr "Werkseinstellungen wiederhergestellt:"
+
+msgid "ago"
+msgstr "ago"
+
+msgid "ist ein nativer Gutenberg-Block. Fügen Sie ihn in jedem Beitrag oder jeder Seite über den Gutenberg-Inserter unter der Kategorie \"Widgets\" oder durch Eintippen von \"/newsticker\" ein."
+msgstr "ist ein nativer Gutenberg-Block. Fügen Sie ihn in jedem Beitrag oder jeder Seite über den Gutenberg-Inserter unter der Kategorie \"Widgets\" oder durch Eintippen von \"/newsticker\" ein."
+
+msgid "Übersicht & Showcase"
+msgstr "Übersicht & Showcase"
+
+msgid "⚠️ Werkseinstellungen wiederherstellen (Factory Reset)"
+msgstr "⚠️ Werkseinstellungen wiederherstellen (Factory Reset)"
+
+msgid "📖 Handbuch"
+msgstr "📖 Handbuch"
+
+msgid "📖 Handbuch & Vorschau"
+msgstr "📖 Handbuch & Vorschau"
+
+msgid "📥 Demodaten & Showcase-Seite importieren"
+msgstr "📥 Demodaten & Showcase-Seite importieren"
+
+msgid "🗑️ Demodaten bereinigen"
+msgstr "🗑️ Demodaten bereinigen"
+

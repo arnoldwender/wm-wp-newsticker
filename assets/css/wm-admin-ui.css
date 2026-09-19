@@ -1,0 +1,1196 @@
+/**
+ * Wender Media Suite — admin components (family sheet).
+ *
+ * Canonical copy in wm-suite-hub/assets/css/wm-admin-ui.css; every WM plugin bundles a
+ * byte-identical copy next to wm-admin-tokens.css (see the header of that file for the sync and
+ * the md5 gate). Requires the tokens sheet to be enqueued first.
+ *
+ * Replaces the admin-obsidian.css sheet that 14 plugins carried as copies. Same class names, so
+ * the existing admin templates keep rendering; what changes:
+ *   - no colour value in a rule, every colour is a token;
+ *   - no focus-ring suppression: every interactive element has a visible :focus-visible ring;
+ *   - no priority overrides to beat WordPress core: rules are scoped under the page wrapper
+ *     instead (.wm-admin on the native .wrap, or the legacy wrappers during the migration);
+ *   - native structure first: pages sit inside <div class="wrap wm-admin">, forms may use
+ *     .form-table, notices use .notice, buttons may use .button/.button-primary;
+ *   - a common plugin header (.wm-admin-header) with the family badge and the hub/standalone
+ *     state.
+ */
+
+/* ==========================================================================
+   1. Page wrapper
+   ========================================================================== */
+
+.wm-admin,
+.wm-obsidian-wrap,
+.wm-admin-wrap,
+.wm-wrap {
+    max-width: var(--wm-content-max);
+    font-family: var(--wm-font-stack);
+    color: var(--wm-text-primary);
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+
+.wm-obsidian-wrap,
+.wm-admin-wrap,
+.wm-wrap {
+    margin: var(--wm-space-5) var(--wm-space-5) 40px 0;
+}
+
+.wrap.wm-admin {
+    margin-right: var(--wm-space-5);
+}
+
+:is(.wm-admin, .wm-obsidian-wrap, .wm-admin-wrap, .wm-wrap) *,
+:is(.wm-admin, .wm-obsidian-wrap, .wm-admin-wrap, .wm-wrap) *::before,
+:is(.wm-admin, .wm-obsidian-wrap, .wm-admin-wrap, .wm-wrap) *::after {
+    box-sizing: border-box;
+}
+
+/* Visible focus everywhere inside the family wrapper (WCAG 2.2 2.4.7 / 2.4.11) */
+:is(.wm-admin, .wm-obsidian-wrap, .wm-admin-wrap, .wm-wrap) :is(a, button, input, select, textarea, summary, [tabindex]):focus-visible {
+    outline: var(--wm-focus-ring-width) solid var(--wm-border-focus);
+    outline-offset: var(--wm-focus-ring-offset);
+    box-shadow: 0 0 0 4px var(--wm-shadow-focus-soft);
+}
+
+/* ==========================================================================
+   2. Plugin header — command banner with the family badge
+   ========================================================================== */
+
+:is(.wm-admin, .wm-obsidian-wrap, .wm-admin-wrap, .wm-wrap) :is(.wm-admin-header, .wm-obsidian-header, .wm-enterprise-banner) {
+    background: var(--wm-bg-banner);
+    color: var(--wm-text-banner-title);
+    border: 1px solid var(--wm-border-banner);
+    border-radius: var(--wm-radius-lg);
+    padding: var(--wm-space-6) 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: var(--wm-shadow-banner);
+    margin-bottom: var(--wm-space-6);
+    flex-wrap: wrap;
+    gap: var(--wm-space-4);
+}
+
+.wm-header-brand {
+    display: flex;
+    align-items: center;
+    gap: var(--wm-space-4);
+    min-width: 0;
+}
+
+.wm-header-icon {
+    width: 46px;
+    height: 46px;
+    border-radius: var(--wm-radius-md);
+    background: var(--wm-badge-banner-bg);
+    border: 1px solid var(--wm-badge-banner-border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--wm-badge-banner-color);
+    flex-shrink: 0;
+}
+
+:is(.wm-admin, .wm-obsidian-wrap, .wm-admin-wrap, .wm-wrap) :is(.wm-admin-header, .wm-obsidian-header, .wm-enterprise-banner) h1 {
+    font-size: var(--wm-text-xl);
+    font-weight: 700;
+    line-height: 1.3;
+    margin: 0 0 6px 0;
+    padding: 0;
+    color: var(--wm-text-banner-title);
+    letter-spacing: -0.01em;
+}
+
+:is(.wm-admin, .wm-obsidian-wrap, .wm-admin-wrap, .wm-wrap) .wm-subtitle {
+    margin: 0;
+    font-size: var(--wm-text-base);
+    color: var(--wm-text-banner-sub);
+    line-height: 1.5;
+}
+
+.wm-header-badges {
+    display: flex;
+    gap: var(--wm-space-2);
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* Family badge: "Wender Media Suite" + hub / standalone state. Rendered by every plugin header. */
+.wm-badge-family {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: var(--wm-text-xs);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border-radius: var(--wm-radius-pill);
+    background: var(--wm-badge-banner-bg);
+    color: var(--wm-badge-banner-color);
+    border: 1px solid var(--wm-badge-banner-border);
+    text-decoration: none;
+}
+
+.wm-badge-family svg {
+    width: 14px;
+    height: 14px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+}
+
+.wm-badge-family .wm-badge-family-state {
+    font-weight: 600;
+    text-transform: none;
+    letter-spacing: 0;
+    color: var(--wm-text-banner-sub);
+    padding-left: 6px;
+    border-left: 1px solid var(--wm-badge-banner-border);
+}
+
+/* ==========================================================================
+   3. Badges & status pills (banner and body variants)
+   ========================================================================== */
+
+/* A badge is rendered in two places and the banner tokens only work in one of them: they are
+   light inks meant for the dark command banner. On a body card or a striped table row — where
+   the fleet renders most of them (wm-zero-cdn AdminDashboard.php:365, a <td> inside .wm-table
+   widefat striped) — the same tokens measured 1.49:1 to 2.21:1 against the composed surface.
+   So the base rules carry the state tokens, which are measured at or above 4.5:1 on body
+   surfaces in all four palettes, and the banner restores its own inks below. Nothing is removed:
+   the banner looks exactly as before. Measured by wp-plugin-fleet-token-contrast.py. */
+.wm-badge {
+    font-size: var(--wm-text-xs);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding: 4px 10px;
+    border-radius: var(--wm-radius-pill);
+    border: 1px solid var(--wm-border-subtle);
+    background: var(--wm-bg-surface-subtle);
+    color: var(--wm-text-secondary);
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    line-height: 1.3;
+}
+
+.wm-badge-pulse,
+.wm-badge-green,
+.wm-badge--green {
+    background: var(--wm-success-bg);
+    color: var(--wm-success);
+    border-color: var(--wm-success-border);
+}
+
+.wm-badge-cyan,
+.wm-badge--blue,
+.wm-badge--cyan {
+    background: var(--wm-accent-light);
+    color: var(--wm-accent-primary);
+    border-color: var(--wm-accent-border);
+}
+
+.wm-badge--purple {
+    background: var(--wm-purple-bg);
+    color: var(--wm-purple);
+    border-color: var(--wm-purple-border);
+}
+
+.wm-badge--amber {
+    background: var(--wm-warning-bg);
+    color: var(--wm-warning);
+    border-color: var(--wm-warning-border);
+}
+
+.wm-badge--danger,
+.wm-badge--rose,
+.wm-badge-red {
+    background: var(--wm-danger-bg);
+    color: var(--wm-danger);
+    border-color: var(--wm-danger-border);
+}
+
+/* Inside the command banner the surface is dark, so the banner inks come back. */
+:is(.wm-admin-header, .wm-obsidian-header, .wm-enterprise-banner) .wm-badge {
+    border-color: var(--wm-badge-banner-neutral-border);
+    background: var(--wm-badge-banner-neutral-bg);
+    color: var(--wm-badge-banner-neutral-color);
+}
+
+:is(.wm-admin-header, .wm-obsidian-header, .wm-enterprise-banner) :is(.wm-badge-pulse, .wm-badge-green, .wm-badge--green) {
+    background: var(--wm-badge-banner-success-bg);
+    color: var(--wm-badge-banner-success-color);
+    border-color: var(--wm-badge-banner-success-border);
+}
+
+:is(.wm-admin-header, .wm-obsidian-header, .wm-enterprise-banner) :is(.wm-badge-cyan, .wm-badge--blue, .wm-badge--cyan) {
+    background: var(--wm-badge-banner-bg);
+    color: var(--wm-badge-banner-color);
+    border-color: var(--wm-badge-banner-border);
+}
+
+:is(.wm-admin-header, .wm-obsidian-header, .wm-enterprise-banner) .wm-badge--purple {
+    background: var(--wm-badge-banner-purple-bg);
+    color: var(--wm-badge-banner-purple-color);
+    border-color: var(--wm-badge-banner-purple-border);
+}
+
+:is(.wm-admin-header, .wm-obsidian-header, .wm-enterprise-banner) .wm-badge--amber {
+    background: var(--wm-badge-banner-warning-bg);
+    color: var(--wm-badge-banner-warning-color);
+    border-color: var(--wm-badge-banner-warning-border);
+}
+
+:is(.wm-admin-header, .wm-obsidian-header, .wm-enterprise-banner) :is(.wm-badge--danger, .wm-badge--rose, .wm-badge-red) {
+    background: var(--wm-badge-banner-danger-bg);
+    color: var(--wm-badge-banner-danger-color);
+    border-color: var(--wm-badge-banner-danger-border);
+}
+
+.wm-badge-ghost {
+    color: var(--wm-badge-banner-ghost-color);
+    background: transparent;
+    border-color: var(--wm-badge-banner-neutral-border);
+}
+
+/* Body status pills (on light surfaces) */
+.wm-status-pill,
+.wm-recommended-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 10px;
+    border-radius: var(--wm-radius-pill);
+    font-size: var(--wm-text-xs);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    line-height: 1;
+    background: var(--wm-bg-surface-subtle);
+    color: var(--wm-text-secondary);
+    border: 1px solid var(--wm-border-subtle);
+}
+
+.wm-status-healthy,
+.wm-status-pill.wm-status-healthy,
+.wm-status-ok,
+.wm-recommended-badge {
+    background: var(--wm-success-bg);
+    color: var(--wm-success);
+    border-color: var(--wm-success-border);
+}
+
+.wm-status-degraded,
+.wm-status-pill.wm-status-degraded,
+.wm-status-needs_config,
+.wm-status-pill.wm-status-needs_config,
+.wm-status-warn {
+    background: var(--wm-warning-bg);
+    color: var(--wm-warning);
+    border-color: var(--wm-warning-border);
+}
+
+.wm-status-error,
+.wm-status-pill.wm-status-error,
+.wm-status-danger {
+    background: var(--wm-danger-bg);
+    color: var(--wm-danger);
+    border-color: var(--wm-danger-border);
+}
+
+/* ==========================================================================
+   4. Navigation tabs & quick jump bar
+   ========================================================================== */
+
+.wm-nav-tabs,
+.wm-obsidian-nav {
+    display: flex;
+    gap: var(--wm-space-2);
+    margin-bottom: var(--wm-space-6);
+    border-bottom: 2px solid var(--wm-border-faint);
+    padding-bottom: var(--wm-space-3);
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.wm-tab-link,
+.wm-tab-btn,
+.wm-nav-tab,
+.wm-nav-tabs a {
+    color: var(--wm-text-secondary);
+    text-decoration: none;
+    font-size: var(--wm-text-base);
+    font-weight: 600;
+    padding: 9px 18px;
+    border-radius: var(--wm-radius-sm);
+    background: var(--wm-bg-surface);
+    border: 1px solid var(--wm-border-subtle);
+    transition: color var(--wm-transition-fast), background var(--wm-transition-fast), border-color var(--wm-transition-fast), transform var(--wm-transition-fast);
+    box-shadow: var(--wm-shadow-card);
+    display: inline-flex;
+    align-items: center;
+    gap: var(--wm-space-2);
+    cursor: pointer;
+    min-height: var(--wm-target-min);
+}
+
+.wm-tab-link:hover,
+.wm-tab-btn:hover,
+.wm-nav-tab:hover,
+.wm-nav-tabs a:hover {
+    color: var(--wm-accent-primary);
+    background: var(--wm-accent-light);
+    border-color: var(--wm-accent-border);
+    transform: translateY(-1px);
+}
+
+.wm-tab-link.active,
+.wm-tab-link.is-active,
+.wm-tab-btn.is-active,
+.wm-tab-btn.active,
+.wm-nav-tab.active,
+.wm-nav-tabs a.active {
+    color: var(--wm-accent-contrast);
+    background: var(--wm-accent-primary);
+    border-color: var(--wm-accent-primary);
+    box-shadow: 0 4px 12px var(--wm-accent-shadow);
+}
+
+.wm-jump-nav {
+    display: flex;
+    gap: var(--wm-space-2);
+    margin-bottom: var(--wm-space-5);
+    flex-wrap: wrap;
+    align-items: center;
+    background: var(--wm-bg-surface);
+    padding: 10px var(--wm-space-4);
+    border-radius: var(--wm-radius-md);
+    border: 1px solid var(--wm-border-subtle);
+    box-shadow: var(--wm-shadow-card);
+}
+
+.wm-jump-nav-label {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--wm-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-right: var(--wm-space-1);
+}
+
+.wm-jump-link {
+    font-size: var(--wm-text-sm);
+    font-weight: 600;
+    color: var(--wm-accent-primary);
+    background: var(--wm-accent-light);
+    border: 1px solid var(--wm-accent-border);
+    padding: 5px 13px;
+    border-radius: var(--wm-radius-pill);
+    text-decoration: none;
+    transition: color var(--wm-transition-fast), background var(--wm-transition-fast);
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    line-height: 1.35;
+}
+
+.wm-jump-link:hover {
+    background: var(--wm-accent-primary);
+    color: var(--wm-accent-contrast);
+    border-color: var(--wm-accent-primary);
+    box-shadow: 0 2px 6px var(--wm-accent-shadow-soft);
+    text-decoration: none;
+}
+
+/* ==========================================================================
+   5. Quick guide (plain language box) & preset pills
+   ========================================================================== */
+
+.wm-quick-guide {
+    background: var(--wm-accent-light);
+    border: 1px solid var(--wm-accent-border);
+    border-left: 4px solid var(--wm-accent-primary);
+    border-radius: var(--wm-radius-md);
+    padding: 18px 22px;
+    margin: var(--wm-space-4) 0 var(--wm-space-6) 0;
+    box-shadow: var(--wm-shadow-card);
+}
+
+.wm-quick-guide-title {
+    font-size: var(--wm-text-md);
+    font-weight: 700;
+    color: var(--wm-accent-deep);
+    margin-bottom: var(--wm-space-2);
+    display: flex;
+    align-items: center;
+    gap: var(--wm-space-2);
+    line-height: 1.4;
+}
+
+.wm-quick-guide-desc {
+    font-size: var(--wm-text-base);
+    line-height: 1.6;
+    color: var(--wm-text-secondary);
+    margin: 0 0 var(--wm-space-3) 0;
+}
+
+.wm-quick-guide-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    margin-top: var(--wm-space-3);
+}
+
+.wm-quick-guide-actions > strong {
+    color: var(--wm-accent-deep);
+    font-size: 13px;
+    font-weight: 700;
+    margin-right: var(--wm-space-1);
+    display: inline-flex;
+    align-items: center;
+}
+
+.wm-preset-pill-btn {
+    appearance: none;
+    -webkit-appearance: none;
+    background: var(--wm-bg-surface);
+    border: 1px solid var(--wm-accent-primary);
+    color: var(--wm-accent-primary);
+    padding: 7px 15px;
+    border-radius: var(--wm-radius-pill);
+    font-size: var(--wm-text-sm);
+    font-weight: 600;
+    font-family: inherit;
+    line-height: 1.35;
+    cursor: pointer;
+    transition: color var(--wm-transition-fast), background var(--wm-transition-fast), transform var(--wm-transition-fast);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    box-shadow: var(--wm-shadow-card);
+    vertical-align: middle;
+    min-height: 36px;
+}
+
+.wm-preset-pill-btn:hover {
+    background: var(--wm-accent-primary);
+    color: var(--wm-accent-contrast);
+    border-color: var(--wm-accent-primary);
+    box-shadow: 0 4px 12px var(--wm-accent-shadow);
+    transform: translateY(-1px);
+    text-decoration: none;
+}
+
+.wm-preset-pill-btn:active {
+    transform: translateY(0);
+    box-shadow: 0 1px 2px var(--wm-accent-shadow-soft);
+}
+
+/* ==========================================================================
+   6. Cards, sections, grids, KPI tiles
+   ========================================================================== */
+
+.wm-card,
+.wm-stat-card,
+.wm-telemetry-card,
+.wm-section,
+.wm-interactive-tester,
+.wm-glossary-card,
+.wm-box {
+    background: var(--wm-bg-surface);
+    border: 1px solid var(--wm-border-subtle);
+    border-radius: var(--wm-radius-md);
+    padding: 22px;
+    box-shadow: var(--wm-shadow-card);
+    transition: border-color var(--wm-transition-fast), box-shadow var(--wm-transition-fast);
+}
+
+.wm-card:hover,
+.wm-stat-card:hover,
+.wm-telemetry-card:hover,
+.wm-glossary-card:hover {
+    border-color: var(--wm-accent-border);
+    box-shadow: var(--wm-shadow-elevated);
+}
+
+.wm-section {
+    padding: var(--wm-space-6);
+    margin-bottom: 28px;
+}
+
+.wm-interactive-tester {
+    margin-top: var(--wm-space-5);
+}
+
+:is(.wm-admin, .wm-obsidian-wrap, .wm-admin-wrap, .wm-wrap) :is(.wm-card, .wm-section, .wm-box) :is(h2, h3) {
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0 0 var(--wm-space-3) 0;
+    padding: 0;
+    color: var(--wm-text-primary);
+    display: flex;
+    align-items: center;
+    gap: var(--wm-space-2);
+}
+
+:is(.wm-admin, .wm-obsidian-wrap, .wm-admin-wrap, .wm-wrap) :is(.wm-card, .wm-section, .wm-box) h3 {
+    font-size: var(--wm-text-md);
+}
+
+.wm-section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--wm-space-5);
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--wm-border-subtle);
+    flex-wrap: wrap;
+    gap: var(--wm-space-3);
+}
+
+.wm-section-title {
+    font-size: var(--wm-text-lg);
+    font-weight: 700;
+    margin: 0;
+    color: var(--wm-text-primary);
+}
+
+.wm-section-badge {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: var(--wm-radius-pill);
+    background: var(--wm-bg-surface-subtle);
+    border: 1px solid var(--wm-border-subtle);
+    color: var(--wm-text-secondary);
+}
+
+.wm-card-eyebrow {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--wm-text-muted);
+}
+
+.wm-card-caption {
+    font-size: var(--wm-text-sm);
+    color: var(--wm-text-muted);
+    margin: 0;
+    line-height: 1.4;
+}
+
+.wm-grid-4,
+.wm-grid-3,
+.wm-grid-2,
+.wm-card-grid,
+.wm-glossary-grid,
+.wm-metrics-grid,
+.wm-modules-grid {
+    display: grid;
+    gap: var(--wm-space-4);
+}
+
+.wm-grid-4 { grid-template-columns: repeat(4, 1fr); }
+.wm-grid-3 { grid-template-columns: repeat(3, 1fr); gap: var(--wm-space-5); }
+.wm-grid-2 { grid-template-columns: repeat(2, 1fr); gap: var(--wm-space-5); }
+.wm-card-grid,
+.wm-glossary-grid,
+.wm-modules-grid { grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); }
+.wm-metrics-grid { grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: var(--wm-space-5); margin-bottom: 28px; }
+.wm-glossary-grid { margin-top: var(--wm-space-4); }
+
+@media (max-width: 1024px) {
+    .wm-grid-4 { grid-template-columns: repeat(2, 1fr); }
+    .wm-grid-3 { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 640px) {
+    .wm-grid-4,
+    .wm-grid-2 { grid-template-columns: 1fr; }
+}
+
+/* KPI tiles */
+.wm-stat-card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--wm-space-1);
+}
+
+.wm-stat-label {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--wm-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.wm-stat-value {
+    font-size: var(--wm-text-display);
+    font-weight: 800;
+    color: var(--wm-text-primary);
+    font-variant-numeric: tabular-nums;
+    line-height: 1.2;
+}
+
+.wm-stat-delta {
+    font-size: 12px;
+    color: var(--wm-text-secondary);
+}
+
+.text-cyan { color: var(--wm-accent-primary); }
+.text-emerald { color: var(--wm-success); }
+.text-amber { color: var(--wm-warning); }
+.text-rose { color: var(--wm-danger); }
+.text-purple { color: var(--wm-purple); }
+
+.wm-count-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--wm-space-3);
+}
+
+.wm-count-item {
+    background: var(--wm-bg-surface-subtle);
+    border: 1px solid var(--wm-border-subtle);
+    padding: var(--wm-space-3) 14px;
+    border-radius: var(--wm-radius-sm);
+    display: flex;
+    flex-direction: column;
+}
+
+.wm-count-num {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--wm-text-primary);
+    line-height: 1.1;
+    margin-bottom: 2px;
+}
+
+.wm-count-label {
+    font-size: 11.5px;
+    font-weight: 600;
+    color: var(--wm-text-muted);
+}
+
+.wm-count-success .wm-count-num { color: var(--wm-success); }
+.wm-count-warning .wm-count-num { color: var(--wm-warning); }
+.wm-count-danger .wm-count-num { color: var(--wm-danger); }
+
+/* Field cards (settings usability) */
+.wm-field-card {
+    background: var(--wm-bg-surface);
+    border: 1px solid var(--wm-border-faint);
+    border-radius: var(--wm-radius-md);
+    padding: 18px 20px;
+    margin-bottom: var(--wm-space-4);
+    box-shadow: var(--wm-shadow-card);
+    transition: border-color var(--wm-transition-fast);
+}
+
+.wm-field-card:hover {
+    border-color: var(--wm-accent-primary);
+}
+
+.wm-field-title {
+    font-size: 14.5px;
+    font-weight: 700;
+    color: var(--wm-text-primary);
+    margin-bottom: var(--wm-space-1);
+    display: flex;
+    align-items: center;
+    gap: var(--wm-space-2);
+}
+
+.wm-field-desc {
+    font-size: 13px;
+    color: var(--wm-text-secondary);
+    margin: 0 0 10px 0;
+    line-height: 1.5;
+}
+
+.wm-field-why {
+    background: var(--wm-bg-surface-subtle);
+    border-left: 3px solid var(--wm-accent-primary);
+    padding: var(--wm-space-2) var(--wm-space-3);
+    border-radius: 0 var(--wm-radius-sm) var(--wm-radius-sm) 0;
+    font-size: 12px;
+    color: var(--wm-text-secondary);
+    margin-top: var(--wm-space-2);
+    line-height: 1.4;
+}
+
+/* Glossary */
+.wm-glossary-card {
+    padding: 18px;
+}
+
+.wm-glossary-term {
+    font-size: 14.5px;
+    font-weight: 700;
+    color: var(--wm-accent-primary);
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.wm-glossary-def {
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--wm-text-secondary);
+    margin: 0;
+}
+
+/* Wizard steps */
+.wm-wizard-steps {
+    display: flex;
+    gap: var(--wm-space-2);
+    margin-bottom: var(--wm-space-6);
+    border-bottom: 1px solid var(--wm-border-subtle);
+    padding-bottom: var(--wm-space-4);
+    flex-wrap: wrap;
+}
+
+.wm-wizard-step {
+    flex: 1;
+    background: var(--wm-bg-surface-subtle);
+    border: 1px solid var(--wm-border-subtle);
+    border-radius: var(--wm-radius-md);
+    padding: var(--wm-space-3) 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--wm-text-secondary);
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.wm-wizard-step.active,
+.wm-wizard-step.is-active {
+    background: var(--wm-accent-light);
+    border-color: var(--wm-accent-primary);
+    color: var(--wm-accent-primary);
+}
+
+.wm-wizard-number {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: var(--wm-border-faint);
+    color: var(--wm-text-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+.wm-wizard-step.active .wm-wizard-number,
+.wm-wizard-step.is-active .wm-wizard-number {
+    background: var(--wm-accent-primary);
+    color: var(--wm-accent-contrast);
+}
+
+/* ==========================================================================
+   7. Tables
+   ========================================================================== */
+
+.wm-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: var(--wm-space-3);
+    border: 1px solid var(--wm-border-subtle);
+    border-radius: var(--wm-radius-md);
+    overflow: hidden;
+    background: var(--wm-bg-surface);
+    font-size: 13px;
+    text-align: left;
+}
+
+.wm-table th {
+    background: var(--wm-bg-surface-subtle);
+    padding: var(--wm-space-3) var(--wm-space-4);
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--wm-text-secondary);
+    border-bottom: 1px solid var(--wm-border-subtle);
+    text-align: left;
+}
+
+.wm-table td {
+    padding: 14px var(--wm-space-4);
+    font-size: 13px;
+    color: var(--wm-text-primary);
+    border-bottom: 1px solid var(--wm-border-faint);
+    vertical-align: middle;
+}
+
+.wm-table tr:last-child td {
+    border-bottom: none;
+}
+
+.wm-table tr:hover td {
+    background: var(--wm-bg-surface-subtle);
+}
+
+.wm-table-container,
+.wm-audit-table-container {
+    overflow-x: auto;
+}
+
+.wm-hash-badge {
+    font-family: var(--wm-font-mono);
+    font-size: var(--wm-text-xs);
+    background: var(--wm-bg-surface-subtle);
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: 1px solid var(--wm-border-subtle);
+    color: var(--wm-accent-primary);
+}
+
+.wm-empty-state,
+.wm-table-loading {
+    text-align: center;
+    padding: 40px var(--wm-space-5);
+    color: var(--wm-text-muted);
+}
+
+/* ==========================================================================
+   8. Forms — on top of the native .form-table when used
+   ========================================================================== */
+
+.wm-form-group {
+    margin-bottom: var(--wm-space-5);
+}
+
+.wm-label,
+.wm-toggle-label {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--wm-text-primary);
+    margin-bottom: 6px;
+}
+
+.wm-toggle-label {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.wm-toggle-label input[type="checkbox"] {
+    margin-top: 3px;
+}
+
+/* Only explicit family controls and controls inside a family form group: a bare <select> in a
+   toolbar (the cockpit theme switcher) or a native .form-table keeps the WordPress core look. */
+.wm-input,
+.wm-select,
+.wm-textarea,
+.wm-form-group :is(input[type="text"], input[type="email"], input[type="url"], input[type="number"], input[type="password"], select, textarea) {
+    width: 100%;
+    border: 1px solid var(--wm-border-subtle);
+    border-radius: var(--wm-radius-sm);
+    padding: var(--wm-space-2) var(--wm-space-3);
+    font-size: var(--wm-text-base);
+    color: var(--wm-text-primary);
+    background: var(--wm-bg-surface);
+    transition: border-color var(--wm-transition-fast);
+    min-height: 38px;
+}
+
+.wm-input:focus,
+.wm-select:focus,
+.wm-textarea:focus {
+    border-color: var(--wm-border-focus);
+}
+
+:is(.wm-admin, .wm-obsidian-wrap, .wm-admin-wrap, .wm-wrap) input[type="color"] {
+    width: var(--wm-target-min);
+    height: 38px;
+    border: 1px solid var(--wm-border-subtle);
+    border-radius: var(--wm-radius-sm);
+    padding: 2px;
+    background: var(--wm-bg-surface);
+    cursor: pointer;
+}
+
+.wm-code-block,
+:is(.wm-admin, .wm-obsidian-wrap, .wm-admin-wrap, .wm-wrap) pre {
+    font-family: var(--wm-font-mono);
+    font-size: 12.5px;
+    line-height: 1.6;
+    background: var(--wm-bg-code);
+    border: 1px solid var(--wm-border-subtle);
+    border-radius: var(--wm-radius-sm);
+    padding: 14px 16px;
+    overflow-x: auto;
+    color: var(--wm-text-primary);
+}
+
+/* ==========================================================================
+   9. Buttons — BFSG 2025: 44px targets; native .button keeps working next to them
+   ========================================================================== */
+
+.wm-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    min-height: var(--wm-target-min);
+    padding: var(--wm-space-2) 18px;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: inherit;
+    border-radius: var(--wm-radius-sm);
+    cursor: pointer;
+    text-decoration: none;
+    transition: color var(--wm-transition-fast), background var(--wm-transition-fast), transform var(--wm-transition-fast);
+    border: 1px solid transparent;
+    line-height: 1.4;
+}
+
+.wm-btn-primary {
+    background: var(--wm-accent-primary);
+    color: var(--wm-accent-contrast);
+    border-color: var(--wm-accent-primary);
+    box-shadow: 0 2px 4px var(--wm-accent-shadow-soft);
+}
+
+.wm-btn-primary:hover {
+    background: var(--wm-accent-hover);
+    border-color: var(--wm-accent-hover);
+    color: var(--wm-accent-contrast);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 10px var(--wm-accent-shadow);
+}
+
+.wm-btn-secondary {
+    background: var(--wm-bg-surface);
+    color: var(--wm-text-primary);
+    border-color: var(--wm-border-subtle);
+    box-shadow: var(--wm-shadow-card);
+}
+
+.wm-btn-secondary:hover {
+    background: var(--wm-accent-light);
+    color: var(--wm-accent-primary);
+    border-color: var(--wm-accent-border);
+}
+
+.wm-btn-outline {
+    background: transparent;
+    color: var(--wm-text-secondary);
+    border-color: var(--wm-border-subtle);
+    font-size: 12px;
+    padding: 6px 14px;
+    min-height: 38px;
+}
+
+.wm-btn-outline:hover {
+    color: var(--wm-accent-primary);
+    border-color: var(--wm-accent-primary);
+    background: var(--wm-accent-light);
+}
+
+.wm-btn-danger {
+    background: var(--wm-danger-bg);
+    color: var(--wm-danger);
+    border-color: var(--wm-danger-border);
+}
+
+.wm-btn-danger:hover {
+    background: var(--wm-danger);
+    color: var(--wm-accent-contrast);
+}
+
+/* ==========================================================================
+   10. Notices inside the family wrapper (native .notice keeps its look; these are inline states)
+   ========================================================================== */
+
+.wm-inline-notice {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    padding: var(--wm-space-3) var(--wm-space-4);
+    border-radius: var(--wm-radius-sm);
+    border: 1px solid var(--wm-border-subtle);
+    background: var(--wm-bg-surface-subtle);
+    color: var(--wm-text-secondary);
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 0 0 var(--wm-space-4) 0;
+}
+
+.wm-inline-notice.is-success { background: var(--wm-success-bg); border-color: var(--wm-success-border); color: var(--wm-success); }
+.wm-inline-notice.is-warning { background: var(--wm-warning-bg); border-color: var(--wm-warning-border); color: var(--wm-warning); }
+.wm-inline-notice.is-danger { background: var(--wm-danger-bg); border-color: var(--wm-danger-border); color: var(--wm-danger); }
+
+/* ==========================================================================
+   11. Dashboard widget (wp_add_dashboard_widget) — same family, smaller scale
+   ========================================================================== */
+
+.wm-dash-widget-box {
+    font-family: var(--wm-font-stack);
+    color: var(--wm-text-primary);
+}
+
+.wm-dash-banner {
+    display: flex;
+    align-items: center;
+    gap: var(--wm-space-3);
+    padding: var(--wm-space-3) 14px;
+    border-radius: var(--wm-radius-md);
+    background: var(--wm-bg-surface-subtle);
+    border: 1px solid var(--wm-border-subtle);
+    margin-bottom: var(--wm-space-3);
+}
+
+.wm-dash-banner.is-valid {
+    background: var(--wm-success-bg);
+    border-color: var(--wm-success-border);
+}
+
+.wm-dash-banner.is-warning {
+    background: var(--wm-warning-bg);
+    border-color: var(--wm-warning-border);
+}
+
+.wm-dash-banner-icon {
+    font-size: 20px;
+    line-height: 1;
+}
+
+.wm-dash-banner-title {
+    font-weight: 700;
+    font-size: var(--wm-text-base);
+}
+
+/* Muted ink on the tinted banner states measured 4.23:1 (is-valid) and 4.50:1 (is-warning); the
+   secondary ink clears 4.5:1 on both. */
+.wm-dash-banner-sub {
+    font-size: 12px;
+    color: var(--wm-text-secondary);
+}
+
+.wm-dash-kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--wm-space-2);
+    margin-bottom: var(--wm-space-3);
+}
+
+.wm-dash-kpi-card {
+    background: var(--wm-bg-surface);
+    border: 1px solid var(--wm-border-subtle);
+    border-radius: var(--wm-radius-sm);
+    padding: 10px;
+    text-align: center;
+}
+
+.wm-dash-kpi-val {
+    font-size: 1.3rem;
+    font-weight: 900;
+    line-height: 1.1;
+    color: var(--wm-text-primary);
+}
+
+.wm-dash-kpi-val.is-on { color: var(--wm-success); }
+.wm-dash-kpi-val.is-off { color: var(--wm-text-muted); }
+
+.wm-dash-kpi-lbl {
+    font-size: 11px;
+    color: var(--wm-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    margin-top: 2px;
+}
+
+.wm-dash-actions {
+    display: flex;
+    gap: var(--wm-space-2);
+    flex-wrap: wrap;
+}
+
+.wm-dash-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    min-height: 36px;
+    padding: 6px 12px;
+    border-radius: var(--wm-radius-sm);
+    background: var(--wm-accent-primary);
+    color: var(--wm-accent-contrast);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12.5px;
+}
+
+.wm-dash-btn:hover {
+    background: var(--wm-accent-hover);
+    color: var(--wm-accent-contrast);
+}
+
+/* ==========================================================================
+   12. Touch targets (BFSG 2025) and aliases of the newsletter sheet's own class names
+   ========================================================================== */
+
+:is(.wm-admin, .wm-obsidian-wrap, .wm-admin-wrap, .wm-wrap) :is(button, .button, input[type="submit"], .wm-preset-pill-btn, .wm-jump-link) {
+    min-height: var(--wm-target-min);
+    box-sizing: border-box;
+}
+
+.wm-kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--wm-space-4); }
+.wm-kpi-card { background: var(--wm-bg-surface); border: 1px solid var(--wm-border-subtle); border-radius: var(--wm-radius-md); padding: 18px 20px; box-shadow: var(--wm-shadow-card); display: flex; flex-direction: column; gap: var(--wm-space-1); }
+.wm-kpi-val { font-size: var(--wm-text-display); font-weight: 800; color: var(--wm-text-primary); font-variant-numeric: tabular-nums; line-height: 1.2; }
+.wm-kpi-lbl { font-size: 12px; font-weight: 600; color: var(--wm-text-muted); text-transform: uppercase; letter-spacing: 0.03em; }
+.wm-card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--wm-space-4); gap: var(--wm-space-3); }
+.wm-card-body { font-size: 13px; line-height: 1.6; color: var(--wm-text-secondary); }
+.wm-form-row { display: flex; gap: var(--wm-space-3); align-items: flex-end; flex-wrap: wrap; margin-bottom: var(--wm-space-4); }
+.wm-header-title { margin: 0; }
+.wm-tab { color: var(--wm-text-secondary); text-decoration: none; font-size: var(--wm-text-base); font-weight: 600; padding: 9px 18px; border-radius: var(--wm-radius-sm); background: var(--wm-bg-surface); border: 1px solid var(--wm-border-subtle); display: inline-flex; align-items: center; gap: var(--wm-space-2); min-height: var(--wm-target-min); }
+.wm-tab.active,
+.wm-tab.is-active { color: var(--wm-accent-contrast); background: var(--wm-accent-primary); border-color: var(--wm-accent-primary); }
+.wm-badge-amber { background: var(--wm-badge-banner-warning-bg); color: var(--wm-badge-banner-warning-color); border-color: var(--wm-badge-banner-warning-border); }
+.wm-alert { display: flex; gap: 10px; align-items: flex-start; padding: var(--wm-space-3) var(--wm-space-4); border-radius: var(--wm-radius-sm); border: 1px solid var(--wm-border-subtle); background: var(--wm-bg-surface-subtle); color: var(--wm-text-secondary); font-size: 13px; line-height: 1.5; margin: 0 0 var(--wm-space-4) 0; }
+.wm-alert-info { background: var(--wm-accent-light); border-color: var(--wm-accent-border); color: var(--wm-accent-deep); }
+.wm-alert-success { background: var(--wm-success-bg); border-color: var(--wm-success-border); color: var(--wm-success); }
+
+@media (max-width: 1024px) {
+    .wm-kpi-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* ==========================================================================
+   13. Responsive
+   ========================================================================== */
+
+@media (max-width: 782px) {
+    :is(.wm-admin, .wm-obsidian-wrap, .wm-admin-wrap, .wm-wrap) :is(.wm-admin-header, .wm-obsidian-header, .wm-enterprise-banner) {
+        padding: var(--wm-space-4);
+    }
+
+    .wm-obsidian-wrap,
+    .wm-admin-wrap,
+    .wm-wrap,
+    .wrap.wm-admin {
+        margin-right: 10px;
+    }
+
+    .wm-dash-kpi-grid {
+        grid-template-columns: 1fr;
+    }
+}

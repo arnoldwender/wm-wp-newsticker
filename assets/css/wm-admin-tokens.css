@@ -1,0 +1,422 @@
+/**
+ * Wender Media Suite — admin design tokens (family sheet).
+ *
+ * The canonical copy lives in wm-suite-hub/assets/css/wm-admin-tokens.css. Every WM plugin
+ * bundles a byte-identical copy at assets/css/wm-admin-tokens.css (standalone autonomy: no
+ * plugin depends on the hub being installed). The fleet's UI sync tool copies this file from the
+ * hub and each plugin's family test pins its md5, so a copy that drifts fails that plugin's
+ * suite. Never edit a copy: edit the hub and run the sync.
+ *
+ * Rules of the sheet:
+ *   - Colours live only on token lines (here and in the theme blocks). Component rules in
+ *     wm-admin-ui.css never carry a hex value; the fleet measurement counts hex outside tokens.
+ *   - Light by default, because the WordPress admin is light. The dark palette applies to the
+ *     explicit theme [data-wm-theme="obsidian-dark"] and, under prefers-color-scheme: dark, only
+ *     to a wrapper that opts in with data-wm-scheme="auto" — dark cards inside a light admin
+ *     would read as broken, so the OS preference is honoured on request, not by default.
+ *   - prefers-contrast: more switches to the high-contrast palette; prefers-reduced-motion
+ *     collapses the family transitions.
+ *   - The four theme palettes of the hub cockpit (cyber-events, wp-native, obsidian-dark,
+ *     high-contrast) keep working through [data-wm-theme]; the hub's theme switcher is unchanged.
+ *   - The names the copied admin-obsidian.css sheets used (--wm-primary, --wm-emerald, --wm-font,
+ *     --wm-border…) are aliases of the canonical tokens, so a template that still uses them
+ *     renders from the same palette.
+ *   - Every foreground/background pair the components rely on measures at least 4.5:1 (WCAG 2.2
+ *     SC 1.4.3): the fleet's contrast checker computes them from this file and fails on a failing
+ *     pair. In the dark palette the accent is also body text on dark surfaces, so it stays light
+ *     and --wm-accent-contrast is dark ink instead of white.
+ */
+
+/* ==========================================================================
+   1. Canonical palette — light (cyber-events), the default
+   ========================================================================== */
+
+:root,
+[data-wm-theme="cyber-events"] {
+    /* Wender Media brand identity */
+    --wm-navy: #002D5B;
+    --wm-brand-blue: #0072BB;
+    --wm-brand-medium: #004C91;
+    --wm-brand-light: #339AD8;
+    --wm-gold: #FFD700;
+    --wm-gold-dark: #FFA500;
+    --wm-magenta: #D1006C;
+
+    /* Surfaces */
+    --wm-bg-canvas: #f0f0f1;
+    --wm-bg-surface: #ffffff;
+    --wm-bg-surface-subtle: #f8fafc;
+    --wm-bg-surface-elevated: #ffffff;
+    --wm-bg-code: rgba(0, 0, 0, 0.04);
+
+    /* Command banner */
+    --wm-bg-banner: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    --wm-border-banner: #334155;
+    --wm-text-banner-title: #ffffff;
+    --wm-text-banner-sub: #94a3b8;
+    --wm-badge-banner-bg: rgba(56, 189, 248, 0.15);
+    --wm-badge-banner-color: #38bdf8;
+    --wm-badge-banner-border: rgba(56, 189, 248, 0.3);
+    --wm-badge-banner-neutral-bg: rgba(255, 255, 255, 0.08);
+    --wm-badge-banner-neutral-border: rgba(255, 255, 255, 0.2);
+    --wm-badge-banner-neutral-color: #f8fafc;
+    --wm-badge-banner-ghost-color: #94a3b8;
+    --wm-badge-banner-success-bg: rgba(16, 185, 129, 0.15);
+    --wm-badge-banner-success-color: #34d399;
+    --wm-badge-banner-success-border: rgba(16, 185, 129, 0.35);
+    --wm-badge-banner-warning-bg: rgba(245, 158, 11, 0.15);
+    --wm-badge-banner-warning-color: #fbbf24;
+    --wm-badge-banner-warning-border: rgba(245, 158, 11, 0.35);
+    --wm-badge-banner-danger-bg: rgba(244, 63, 94, 0.15);
+    --wm-badge-banner-danger-color: #fb7185;
+    --wm-badge-banner-danger-border: rgba(244, 63, 94, 0.35);
+    --wm-badge-banner-purple-bg: rgba(168, 85, 247, 0.15);
+    --wm-badge-banner-purple-color: #c084fc;
+    --wm-badge-banner-purple-border: rgba(168, 85, 247, 0.35);
+
+    /* Borders & accents */
+    --wm-border-subtle: #dcdcde;
+    --wm-border-faint: #e2e8f0;
+    --wm-border-focus: #0369a1;
+    --wm-accent-primary: #0369a1;
+    --wm-accent-hover: #075985;
+    --wm-accent-active: #0c4a6e;
+    --wm-accent-light: #f0f9ff;
+    --wm-accent-border: #bae6fd;
+    --wm-accent-contrast: #ffffff;
+    --wm-accent-shadow: rgba(3, 105, 161, 0.25);
+    --wm-accent-shadow-soft: rgba(3, 105, 161, 0.12);
+    --wm-accent-deep: #0c4a6e;
+    --wm-indigo: #4f46e5;
+    --wm-purple: #7e22ce;
+    --wm-purple-bg: #f3e8ff;
+    --wm-purple-border: #d8b4fe;
+
+    /* States */
+    --wm-success: #007017;
+    --wm-success-bg: #e7f5ea;
+    --wm-success-border: #92d89e;
+    --wm-warning: #996800;
+    --wm-warning-bg: #fcf9e8;
+    --wm-warning-border: #f0d164;
+    --wm-danger: #b32d2e;
+    --wm-danger-bg: #fcf0f1;
+    --wm-danger-border: #f8b9bb;
+
+    /* Text */
+    --wm-text-primary: #1d2327;
+    --wm-text-secondary: #334155;
+    --wm-text-muted: #64748b;
+    --wm-text-light: #8c8f94;
+
+    /* Shadows */
+    --wm-shadow-card: 0 1px 3px rgba(0, 0, 0, 0.05);
+    --wm-shadow-banner: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+    --wm-shadow-elevated: 0 4px 12px rgba(0, 0, 0, 0.08);
+    --wm-shadow-focus-soft: rgba(34, 113, 177, 0.2);
+}
+
+/* ==========================================================================
+   2. Shared dimensions, typography, motion — theme-independent
+   ========================================================================== */
+
+:root {
+    --wm-font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    --wm-font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --wm-target-min: 44px;
+
+    --wm-radius-sm: 6px;
+    --wm-radius-md: 8px;
+    --wm-radius-lg: 12px;
+    --wm-radius-pill: 999px;
+
+    /* 8px base grid */
+    --wm-space-1: 4px;
+    --wm-space-2: 8px;
+    --wm-space-3: 12px;
+    --wm-space-4: 16px;
+    --wm-space-5: 20px;
+    --wm-space-6: 24px;
+    --wm-space-8: 32px;
+
+    --wm-text-xs: 11px;
+    --wm-text-sm: 12.5px;
+    --wm-text-base: 13.5px;
+    --wm-text-md: 15px;
+    --wm-text-lg: 18px;
+    --wm-text-xl: 22px;
+    --wm-text-display: 26px;
+
+    --wm-transition-fast: 0.15s ease-in-out;
+    --wm-transition-base: 0.2s ease;
+    --wm-focus-ring-width: 2px;
+    --wm-focus-ring-offset: 2px;
+    --wm-content-max: 1440px;
+}
+
+/* ==========================================================================
+   3. Aliases — the names the copied admin-obsidian.css sheets used
+   ========================================================================== */
+
+:root {
+    --wm-font: var(--wm-font-stack);
+    --wm-mono: var(--wm-font-mono);
+    --wm-border: var(--wm-border-subtle);
+    --wm-bg-elevated: var(--wm-bg-surface-subtle);
+    --wm-bg-glass: var(--wm-bg-surface);
+    --wm-primary: var(--wm-accent-primary);
+    --wm-primary-hover: var(--wm-accent-hover);
+    --wm-primary-light: var(--wm-accent-light);
+    --wm-primary-border: var(--wm-accent-border);
+    --wm-cyan: var(--wm-accent-primary);
+    --wm-cyan-glow: var(--wm-accent-light);
+    --wm-emerald: var(--wm-success);
+    --wm-emerald-glow: var(--wm-success-bg);
+    --wm-emerald-border: var(--wm-success-border);
+    --wm-amber: var(--wm-warning);
+    --wm-amber-glow: var(--wm-warning-bg);
+    --wm-amber-border: var(--wm-warning-border);
+    --wm-rose: var(--wm-danger);
+    --wm-rose-glow: var(--wm-danger-bg);
+    --wm-rose-border: var(--wm-danger-border);
+    --wm-purple-glow: var(--wm-purple-bg);
+    --wm-shadow-sm: var(--wm-shadow-card);
+    --wm-shadow-md: var(--wm-shadow-elevated);
+    --wm-shadow-lg: var(--wm-shadow-banner);
+    --wm-min-touch-target: var(--wm-target-min);
+}
+
+/* ==========================================================================
+   4. Theme palettes of the hub cockpit — selectable through [data-wm-theme]
+   ========================================================================== */
+
+[data-wm-theme="wp-native"] {
+    --wm-bg-canvas: #f0f0f1;
+    --wm-bg-surface: #ffffff;
+    --wm-bg-surface-subtle: #f6f7f7;
+    --wm-bg-surface-elevated: #ffffff;
+    --wm-bg-banner: #ffffff;
+    --wm-border-banner: #c3c4c7;
+    --wm-text-banner-title: #1d2327;
+    --wm-text-banner-sub: #50575e;
+    --wm-badge-banner-bg: #f0f6fc;
+    --wm-badge-banner-color: #2271b1;
+    --wm-badge-banner-border: #c8d8ea;
+    --wm-badge-banner-neutral-bg: #f6f7f7;
+    --wm-badge-banner-neutral-border: #c3c4c7;
+    --wm-badge-banner-neutral-color: #1d2327;
+    --wm-badge-banner-ghost-color: #646970;
+    --wm-badge-banner-success-bg: #edfaef;
+    --wm-badge-banner-success-color: #007017;
+    --wm-badge-banner-success-border: #007017;
+    --wm-badge-banner-warning-bg: #fcf9e8;
+    --wm-badge-banner-warning-color: #996800;
+    --wm-badge-banner-warning-border: #dba617;
+    --wm-badge-banner-danger-bg: #fcf0f1;
+    --wm-badge-banner-danger-color: #b32d2e;
+    --wm-badge-banner-danger-border: #d63638;
+    --wm-badge-banner-purple-bg: #f3e8ff;
+    --wm-badge-banner-purple-color: #7e22ce;
+    --wm-badge-banner-purple-border: #d8b4fe;
+    --wm-border-subtle: #c3c4c7;
+    --wm-border-faint: #dcdcde;
+    --wm-border-focus: #2271b1;
+    --wm-accent-primary: #2271b1;
+    --wm-accent-hover: #135e96;
+    --wm-accent-active: #0a4b78;
+    --wm-accent-light: #f0f6fc;
+    --wm-accent-border: #c8d8ea;
+    --wm-accent-shadow: rgba(34, 113, 177, 0.25);
+    --wm-accent-shadow-soft: rgba(34, 113, 177, 0.12);
+    --wm-accent-deep: #0a4b78;
+    --wm-success: #007017;
+    --wm-success-bg: #edfaef;
+    --wm-success-border: #007017;
+    --wm-warning: #996800;
+    --wm-warning-bg: #fcf9e8;
+    --wm-warning-border: #dba617;
+    --wm-danger: #b32d2e;
+    --wm-danger-bg: #fcf0f1;
+    --wm-danger-border: #d63638;
+    --wm-text-primary: #1d2327;
+    --wm-text-secondary: #2c3338;
+    --wm-text-muted: #646970;
+    --wm-text-light: #8c8f94;
+    --wm-shadow-card: 0 1px 1px rgba(0, 0, 0, 0.04);
+    --wm-shadow-banner: 0 1px 2px rgba(0, 0, 0, 0.05);
+    --wm-shadow-elevated: 0 2px 4px rgba(0, 0, 0, 0.06);
+}
+
+[data-wm-theme="obsidian-dark"],
+[data-wm-scheme="dark"] {
+    --wm-bg-canvas: #050811;
+    --wm-bg-surface: rgba(13, 20, 36, 0.85);
+    --wm-bg-surface-subtle: rgba(15, 23, 42, 0.6);
+    --wm-bg-surface-elevated: rgba(20, 30, 52, 0.95);
+    --wm-bg-code: rgba(255, 255, 255, 0.06);
+    --wm-bg-banner: linear-gradient(135deg, #0b1120 0%, #1e293b 100%);
+    --wm-border-banner: rgba(255, 255, 255, 0.12);
+    --wm-text-banner-title: #f8fafc;
+    --wm-text-banner-sub: #94a3b8;
+    --wm-badge-banner-bg: rgba(59, 130, 246, 0.15);
+    --wm-badge-banner-color: #60a5fa;
+    --wm-badge-banner-border: rgba(59, 130, 246, 0.3);
+    --wm-border-subtle: rgba(255, 255, 255, 0.08);
+    --wm-border-faint: rgba(255, 255, 255, 0.06);
+    --wm-border-focus: #3b82f6;
+    --wm-accent-primary: #3b82f6;
+    --wm-accent-hover: #2563eb;
+    --wm-accent-active: #1d4ed8;
+    --wm-accent-light: rgba(59, 130, 246, 0.12);
+    --wm-accent-border: rgba(59, 130, 246, 0.3);
+    --wm-accent-shadow: rgba(59, 130, 246, 0.35);
+    --wm-accent-shadow-soft: rgba(59, 130, 246, 0.18);
+    --wm-accent-deep: #bfdbfe;
+    --wm-accent-contrast: #0b1120;
+    --wm-purple: #d8b4fe;
+    --wm-purple-bg: rgba(126, 34, 206, 0.2);
+    --wm-purple-border: rgba(168, 85, 247, 0.45);
+    --wm-success: #10b981;
+    --wm-success-bg: rgba(16, 185, 129, 0.15);
+    --wm-success-border: rgba(16, 185, 129, 0.3);
+    --wm-warning: #f59e0b;
+    --wm-warning-bg: rgba(245, 158, 11, 0.15);
+    --wm-warning-border: rgba(245, 158, 11, 0.3);
+    --wm-danger: #ef4444;
+    --wm-danger-bg: rgba(239, 68, 68, 0.15);
+    --wm-danger-border: rgba(239, 68, 68, 0.3);
+    --wm-text-primary: #f8fafc;
+    --wm-text-secondary: #cbd5e1;
+    --wm-text-muted: #94a3b8;
+    --wm-text-light: #64748b;
+    --wm-shadow-card: 0 8px 32px 0 rgba(0, 0, 0, 0.45);
+    --wm-shadow-banner: 0 12px 30px rgba(0, 0, 0, 0.5);
+    --wm-shadow-elevated: 0 12px 36px rgba(0, 0, 0, 0.6);
+    --wm-shadow-focus-soft: rgba(59, 130, 246, 0.3);
+}
+
+[data-wm-theme="high-contrast"],
+[data-wm-scheme="high-contrast"] {
+    --wm-bg-canvas: #000000;
+    --wm-bg-surface: #111111;
+    --wm-bg-surface-subtle: #222222;
+    --wm-bg-surface-elevated: #1a1a1a;
+    --wm-bg-code: #222222;
+    --wm-bg-banner: #000000;
+    --wm-border-banner: #ffffff;
+    --wm-text-banner-title: #ffff00;
+    --wm-text-banner-sub: #ffffff;
+    --wm-badge-banner-bg: #ffff00;
+    --wm-badge-banner-color: #000000;
+    --wm-badge-banner-border: #ffffff;
+    --wm-badge-banner-neutral-bg: #000000;
+    --wm-badge-banner-neutral-border: #ffffff;
+    --wm-badge-banner-neutral-color: #ffffff;
+    --wm-badge-banner-ghost-color: #ffffff;
+    --wm-badge-banner-success-bg: #002200;
+    --wm-badge-banner-success-color: #00ff00;
+    --wm-badge-banner-success-border: #00ff00;
+    --wm-badge-banner-warning-bg: #333300;
+    --wm-badge-banner-warning-color: #ffff00;
+    --wm-badge-banner-warning-border: #ffff00;
+    --wm-badge-banner-danger-bg: #330000;
+    --wm-badge-banner-danger-color: #ff4444;
+    --wm-badge-banner-danger-border: #ff4444;
+    --wm-badge-banner-purple-bg: #220033;
+    --wm-badge-banner-purple-color: #ff88ff;
+    --wm-badge-banner-purple-border: #ff88ff;
+    --wm-border-subtle: #ffffff;
+    --wm-border-faint: #cccccc;
+    --wm-border-focus: #ffff00;
+    --wm-accent-primary: #ffff00;
+    --wm-accent-hover: #ffffff;
+    --wm-accent-active: #ffffaa;
+    --wm-accent-light: #222200;
+    --wm-accent-border: #ffff00;
+    --wm-accent-contrast: #000000;
+    --wm-accent-shadow: rgba(255, 255, 0, 0.35);
+    --wm-accent-shadow-soft: rgba(255, 255, 0, 0.18);
+    --wm-accent-deep: #ffff00;
+    --wm-purple: #ff88ff;
+    --wm-purple-bg: #220033;
+    --wm-purple-border: #ff88ff;
+    --wm-success: #00ff00;
+    --wm-success-bg: #002200;
+    --wm-success-border: #00ff00;
+    --wm-warning: #ffff00;
+    --wm-warning-bg: #333300;
+    --wm-warning-border: #ffff00;
+    --wm-danger: #ff4444;
+    --wm-danger-bg: #330000;
+    --wm-danger-border: #ff4444;
+    --wm-text-primary: #ffffff;
+    --wm-text-secondary: #ffff00;
+    --wm-text-muted: #e2e8f0;
+    --wm-text-light: #ffffff;
+    --wm-shadow-card: none;
+    --wm-shadow-banner: none;
+    --wm-shadow-elevated: none;
+    --wm-shadow-focus-soft: rgba(255, 255, 0, 0.4);
+}
+
+/* ==========================================================================
+   5. User preferences — opt-in dark scheme, forced high contrast, reduced motion
+   ========================================================================== */
+
+@media (prefers-color-scheme: dark) {
+    [data-wm-scheme="auto"] {
+        --wm-bg-canvas: #050811;
+        --wm-bg-surface: rgba(13, 20, 36, 0.85);
+        --wm-bg-surface-subtle: rgba(15, 23, 42, 0.6);
+        --wm-bg-surface-elevated: rgba(20, 30, 52, 0.95);
+        --wm-bg-code: rgba(255, 255, 255, 0.06);
+        --wm-border-subtle: rgba(255, 255, 255, 0.08);
+        --wm-border-faint: rgba(255, 255, 255, 0.06);
+        --wm-border-focus: #3b82f6;
+        --wm-accent-primary: #3b82f6;
+        --wm-accent-hover: #2563eb;
+        --wm-accent-active: #1d4ed8;
+        --wm-accent-light: rgba(59, 130, 246, 0.12);
+        --wm-accent-border: rgba(59, 130, 246, 0.3);
+        --wm-accent-shadow: rgba(59, 130, 246, 0.35);
+        --wm-accent-shadow-soft: rgba(59, 130, 246, 0.18);
+        --wm-accent-deep: #bfdbfe;
+        --wm-accent-contrast: #0b1120;
+        --wm-success: #10b981;
+        --wm-success-bg: rgba(16, 185, 129, 0.15);
+        --wm-success-border: rgba(16, 185, 129, 0.3);
+        --wm-warning: #f59e0b;
+        --wm-warning-bg: rgba(245, 158, 11, 0.15);
+        --wm-warning-border: rgba(245, 158, 11, 0.3);
+        --wm-danger: #ef4444;
+        --wm-danger-bg: rgba(239, 68, 68, 0.15);
+        --wm-danger-border: rgba(239, 68, 68, 0.3);
+        --wm-text-primary: #f8fafc;
+        --wm-text-secondary: #cbd5e1;
+        --wm-text-muted: #94a3b8;
+        --wm-text-light: #64748b;
+        --wm-shadow-card: 0 8px 32px 0 rgba(0, 0, 0, 0.45);
+        --wm-shadow-elevated: 0 12px 36px rgba(0, 0, 0, 0.6);
+        --wm-shadow-focus-soft: rgba(59, 130, 246, 0.3);
+    }
+}
+
+@media (prefers-contrast: more) {
+    :root,
+    [data-wm-theme] {
+        --wm-border-subtle: #1d2327;
+        --wm-border-faint: #1d2327;
+        --wm-border-focus: #000000;
+        --wm-text-secondary: #1d2327;
+        --wm-text-muted: #1d2327;
+        --wm-text-light: #1d2327;
+        --wm-focus-ring-width: 3px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    :root {
+        --wm-transition-fast: 0s;
+        --wm-transition-base: 0s;
+    }
+}

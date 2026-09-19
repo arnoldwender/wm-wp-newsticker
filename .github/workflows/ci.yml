@@ -1,0 +1,33 @@
+name: CI Test Suite
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        php-version: ['8.1', '8.2', '8.3']
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php-version }}
+          extensions: dom, mbstring, json, openssl, libxml, simplexml
+
+      - name: Run Standalone Test Suite
+        run: |
+          php tests/test-suite.php
+          php tests/test-ui-family.php
+
+      # Each correction listed in tests/mutations.php, undone on a copy, must turn the suite red.
+      - name: Mutation Check
+        run: bash tests/run-mutations.sh

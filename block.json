@@ -1,0 +1,225 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "wm/newsticker",
+	"version": "1.4.7",
+	"title": "Newsticker",
+	"category": "widgets",
+	"icon": "megaphone",
+	"description": "Displays announcements in a ticker format with customizable links.",
+	"keywords": [ "news", "ticker", "announcements" ],
+	"supports": {
+		"html": false,
+		"align": [ "wide", "full" ]
+	},
+	"textdomain": "wm-newsticker",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css",
+	"viewScript": "file:./build/frontend.js",
+	"attributes": {
+		"items": {
+			"type": "array",
+			"default": [],
+			"items": {
+				"type": "object",
+				"properties": {
+					"text": { "type": "string" },
+					"link": { "type": "string" },
+					"newTab": { "type": "boolean" }
+				}
+			}
+		},
+		"speed": {
+			"type": "number",
+			"default": 50,
+			"minimum": 10,
+			"maximum": 100
+		},
+		"pauseOnHover": {
+			"type": "boolean",
+			"default": true
+		},
+		"backgroundColor": {
+			"type": "string",
+			"default": "#1a1a2e"
+		},
+		"textColor": {
+			"type": "string",
+			"default": "#ffffff"
+		},
+		"labelText": {
+			"type": "string",
+			"default": ""
+		},
+		"labelBackgroundColor": {
+			"type": "string",
+			"default": "#e94560"
+		},
+		"labelTextColor": {
+			"type": "string",
+			"default": "#ffffff"
+		},
+		"separator": {
+			"type": "string",
+			"default": "\u2022"
+		},
+		"fontSize": {
+			"type": "number",
+			"default": 14,
+			"minimum": 10,
+			"maximum": 72
+		},
+		"height": {
+			"type": "number",
+			"default": 45,
+			"minimum": 20,
+			"maximum": 200
+		},
+		"animationType": {
+			"type": "string",
+			"default": "scroll",
+			"enum": [ "scroll", "fade", "slide", "typing" ]
+		},
+		"direction": {
+			"type": "string",
+			"default": "left",
+			"enum": [ "left", "right", "up", "down" ]
+		},
+		"isRTL": {
+			"type": "boolean",
+			"default": false
+		},
+		"showControls": {
+			"type": "boolean",
+			"default": false
+		},
+		"showPlayPause": {
+			"type": "boolean",
+			"default": true
+		},
+		"showPrevNext": {
+			"type": "boolean",
+			"default": true
+		},
+		"showProgress": {
+			"type": "boolean",
+			"default": false
+		},
+		"controlsPosition": {
+			"type": "string",
+			"default": "right",
+			"enum": [ "left", "right" ]
+		},
+		"contentSource": {
+			"type": "string",
+			"default": "manual",
+			"enum": [ "manual", "posts" ]
+		},
+		"postType": {
+			"type": "string",
+			"default": "post"
+		},
+		"postsCount": {
+			"type": "number",
+			"default": 5,
+			"minimum": 1,
+			"maximum": 20
+		},
+		"categoryIds": {
+			"type": "array",
+			"default": [],
+			"items": {
+				"type": "integer"
+			}
+		},
+		"tagIds": {
+			"type": "array",
+			"default": [],
+			"items": {
+				"type": "integer"
+			}
+		},
+		"orderBy": {
+			"type": "string",
+			"default": "date",
+			"enum": [ "date", "title", "modified", "rand", "comment_count" ]
+		},
+		"order": {
+			"type": "string",
+			"default": "DESC",
+			"enum": [ "DESC", "ASC" ]
+		},
+		"showDate": {
+			"type": "boolean",
+			"default": false
+		},
+		"dateFormat": {
+			"type": "string",
+			"default": "relative",
+			"enum": [ "relative", "absolute" ]
+		},
+		"borderRadius": {
+			"type": "object",
+			"default": {
+				"top": "0px",
+				"right": "0px",
+				"bottom": "0px",
+				"left": "0px"
+			},
+			"properties": {
+				"top": { "type": "string" },
+				"right": { "type": "string" },
+				"bottom": { "type": "string" },
+				"left": { "type": "string" }
+			}
+		},
+		"padding": {
+			"type": "object",
+			"default": {
+				"top": "0px",
+				"right": "0px",
+				"bottom": "0px",
+				"left": "0px"
+			},
+			"properties": {
+				"top": { "type": "string" },
+				"right": { "type": "string" },
+				"bottom": { "type": "string" },
+				"left": { "type": "string" }
+			}
+		},
+		"margin": {
+			"type": "object",
+			"default": {
+				"top": "0px",
+				"right": "0px",
+				"bottom": "0px",
+				"left": "0px"
+			},
+			"properties": {
+				"top": { "type": "string" },
+				"right": { "type": "string" },
+				"bottom": { "type": "string" },
+				"left": { "type": "string" }
+			}
+		},
+		"borderWidth": {
+			"type": "string",
+			"default": "0px"
+		},
+		"borderColor": {
+			"type": "string",
+			"default": "#000000"
+		},
+		"borderStyle": {
+			"type": "string",
+			"default": "solid",
+			"enum": [ "solid", "dashed", "dotted", "none" ]
+		},
+		"boxShadow": {
+			"type": "string",
+			"default": "none"
+		}
+	}
+}

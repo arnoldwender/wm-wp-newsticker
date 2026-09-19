@@ -1,0 +1,29 @@
+# WM Newsticker
+
+> WordPress block plugin for animated news tickers: scroll, fade, slide and typing animations with manual headlines or the latest posts of a post type.
+
+## Facts
+
+- Version 1.4.7. Requires WordPress 5.9+ and PHP 7.4+ (header); CI runs PHP 8.1 to 8.3.
+- Block `wm/newsticker` (dynamic, `block.json` API 3); REST route `wm-newsticker/v1/post-types` for the editor; WP-CLI `wp newsticker post-types | flush-cache | demodaten`.
+- Filter `wm_newsticker_rendered_items`. WM Suite Hub spoke adapter.
+- Pauses on hover; optional play/pause and previous/next buttons; respects `prefers-reduced-motion`. No pause on keyboard focus.
+- No external requests, no cookies, no personal data. No accessibility conformity is claimed.
+- Editor translated into German and Spanish; the PHP catalogs are mostly untranslated.
+
+## Project structure
+
+- `wm-newsticker.php` — main plugin file
+- `block.json` — block metadata
+- `src/index.js`, `src/frontend.js`, `src/editor.scss`, `src/style.scss` — sources; `build/` — compiled and versioned
+- `includes/` — WP-CLI command, hub adapter
+- `languages/` — `.pot`, `.po` / `.mo`, editor JSON translations
+- `tests/` — standalone suite, mutation check, WordPress integration tests
+
+## Documentation
+
+- README.md, docs/ARCHITECTURE.md, docs/DEVELOPER-GUIDE.md, docs/ACCESSIBILITY.md, docs/DSGVO-COMPLIANCE.md, docs/SECURITY-AUDIT.md, CHANGELOG.md
+
+## License
+
+GPLv2 or later.
