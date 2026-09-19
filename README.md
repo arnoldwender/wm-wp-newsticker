@@ -2,7 +2,7 @@
 
 > **Gutenberg block for animated news tickers: scroll, fade, slide and typing, with manual headlines or the latest posts**  
 > **Author:** Arnold Wender · Wender Media · Halle (Saale), Germany  
-> **Website:** [https://www.wendermedia.com](https://www.wendermedia.com) · **Repository:** [github.com/arnoldwender/wm-newsticker](https://github.com/arnoldwender/wm-newsticker)
+> **Website:** [https://www.wendermedia.com](https://www.wendermedia.com) · **Repository:** [github.com/arnoldwender/wm-wp-newsticker](https://github.com/arnoldwender/wm-wp-newsticker)
 
 > This README describes what the plugin ships, measured against the code on 2026-09-15. Until then it also promised conformity with BFSG 2025 and WCAG 2.2 AA, a pause on keyboard focus, 44 × 44 px controls, "60 FPS", "~3KB CSS, ~2KB JS", DSGVO Art. 17 erasure tools and pre-compiled translations for 24 EU languages. None of that holds; the Known issues below say what does.
 

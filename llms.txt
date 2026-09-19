@@ -4,7 +4,7 @@
 
 ## Facts
 
-- Version 1.4.7. Requires WordPress 5.9+ and PHP 7.4+ (header); CI runs PHP 8.1 to 8.3.
+- Version 1.4.8. Requires WordPress 5.9+ and PHP 7.4+ (header); CI runs PHP 8.1 to 8.3.
 - Block `wm/newsticker` (dynamic, `block.json` API 3); REST route `wm-newsticker/v1/post-types` for the editor; WP-CLI `wp newsticker post-types | flush-cache | demodaten`.
 - Filter `wm_newsticker_rendered_items`. WM Suite Hub spoke adapter.
 - Pauses on hover; optional play/pause and previous/next buttons; respects `prefers-reduced-motion`. No pause on keyboard focus.

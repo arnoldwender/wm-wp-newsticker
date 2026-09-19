@@ -3,7 +3,7 @@ Contributors: arnoldwender
 Tags: news ticker, marquee, announcements, breaking news, gutenberg block
 Requires at least: 5.9
 Tested up to: 7.1
-Stable tag: 1.4.7
+Stable tag: 1.4.8
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -168,6 +168,12 @@ Yes, when using posts as the content source, you can filter by a specific catego
 * The handbook's live preview is the block's real output; the widget shows counted figures (pages with a ticker, demo posts, cached queries) instead of fixed text.
 * New: the documented `wm_newsticker_rendered_items` filter is applied in render_block().
 
+= 1.4.8 =
+* Fix: the plugin's own links pointed at a repository that is not public, so "GitHub Repository" in the plugin list and the Plugin URI in the header were a 404 for everyone. They now point at github.com/arnoldwender/wm-wp-newsticker.
+* Docs: the author line said "Lead Architect". In Germany "Architekt" is a title reserved by the Architektengesetz of each Land; the line now reads Web Developer, in every translated README.
+* Docs: the author's legal role is stated once and correctly — Inhaber, Wender Media (Einzelunternehmen). Wender Media is one Einzelunternehmen; SEO Halle is one of its brands, not a second company.
+* Tests: the mutation runner copied the tree with rsync and sent the error to /dev/null. rsync is absent from ordinary CI images, so the copy came out empty and the runner blamed the test suite. It now uses tar, reports what failed, and refuses a copy shorter than what git listed.
+
 = 1.4.7 =
 * Security: Fixed CSS injection via incomplete regex in color sanitization
 * Security: Fixed path traversal in REST API path construction
@@ -273,7 +279,7 @@ New dynamic content feature! Display your latest posts automatically in the tick
 
 The unminified source files for the compiled assets in `/build/` are included in this plugin under `/src/`.
 
-Source repository: https://github.com/arnoldwender/wm-newsticker
+Source repository: https://github.com/arnoldwender/wm-wp-newsticker
 
 = Build Instructions =
 

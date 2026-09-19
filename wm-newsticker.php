@@ -1,9 +1,9 @@
 <?php
 /**
  * Plugin Name: WM Newsticker
- * Plugin URI: https://github.com/arnoldwender/wm-newsticker
+ * Plugin URI: https://github.com/arnoldwender/wm-wp-newsticker
  * Description: A Gutenberg block for animated news tickers with scroll, fade, slide and typing animations.
- * Version: 1.4.7
+ * Version: 1.4.8
  * Author: Arnold Wender
  * Author URI: https://www.arnoldwender.com
  * License: GPLv2 or later
@@ -27,7 +27,7 @@ if ( ! defined( 'WPINC' ) ) {
 
 // Define plugin constants.
 if ( ! defined( 'WM_NEWSTICKER_VERSION' ) ) {
-	define( 'WM_NEWSTICKER_VERSION', '1.4.7' );
+	define( 'WM_NEWSTICKER_VERSION', '1.4.8' );
 }
 if ( ! defined( 'WM_NEWSTICKER_PLUGIN_DIR' ) ) {
 	define( 'WM_NEWSTICKER_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
@@ -1389,7 +1389,7 @@ add_filter( 'plugin_action_links_' . plugin_basename( __FILE__ ), function( $lin
 add_filter( 'plugin_row_meta', function( $links, $file ) {
 	if ( plugin_basename( __FILE__ ) === $file ) {
 		$links[] = '<a href="' . esc_url( admin_url( 'admin.php?page=wm-newsticker' ) ) . '">' . esc_html__( 'Dokumentation', 'wm-newsticker' ) . '</a>';
-		$links[] = '<a href="' . esc_url( 'https://github.com/arnoldwender/wm-newsticker' ) . '" target="_blank" rel="noopener noreferrer">' . esc_html__( 'GitHub Repository', 'wm-newsticker' ) . '</a>';
+		$links[] = '<a href="' . esc_url( 'https://github.com/arnoldwender/wm-wp-newsticker' ) . '" target="_blank" rel="noopener noreferrer">' . esc_html__( 'GitHub Repository', 'wm-newsticker' ) . '</a>';
 	}
 	return $links;
 }, 10, 2 );

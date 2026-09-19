@@ -38,6 +38,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **The version tests checked their own mock.** `tests/test-suite.php` defined `WM_NEWSTICKER_VERSION` as 1.4.6 before loading the plugin, so the plugin's define was skipped and the assertions "Plugin version is 1.4.6", the adapter version and the SBOM `bom-ref` stayed green while the header said 1.4.7. The suite leaves the constant to `wm-newsticker.php` and requires header, constant, readme `Stable tag`, `package.json`, `block.json` and the newest release in this file to agree. The spoke adapter's fallback, a literal `'1.4.6'` for the case the constant is missing, reads the header instead.
 - **This file skipped the plugin's release line.** It jumped from nothing to 1.0.0 / 1.1.0 / 1.1.1 (all 2026-08-27) while the plugin shipped 1.4.4 → 1.4.7. The entries [1.4.7] to [1.4.4] below are reconstructed from `git log -S` and `readme.txt`.
 
+## [1.4.8] - 2026-09-19
+
+- The `Plugin URI` header and the "GitHub Repository" row-meta link pointed at `arnoldwender/wm-newsticker`, which is PRIVATE: a 404 for every reader, and it published the internal repository's name. WordPress renders both in the plugin list of every installation. They point at the public repository now, as do `readme.txt` and `README.md`.
+- The author line read "Author & Lead Architect". "Architekt" is a title reserved by the Architektengesetz of each Land, and the line carried no domain word while sitting next to a German address and a German legal form. It reads "Author & Web Developer" now, in each of the translated READMEs.
+- The legal role is `Inhaber, Wender Media (Einzelunternehmen)` everywhere, including the German and Spanish READMEs, which the earlier pass did not reach because its rules named the English phrasings only.
+- `tests/run-mutations.sh` copied the working tree with `rsync` and discarded its error. `rsync` is not in ordinary CI base images; the copy came out empty and the runner reported "CONTROL FAILED — the unmutated copy is not green", blaming the tests for a copy that never happened. It uses `tar`, states what went wrong, and verifies the copy by counting what `git ls-files` listed against what arrived.
+
 ## [1.4.7] - 2026-08-27
 
 Reconstructed on 2026-09-15. `readme.txt` set `Stable tag: 1.4.7` with its list of changes in `b134162` (2026-08-27); header, `WM_NEWSTICKER_VERSION`, `package.json` and `block.json` followed in `ee59393` (2026-09-14). The code changes behind it:

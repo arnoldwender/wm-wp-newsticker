@@ -10,19 +10,19 @@ return [
 	[
 		'plugin header ahead of the other version fields',
 		[
-			[ 'wm-newsticker.php', ' * Version: 1.4.7', ' * Version: 1.4.8' ],
+			[ 'wm-newsticker.php', ' * Version: 1.4.8', ' * Version: 1.4.9' ],
 		],
 	],
 	[
 		'package.json behind the header',
 		[
-			[ 'package.json', '"version": "1.4.7"', '"version": "1.4.6"' ],
+			[ 'package.json', '"version": "1.4.8"', '"version": "1.4.7"' ],
 		],
 	],
 	[
 		'CHANGELOG newest release differs from the header',
 		[
-			[ 'CHANGELOG.md', '## [1.4.7] - 2026-08-27', '## [1.4.8] - 2026-08-27' ],
+			[ 'CHANGELOG.md', '## [1.4.8] - 2026-09-19', '## [1.4.9] - 2026-09-19' ],
 		],
 	],
 	[
@@ -33,7 +33,7 @@ return [
 				<<<'SEARCH'
 return preg_match( '/^\s*\*\s*Version:\s*(\S+)/m', $header, $m ) ? $m[1] : '';
 SEARCH,
-				"return '1.4.6';",
+				"return '1.4.7';",
 			],
 		],
 	],

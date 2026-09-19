@@ -39,12 +39,30 @@ unset selfcheck_out
 
 fresh_copy() {
   rm -rf "$WORK/repo" && mkdir -p "$WORK/repo"
-  (cd "$ROOT" && git ls-files -z --cached --others --exclude-standard) | rsync -a --from0 --files-from=- "$ROOT/" "$WORK/repo/" 2>/dev/null
+  # tar, not rsync: rsync is absent from ordinary base images (measured: ubuntu:24.04 ships tar and
+  # no rsync) and the fleet's CI runs in a container. The error is no longer sent to /dev/null,
+  # because the one sentence that says what happened was the one being discarded.
+  local expected copied
+  expected=$( (cd "$ROOT" && git ls-files -z --cached --others --exclude-standard) | tr -dc '\0' | wc -c | tr -d ' ' )
+  if ! (cd "$ROOT" && git ls-files -z --cached --others --exclude-standard | tar -c -f - --null -T -) \
+       | (cd "$WORK/repo" && tar -x -f -); then
+    echo "COPY FAILED  could not copy the working tree into $WORK/repo (is tar present?)" >&2
+    return 1
+  fi
+  # The exit status of a pipeline is not evidence that anything was copied: the extracting tar exits
+  # 0 when it receives nothing. Counting is the check that holds whatever the repository's layout is
+  # — an earlier version of this guard required tests/mutations.php and refused the one repository
+  # that keeps its mutations inside this script. Symlinks count: git lists them and tar copies them.
+  copied=$(find "$WORK/repo" \( -type f -o -type l \) | wc -l | tr -d ' ')
+  if [ "$copied" -lt "$expected" ]; then
+    echo "COPY SHORT   copied $copied of $expected file(s) into $WORK/repo" >&2
+    return 1
+  fi
 }
 
 count=$(php -r 'echo count(require $argv[1]);' "$ROOT/tests/mutations.php")
 
-fresh_copy
+fresh_copy || exit 1
 # Exit 0 alone is not green: a file that leaves PHP mode early prints its source and exits 0 without
 # running one assertion. The control must also print the results line with 0 failures.
 control_out=$(cd "$WORK/repo" && php tests/test-suite.php 2>&1)
@@ -58,7 +76,7 @@ echo "CONTROL      unmutated copy green ($(printf '%s\n' "$control_out" | grep -
 
 failed=0
 for ((i = 0; i < count; i++)); do
-  fresh_copy
+  fresh_copy || { failed=1; continue; }
   # Applies entry $i; prints the description, exits 3 when a search string does not occur exactly once.
   desc=$(php -r '
     $m = (require $argv[1])[(int) $argv[2]];
