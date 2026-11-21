@@ -1,0 +1,893 @@
+# Translation of WM Newsticker in tr_TR
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-newsticker 1.6.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-newsticker\n"
+"POT-Creation-Date: 2026-11-21T10:01:28+00:00\n"
+"PO-Revision-Date: 2026-11-21 11:03+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-newsticker/"
+"issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-newsticker/"
+"issues>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-newsticker\n"
+
+#. Plugin Name of the plugin
+#: wm-newsticker.php includes/class-newsticker-integrations.php:166
+#: wm-newsticker.php:963 wm-newsticker.php:1026 wm-newsticker.php:1027
+#: wm-newsticker.php:1058 wm-newsticker.php:1077
+msgid "WM Newsticker"
+msgstr "WM Newsticker"
+
+#. Plugin URI of the plugin
+#: wm-newsticker.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-newsticker/"
+msgstr "https://arnoldwender.com/wordpress-plugins/wm-newsticker/"
+
+#. Description of the plugin
+#: wm-newsticker.php
+msgid ""
+"A Gutenberg block for animated news tickers with scroll, fade, slide and "
+"typing animations."
+msgstr ""
+"Kaydırma, solma, kayarak geçiş ve daktilo efektlerine sahip animasyonlu "
+"haber bantları için Gutenberg bloğu."
+
+#. Author of the plugin
+#: wm-newsticker.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-newsticker.php
+msgid "https://arnoldwender.com"
+msgstr "https://arnoldwender.com"
+
+#: includes/class-newsticker-integrations.php:48
+msgid "WM Newsticker Feed"
+msgstr "WM Newsticker Akışı"
+
+#: includes/class-newsticker-integrations.php:96
+msgid "WM Newsticker Headline"
+msgstr "WM Newsticker Manşeti"
+
+#: includes/class-newsticker-integrations.php:100
+msgid ""
+"Outputs a cached headline from WM Newsticker inside any GenerateBlocks Text "
+"or Element block."
+msgstr ""
+"Önbelleğe alınmış bir WM Newsticker manşetini herhangi bir GenerateBlocks "
+"Metin veya Öğe bloğu içinde gösterir."
+
+#: includes/class-newsticker-integrations.php:104
+msgid "Post type slug"
+msgstr "Yazı türü kısa adı"
+
+#: includes/class-newsticker-integrations.php:109
+msgid "Headline index (0 = newest)"
+msgstr "Manşet dizini (0 = en yeni)"
+
+#: includes/class-newsticker-integrations.php:114
+msgid "Field"
+msgstr "Alan"
+
+#: includes/class-newsticker-integrations.php:119
+msgid "Headline text"
+msgstr "Manşet metni"
+
+#: includes/class-newsticker-integrations.php:123
+msgid "Permalink URL"
+msgstr "Kalıcı bağlantı URL’si"
+
+#: includes/class-newsticker-integrations.php:174
+msgid "Breaking News Ticker Bar"
+msgstr "Son Dakika Haber Bandı"
+
+#: includes/class-newsticker-integrations.php:175
+msgid "Full-width news ticker bar with accessible controls and recent posts."
+msgstr ""
+"Erişilebilir denetimler ve son yazılar içeren tam genişlikte haber bandı."
+
+#: includes/class-newsticker-integrations.php:177 src/index.js:315
+msgid "NEWS"
+msgstr "HABERLER"
+
+#: includes/class-newsticker-integrations.php:185
+msgid "GenerateBlocks Section with News Ticker"
+msgstr "Haber Bantlı GenerateBlocks Bölümü"
+
+#: includes/class-newsticker-integrations.php:186
+msgid ""
+"Two-layer GenerateBlocks section (gbp-section + gbp-section__inner) "
+"embedding WM Newsticker with GeneratePress global colour tokens."
+msgstr ""
+"WM Newsticker ve GeneratePress genel renk belirteçlerini barındıran iki "
+"katmanlı GenerateBlocks bölümü (gbp-section + gbp-section__inner)."
+
+#: includes/class-newsticker-integrations.php:192
+msgid "AKTUELL"
+msgstr "SON DAKİKA"
+
+#: includes/class-newsticker-integrations.php:213
+msgid "Get Newsticker Headlines"
+msgstr "Haber Bandı Manşetlerini Getir"
+
+#: includes/class-newsticker-integrations.php:214
+msgid ""
+"Returns sanitized, cached public headlines from WM Newsticker for a public "
+"post type."
+msgstr ""
+"Herkese açık bir yazı türü için WM Newsticker’dan temizlenmiş ve önbelleğe "
+"alınmış manşetleri döndürür."
+
+#: wm-newsticker.php:478
+msgid "ago"
+msgstr "önce"
+
+#: wm-newsticker.php:635
+msgid "News ticker"
+msgstr "Haber bandı"
+
+#: wm-newsticker.php:722
+msgid "Previous"
+msgstr "Önceki"
+
+#: wm-newsticker.php:731 wm-newsticker.php:732
+msgid "Pause"
+msgstr "Duraklat"
+
+#: wm-newsticker.php:733
+msgid "Play"
+msgstr "Oynat"
+
+#: wm-newsticker.php:745
+msgid "Next"
+msgstr "Sonraki"
+
+#: wm-newsticker.php:873
+msgid "Part of the WM Suite plugin family"
+msgstr "WM Suite eklenti ailesinin bir parçası"
+
+#: wm-newsticker.php:875
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: wm-newsticker.php:876
+msgid "Hub"
+msgstr "Hub modu"
+
+#: wm-newsticker.php:876
+msgid "Standalone"
+msgstr "Bağımsız"
+
+#: wm-newsticker.php:892
+msgid "LIVE"
+msgstr "CANLI"
+
+#: wm-newsticker.php:897
+msgid "Die Laufbewegung ist eine CSS-Animation (transform)"
+msgstr "Kayan hareket CSS animasyonu (transform) kullanır"
+
+#: wm-newsticker.php:898
+msgid "Mit der Maus über dem Ticker hält die Bewegung an"
+msgstr "Fareyle bandın üzerine gelindiğinde hareket durur"
+
+#: wm-newsticker.php:899
+msgid "prefers-reduced-motion stoppt die Animation"
+msgstr "prefers-reduced-motion animasyonu durdurur"
+
+#: wm-newsticker.php:900
+msgid "Dynamische Beiträge kommen 5 Minuten aus dem Transient-Cache"
+msgstr "Dinamik yazılar 5 dakika boyunca geçici önbellekten sunulur"
+
+#: wm-newsticker.php:985
+msgid "Block wm/newsticker registriert"
+msgstr "wm/newsticker bloğu kayıtlı"
+
+#: wm-newsticker.php:987
+msgid "Block wm/newsticker ist nicht registriert"
+msgstr "wm/newsticker bloğu kayıtlı değil"
+
+#: wm-newsticker.php:991
+msgid ""
+"Pause bei Hover und Fokus im Ticker, keine Bewegung bei prefers-reduced-"
+"motion"
+msgstr ""
+"Üzerine gelince ve bant içinde odaklanınca duraklar; prefers-reduced-motion "
+"ile hareket etmez"
+
+#: wm-newsticker.php:998
+msgid "Seiten mit Ticker"
+msgstr "Bant içeren sayfalar"
+
+#: wm-newsticker.php:1002
+msgid "Demo-Beiträge"
+msgstr "Demo yazılar"
+
+#: wm-newsticker.php:1006
+msgid "Cache-Einträge"
+msgstr "Önbellek kayıtları"
+
+#: wm-newsticker.php:1012
+msgid "Showcase & Handbuch öffnen"
+msgstr "Vitrin ve Kılavuzu Aç"
+
+#: wm-newsticker.php:1038
+msgid "WM Newsticker — Übersicht & Showcase"
+msgstr "WM Newsticker — Genel Bakış ve Vitrin"
+
+#: wm-newsticker.php:1039
+msgid "Übersicht & Showcase"
+msgstr "Genel Bakış ve Vitrin"
+
+#: wm-newsticker.php:1048
+msgid "WM Newsticker — Handbuch & Dokumentation"
+msgstr "WM Newsticker — Kılavuz ve Belgeler"
+
+#: wm-newsticker.php:1049 wm-newsticker.php:1295
+msgid "Handbuch"
+msgstr "Kılavuz"
+
+#: wm-newsticker.php:1057
+msgid "WM Newsticker Handbuch & Konfiguration"
+msgstr "WM Newsticker Kılavuzu ve Yapılandırma"
+
+#: wm-newsticker.php:1076
+msgid "Gutenberg Block Integration"
+msgstr "Gutenberg Blok Entegrasyonu"
+
+#: wm-newsticker.php:1077
+msgid ""
+"ist ein nativer Gutenberg-Block. Fügen Sie ihn in jedem Beitrag oder jeder "
+"Seite über den Gutenberg-Inserter unter der Kategorie \"Widgets\" oder durch "
+"Eintippen von \"/newsticker\" ein."
+msgstr ""
+"yerleşik bir Gutenberg bloğudur. Herhangi bir yazı veya sayfaya "
+"\"Bileşenler\" kategorisinden ya da \"/newsticker\" yazarak ekleyin."
+
+#: wm-newsticker.php:1082
+msgid "Barrierefreiheit"
+msgstr "Erişilebilirlik"
+
+#: wm-newsticker.php:1083
+msgid ""
+"Die Bewegung hält bei Hover (Blockeinstellung) sowie bei Fokus auf einem "
+"Link im Ticker an und läuft nicht, wenn im System \"Bewegung reduzieren\" "
+"(prefers-reduced-motion) aktiv ist. Die Steuerung ist standardmäßig "
+"eingeblendet (mindestens 44 x 44 px) und lässt sich per Tastatur bedienen."
+msgstr ""
+"Hareket, fare üzerine geldiğinde (blok ayarı) ve banttaki bir bağlantı "
+"klavye odağı aldığında duraklar; sistemde \"Hareketi azalt\" (prefers-"
+"reduced-motion) etkinse çalışmaz. Denetimler varsayılan olarak görünürdür "
+"(en az 44 x 44 px) ve klavyeyle kullanılabilir."
+
+#: wm-newsticker.php:1088
+msgid "Transient-Cache"
+msgstr "Geçici Önbellek (Transient)"
+
+#: wm-newsticker.php:1089
+msgid ""
+"Dynamische Beiträge werden für 5 Minuten im WordPress Transient Cache "
+"zwischengespeichert. Bei jeder Beitrags-Aktualisierung (save_post) oder "
+"Löschung wird der Cache automatisch invalidiert."
+msgstr ""
+"Dinamik yazılar WordPress Geçici Önbelleğinde 5 dakika saklanır. Her yazı "
+"kaydında (save_post) veya silindiğinde önbellek otomatik temizlenir."
+
+#: wm-newsticker.php:1093
+msgid "Block-Dokumentation:"
+msgstr "Blok Belgeleri:"
+
+#: wm-newsticker.php:1094
+msgid "Entwickelt von WM Suite."
+msgstr "WM Suite tarafından geliştirildi."
+
+#: wm-newsticker.php:1288
+msgid "Unzureichende Berechtigungen."
+msgstr "Yetersiz yetki."
+
+#: wm-newsticker.php:1296
+msgid "WM Newsticker — Handbuch"
+msgstr "WM Newsticker — Kılavuz"
+
+#: wm-newsticker.php:1297
+msgid ""
+"Gutenberg-Block für Laufband, Überblendung, Slide und Schreibmaschine, mit "
+"manuellen Meldungen oder den neuesten Beiträgen."
+msgstr ""
+"Manuel duyurular veya son yazılarla kayan yazı, solma, kaydırma ve daktilo "
+"için Gutenberg bloğu."
+
+#. translators: %d: number of demo headlines created
+#: wm-newsticker.php:1306
+#, php-format
+msgid ""
+"Erfolg: %d Demo-Meldungen und eine interaktive Demo-Hub-Seite wurden "
+"erfolgreich erstellt."
+msgstr "Başarılı: %d demo duyuru ve etkileşimli vitrin sayfası oluşturuldu."
+
+#. translators: %d: number of demo posts and pages deleted
+#: wm-newsticker.php:1319
+#, php-format
+msgid ""
+"%d Demo-Beiträge und Showcase-Seiten wurden gelöscht. Der Transient-Cache "
+"wurde geleert."
+msgstr "%d demo yazı ve vitrin sayfası silindi. Geçici önbellek temizlendi."
+
+#: wm-newsticker.php:1329
+msgid "Werkseinstellungen wiederhergestellt:"
+msgstr "Fabrika ayarları geri yüklendi:"
+
+#: wm-newsticker.php:1329
+msgid "Alle Demo-Daten und Caches wurden restlos bereinigt."
+msgstr "Tüm demo verileri ve önbellekler tamamen temizlendi."
+
+#: wm-newsticker.php:1335
+msgid "Deinstallations-Einstellung gespeichert."
+msgstr "Kaldırma tercihi kaydedildi."
+
+#: wm-newsticker.php:1341
+msgid "Live-Vorschau & Ticker-Test"
+msgstr "Canlı Önizleme ve Bant Testi"
+
+#: wm-newsticker.php:1343
+msgid ""
+"Der Block, wie er im Frontend rendert: echte Ausgabe von render_block() mit "
+"vier manuellen Meldungen. Hover hält die Bewegung an, die Steuerung ist per "
+"Tastatur bedienbar."
+msgstr ""
+"Bloğun ön yüzde işlendiği gerçek görünümü: dört manuel duyuruyla gerçek "
+"render_block() çıktısı. Üzerine gelmek duraklatır, düğmeler klavyeyle "
+"çalışır."
+
+#: wm-newsticker.php:1353
+msgid "1. Block-Konfiguration (Inspector Controls)"
+msgstr "1. Blok Yapılandırması (Inspector Controls)"
+
+#: wm-newsticker.php:1364
+msgid "2. Barrierefreiheit"
+msgstr "2. Erişilebilirlik"
+
+#: wm-newsticker.php:1366
+msgid ""
+"Laufband und Überblendung bewegen sich nicht, wenn im System \"Bewegung "
+"reduzieren\" aktiv ist."
+msgstr ""
+"Sistemde \"Hareketi azalt\" açık olduğunda kayan yazı ve solma hareketsiz "
+"kalır."
+
+#: wm-newsticker.php:1367
+msgid ""
+"Die Steuerung ist standardmäßig aktiv, mindestens 44 x 44 px groß und "
+"besitzt sichtbare Fokusrahmen. Fokus auf einem Link im Ticker hält die "
+"Bewegung an."
+msgstr ""
+"Denetimler varsayılan olarak etkindir, en az 44 x 44 px boyutundadır ve "
+"görünür odak halkalarına sahiptir. Bağlantıya odaklanmak hareketi duraklatır."
+
+#: wm-newsticker.php:1368
+msgid ""
+"Landmark mit role=\"region\", aria-roledescription=\"marquee\", übersetztem "
+"Button-Status und aria-live=\"off\"."
+msgstr ""
+"role=\"region\", aria-roledescription=\"marquee\", çevrilmiş düğme durumu ve "
+"aria-live=\"off\" içeren bölge."
+
+#: wm-newsticker.php:1375
+msgid "3. PHP Hooks, Block Bindings & GenerateBlocks API"
+msgstr "3. PHP Kancaları, Block Bindings ve GenerateBlocks API"
+
+#: wm-newsticker.php:1377
+msgid ""
+"Erweitern Sie Abfragen und Einträge per Filter (wm_newsticker_query_args, "
+"wm_newsticker_rendered_items), binden Sie Überschriften über die WordPress "
+"Block Bindings Quelle wm-newsticker/feed ein oder nutzen Sie in "
+"GenerateBlocks 2.x das Dynamic Tag {{wm_newsticker_headline}}."
+msgstr ""
+"Sorguları ve öğeleri kancalarla (wm_newsticker_query_args, "
+"wm_newsticker_rendered_items) filtreleyin, manşetleri wm-newsticker/feed ile "
+"bağlayın veya GenerateBlocks 2.x içinde {{wm_newsticker_headline}} etiketini "
+"kullanın."
+
+#: wm-newsticker.php:1392
+msgid "4. Demodaten-Management & Werkseinstellungen (Reset)"
+msgstr "4. Demo Veri Yönetimi ve Fabrika Sıfırlaması"
+
+#: wm-newsticker.php:1394
+msgid ""
+"Generieren Sie Beispielmeldungen und eine fertige Showcase-Gutenberg-Seite "
+"zum sofortigen Testen oder bereinigen Sie alle Caches und Beispieldaten."
+msgstr ""
+"Örnek duyurular ve teste hazır bir Gutenberg vitrin sayfası oluşturun ya da "
+"tüm önbellekleri ve örnek verileri temizleyin."
+
+#: wm-newsticker.php:1403
+msgid "Demodaten & Showcase-Seite importieren"
+msgstr "Demo Verilerini ve Vitrin Sayfasını İçe Aktar"
+
+#: wm-newsticker.php:1408
+msgid ""
+"Möchten Sie alle generierten Demo-Meldungen und Showcase-Seiten löschen?"
+msgstr ""
+"Oluşturulan tüm demo duyuruları ve vitrin sayfalarını silmek istiyor musunuz?"
+
+#: wm-newsticker.php:1412
+msgid "Demodaten bereinigen"
+msgstr "Demo Verilerini Temizle"
+
+#: wm-newsticker.php:1423
+msgid ""
+"Angelegte Demo-Beiträge und Beispielseiten bei der Plugin-Deinstallation "
+"automatisch mitlöschen"
+msgstr ""
+"Eklenti kaldırıldığında eklentinin oluşturduğu demo yazıları ve örnek "
+"sayfaları otomatik sil"
+
+#: wm-newsticker.php:1426
+msgid "Einstellung speichern"
+msgstr "Tercihi kaydet"
+
+#: wm-newsticker.php:1436
+msgid "Gefahrenbereich: Auf Werkseinstellungen zurücksetzen"
+msgstr "Tehlikeli Bölge: Fabrika Ayarlarına Sıfırla"
+
+#: wm-newsticker.php:1439
+msgid ""
+"Löscht die vom Plugin angelegten Demo-Beiträge und die Beispielseite und "
+"leert den Ticker-Cache. Das Plugin speichert keine eigenen Einstellungen; "
+"die Blöcke in Ihren Seiten behalten ihre Attribute."
+msgstr ""
+"Eklentinin oluşturduğu demo yazıları ve örnek sayfayı siler ve bant "
+"önbelleğini boşaltır. Sayfalarınızdaki bloklar ayarlarını korur."
+
+#: wm-newsticker.php:1441
+msgid ""
+"WARNUNG: Sind Sie sicher? Dies leert alle Ticker-Caches und setzt das Plugin "
+"zurück!"
+msgstr ""
+"UYARI: Emin misiniz? Bu işlem tüm bant önbelleklerini temizler ve eklentiyi "
+"sıfırlar!"
+
+#: wm-newsticker.php:1445
+msgid "Werkseinstellungen wiederherstellen (Factory Reset)"
+msgstr "Fabrika Ayarlarını Geri Yükle (Factory Reset)"
+
+#: wm-newsticker.php:1453
+msgid "5. Häufige Fragen & Troubleshooting"
+msgstr "5. Sık Sorulan Sorular ve Sorun Giderme"
+
+#: wm-newsticker.php:1476
+msgid "Handbuch & Vorschau"
+msgstr "Kılavuz ve Önizleme"
+
+#: wm-newsticker.php:1484
+msgid "Dokumentation"
+msgstr "Belgeler"
+
+#: wm-newsticker.php:1485
+msgid "GitHub Repository"
+msgstr "GitHub Deposu"
+
+#: src/index.js:34
+msgid "Newsticker"
+msgstr "Haber Bandı"
+
+#: src/index.js:35
+msgid "Displays announcements in a ticker format with customizable links."
+msgstr ""
+"Duyuruları özelleştirilebilir bağlantılarla animasyonlu bir bant biçiminde "
+"gösterir."
+
+#: src/index.js:38
+msgid "news"
+msgstr "haberler"
+
+#: src/index.js:38
+msgid "ticker"
+msgstr "bant"
+
+#: src/index.js:38
+msgid "announcements"
+msgstr "duyurular"
+
+#: src/index.js:355
+msgid "Scroll (Marquee)"
+msgstr "Kaydırma (Marquee)"
+
+#: src/index.js:356
+msgid "Fade"
+msgstr "Solma"
+
+#: src/index.js:357
+msgid "Slide"
+msgstr "Kayarak Geçiş"
+
+#: src/index.js:358
+msgid "Typing"
+msgstr "Daktilo"
+
+#: src/index.js:362 src/index.js:369
+msgid "Left"
+msgstr "Sol"
+
+#: src/index.js:363 src/index.js:370
+msgid "Right"
+msgstr "Sağ"
+
+#: src/index.js:364
+msgid "Up"
+msgstr "Yukarı"
+
+#: src/index.js:365
+msgid "Down"
+msgstr "Aşağı"
+
+#: src/index.js:374
+msgid "Manual announcements"
+msgstr "Manuel duyurular"
+
+#: src/index.js:375
+msgid "Recent posts"
+msgstr "Son yazılar"
+
+#: src/index.js:379
+msgid "Date"
+msgstr "Tarih"
+
+#: src/index.js:380
+msgid "Title"
+msgstr "Başlık"
+
+#: src/index.js:381
+msgid "Last modified"
+msgstr "Son değişiklik"
+
+#: src/index.js:382
+msgid "Random"
+msgstr "Rastgele"
+
+#: src/index.js:383
+msgid "Comment count"
+msgstr "Yorum sayısı"
+
+#: src/index.js:387
+msgid "Descending (newest first)"
+msgstr "Azalan (en yeniler önce)"
+
+#: src/index.js:388
+msgid "Ascending (oldest first)"
+msgstr "Artan (en eskiler önce)"
+
+#: src/index.js:392
+msgid "Relative (e.g., 2 hours ago)"
+msgstr "Göreli (ör. 2 saat önce)"
+
+#: src/index.js:393
+msgid "Absolute (site format)"
+msgstr "Mutlak (site biçimi)"
+
+#: src/index.js:402
+msgid "Animation"
+msgstr "Animasyon"
+
+#: src/index.js:404
+msgid "Animation type"
+msgstr "Animasyon türü"
+
+#: src/index.js:408
+msgid "Choose how announcements are displayed"
+msgstr "Duyuruların nasıl görüntüleneceğini seçin"
+
+#: src/index.js:411
+msgid "Direction"
+msgstr "Yön"
+
+#: src/index.js:417
+msgid "Speed"
+msgstr "Hız"
+
+#: src/index.js:422
+msgid "Higher value = faster"
+msgstr "Daha yüksek değer = daha hızlı"
+
+#: src/index.js:425
+msgid "Pause on hover"
+msgstr "Üzerine gelince duraklat"
+
+#: src/index.js:430
+msgid "RTL (Right-to-Left)"
+msgstr "RTL (Sağdan Sola)"
+
+#: src/index.js:433
+msgid "Enable for Arabic, Hebrew, etc."
+msgstr "Arapça, İbranice vb. için etkinleştirin"
+
+#: src/index.js:437
+msgid "Controls"
+msgstr "Denetimler"
+
+#: src/index.js:439
+msgid "Show controls"
+msgstr "Denetimleri göster"
+
+#: src/index.js:442
+msgid "Display Play/Pause and Prev/Next buttons"
+msgstr "Oynat/Duraklat ve Önceki/Sonraki düğmelerini göster"
+
+#: src/index.js:447
+msgid "Controls position"
+msgstr "Denetim konumu"
+
+#: src/index.js:453
+msgid "Play/Pause button"
+msgstr "Oynat/Duraklat düğmesi"
+
+#: src/index.js:458
+msgid "Previous/Next buttons"
+msgstr "Önceki/Sonraki düğmeleri"
+
+#: src/index.js:461
+msgid "Only works with Fade/Slide/Typing animations"
+msgstr "Yalnızca Solma/Kayarak Geçiş/Daktilo animasyonlarıyla çalışır"
+
+#: src/index.js:464
+msgid "Progress indicator"
+msgstr "İlerleme göstergesi"
+
+#: src/index.js:467
+msgid "Shows a progress bar at the bottom"
+msgstr "Alt kısımda bir ilerleme çubuğu gösterir"
+
+#: src/index.js:473
+msgid "General Settings"
+msgstr "Genel Ayarlar"
+
+#: src/index.js:475 src/index.js:548
+msgid "Label text"
+msgstr "Etiket metni"
+
+#: src/index.js:479
+msgid "Leave empty to hide the label on the frontend"
+msgstr "Ön yüzde etiketi gizlemek için boş bırakın"
+
+#: src/index.js:483
+msgid "Separator"
+msgstr "Ayırıcı"
+
+#: src/index.js:489
+msgid "Font size (px)"
+msgstr "Yazı tipi boyutu (px)"
+
+#: src/index.js:496
+msgid "Height (px)"
+msgstr "Yükseklik (px)"
+
+#: src/index.js:504
+msgid "Colors"
+msgstr "Renkler"
+
+#: src/index.js:506
+msgid "Ticker background"
+msgstr "Bant arka planı"
+
+#: src/index.js:520
+msgid "Text color"
+msgstr "Metin rengi"
+
+#: src/index.js:534
+msgid "Label background"
+msgstr "Etiket arka planı"
+
+#: src/index.js:562
+msgid "Border color"
+msgstr "Kenarlık rengi"
+
+#: src/index.js:579
+msgid "Spacing & Borders"
+msgstr "Boşluk ve Kenarlıklar"
+
+#: src/index.js:581
+msgid "Padding"
+msgstr "İç boşluk"
+
+#: src/index.js:591
+msgid "Margin"
+msgstr "Dış boşluk"
+
+#: src/index.js:601
+msgid "Border Radius"
+msgstr "Köşe yarıçapı"
+
+#: src/index.js:612
+msgid "Border Width"
+msgstr "Kenarlık genişliği"
+
+#: src/index.js:622
+msgid "Border Style"
+msgstr "Kenarlık stili"
+
+#: src/index.js:625
+msgid "Solid"
+msgstr "Düz"
+
+#: src/index.js:626
+msgid "Dashed"
+msgstr "Kesikli"
+
+#: src/index.js:627
+msgid "Dotted"
+msgstr "Noktalı"
+
+#: src/index.js:628 src/index.js:638
+msgid "None"
+msgstr "Yok"
+
+#: src/index.js:635
+msgid "Box Shadow"
+msgstr "Kutu gölgesi"
+
+#: src/index.js:639
+msgid "Small"
+msgstr "Küçük"
+
+#: src/index.js:640
+msgid "Medium"
+msgstr "Orta"
+
+#: src/index.js:641
+msgid "Large"
+msgstr "Büyük"
+
+#: src/index.js:642
+msgid "Inset"
+msgstr "İç"
+
+#: src/index.js:648
+msgid "Content Source"
+msgstr "İçerik Kaynağı"
+
+#: src/index.js:650
+msgid "Source"
+msgstr "Kaynak"
+
+#: src/index.js:659
+msgid "Post type"
+msgstr "Yazı türü"
+
+#: src/index.js:665
+msgid "Number of posts"
+msgstr "Yazı sayısı"
+
+#: src/index.js:673
+msgid "Filter by category"
+msgstr "Kategoriye göre filtrele"
+
+#: src/index.js:676
+msgid "All categories"
+msgstr "Tüm kategoriler"
+
+#: src/index.js:680
+msgid "Select a category to filter posts"
+msgstr "Yazıları filtrelemek için bir kategori seçin"
+
+#: src/index.js:685
+msgid "Filter by tag"
+msgstr "Etikete göre filtrele"
+
+#: src/index.js:688
+msgid "All tags"
+msgstr "Tüm etiketler"
+
+#: src/index.js:695
+msgid "Order by"
+msgstr "Sıralama ölçütü"
+
+#: src/index.js:701
+msgid "Order"
+msgstr "Sıralama"
+
+#: src/index.js:707
+msgid "Show date"
+msgstr "Tarihi göster"
+
+#: src/index.js:713
+msgid "Date format"
+msgstr "Tarih biçimi"
+
+#: src/index.js:721
+msgid "Loading posts..."
+msgstr "Yazılar yükleniyor…"
+
+#: src/index.js:726
+msgid "Preview:"
+msgstr "Önizleme:"
+
+#: src/index.js:726
+msgid "posts found"
+msgstr "yazı bulundu"
+
+#: src/index.js:731
+msgid "No posts found with current filters"
+msgstr "Geçerli filtrelerle yazı bulunamadı"
+
+#: src/index.js:744
+msgid "Announcement text"
+msgstr "Duyuru metni"
+
+#: src/index.js:749
+msgid "Link (optional)"
+msgstr "Bağlantı (isteğe bağlı)"
+
+#: src/index.js:755
+msgid "Open in new tab"
+msgstr "Yeni sekmede aç"
+
+#: src/index.js:767
+msgid "Move up"
+msgstr "Yukarı taşı"
+
+#: src/index.js:774
+msgid "Move down"
+msgstr "Aşağı taşı"
+
+#: src/index.js:781
+msgid "Delete"
+msgstr "Sil"
+
+#: src/index.js:794
+msgid "Add announcement"
+msgstr "Duyuru ekle"
+
+#: src/index.js:800
+msgid "About"
+msgstr "Hakkında"
+
+#: src/index.js:849
+msgid "Loading..."
+msgstr "Yükleniyor…"
+
+#: src/index.js:849
+msgid "No posts found"
+msgstr "Yazı bulunamadı"
+
+#: src/index.js:850
+msgid "Add announcements in the sidebar →"
+msgstr "Kenar çubuğundan duyuru ekleyin →"
+
+#: src/index.js:866
+msgid "(No text)"
+msgstr "(Metin yok)"
+
+#: block.json
+msgctxt "block title"
+msgid "Newsticker"
+msgstr "Haber Bandı"
+
+#: block.json
+msgctxt "block description"
+msgid "Displays announcements in a ticker format with customizable links."
+msgstr ""
+"Duyuruları özelleştirilebilir bağlantılarla animasyonlu bir bant biçiminde "
+"gösterir."
+
+#: block.json
+msgctxt "block keyword"
+msgid "news"
+msgstr "haberler"
+
+#: block.json
+msgctxt "block keyword"
+msgid "ticker"
+msgstr "bant"
+
+#: block.json
+msgctxt "block keyword"
+msgid "announcements"
+msgstr "duyurular"

@@ -1,0 +1,54 @@
+# The workspace's global ignore rule `/Assets/` matches this plugin's root assets/ on a
+# case-insensitive filesystem and kept the family sheets out of the repo (measured 2026-09-14:
+# `git ls-files assets` empty). Same negation as wm-suite-hub.
+!assets/
+!assets/**
+
+# Dependencies
+node_modules/
+
+# Build artifacts (keep build/ for distribution)
+# build/
+
+# Lock files
+package-lock.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.sublime-*
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+
+# WordPress
+*.sql
+*.sql.gz
+
+# Certificates and keys
+*.pem
+*.key
+# Local environment
+.env*.local
+
+# AI/internal docs — NEVER commit
+CLAUDE.md
+.claude/
+AGENTS.md
+agents.md
+instructions.md
+docs/superpowers/
+docs/development/
+
+# Packages / Archives
+*.zip
+*.tar.gz

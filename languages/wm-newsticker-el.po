@@ -1,0 +1,896 @@
+# Translation of WM Newsticker in el
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-newsticker 1.6.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-newsticker\n"
+"POT-Creation-Date: 2026-11-21T10:01:28+00:00\n"
+"PO-Revision-Date: 2026-11-21 11:03+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-newsticker/"
+"issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-newsticker/"
+"issues>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-newsticker\n"
+
+#. Plugin Name of the plugin
+#: wm-newsticker.php includes/class-newsticker-integrations.php:166
+#: wm-newsticker.php:963 wm-newsticker.php:1026 wm-newsticker.php:1027
+#: wm-newsticker.php:1058 wm-newsticker.php:1077
+msgid "WM Newsticker"
+msgstr "WM Newsticker"
+
+#. Plugin URI of the plugin
+#: wm-newsticker.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-newsticker/"
+msgstr "https://arnoldwender.com/wordpress-plugins/wm-newsticker/"
+
+#. Description of the plugin
+#: wm-newsticker.php
+msgid ""
+"A Gutenberg block for animated news tickers with scroll, fade, slide and "
+"typing animations."
+msgstr ""
+"Ένα μπλοκ Gutenberg για κινούμενες μπάρες ειδήσεων με εφέ κύλισης, "
+"σβησίματος, ολίσθησης και γραφομηχανής."
+
+#. Author of the plugin
+#: wm-newsticker.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-newsticker.php
+msgid "https://arnoldwender.com"
+msgstr "https://arnoldwender.com"
+
+#: includes/class-newsticker-integrations.php:48
+msgid "WM Newsticker Feed"
+msgstr "Ροή WM Newsticker"
+
+#: includes/class-newsticker-integrations.php:96
+msgid "WM Newsticker Headline"
+msgstr "Τίτλος WM Newsticker"
+
+#: includes/class-newsticker-integrations.php:100
+msgid ""
+"Outputs a cached headline from WM Newsticker inside any GenerateBlocks Text "
+"or Element block."
+msgstr ""
+"Εμφανίζει έναν αποθηκευμένο τίτλο από το WM Newsticker μέσα σε οποιοδήποτε "
+"μπλοκ Κειμένου ή Στοιχείου του GenerateBlocks."
+
+#: includes/class-newsticker-integrations.php:104
+msgid "Post type slug"
+msgstr "Slug τύπου δημοσίευσης"
+
+#: includes/class-newsticker-integrations.php:109
+msgid "Headline index (0 = newest)"
+msgstr "Δείκτης τίτλου (0 = νεότερο)"
+
+#: includes/class-newsticker-integrations.php:114
+msgid "Field"
+msgstr "Πεδίο"
+
+#: includes/class-newsticker-integrations.php:119
+msgid "Headline text"
+msgstr "Κείμενο τίτλου"
+
+#: includes/class-newsticker-integrations.php:123
+msgid "Permalink URL"
+msgstr "Μόνιμος σύνδεσμος URL"
+
+#: includes/class-newsticker-integrations.php:174
+msgid "Breaking News Ticker Bar"
+msgstr "Μπάρα έκτακτων ειδήσεων"
+
+#: includes/class-newsticker-integrations.php:175
+msgid "Full-width news ticker bar with accessible controls and recent posts."
+msgstr ""
+"Μπάρα ειδήσεων πλήρους πλάτους με προσβάσιμα χειριστήρια και πρόσφατα άρθρα."
+
+#: includes/class-newsticker-integrations.php:177 src/index.js:315
+msgid "NEWS"
+msgstr "ΕΙΔΗΣΕΙΣ"
+
+#: includes/class-newsticker-integrations.php:185
+msgid "GenerateBlocks Section with News Ticker"
+msgstr "Ενότητα GenerateBlocks με μπάρα ειδήσεων"
+
+#: includes/class-newsticker-integrations.php:186
+msgid ""
+"Two-layer GenerateBlocks section (gbp-section + gbp-section__inner) "
+"embedding WM Newsticker with GeneratePress global colour tokens."
+msgstr ""
+"Ενότητα δύο επιπέδων GenerateBlocks (gbp-section + gbp-section__inner) με το "
+"WM Newsticker και καθολικά χρώματα GeneratePress."
+
+#: includes/class-newsticker-integrations.php:192
+msgid "AKTUELL"
+msgstr "ΕΚΤΑΚΤΟ"
+
+#: includes/class-newsticker-integrations.php:213
+msgid "Get Newsticker Headlines"
+msgstr "Λήψη τίτλων μπάρας ειδήσεων"
+
+#: includes/class-newsticker-integrations.php:214
+msgid ""
+"Returns sanitized, cached public headlines from WM Newsticker for a public "
+"post type."
+msgstr ""
+"Επιστρέφει καθαρισμένους, αποθηκευμένους δημόσιους τίτλους από το WM "
+"Newsticker για δημόσιο τύπο περιεχομένου."
+
+#: wm-newsticker.php:478
+msgid "ago"
+msgstr "πριν"
+
+#: wm-newsticker.php:635
+msgid "News ticker"
+msgstr "Μπάρα ειδήσεων"
+
+#: wm-newsticker.php:722
+msgid "Previous"
+msgstr "Προηγούμενο"
+
+#: wm-newsticker.php:731 wm-newsticker.php:732
+msgid "Pause"
+msgstr "Παύση"
+
+#: wm-newsticker.php:733
+msgid "Play"
+msgstr "Αναπαραγωγή"
+
+#: wm-newsticker.php:745
+msgid "Next"
+msgstr "Επόμενο"
+
+#: wm-newsticker.php:873
+msgid "Part of the WM Suite plugin family"
+msgstr "Μέλος της οικογένειας προσθέτων WM Suite"
+
+#: wm-newsticker.php:875
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: wm-newsticker.php:876
+msgid "Hub"
+msgstr "Λειτουργία Hub"
+
+#: wm-newsticker.php:876
+msgid "Standalone"
+msgstr "Αυτόνομο"
+
+#: wm-newsticker.php:892
+msgid "LIVE"
+msgstr "ΖΩΝΤΑΝΑ"
+
+#: wm-newsticker.php:897
+msgid "Die Laufbewegung ist eine CSS-Animation (transform)"
+msgstr "Η συνεχής κύλιση χρησιμοποιεί κίνηση CSS (transform)"
+
+#: wm-newsticker.php:898
+msgid "Mit der Maus über dem Ticker hält die Bewegung an"
+msgstr "Το πέρασμα του ποντικιού πάνω από την μπάρα σταματά την κίνηση"
+
+#: wm-newsticker.php:899
+msgid "prefers-reduced-motion stoppt die Animation"
+msgstr "Το prefers-reduced-motion διακόπτει την κίνηση"
+
+#: wm-newsticker.php:900
+msgid "Dynamische Beiträge kommen 5 Minuten aus dem Transient-Cache"
+msgstr "Τα δυναμικά άρθρα σερβίρονται για 5 λεπτά από την προσωρινή μνήμη"
+
+#: wm-newsticker.php:985
+msgid "Block wm/newsticker registriert"
+msgstr "Το μπλοκ wm/newsticker καταχωρήθηκε"
+
+#: wm-newsticker.php:987
+msgid "Block wm/newsticker ist nicht registriert"
+msgstr "Το μπλοκ wm/newsticker δεν έχει καταχωρηθεί"
+
+#: wm-newsticker.php:991
+msgid ""
+"Pause bei Hover und Fokus im Ticker, keine Bewegung bei prefers-reduced-"
+"motion"
+msgstr ""
+"Παύση σε αιώρηση και εστίαση στην μπάρα· χωρίς κίνηση με prefers-reduced-"
+"motion"
+
+#: wm-newsticker.php:998
+msgid "Seiten mit Ticker"
+msgstr "Σελίδες με μπάρα"
+
+#: wm-newsticker.php:1002
+msgid "Demo-Beiträge"
+msgstr "Δοκιμαστικά άρθρα"
+
+#: wm-newsticker.php:1006
+msgid "Cache-Einträge"
+msgstr "Εγγραφές μνήμης"
+
+#: wm-newsticker.php:1012
+msgid "Showcase & Handbuch öffnen"
+msgstr "Άνοιγμα παρουσίασης & εγχειριδίου"
+
+#: wm-newsticker.php:1038
+msgid "WM Newsticker — Übersicht & Showcase"
+msgstr "WM Newsticker — Επισκόπηση & Παρουσίαση"
+
+#: wm-newsticker.php:1039
+msgid "Übersicht & Showcase"
+msgstr "Επισκόπηση & Παρουσίαση"
+
+#: wm-newsticker.php:1048
+msgid "WM Newsticker — Handbuch & Dokumentation"
+msgstr "WM Newsticker — Εγχειρίδιο & Τεκμηρίωση"
+
+#: wm-newsticker.php:1049 wm-newsticker.php:1295
+msgid "Handbuch"
+msgstr "Εγχειρίδιο"
+
+#: wm-newsticker.php:1057
+msgid "WM Newsticker Handbuch & Konfiguration"
+msgstr "Εγχειρίδιο & Ρύθμιση WM Newsticker"
+
+#: wm-newsticker.php:1076
+msgid "Gutenberg Block Integration"
+msgstr "Ενσωμάτωση μπλοκ Gutenberg"
+
+#: wm-newsticker.php:1077
+msgid ""
+"ist ein nativer Gutenberg-Block. Fügen Sie ihn in jedem Beitrag oder jeder "
+"Seite über den Gutenberg-Inserter unter der Kategorie \"Widgets\" oder durch "
+"Eintippen von \"/newsticker\" ein."
+msgstr ""
+"είναι εγγενές μπλοκ Gutenberg. Εισαγάγετέ το σε οποιοδήποτε άρθρο ή σελίδα "
+"στην κατηγορία \"Μικροεφαρμογές\" ή πληκτρολογώντας \"/newsticker\"."
+
+#: wm-newsticker.php:1082
+msgid "Barrierefreiheit"
+msgstr "Προσβασιμότητα"
+
+#: wm-newsticker.php:1083
+msgid ""
+"Die Bewegung hält bei Hover (Blockeinstellung) sowie bei Fokus auf einem "
+"Link im Ticker an und läuft nicht, wenn im System \"Bewegung reduzieren\" "
+"(prefers-reduced-motion) aktiv ist. Die Steuerung ist standardmäßig "
+"eingeblendet (mindestens 44 x 44 px) und lässt sich per Tastatur bedienen."
+msgstr ""
+"Η κίνηση σταματά κατά την αιώρηση (ρύθμιση μπλοκ) και όταν ένας σύνδεσμος "
+"στην μπάρα λάβει εστίαση πληκτρολογίου, και δεν εκτελείται όταν η \"Μείωση "
+"κίνησης\" (prefers-reduced-motion) είναι ενεργή. Τα χειριστήρια εμφανίζονται "
+"από προεπιλογή (τουλάχιστον 44 x 44 px) και λειτουργούν με πληκτρολόγιο."
+
+#: wm-newsticker.php:1088
+msgid "Transient-Cache"
+msgstr "Προσωρινή μνήμη Transient"
+
+#: wm-newsticker.php:1089
+msgid ""
+"Dynamische Beiträge werden für 5 Minuten im WordPress Transient Cache "
+"zwischengespeichert. Bei jeder Beitrags-Aktualisierung (save_post) oder "
+"Löschung wird der Cache automatisch invalidiert."
+msgstr ""
+"Τα δυναμικά άρθρα αποθηκεύονται για 5 λεπτά στην προσωρινή μνήμη του "
+"WordPress. Κάθε αποθήκευση (save_post) ή διαγραφή καθαρίζει αυτόματα τη "
+"μνήμη."
+
+#: wm-newsticker.php:1093
+msgid "Block-Dokumentation:"
+msgstr "Τεκμηρίωση μπλοκ:"
+
+#: wm-newsticker.php:1094
+msgid "Entwickelt von WM Suite."
+msgstr "Αναπτύχθηκε από τη WM Suite."
+
+#: wm-newsticker.php:1288
+msgid "Unzureichende Berechtigungen."
+msgstr "Ανεπαρκή δικαιώματα."
+
+#: wm-newsticker.php:1296
+msgid "WM Newsticker — Handbuch"
+msgstr "WM Newsticker — Εγχειρίδιο"
+
+#: wm-newsticker.php:1297
+msgid ""
+"Gutenberg-Block für Laufband, Überblendung, Slide und Schreibmaschine, mit "
+"manuellen Meldungen oder den neuesten Beiträgen."
+msgstr ""
+"Μπλοκ Gutenberg για κύλιση, σβήσιμο, ολίσθηση και γραφομηχανή με "
+"χειροκίνητες ανακοινώσεις ή πρόσφατα άρθρα."
+
+#. translators: %d: number of demo headlines created
+#: wm-newsticker.php:1306
+#, php-format
+msgid ""
+"Erfolg: %d Demo-Meldungen und eine interaktive Demo-Hub-Seite wurden "
+"erfolgreich erstellt."
+msgstr ""
+"Επιτυχία: δημιουργήθηκαν %d δοκιμαστικές ανακοινώσεις και σελίδα παρουσίασης."
+
+#. translators: %d: number of demo posts and pages deleted
+#: wm-newsticker.php:1319
+#, php-format
+msgid ""
+"%d Demo-Beiträge und Showcase-Seiten wurden gelöscht. Der Transient-Cache "
+"wurde geleert."
+msgstr ""
+"Διαγράφηκαν %d δοκιμαστικά άρθρα και σελίδες. Η προσωρινή μνήμη "
+"εκκαθαρίστηκε."
+
+#: wm-newsticker.php:1329
+msgid "Werkseinstellungen wiederhergestellt:"
+msgstr "Επαναφορά εργοστασιακών ρυθμίσεων:"
+
+#: wm-newsticker.php:1329
+msgid "Alle Demo-Daten und Caches wurden restlos bereinigt."
+msgstr "Όλα τα δοκιμαστικά δεδομένα και οι μνήμες καθαρίστηκαν πλήρως."
+
+#: wm-newsticker.php:1335
+msgid "Deinstallations-Einstellung gespeichert."
+msgstr "Η προτίμηση απεγκατάστασης αποθηκεύτηκε."
+
+#: wm-newsticker.php:1341
+msgid "Live-Vorschau & Ticker-Test"
+msgstr "Ζωντανή προεπισκόπηση & δοκιμή"
+
+#: wm-newsticker.php:1343
+msgid ""
+"Der Block, wie er im Frontend rendert: echte Ausgabe von render_block() mit "
+"vier manuellen Meldungen. Hover hält die Bewegung an, die Steuerung ist per "
+"Tastatur bedienbar."
+msgstr ""
+"Το μπλοκ όπως εμφανίζεται στον ιστότοπο: πραγματική έξοδος της "
+"render_block() με τέσσερις ανακοινώσεις. Η αιώρηση σταματά την κίνηση και τα "
+"κουμπιά λειτουργούν με πληκτρολόγιο."
+
+#: wm-newsticker.php:1353
+msgid "1. Block-Konfiguration (Inspector Controls)"
+msgstr "1. Ρύθμιση μπλοκ (Inspector Controls)"
+
+#: wm-newsticker.php:1364
+msgid "2. Barrierefreiheit"
+msgstr "2. Προσβασιμότητα"
+
+#: wm-newsticker.php:1366
+msgid ""
+"Laufband und Überblendung bewegen sich nicht, wenn im System \"Bewegung "
+"reduzieren\" aktiv ist."
+msgstr ""
+"Η κύλιση και το σβήσιμο μένουν ακίνητα όταν η \"Μείωση κίνησης\" είναι "
+"ενεργή στο σύστημα."
+
+#: wm-newsticker.php:1367
+msgid ""
+"Die Steuerung ist standardmäßig aktiv, mindestens 44 x 44 px groß und "
+"besitzt sichtbare Fokusrahmen. Fokus auf einem Link im Ticker hält die "
+"Bewegung an."
+msgstr ""
+"Τα χειριστήρια είναι ενεργά από προεπιλογή, έχουν μέγεθος τουλάχιστον 44 x "
+"44 px και ορατό περίγραμμα εστίασης. Η εστίαση σε σύνδεσμο σταματά την "
+"κίνηση."
+
+#: wm-newsticker.php:1368
+msgid ""
+"Landmark mit role=\"region\", aria-roledescription=\"marquee\", übersetztem "
+"Button-Status und aria-live=\"off\"."
+msgstr ""
+"Περιοχή με role=\"region\", aria-roledescription=\"marquee\", μεταφρασμένη "
+"κατάσταση κουμπιού και aria-live=\"off\"."
+
+#: wm-newsticker.php:1375
+msgid "3. PHP Hooks, Block Bindings & GenerateBlocks API"
+msgstr "3. Άγκιστρα PHP, Block Bindings & GenerateBlocks API"
+
+#: wm-newsticker.php:1377
+msgid ""
+"Erweitern Sie Abfragen und Einträge per Filter (wm_newsticker_query_args, "
+"wm_newsticker_rendered_items), binden Sie Überschriften über die WordPress "
+"Block Bindings Quelle wm-newsticker/feed ein oder nutzen Sie in "
+"GenerateBlocks 2.x das Dynamic Tag {{wm_newsticker_headline}}."
+msgstr ""
+"Φιλτράρετε ερωτήματα και στοιχεία με άγκιστρα (wm_newsticker_query_args, "
+"wm_newsticker_rendered_items), συνδέστε τίτλους μέσω wm-newsticker/feed ή "
+"χρησιμοποιήστε το {{wm_newsticker_headline}} στο GenerateBlocks 2.x."
+
+#: wm-newsticker.php:1392
+msgid "4. Demodaten-Management & Werkseinstellungen (Reset)"
+msgstr "4. Διαχείριση δοκιμαστικών δεδομένων & επαναφορά"
+
+#: wm-newsticker.php:1394
+msgid ""
+"Generieren Sie Beispielmeldungen und eine fertige Showcase-Gutenberg-Seite "
+"zum sofortigen Testen oder bereinigen Sie alle Caches und Beispieldaten."
+msgstr ""
+"Δημιουργήστε ενδεικτικές ανακοινώσεις και έτοιμη σελίδα Gutenberg ή "
+"καθαρίστε όλες τις μνήμες και τα δείγματα."
+
+#: wm-newsticker.php:1403
+msgid "Demodaten & Showcase-Seite importieren"
+msgstr "Εισαγωγή δοκιμαστικών δεδομένων & σελίδας"
+
+#: wm-newsticker.php:1408
+msgid ""
+"Möchten Sie alle generierten Demo-Meldungen und Showcase-Seiten löschen?"
+msgstr ""
+"Θέλετε να διαγράψετε όλες τις δημιουργημένες δοκιμαστικές ανακοινώσεις και "
+"σελίδες;"
+
+#: wm-newsticker.php:1412
+msgid "Demodaten bereinigen"
+msgstr "Εκκαθάριση δοκιμαστικών δεδομένων"
+
+#: wm-newsticker.php:1423
+msgid ""
+"Angelegte Demo-Beiträge und Beispielseiten bei der Plugin-Deinstallation "
+"automatisch mitlöschen"
+msgstr ""
+"Αυτόματη διαγραφή των δοκιμαστικών άρθρων και σελίδων κατά την απεγκατάσταση "
+"του προσθέτου"
+
+#: wm-newsticker.php:1426
+msgid "Einstellung speichern"
+msgstr "Αποθήκευση προτίμησης"
+
+#: wm-newsticker.php:1436
+msgid "Gefahrenbereich: Auf Werkseinstellungen zurücksetzen"
+msgstr "Ζώνη κινδύνου: εργοστασιακές ρυθμίσεις"
+
+#: wm-newsticker.php:1439
+msgid ""
+"Löscht die vom Plugin angelegten Demo-Beiträge und die Beispielseite und "
+"leert den Ticker-Cache. Das Plugin speichert keine eigenen Einstellungen; "
+"die Blöcke in Ihren Seiten behalten ihre Attribute."
+msgstr ""
+"Διαγράφει τα δοκιμαστικά άρθρα και τη σελίδα δείγματος του προσθέτου και "
+"αδειάζει τη μνήμη. Τα μπλοκ στις σελίδες σας διατηρούν τις ρυθμίσεις τους."
+
+#: wm-newsticker.php:1441
+msgid ""
+"WARNUNG: Sind Sie sicher? Dies leert alle Ticker-Caches und setzt das Plugin "
+"zurück!"
+msgstr ""
+"ΠΡΟΕΙΔΟΠΟΙΗΣΗ: είστε βέβαιοι; Αυτό θα αδειάσει όλες τις μνήμες και θα "
+"επαναφέρει το πρόσθετο!"
+
+#: wm-newsticker.php:1445
+msgid "Werkseinstellungen wiederherstellen (Factory Reset)"
+msgstr "Επαναφορά εργοστασιακών ρυθμίσεων (Factory Reset)"
+
+#: wm-newsticker.php:1453
+msgid "5. Häufige Fragen & Troubleshooting"
+msgstr "5. Συχνές ερωτήσεις & αντιμετώπιση προβλημάτων"
+
+#: wm-newsticker.php:1476
+msgid "Handbuch & Vorschau"
+msgstr "Εγχειρίδιο & προεπισκόπηση"
+
+#: wm-newsticker.php:1484
+msgid "Dokumentation"
+msgstr "Τεκμηρίωση"
+
+#: wm-newsticker.php:1485
+msgid "GitHub Repository"
+msgstr "Αποθετήριο GitHub"
+
+#: src/index.js:34
+msgid "Newsticker"
+msgstr "Μπάρα ειδήσεων"
+
+#: src/index.js:35
+msgid "Displays announcements in a ticker format with customizable links."
+msgstr ""
+"Εμφανίζει ανακοινώσεις σε κινούμενη μπάρα με προσαρμόσιμους συνδέσμους."
+
+#: src/index.js:38
+msgid "news"
+msgstr "ειδήσεις"
+
+#: src/index.js:38
+msgid "ticker"
+msgstr "μπάρα"
+
+#: src/index.js:38
+msgid "announcements"
+msgstr "ανακοινώσεις"
+
+#: src/index.js:355
+msgid "Scroll (Marquee)"
+msgstr "Κύλιση (Marquee)"
+
+#: src/index.js:356
+msgid "Fade"
+msgstr "Σβήσιμο"
+
+#: src/index.js:357
+msgid "Slide"
+msgstr "Ολίσθηση"
+
+#: src/index.js:358
+msgid "Typing"
+msgstr "Γραφομηχανή"
+
+#: src/index.js:362 src/index.js:369
+msgid "Left"
+msgstr "Αριστερά"
+
+#: src/index.js:363 src/index.js:370
+msgid "Right"
+msgstr "Δεξιά"
+
+#: src/index.js:364
+msgid "Up"
+msgstr "Πάνω"
+
+#: src/index.js:365
+msgid "Down"
+msgstr "Κάτω"
+
+#: src/index.js:374
+msgid "Manual announcements"
+msgstr "Χειροκίνητες ανακοινώσεις"
+
+#: src/index.js:375
+msgid "Recent posts"
+msgstr "Πρόσφατα άρθρα"
+
+#: src/index.js:379
+msgid "Date"
+msgstr "Ημερομηνία"
+
+#: src/index.js:380
+msgid "Title"
+msgstr "Τίτλος"
+
+#: src/index.js:381
+msgid "Last modified"
+msgstr "Τελευταία τροποποίηση"
+
+#: src/index.js:382
+msgid "Random"
+msgstr "Τυχαία"
+
+#: src/index.js:383
+msgid "Comment count"
+msgstr "Αριθμός σχολίων"
+
+#: src/index.js:387
+msgid "Descending (newest first)"
+msgstr "Φθίνουσα (νεότερα πρώτα)"
+
+#: src/index.js:388
+msgid "Ascending (oldest first)"
+msgstr "Αύξουσα (παλαιότερα πρώτα)"
+
+#: src/index.js:392
+msgid "Relative (e.g., 2 hours ago)"
+msgstr "Σχετική (π.χ. 2 ώρες πριν)"
+
+#: src/index.js:393
+msgid "Absolute (site format)"
+msgstr "Απόλυτη (μορφή ιστοτόπου)"
+
+#: src/index.js:402
+msgid "Animation"
+msgstr "Κίνηση"
+
+#: src/index.js:404
+msgid "Animation type"
+msgstr "Τύπος κίνησης"
+
+#: src/index.js:408
+msgid "Choose how announcements are displayed"
+msgstr "Επιλέξτε πώς εμφανίζονται οι ανακοινώσεις"
+
+#: src/index.js:411
+msgid "Direction"
+msgstr "Κατεύθυνση"
+
+#: src/index.js:417
+msgid "Speed"
+msgstr "Ταχύτητα"
+
+#: src/index.js:422
+msgid "Higher value = faster"
+msgstr "Μεγαλύτερη τιμή = ταχύτερα"
+
+#: src/index.js:425
+msgid "Pause on hover"
+msgstr "Παύση κατά την αιώρηση"
+
+#: src/index.js:430
+msgid "RTL (Right-to-Left)"
+msgstr "RTL (δεξιά προς αριστερά)"
+
+#: src/index.js:433
+msgid "Enable for Arabic, Hebrew, etc."
+msgstr "Ενεργοποίηση για αραβικά, εβραϊκά κ.λπ."
+
+#: src/index.js:437
+msgid "Controls"
+msgstr "Χειριστήρια"
+
+#: src/index.js:439
+msgid "Show controls"
+msgstr "Εμφάνιση χειριστηρίων"
+
+#: src/index.js:442
+msgid "Display Play/Pause and Prev/Next buttons"
+msgstr "Εμφάνιση κουμπιών Αναπαραγωγή/Παύση και Προηγούμενο/Επόμενο"
+
+#: src/index.js:447
+msgid "Controls position"
+msgstr "Θέση χειριστηρίων"
+
+#: src/index.js:453
+msgid "Play/Pause button"
+msgstr "Κουμπί Αναπαραγωγή/Παύση"
+
+#: src/index.js:458
+msgid "Previous/Next buttons"
+msgstr "Κουμπιά Προηγούμενο/Επόμενο"
+
+#: src/index.js:461
+msgid "Only works with Fade/Slide/Typing animations"
+msgstr "Λειτουργεί μόνο με Σβήσιμο/Ολίσθηση/Γραφομηχανή"
+
+#: src/index.js:464
+msgid "Progress indicator"
+msgstr "Ένδειξη προόδου"
+
+#: src/index.js:467
+msgid "Shows a progress bar at the bottom"
+msgstr "Εμφανίζει γραμμή προόδου στο κάτω μέρος"
+
+#: src/index.js:473
+msgid "General Settings"
+msgstr "Γενικές ρυθμίσεις"
+
+#: src/index.js:475 src/index.js:548
+msgid "Label text"
+msgstr "Κείμενο ετικέτας"
+
+#: src/index.js:479
+msgid "Leave empty to hide the label on the frontend"
+msgstr "Αφήστε κενό για απόκρυψη της ετικέτας στον ιστότοπο"
+
+#: src/index.js:483
+msgid "Separator"
+msgstr "Διαχωριστικό"
+
+#: src/index.js:489
+msgid "Font size (px)"
+msgstr "Μέγεθος γραμματοσειράς (px)"
+
+#: src/index.js:496
+msgid "Height (px)"
+msgstr "Ύψος (px)"
+
+#: src/index.js:504
+msgid "Colors"
+msgstr "Χρώματα"
+
+#: src/index.js:506
+msgid "Ticker background"
+msgstr "Φόντο μπάρας"
+
+#: src/index.js:520
+msgid "Text color"
+msgstr "Χρώμα κειμένου"
+
+#: src/index.js:534
+msgid "Label background"
+msgstr "Φόντο ετικέτας"
+
+#: src/index.js:562
+msgid "Border color"
+msgstr "Χρώμα περιγράμματος"
+
+#: src/index.js:579
+msgid "Spacing & Borders"
+msgstr "Αποστάσεις & περιγράμματα"
+
+#: src/index.js:581
+msgid "Padding"
+msgstr "Εσωτερικό περιθώριο"
+
+#: src/index.js:591
+msgid "Margin"
+msgstr "Εξωτερικό περιθώριο"
+
+#: src/index.js:601
+msgid "Border Radius"
+msgstr "Ακτίνα γωνιών"
+
+#: src/index.js:612
+msgid "Border Width"
+msgstr "Πλάτος περιγράμματος"
+
+#: src/index.js:622
+msgid "Border Style"
+msgstr "Στυλ περιγράμματος"
+
+#: src/index.js:625
+msgid "Solid"
+msgstr "Συμπαγές"
+
+#: src/index.js:626
+msgid "Dashed"
+msgstr "Διακεκομμένο"
+
+#: src/index.js:627
+msgid "Dotted"
+msgstr "Διάστικτο"
+
+#: src/index.js:628 src/index.js:638
+msgid "None"
+msgstr "Κανένα"
+
+#: src/index.js:635
+msgid "Box Shadow"
+msgstr "Σκιά πλαισίου"
+
+#: src/index.js:639
+msgid "Small"
+msgstr "Μικρή"
+
+#: src/index.js:640
+msgid "Medium"
+msgstr "Μεσαία"
+
+#: src/index.js:641
+msgid "Large"
+msgstr "Μεγάλη"
+
+#: src/index.js:642
+msgid "Inset"
+msgstr "Εσωτερική"
+
+#: src/index.js:648
+msgid "Content Source"
+msgstr "Πηγή περιεχομένου"
+
+#: src/index.js:650
+msgid "Source"
+msgstr "Πηγή"
+
+#: src/index.js:659
+msgid "Post type"
+msgstr "Τύπος δημοσίευσης"
+
+#: src/index.js:665
+msgid "Number of posts"
+msgstr "Αριθμός άρθρων"
+
+#: src/index.js:673
+msgid "Filter by category"
+msgstr "Φιλτράρισμα ανά κατηγορία"
+
+#: src/index.js:676
+msgid "All categories"
+msgstr "Όλες οι κατηγορίες"
+
+#: src/index.js:680
+msgid "Select a category to filter posts"
+msgstr "Επιλέξτε κατηγορία για φιλτράρισμα άρθρων"
+
+#: src/index.js:685
+msgid "Filter by tag"
+msgstr "Φιλτράρισμα ανά ετικέτα"
+
+#: src/index.js:688
+msgid "All tags"
+msgstr "Όλες οι ετικέτες"
+
+#: src/index.js:695
+msgid "Order by"
+msgstr "Ταξινόμηση κατά"
+
+#: src/index.js:701
+msgid "Order"
+msgstr "Σειρά"
+
+#: src/index.js:707
+msgid "Show date"
+msgstr "Εμφάνιση ημερομηνίας"
+
+#: src/index.js:713
+msgid "Date format"
+msgstr "Μορφή ημερομηνίας"
+
+#: src/index.js:721
+msgid "Loading posts..."
+msgstr "Φόρτωση άρθρων…"
+
+#: src/index.js:726
+msgid "Preview:"
+msgstr "Προεπισκόπηση:"
+
+#: src/index.js:726
+msgid "posts found"
+msgstr "άρθρα βρέθηκαν"
+
+#: src/index.js:731
+msgid "No posts found with current filters"
+msgstr "Δεν βρέθηκαν άρθρα με τα τρέχοντα φίλτρα"
+
+#: src/index.js:744
+msgid "Announcement text"
+msgstr "Κείμενο ανακοίνωσης"
+
+#: src/index.js:749
+msgid "Link (optional)"
+msgstr "Σύνδεσμος (προαιρετικό)"
+
+#: src/index.js:755
+msgid "Open in new tab"
+msgstr "Άνοιγμα σε νέα καρτέλα"
+
+#: src/index.js:767
+msgid "Move up"
+msgstr "Μετακίνηση πάνω"
+
+#: src/index.js:774
+msgid "Move down"
+msgstr "Μετακίνηση κάτω"
+
+#: src/index.js:781
+msgid "Delete"
+msgstr "Διαγραφή"
+
+#: src/index.js:794
+msgid "Add announcement"
+msgstr "Προσθήκη ανακοίνωσης"
+
+#: src/index.js:800
+msgid "About"
+msgstr "Σχετικά"
+
+#: src/index.js:849
+msgid "Loading..."
+msgstr "Φόρτωση…"
+
+#: src/index.js:849
+msgid "No posts found"
+msgstr "Δεν βρέθηκαν άρθρα"
+
+#: src/index.js:850
+msgid "Add announcements in the sidebar →"
+msgstr "Προσθέστε ανακοινώσεις στην πλαϊνή στήλη →"
+
+#: src/index.js:866
+msgid "(No text)"
+msgstr "(Χωρίς κείμενο)"
+
+#: block.json
+msgctxt "block title"
+msgid "Newsticker"
+msgstr "Μπάρα ειδήσεων"
+
+#: block.json
+msgctxt "block description"
+msgid "Displays announcements in a ticker format with customizable links."
+msgstr ""
+"Εμφανίζει ανακοινώσεις σε κινούμενη μπάρα με προσαρμόσιμους συνδέσμους."
+
+#: block.json
+msgctxt "block keyword"
+msgid "news"
+msgstr "ειδήσεις"
+
+#: block.json
+msgctxt "block keyword"
+msgid "ticker"
+msgstr "μπάρα"
+
+#: block.json
+msgctxt "block keyword"
+msgid "announcements"
+msgstr "ανακοινώσεις"

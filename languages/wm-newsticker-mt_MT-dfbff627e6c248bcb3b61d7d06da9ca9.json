@@ -1,0 +1,324 @@
+{
+  "translation-revision-date": "2026-11-16T20:55:00+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-newsticker",
+        "lang": "mt_MT",
+        "plural-forms": "nplurals=4; plural=(n==1 ? 0 : n==0 || (n%100>=2 && n%100<=10) ? 1 : (n%100>=11 && n%100<=19) ? 2 : 3);"
+      },
+      "NEWS": [
+        "AĦBARIJIET"
+      ],
+      "Newsticker": [
+        "Strixxa tal-Aħbarijiet"
+      ],
+      "Displays announcements in a ticker format with customizable links.": [
+        "Juri avviżi f’forma ta’ strixxa animata b’ħoloq personalizzabbli."
+      ],
+      "news": [
+        "aħbarijiet"
+      ],
+      "ticker": [
+        "strixxa"
+      ],
+      "announcements": [
+        "avviżi"
+      ],
+      "Scroll (Marquee)": [
+        "Skrolljar (Marquee)"
+      ],
+      "Fade": [
+        "Fading"
+      ],
+      "Slide": [
+        "Żliq"
+      ],
+      "Typing": [
+        "Tajprajter"
+      ],
+      "Left": [
+        "Xellug"
+      ],
+      "Right": [
+        "Lemin"
+      ],
+      "Up": [
+        "’Il fuq"
+      ],
+      "Down": [
+        "’L isfel"
+      ],
+      "Manual announcements": [
+        "Avviżi manwali"
+      ],
+      "Recent posts": [
+        "Artikli riċenti"
+      ],
+      "Date": [
+        "Data"
+      ],
+      "Title": [
+        "Titlu"
+      ],
+      "Last modified": [
+        "L-aħħar modifika"
+      ],
+      "Random": [
+        "Bl-addoċċ"
+      ],
+      "Comment count": [
+        "Għadd ta’ kummenti"
+      ],
+      "Descending (newest first)": [
+        "Nieżel (l-aktar ġodda l-ewwel)"
+      ],
+      "Ascending (oldest first)": [
+        "Tiela’ (l-aktar qodma l-ewwel)"
+      ],
+      "Relative (e.g., 2 hours ago)": [
+        "Relattiv (eż. sagħtejn ilu)"
+      ],
+      "Absolute (site format)": [
+        "Assolut (format tas-sit)"
+      ],
+      "Animation": [
+        "Animazzjoni"
+      ],
+      "Animation type": [
+        "Tip ta’ animazzjoni"
+      ],
+      "Choose how announcements are displayed": [
+        "Agħżel kif jintwerew l-avviżi"
+      ],
+      "Direction": [
+        "Direzzjoni"
+      ],
+      "Speed": [
+        "Veloċità"
+      ],
+      "Higher value = faster": [
+        "Valur ogħla = aktar mgħaġġel"
+      ],
+      "Pause on hover": [
+        "Pawża fuq hover"
+      ],
+      "RTL (Right-to-Left)": [
+        "RTL (mil-lemin għax-xellug)"
+      ],
+      "Enable for Arabic, Hebrew, etc.": [
+        "Ippermetti għall-Għarbi, l-Ebrajk, eċċ."
+      ],
+      "Controls": [
+        "Kontrolli"
+      ],
+      "Show controls": [
+        "Uri l-kontrolli"
+      ],
+      "Display Play/Pause and Prev/Next buttons": [
+        "Uri l-buttuni Ilgħab/Pawża u Ta’ qabel/Li jmiss"
+      ],
+      "Controls position": [
+        "Pożizzjoni tal-kontrolli"
+      ],
+      "Play/Pause button": [
+        "Buttuna Ilgħab/Pawża"
+      ],
+      "Previous/Next buttons": [
+        "Buttuni Ta’ qabel/Li jmiss"
+      ],
+      "Only works with Fade/Slide/Typing animations": [
+        "Jaħdem biss b’animazzjonijiet Fading/Żliq/Tajprajter"
+      ],
+      "Progress indicator": [
+        "Indikatur tal-progress"
+      ],
+      "Shows a progress bar at the bottom": [
+        "Juri strixxa tal-progress fil-qiegħ"
+      ],
+      "General Settings": [
+        "Issettjar Ġenerali"
+      ],
+      "Label text": [
+        "Test tat-tikketta"
+      ],
+      "Leave empty to hide the label on the frontend": [
+        "Ħalli vojt biex taħbi t-tikketta fuq is-sit"
+      ],
+      "Separator": [
+        "Separatur"
+      ],
+      "Font size (px)": [
+        "Daqs tat-tipa (px)"
+      ],
+      "Height (px)": [
+        "Għoli (px)"
+      ],
+      "Colors": [
+        "Kuluri"
+      ],
+      "Ticker background": [
+        "Sfond tal-istrixxa"
+      ],
+      "Text color": [
+        "Kulur tat-test"
+      ],
+      "Label background": [
+        "Sfond tat-tikketta"
+      ],
+      "Border color": [
+        "Kulur tal-burdura"
+      ],
+      "Spacing & Borders": [
+        "Spazjar u Burduri"
+      ],
+      "Padding": [
+        "Spazju ġewwieni"
+      ],
+      "Margin": [
+        "Marġni"
+      ],
+      "Border Radius": [
+        "Raġġ tal-kantuniera"
+      ],
+      "Border Width": [
+        "Wisa’ tal-burdura"
+      ],
+      "Border Style": [
+        "Stil tal-burdura"
+      ],
+      "Solid": [
+        "Solidu"
+      ],
+      "Dashed": [
+        "Singijiet"
+      ],
+      "Dotted": [
+        "Tikek"
+      ],
+      "None": [
+        "Xejn"
+      ],
+      "Box Shadow": [
+        "Dell tal-kaxxa"
+      ],
+      "Small": [
+        "Żgħir"
+      ],
+      "Medium": [
+        "Medju"
+      ],
+      "Large": [
+        "Kbir"
+      ],
+      "Inset": [
+        "Ġewwieni"
+      ],
+      "Content Source": [
+        "Sors tal-Kontenut"
+      ],
+      "Source": [
+        "Sors"
+      ],
+      "Post type": [
+        "Tip ta’ kontenut"
+      ],
+      "Number of posts": [
+        "Għadd ta’ artikli"
+      ],
+      "Filter by category": [
+        "Iffiltra skont il-kategorija"
+      ],
+      "All categories": [
+        "Il-kategoriji kollha"
+      ],
+      "Select a category to filter posts": [
+        "Agħżel kategorija biex tiffiltra l-artikli"
+      ],
+      "Filter by tag": [
+        "Iffiltra skont it-tikketta"
+      ],
+      "All tags": [
+        "It-tikketti kollha"
+      ],
+      "Order by": [
+        "Ordna skont"
+      ],
+      "Order": [
+        "Ordni"
+      ],
+      "Show date": [
+        "Uri d-data"
+      ],
+      "Date format": [
+        "Format tad-data"
+      ],
+      "Loading posts...": [
+        "Qed jitgħabbew l-artikli…"
+      ],
+      "Preview:": [
+        "Dehra:"
+      ],
+      "posts found": [
+        "artikli nstabu"
+      ],
+      "No posts found with current filters": [
+        "Ma nstab l-ebda artiklu bil-filtri attwali"
+      ],
+      "Announcement text": [
+        "Test tal-avviż"
+      ],
+      "Link (optional)": [
+        "Ħolqa (mhux obbligatorja)"
+      ],
+      "Open in new tab": [
+        "Iftaħ f’tab ġdida"
+      ],
+      "Move up": [
+        "Mexxi ’l fuq"
+      ],
+      "Move down": [
+        "Mexxi ’l isfel"
+      ],
+      "Delete": [
+        "Ħassar"
+      ],
+      "Add announcement": [
+        "Żid avviż"
+      ],
+      "About": [
+        "Dwar"
+      ],
+      "Loading...": [
+        "Qed jitgħabba…"
+      ],
+      "No posts found": [
+        "Ma nstab l-ebda artiklu"
+      ],
+      "Add announcements in the sidebar →": [
+        "Żid avviżi fil-bar tal-ġenb →"
+      ],
+      "(No text)": [
+        "(Bla test)"
+      ],
+      "block title\u0004Newsticker": [
+        "Strixxa tal-Aħbarijiet"
+      ],
+      "block description\u0004Displays announcements in a ticker format with customizable links.": [
+        "Juri avviżi f’forma ta’ strixxa animata b’ħoloq personalizzabbli."
+      ],
+      "block keyword\u0004news": [
+        "aħbarijiet"
+      ],
+      "block keyword\u0004ticker": [
+        "strixxa"
+      ],
+      "block keyword\u0004announcements": [
+        "avviżi"
+      ]
+    }
+  }
+}

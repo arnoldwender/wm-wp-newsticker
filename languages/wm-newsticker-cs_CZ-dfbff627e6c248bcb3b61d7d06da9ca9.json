@@ -1,0 +1,324 @@
+{
+  "translation-revision-date": "2026-11-16T20:55:00+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-newsticker",
+        "lang": "cs_CZ",
+        "plural-forms": "nplurals=3; plural=(n==1 ? 0 : (n>=2 && n<=4) ? 1 : 2);"
+      },
+      "NEWS": [
+        "ZPRÁVY"
+      ],
+      "Newsticker": [
+        "Informační lišta"
+      ],
+      "Displays announcements in a ticker format with customizable links.": [
+        "Zobrazuje oznámení ve formátu animované lišty s nastavitelnými odkazy."
+      ],
+      "news": [
+        "zprávy"
+      ],
+      "ticker": [
+        "lišta"
+      ],
+      "announcements": [
+        "oznámení"
+      ],
+      "Scroll (Marquee)": [
+        "Posuv (Marquee)"
+      ],
+      "Fade": [
+        "Prolínání"
+      ],
+      "Slide": [
+        "Zasouvání"
+      ],
+      "Typing": [
+        "Psací stroj"
+      ],
+      "Left": [
+        "Doleva"
+      ],
+      "Right": [
+        "Doprava"
+      ],
+      "Up": [
+        "Nahoru"
+      ],
+      "Down": [
+        "Dolů"
+      ],
+      "Manual announcements": [
+        "Ruční oznámení"
+      ],
+      "Recent posts": [
+        "Nejnovější příspěvky"
+      ],
+      "Date": [
+        "Datum"
+      ],
+      "Title": [
+        "Název"
+      ],
+      "Last modified": [
+        "Naposledy upraveno"
+      ],
+      "Random": [
+        "Náhodně"
+      ],
+      "Comment count": [
+        "Počet komentářů"
+      ],
+      "Descending (newest first)": [
+        "Sestupně (nejnovější první)"
+      ],
+      "Ascending (oldest first)": [
+        "Vzestupně (nejstarší první)"
+      ],
+      "Relative (e.g., 2 hours ago)": [
+        "Relativní (např. před 2 hodinami)"
+      ],
+      "Absolute (site format)": [
+        "Absolutní (formát webu)"
+      ],
+      "Animation": [
+        "Animace"
+      ],
+      "Animation type": [
+        "Typ animace"
+      ],
+      "Choose how announcements are displayed": [
+        "Zvolte způsob zobrazení oznámení"
+      ],
+      "Direction": [
+        "Směr"
+      ],
+      "Speed": [
+        "Rychlost"
+      ],
+      "Higher value = faster": [
+        "Vyšší hodnota = rychleji"
+      ],
+      "Pause on hover": [
+        "Pozastavit při najetí"
+      ],
+      "RTL (Right-to-Left)": [
+        "RTL (zprava doleva)"
+      ],
+      "Enable for Arabic, Hebrew, etc.": [
+        "Povolit pro arabštinu, hebrejštinu apod."
+      ],
+      "Controls": [
+        "Ovládání"
+      ],
+      "Show controls": [
+        "Zobrazit ovládání"
+      ],
+      "Display Play/Pause and Prev/Next buttons": [
+        "Zobrazit tlačítka Přehrát/Pozastavit a Předchozí/Další"
+      ],
+      "Controls position": [
+        "Umístění ovládání"
+      ],
+      "Play/Pause button": [
+        "Tlačítko Přehrát/Pozastavit"
+      ],
+      "Previous/Next buttons": [
+        "Tlačítka Předchozí/Další"
+      ],
+      "Only works with Fade/Slide/Typing animations": [
+        "Funguje pouze u animací Prolínání/Zasouvání/Psací stroj"
+      ],
+      "Progress indicator": [
+        "Ukazatel průběhu"
+      ],
+      "Shows a progress bar at the bottom": [
+        "Zobrazí dole lištu průběhu"
+      ],
+      "General Settings": [
+        "Obecná nastavení"
+      ],
+      "Label text": [
+        "Text štítku"
+      ],
+      "Leave empty to hide the label on the frontend": [
+        "Ponechte prázdné pro skrytí štítku na webu"
+      ],
+      "Separator": [
+        "Oddělovač"
+      ],
+      "Font size (px)": [
+        "Velikost písma (px)"
+      ],
+      "Height (px)": [
+        "Výška (px)"
+      ],
+      "Colors": [
+        "Barvy"
+      ],
+      "Ticker background": [
+        "Pozadí lišty"
+      ],
+      "Text color": [
+        "Barva textu"
+      ],
+      "Label background": [
+        "Pozadí štítku"
+      ],
+      "Border color": [
+        "Barva ohraničení"
+      ],
+      "Spacing & Borders": [
+        "Odsazení a ohraničení"
+      ],
+      "Padding": [
+        "Vnitřní odsazení"
+      ],
+      "Margin": [
+        "Vnější okraj"
+      ],
+      "Border Radius": [
+        "Zaoblení rohů"
+      ],
+      "Border Width": [
+        "Šířka ohraničení"
+      ],
+      "Border Style": [
+        "Styl ohraničení"
+      ],
+      "Solid": [
+        "Plné"
+      ],
+      "Dashed": [
+        "Čárkované"
+      ],
+      "Dotted": [
+        "Tečkované"
+      ],
+      "None": [
+        "Žádné"
+      ],
+      "Box Shadow": [
+        "Stín pole"
+      ],
+      "Small": [
+        "Malý"
+      ],
+      "Medium": [
+        "Střední"
+      ],
+      "Large": [
+        "Velký"
+      ],
+      "Inset": [
+        "Vnitřní"
+      ],
+      "Content Source": [
+        "Zdroj obsahu"
+      ],
+      "Source": [
+        "Zdroj"
+      ],
+      "Post type": [
+        "Typ příspěvku"
+      ],
+      "Number of posts": [
+        "Počet příspěvků"
+      ],
+      "Filter by category": [
+        "Filtrovat podle rubriky"
+      ],
+      "All categories": [
+        "Všechny rubriky"
+      ],
+      "Select a category to filter posts": [
+        "Vyberte rubriku pro filtrování příspěvků"
+      ],
+      "Filter by tag": [
+        "Filtrovat podle štítku"
+      ],
+      "All tags": [
+        "Všechny štítky"
+      ],
+      "Order by": [
+        "Řadit podle"
+      ],
+      "Order": [
+        "Pořadí"
+      ],
+      "Show date": [
+        "Zobrazit datum"
+      ],
+      "Date format": [
+        "Formát data"
+      ],
+      "Loading posts...": [
+        "Načítání příspěvků…"
+      ],
+      "Preview:": [
+        "Náhled:"
+      ],
+      "posts found": [
+        "nalezených příspěvků"
+      ],
+      "No posts found with current filters": [
+        "Pro aktuální filtry nebyly nalezeny žádné příspěvky"
+      ],
+      "Announcement text": [
+        "Text oznámení"
+      ],
+      "Link (optional)": [
+        "Odkaz (volitelný)"
+      ],
+      "Open in new tab": [
+        "Otevřít v nové záložce"
+      ],
+      "Move up": [
+        "Posunout nahoru"
+      ],
+      "Move down": [
+        "Posunout dolů"
+      ],
+      "Delete": [
+        "Smazat"
+      ],
+      "Add announcement": [
+        "Přidat oznámení"
+      ],
+      "About": [
+        "O pluginu"
+      ],
+      "Loading...": [
+        "Načítání…"
+      ],
+      "No posts found": [
+        "Žádné příspěvky nenalezeny"
+      ],
+      "Add announcements in the sidebar →": [
+        "Přidejte oznámení v postranním panelu →"
+      ],
+      "(No text)": [
+        "(Bez textu)"
+      ],
+      "block title\u0004Newsticker": [
+        "Informační lišta"
+      ],
+      "block description\u0004Displays announcements in a ticker format with customizable links.": [
+        "Zobrazuje oznámení ve formátu animované lišty s nastavitelnými odkazy."
+      ],
+      "block keyword\u0004news": [
+        "zprávy"
+      ],
+      "block keyword\u0004ticker": [
+        "lišta"
+      ],
+      "block keyword\u0004announcements": [
+        "oznámení"
+      ]
+    }
+  }
+}

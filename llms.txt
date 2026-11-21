@@ -1,0 +1,32 @@
+# WM Newsticker
+
+> WordPress block plugin for animated news tickers: scroll, fade, slide and typing animations with manual headlines or the latest posts of a post type.
+
+## Facts
+
+- Plugin Page: https://arnoldwender.com/wordpress-plugins/wm-newsticker/
+- Version 1.6.1. Requires WordPress 5.9+ and PHP 7.4+ (header); CI runs PHP 7.4 and 8.1 to 8.3.
+- Block `wm/newsticker` (dynamic, `block.json` API 3); Block Bindings source `wm-newsticker/feed`; GenerateBlocks 2.x Dynamic Tag `{{wm_newsticker_headline}}`; Block Patterns `wm-newsticker/breaking-news-bar` and `wm-newsticker/gb-breaking-section`; WP 6.9+ Ability `wm-newsticker/get-headlines`; REST route `wm-newsticker/v1/post-types` for the editor; WP-CLI `wp newsticker post-types | flush-cache | demodaten`.
+- Filters `wm_newsticker_query_args` and `wm_newsticker_rendered_items`; action `wm_newsticker_after_render`. WM Suite Hub spoke adapter.
+- Pauses on hover and on keyboard focus inside the ticker; play/pause and previous/next buttons enabled by default (minimum 44 x 44 px); default label contrast `#b81d38` on `#ffffff` (6.42:1); respects `prefers-reduced-motion`.
+- No external requests, no cookies, no personal data. No accessibility conformity is claimed.
+- Translated across 28 locales (`.po`, `.mo`, and Gutenberg editor JED `.json` catalogs).
+
+## Project structure
+
+- `wm-newsticker.php` — main plugin file
+- `block.json` — block metadata
+- `src/index.js`, `src/frontend.js`, `src/editor.scss`, `src/style.scss` — sources; `build/` — compiled and versioned
+- `includes/` — Block Bindings / GenerateBlocks / Patterns / Abilities integration, WP-CLI command, hub adapter
+- `languages/` — `.pot`, `.po` / `.mo`, editor JSON translations
+- `tests/` — standalone suite, mutation check, WordPress integration tests
+
+## Documentation
+
+- README.md, docs/ARCHITECTURE.md, docs/DEVELOPER-GUIDE.md, docs/ACCESSIBILITY.md, docs/DSGVO-COMPLIANCE.md, docs/SECURITY-AUDIT.md, CHANGELOG.md
+
+## License
+
+GPLv2 or later.
+- GitHub Repository: https://github.com/arnoldwender/wm-wp-newsticker
+- Support & Liability: Zero support — reproducible bugs on https://github.com/arnoldwender/wm-wp-newsticker/issues only · no private support · AS IS / no liability (SUPPORT.md)

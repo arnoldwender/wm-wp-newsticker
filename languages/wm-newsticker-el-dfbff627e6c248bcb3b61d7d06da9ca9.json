@@ -1,0 +1,324 @@
+{
+  "translation-revision-date": "2026-11-16T20:55:00+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-newsticker",
+        "lang": "el",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "NEWS": [
+        "ΕΙΔΗΣΕΙΣ"
+      ],
+      "Newsticker": [
+        "Μπάρα ειδήσεων"
+      ],
+      "Displays announcements in a ticker format with customizable links.": [
+        "Εμφανίζει ανακοινώσεις σε κινούμενη μπάρα με προσαρμόσιμους συνδέσμους."
+      ],
+      "news": [
+        "ειδήσεις"
+      ],
+      "ticker": [
+        "μπάρα"
+      ],
+      "announcements": [
+        "ανακοινώσεις"
+      ],
+      "Scroll (Marquee)": [
+        "Κύλιση (Marquee)"
+      ],
+      "Fade": [
+        "Σβήσιμο"
+      ],
+      "Slide": [
+        "Ολίσθηση"
+      ],
+      "Typing": [
+        "Γραφομηχανή"
+      ],
+      "Left": [
+        "Αριστερά"
+      ],
+      "Right": [
+        "Δεξιά"
+      ],
+      "Up": [
+        "Πάνω"
+      ],
+      "Down": [
+        "Κάτω"
+      ],
+      "Manual announcements": [
+        "Χειροκίνητες ανακοινώσεις"
+      ],
+      "Recent posts": [
+        "Πρόσφατα άρθρα"
+      ],
+      "Date": [
+        "Ημερομηνία"
+      ],
+      "Title": [
+        "Τίτλος"
+      ],
+      "Last modified": [
+        "Τελευταία τροποποίηση"
+      ],
+      "Random": [
+        "Τυχαία"
+      ],
+      "Comment count": [
+        "Αριθμός σχολίων"
+      ],
+      "Descending (newest first)": [
+        "Φθίνουσα (νεότερα πρώτα)"
+      ],
+      "Ascending (oldest first)": [
+        "Αύξουσα (παλαιότερα πρώτα)"
+      ],
+      "Relative (e.g., 2 hours ago)": [
+        "Σχετική (π.χ. 2 ώρες πριν)"
+      ],
+      "Absolute (site format)": [
+        "Απόλυτη (μορφή ιστοτόπου)"
+      ],
+      "Animation": [
+        "Κίνηση"
+      ],
+      "Animation type": [
+        "Τύπος κίνησης"
+      ],
+      "Choose how announcements are displayed": [
+        "Επιλέξτε πώς εμφανίζονται οι ανακοινώσεις"
+      ],
+      "Direction": [
+        "Κατεύθυνση"
+      ],
+      "Speed": [
+        "Ταχύτητα"
+      ],
+      "Higher value = faster": [
+        "Μεγαλύτερη τιμή = ταχύτερα"
+      ],
+      "Pause on hover": [
+        "Παύση κατά την αιώρηση"
+      ],
+      "RTL (Right-to-Left)": [
+        "RTL (δεξιά προς αριστερά)"
+      ],
+      "Enable for Arabic, Hebrew, etc.": [
+        "Ενεργοποίηση για αραβικά, εβραϊκά κ.λπ."
+      ],
+      "Controls": [
+        "Χειριστήρια"
+      ],
+      "Show controls": [
+        "Εμφάνιση χειριστηρίων"
+      ],
+      "Display Play/Pause and Prev/Next buttons": [
+        "Εμφάνιση κουμπιών Αναπαραγωγή/Παύση και Προηγούμενο/Επόμενο"
+      ],
+      "Controls position": [
+        "Θέση χειριστηρίων"
+      ],
+      "Play/Pause button": [
+        "Κουμπί Αναπαραγωγή/Παύση"
+      ],
+      "Previous/Next buttons": [
+        "Κουμπιά Προηγούμενο/Επόμενο"
+      ],
+      "Only works with Fade/Slide/Typing animations": [
+        "Λειτουργεί μόνο με Σβήσιμο/Ολίσθηση/Γραφομηχανή"
+      ],
+      "Progress indicator": [
+        "Ένδειξη προόδου"
+      ],
+      "Shows a progress bar at the bottom": [
+        "Εμφανίζει γραμμή προόδου στο κάτω μέρος"
+      ],
+      "General Settings": [
+        "Γενικές ρυθμίσεις"
+      ],
+      "Label text": [
+        "Κείμενο ετικέτας"
+      ],
+      "Leave empty to hide the label on the frontend": [
+        "Αφήστε κενό για απόκρυψη της ετικέτας στον ιστότοπο"
+      ],
+      "Separator": [
+        "Διαχωριστικό"
+      ],
+      "Font size (px)": [
+        "Μέγεθος γραμματοσειράς (px)"
+      ],
+      "Height (px)": [
+        "Ύψος (px)"
+      ],
+      "Colors": [
+        "Χρώματα"
+      ],
+      "Ticker background": [
+        "Φόντο μπάρας"
+      ],
+      "Text color": [
+        "Χρώμα κειμένου"
+      ],
+      "Label background": [
+        "Φόντο ετικέτας"
+      ],
+      "Border color": [
+        "Χρώμα περιγράμματος"
+      ],
+      "Spacing & Borders": [
+        "Αποστάσεις & περιγράμματα"
+      ],
+      "Padding": [
+        "Εσωτερικό περιθώριο"
+      ],
+      "Margin": [
+        "Εξωτερικό περιθώριο"
+      ],
+      "Border Radius": [
+        "Ακτίνα γωνιών"
+      ],
+      "Border Width": [
+        "Πλάτος περιγράμματος"
+      ],
+      "Border Style": [
+        "Στυλ περιγράμματος"
+      ],
+      "Solid": [
+        "Συμπαγές"
+      ],
+      "Dashed": [
+        "Διακεκομμένο"
+      ],
+      "Dotted": [
+        "Διάστικτο"
+      ],
+      "None": [
+        "Κανένα"
+      ],
+      "Box Shadow": [
+        "Σκιά πλαισίου"
+      ],
+      "Small": [
+        "Μικρή"
+      ],
+      "Medium": [
+        "Μεσαία"
+      ],
+      "Large": [
+        "Μεγάλη"
+      ],
+      "Inset": [
+        "Εσωτερική"
+      ],
+      "Content Source": [
+        "Πηγή περιεχομένου"
+      ],
+      "Source": [
+        "Πηγή"
+      ],
+      "Post type": [
+        "Τύπος δημοσίευσης"
+      ],
+      "Number of posts": [
+        "Αριθμός άρθρων"
+      ],
+      "Filter by category": [
+        "Φιλτράρισμα ανά κατηγορία"
+      ],
+      "All categories": [
+        "Όλες οι κατηγορίες"
+      ],
+      "Select a category to filter posts": [
+        "Επιλέξτε κατηγορία για φιλτράρισμα άρθρων"
+      ],
+      "Filter by tag": [
+        "Φιλτράρισμα ανά ετικέτα"
+      ],
+      "All tags": [
+        "Όλες οι ετικέτες"
+      ],
+      "Order by": [
+        "Ταξινόμηση κατά"
+      ],
+      "Order": [
+        "Σειρά"
+      ],
+      "Show date": [
+        "Εμφάνιση ημερομηνίας"
+      ],
+      "Date format": [
+        "Μορφή ημερομηνίας"
+      ],
+      "Loading posts...": [
+        "Φόρτωση άρθρων…"
+      ],
+      "Preview:": [
+        "Προεπισκόπηση:"
+      ],
+      "posts found": [
+        "άρθρα βρέθηκαν"
+      ],
+      "No posts found with current filters": [
+        "Δεν βρέθηκαν άρθρα με τα τρέχοντα φίλτρα"
+      ],
+      "Announcement text": [
+        "Κείμενο ανακοίνωσης"
+      ],
+      "Link (optional)": [
+        "Σύνδεσμος (προαιρετικό)"
+      ],
+      "Open in new tab": [
+        "Άνοιγμα σε νέα καρτέλα"
+      ],
+      "Move up": [
+        "Μετακίνηση πάνω"
+      ],
+      "Move down": [
+        "Μετακίνηση κάτω"
+      ],
+      "Delete": [
+        "Διαγραφή"
+      ],
+      "Add announcement": [
+        "Προσθήκη ανακοίνωσης"
+      ],
+      "About": [
+        "Σχετικά"
+      ],
+      "Loading...": [
+        "Φόρτωση…"
+      ],
+      "No posts found": [
+        "Δεν βρέθηκαν άρθρα"
+      ],
+      "Add announcements in the sidebar →": [
+        "Προσθέστε ανακοινώσεις στην πλαϊνή στήλη →"
+      ],
+      "(No text)": [
+        "(Χωρίς κείμενο)"
+      ],
+      "block title\u0004Newsticker": [
+        "Μπάρα ειδήσεων"
+      ],
+      "block description\u0004Displays announcements in a ticker format with customizable links.": [
+        "Εμφανίζει ανακοινώσεις σε κινούμενη μπάρα με προσαρμόσιμους συνδέσμους."
+      ],
+      "block keyword\u0004news": [
+        "ειδήσεις"
+      ],
+      "block keyword\u0004ticker": [
+        "μπάρα"
+      ],
+      "block keyword\u0004announcements": [
+        "ανακοινώσεις"
+      ]
+    }
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "translation-revision-date": "2026-11-16T20:55:00+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-newsticker",
+        "lang": "ar",
+        "plural-forms": "nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);"
+      },
+      "NEWS": [
+        "أخبار"
+      ],
+      "Newsticker": [
+        "شريط الأخبار"
+      ],
+      "Displays announcements in a ticker format with customizable links.": [
+        "يعرض الإعلانات في شريط متحرك مع روابط قابلة للتخصيص."
+      ],
+      "news": [
+        "أخبار"
+      ],
+      "ticker": [
+        "شريط"
+      ],
+      "announcements": [
+        "إعلانات"
+      ],
+      "Scroll (Marquee)": [
+        "تمرير مستمر (Marquee)"
+      ],
+      "Fade": [
+        "تلاشي"
+      ],
+      "Slide": [
+        "انزلاق"
+      ],
+      "Typing": [
+        "آلة كاتبة"
+      ],
+      "Left": [
+        "يسار"
+      ],
+      "Right": [
+        "يمين"
+      ],
+      "Up": [
+        "أعلى"
+      ],
+      "Down": [
+        "أسفل"
+      ],
+      "Manual announcements": [
+        "إعلانات يدوية"
+      ],
+      "Recent posts": [
+        "أحدث المقالات"
+      ],
+      "Date": [
+        "التاريخ"
+      ],
+      "Title": [
+        "العنوان"
+      ],
+      "Last modified": [
+        "آخر تعديل"
+      ],
+      "Random": [
+        "عشوائي"
+      ],
+      "Comment count": [
+        "عدد التعليقات"
+      ],
+      "Descending (newest first)": [
+        "تنازلي (الأحدث أولًا)"
+      ],
+      "Ascending (oldest first)": [
+        "تصاعدي (الأقدم أولًا)"
+      ],
+      "Relative (e.g., 2 hours ago)": [
+        "نسبي (مثلًا: منذ ساعتين)"
+      ],
+      "Absolute (site format)": [
+        "مطلق (تنسيق الموقع)"
+      ],
+      "Animation": [
+        "الحركة"
+      ],
+      "Animation type": [
+        "نوع الحركة"
+      ],
+      "Choose how announcements are displayed": [
+        "اختر طريقة عرض الإعلانات"
+      ],
+      "Direction": [
+        "الاتجاه"
+      ],
+      "Speed": [
+        "السرعة"
+      ],
+      "Higher value = faster": [
+        "قيمة أعلى = أسرع"
+      ],
+      "Pause on hover": [
+        "إيقاف مؤقت عند التمرير"
+      ],
+      "RTL (Right-to-Left)": [
+        "من اليمين إلى اليسار (RTL)"
+      ],
+      "Enable for Arabic, Hebrew, etc.": [
+        "تفعيل للعربية والعبرية وغيرهما"
+      ],
+      "Controls": [
+        "أزرار التحكم"
+      ],
+      "Show controls": [
+        "إظهار أزرار التحكم"
+      ],
+      "Display Play/Pause and Prev/Next buttons": [
+        "إظهار أزرار تشغيل/إيقاف والسابق/التالي"
+      ],
+      "Controls position": [
+        "موضع أزرار التحكم"
+      ],
+      "Play/Pause button": [
+        "زر تشغيل/إيقاف"
+      ],
+      "Previous/Next buttons": [
+        "زرّا السابق/التالي"
+      ],
+      "Only works with Fade/Slide/Typing animations": [
+        "يعمل فقط مع حركات التلاشي/الانزلاق/الآلة الكاتبة"
+      ],
+      "Progress indicator": [
+        "مؤشر التقدم"
+      ],
+      "Shows a progress bar at the bottom": [
+        "يعرض شريط تقدم في الأسفل"
+      ],
+      "General Settings": [
+        "الإعدادات العامة"
+      ],
+      "Label text": [
+        "نص الشارة"
+      ],
+      "Leave empty to hide the label on the frontend": [
+        "اتركه فارغًا لإخفاء الشارة في الواجهة"
+      ],
+      "Separator": [
+        "الفاصل"
+      ],
+      "Font size (px)": [
+        "حجم الخط (بكسل)"
+      ],
+      "Height (px)": [
+        "الارتفاع (بكسل)"
+      ],
+      "Colors": [
+        "الألوان"
+      ],
+      "Ticker background": [
+        "خلفية الشريط"
+      ],
+      "Text color": [
+        "لون النص"
+      ],
+      "Label background": [
+        "خلفية الشارة"
+      ],
+      "Border color": [
+        "لون الإطار"
+      ],
+      "Spacing & Borders": [
+        "التباعد والحدود"
+      ],
+      "Padding": [
+        "الحشو الداخلي"
+      ],
+      "Margin": [
+        "الهامش الخارجي"
+      ],
+      "Border Radius": [
+        "استدارة الزوايا"
+      ],
+      "Border Width": [
+        "سمك الإطار"
+      ],
+      "Border Style": [
+        "نمط الإطار"
+      ],
+      "Solid": [
+        "متصل"
+      ],
+      "Dashed": [
+        "متقطع"
+      ],
+      "Dotted": [
+        "منقط"
+      ],
+      "None": [
+        "بلا"
+      ],
+      "Box Shadow": [
+        "ظل الصندوق"
+      ],
+      "Small": [
+        "صغير"
+      ],
+      "Medium": [
+        "متوسط"
+      ],
+      "Large": [
+        "كبير"
+      ],
+      "Inset": [
+        "داخلي"
+      ],
+      "Content Source": [
+        "مصدر المحتوى"
+      ],
+      "Source": [
+        "المصدر"
+      ],
+      "Post type": [
+        "نوع المحتوى"
+      ],
+      "Number of posts": [
+        "عدد المقالات"
+      ],
+      "Filter by category": [
+        "تصفية حسب التصنيف"
+      ],
+      "All categories": [
+        "كل التصنيفات"
+      ],
+      "Select a category to filter posts": [
+        "اختر تصنيفًا لتصفية المقالات"
+      ],
+      "Filter by tag": [
+        "تصفية حسب الوسم"
+      ],
+      "All tags": [
+        "كل الوسوم"
+      ],
+      "Order by": [
+        "ترتيب حسب"
+      ],
+      "Order": [
+        "الترتيب"
+      ],
+      "Show date": [
+        "إظهار التاريخ"
+      ],
+      "Date format": [
+        "تنسيق التاريخ"
+      ],
+      "Loading posts...": [
+        "جارٍ تحميل المقالات..."
+      ],
+      "Preview:": [
+        "معاينة:"
+      ],
+      "posts found": [
+        "مقالات موجودة"
+      ],
+      "No posts found with current filters": [
+        "لم يُعثر على مقالات بالفلاتر الحالية"
+      ],
+      "Announcement text": [
+        "نص الإعلان"
+      ],
+      "Link (optional)": [
+        "الرابط (اختياري)"
+      ],
+      "Open in new tab": [
+        "فتح في لسان جديد"
+      ],
+      "Move up": [
+        "تحريك لأعلى"
+      ],
+      "Move down": [
+        "تحريك لأسفل"
+      ],
+      "Delete": [
+        "حذف"
+      ],
+      "Add announcement": [
+        "إضافة إعلان"
+      ],
+      "About": [
+        "حول الإضافة"
+      ],
+      "Loading...": [
+        "جارٍ التحميل..."
+      ],
+      "No posts found": [
+        "لا توجد مقالات"
+      ],
+      "Add announcements in the sidebar →": [
+        "أضف الإعلانات من الشريط الجانبي →"
+      ],
+      "(No text)": [
+        "(بلا نص)"
+      ],
+      "block title\u0004Newsticker": [
+        "شريط الأخبار"
+      ],
+      "block description\u0004Displays announcements in a ticker format with customizable links.": [
+        "يعرض الإعلانات في شريط متحرك مع روابط قابلة للتخصيص."
+      ],
+      "block keyword\u0004news": [
+        "أخبار"
+      ],
+      "block keyword\u0004ticker": [
+        "شريط"
+      ],
+      "block keyword\u0004announcements": [
+        "إعلانات"
+      ]
+    }
+  }
+}

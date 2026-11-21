@@ -1,0 +1,324 @@
+{
+  "translation-revision-date": "2026-11-16T20:55:00+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-newsticker",
+        "lang": "en_US",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "NEWS": [
+        "NEWS"
+      ],
+      "Newsticker": [
+        "Newsticker"
+      ],
+      "Displays announcements in a ticker format with customizable links.": [
+        "Displays announcements in a ticker format with customizable links."
+      ],
+      "news": [
+        "news"
+      ],
+      "ticker": [
+        "ticker"
+      ],
+      "announcements": [
+        "announcements"
+      ],
+      "Scroll (Marquee)": [
+        "Scroll (Marquee)"
+      ],
+      "Fade": [
+        "Fade"
+      ],
+      "Slide": [
+        "Slide"
+      ],
+      "Typing": [
+        "Typing"
+      ],
+      "Left": [
+        "Left"
+      ],
+      "Right": [
+        "Right"
+      ],
+      "Up": [
+        "Up"
+      ],
+      "Down": [
+        "Down"
+      ],
+      "Manual announcements": [
+        "Manual announcements"
+      ],
+      "Recent posts": [
+        "Recent posts"
+      ],
+      "Date": [
+        "Date"
+      ],
+      "Title": [
+        "Title"
+      ],
+      "Last modified": [
+        "Last modified"
+      ],
+      "Random": [
+        "Random"
+      ],
+      "Comment count": [
+        "Comment count"
+      ],
+      "Descending (newest first)": [
+        "Descending (newest first)"
+      ],
+      "Ascending (oldest first)": [
+        "Ascending (oldest first)"
+      ],
+      "Relative (e.g., 2 hours ago)": [
+        "Relative (e.g., 2 hours ago)"
+      ],
+      "Absolute (site format)": [
+        "Absolute (site format)"
+      ],
+      "Animation": [
+        "Animation"
+      ],
+      "Animation type": [
+        "Animation type"
+      ],
+      "Choose how announcements are displayed": [
+        "Choose how announcements are displayed"
+      ],
+      "Direction": [
+        "Direction"
+      ],
+      "Speed": [
+        "Speed"
+      ],
+      "Higher value = faster": [
+        "Higher value = faster"
+      ],
+      "Pause on hover": [
+        "Pause on hover"
+      ],
+      "RTL (Right-to-Left)": [
+        "RTL (Right-to-Left)"
+      ],
+      "Enable for Arabic, Hebrew, etc.": [
+        "Enable for Arabic, Hebrew, etc."
+      ],
+      "Controls": [
+        "Controls"
+      ],
+      "Show controls": [
+        "Show controls"
+      ],
+      "Display Play/Pause and Prev/Next buttons": [
+        "Display Play/Pause and Prev/Next buttons"
+      ],
+      "Controls position": [
+        "Controls position"
+      ],
+      "Play/Pause button": [
+        "Play/Pause button"
+      ],
+      "Previous/Next buttons": [
+        "Previous/Next buttons"
+      ],
+      "Only works with Fade/Slide/Typing animations": [
+        "Only works with Fade/Slide/Typing animations"
+      ],
+      "Progress indicator": [
+        "Progress indicator"
+      ],
+      "Shows a progress bar at the bottom": [
+        "Shows a progress bar at the bottom"
+      ],
+      "General Settings": [
+        "General Settings"
+      ],
+      "Label text": [
+        "Label text"
+      ],
+      "Leave empty to hide the label on the frontend": [
+        "Leave empty to hide the label on the frontend"
+      ],
+      "Separator": [
+        "Separator"
+      ],
+      "Font size (px)": [
+        "Font size (px)"
+      ],
+      "Height (px)": [
+        "Height (px)"
+      ],
+      "Colors": [
+        "Colors"
+      ],
+      "Ticker background": [
+        "Ticker background"
+      ],
+      "Text color": [
+        "Text color"
+      ],
+      "Label background": [
+        "Label background"
+      ],
+      "Border color": [
+        "Border color"
+      ],
+      "Spacing & Borders": [
+        "Spacing & Borders"
+      ],
+      "Padding": [
+        "Padding"
+      ],
+      "Margin": [
+        "Margin"
+      ],
+      "Border Radius": [
+        "Border Radius"
+      ],
+      "Border Width": [
+        "Border Width"
+      ],
+      "Border Style": [
+        "Border Style"
+      ],
+      "Solid": [
+        "Solid"
+      ],
+      "Dashed": [
+        "Dashed"
+      ],
+      "Dotted": [
+        "Dotted"
+      ],
+      "None": [
+        "None"
+      ],
+      "Box Shadow": [
+        "Box Shadow"
+      ],
+      "Small": [
+        "Small"
+      ],
+      "Medium": [
+        "Medium"
+      ],
+      "Large": [
+        "Large"
+      ],
+      "Inset": [
+        "Inset"
+      ],
+      "Content Source": [
+        "Content Source"
+      ],
+      "Source": [
+        "Source"
+      ],
+      "Post type": [
+        "Post type"
+      ],
+      "Number of posts": [
+        "Number of posts"
+      ],
+      "Filter by category": [
+        "Filter by category"
+      ],
+      "All categories": [
+        "All categories"
+      ],
+      "Select a category to filter posts": [
+        "Select a category to filter posts"
+      ],
+      "Filter by tag": [
+        "Filter by tag"
+      ],
+      "All tags": [
+        "All tags"
+      ],
+      "Order by": [
+        "Order by"
+      ],
+      "Order": [
+        "Order"
+      ],
+      "Show date": [
+        "Show date"
+      ],
+      "Date format": [
+        "Date format"
+      ],
+      "Loading posts...": [
+        "Loading posts..."
+      ],
+      "Preview:": [
+        "Preview:"
+      ],
+      "posts found": [
+        "posts found"
+      ],
+      "No posts found with current filters": [
+        "No posts found with current filters"
+      ],
+      "Announcement text": [
+        "Announcement text"
+      ],
+      "Link (optional)": [
+        "Link (optional)"
+      ],
+      "Open in new tab": [
+        "Open in new tab"
+      ],
+      "Move up": [
+        "Move up"
+      ],
+      "Move down": [
+        "Move down"
+      ],
+      "Delete": [
+        "Delete"
+      ],
+      "Add announcement": [
+        "Add announcement"
+      ],
+      "About": [
+        "About"
+      ],
+      "Loading...": [
+        "Loading..."
+      ],
+      "No posts found": [
+        "No posts found"
+      ],
+      "Add announcements in the sidebar →": [
+        "Add announcements in the sidebar →"
+      ],
+      "(No text)": [
+        "(No text)"
+      ],
+      "block title\u0004Newsticker": [
+        "Newsticker"
+      ],
+      "block description\u0004Displays announcements in a ticker format with customizable links.": [
+        "Displays announcements in a ticker format with customizable links."
+      ],
+      "block keyword\u0004news": [
+        "news"
+      ],
+      "block keyword\u0004ticker": [
+        "ticker"
+      ],
+      "block keyword\u0004announcements": [
+        "announcements"
+      ]
+    }
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "translation-revision-date": "2026-11-16T20:55:00+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-newsticker",
+        "lang": "et",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "NEWS": [
+        "UUDISED"
+      ],
+      "Newsticker": [
+        "Uudisteriba"
+      ],
+      "Displays announcements in a ticker format with customizable links.": [
+        "Kuvab teateid animeeritud ribana kohandatavate linkidega."
+      ],
+      "news": [
+        "uudised"
+      ],
+      "ticker": [
+        "riba"
+      ],
+      "announcements": [
+        "teated"
+      ],
+      "Scroll (Marquee)": [
+        "Kerimine (Marquee)"
+      ],
+      "Fade": [
+        "Hajumine"
+      ],
+      "Slide": [
+        "Libisemine"
+      ],
+      "Typing": [
+        "Kirjutusmasin"
+      ],
+      "Left": [
+        "Vasakule"
+      ],
+      "Right": [
+        "Paremale"
+      ],
+      "Up": [
+        "Üles"
+      ],
+      "Down": [
+        "Alla"
+      ],
+      "Manual announcements": [
+        "Käsitsi teated"
+      ],
+      "Recent posts": [
+        "Hiljutised postitused"
+      ],
+      "Date": [
+        "Kuupäev"
+      ],
+      "Title": [
+        "Pealkiri"
+      ],
+      "Last modified": [
+        "Viimati muudetud"
+      ],
+      "Random": [
+        "Juhuslik"
+      ],
+      "Comment count": [
+        "Kommentaaride arv"
+      ],
+      "Descending (newest first)": [
+        "Kahanev (uuemad ees)"
+      ],
+      "Ascending (oldest first)": [
+        "Kasvav (vanemad ees)"
+      ],
+      "Relative (e.g., 2 hours ago)": [
+        "Suhteline (nt 2 tundi tagasi)"
+      ],
+      "Absolute (site format)": [
+        "Absoluutne (saidi vorming)"
+      ],
+      "Animation": [
+        "Animatsioon"
+      ],
+      "Animation type": [
+        "Animatsiooni tüüp"
+      ],
+      "Choose how announcements are displayed": [
+        "Valige, kuidas teateid kuvatakse"
+      ],
+      "Direction": [
+        "Suund"
+      ],
+      "Speed": [
+        "Kiirus"
+      ],
+      "Higher value = faster": [
+        "Suurem väärtus = kiirem"
+      ],
+      "Pause on hover": [
+        "Peata hõljumisel"
+      ],
+      "RTL (Right-to-Left)": [
+        "RTL (paremalt vasakule)"
+      ],
+      "Enable for Arabic, Hebrew, etc.": [
+        "Luba araabia, heebrea jm jaoks"
+      ],
+      "Controls": [
+        "Juhtnupud"
+      ],
+      "Show controls": [
+        "Kuva juhtnupud"
+      ],
+      "Display Play/Pause and Prev/Next buttons": [
+        "Kuva Esita/Paus ja Eelmine/Järgmine nupud"
+      ],
+      "Controls position": [
+        "Juhtnuppude asukoht"
+      ],
+      "Play/Pause button": [
+        "Esita/Paus nupp"
+      ],
+      "Previous/Next buttons": [
+        "Eelmine/Järgmine nupud"
+      ],
+      "Only works with Fade/Slide/Typing animations": [
+        "Töötab ainult Hajumine/Libisemine/Kirjutusmasin animatsioonidega"
+      ],
+      "Progress indicator": [
+        "Edenemisriba"
+      ],
+      "Shows a progress bar at the bottom": [
+        "Kuvab allservas edenemisriba"
+      ],
+      "General Settings": [
+        "Üldseaded"
+      ],
+      "Label text": [
+        "Sildi tekst"
+      ],
+      "Leave empty to hide the label on the frontend": [
+        "Jätke tühjaks, et silt esiküljel peita"
+      ],
+      "Separator": [
+        "eraldaja"
+      ],
+      "Font size (px)": [
+        "Kirjasuurus (px)"
+      ],
+      "Height (px)": [
+        "Kõrgus (px)"
+      ],
+      "Colors": [
+        "Värvid"
+      ],
+      "Ticker background": [
+        "Riba taust"
+      ],
+      "Text color": [
+        "Teksti värv"
+      ],
+      "Label background": [
+        "Sildi taust"
+      ],
+      "Border color": [
+        "Äärise värv"
+      ],
+      "Spacing & Borders": [
+        "Vahed & äärised"
+      ],
+      "Padding": [
+        "Sisevahe"
+      ],
+      "Margin": [
+        "Veeris"
+      ],
+      "Border Radius": [
+        "Nurgaraadius"
+      ],
+      "Border Width": [
+        "Äärise laius"
+      ],
+      "Border Style": [
+        "Äärise stiil"
+      ],
+      "Solid": [
+        "Pidev"
+      ],
+      "Dashed": [
+        "Kriipsjoon"
+      ],
+      "Dotted": [
+        "Punktiir"
+      ],
+      "None": [
+        "Puudub"
+      ],
+      "Box Shadow": [
+        "Kasti vari"
+      ],
+      "Small": [
+        "Väike"
+      ],
+      "Medium": [
+        "Keskmine"
+      ],
+      "Large": [
+        "Suur"
+      ],
+      "Inset": [
+        "Sisemine"
+      ],
+      "Content Source": [
+        "Sisu allikas"
+      ],
+      "Source": [
+        "Allikas"
+      ],
+      "Post type": [
+        "Postituse tüüp"
+      ],
+      "Number of posts": [
+        "Postituste arv"
+      ],
+      "Filter by category": [
+        "Filtreeri kategooria järgi"
+      ],
+      "All categories": [
+        "Kõik kategooriad"
+      ],
+      "Select a category to filter posts": [
+        "Valige postituste filtreerimiseks kategooria"
+      ],
+      "Filter by tag": [
+        "Filtreeri sildi järgi"
+      ],
+      "All tags": [
+        "Kõik sildid"
+      ],
+      "Order by": [
+        "Järjesta"
+      ],
+      "Order": [
+        "Järjekord"
+      ],
+      "Show date": [
+        "Kuva kuupäev"
+      ],
+      "Date format": [
+        "Kuupäeva vorming"
+      ],
+      "Loading posts...": [
+        "Postituste laadimine…"
+      ],
+      "Preview:": [
+        "Eelvaade:"
+      ],
+      "posts found": [
+        "postitust leitud"
+      ],
+      "No posts found with current filters": [
+        "Praeguste filtritega postitusi ei leitud"
+      ],
+      "Announcement text": [
+        "Teate tekst"
+      ],
+      "Link (optional)": [
+        "Link (valikuline)"
+      ],
+      "Open in new tab": [
+        "Ava uuel vahekaardil"
+      ],
+      "Move up": [
+        "Liiguta üles"
+      ],
+      "Move down": [
+        "Liiguta alla"
+      ],
+      "Delete": [
+        "Kustuta"
+      ],
+      "Add announcement": [
+        "Lisa teade"
+      ],
+      "About": [
+        "Teave"
+      ],
+      "Loading...": [
+        "Laadimine…"
+      ],
+      "No posts found": [
+        "Postitusi ei leitud"
+      ],
+      "Add announcements in the sidebar →": [
+        "Lisage teated külgribal →"
+      ],
+      "(No text)": [
+        "(Tekst puudub)"
+      ],
+      "block title\u0004Newsticker": [
+        "Uudisteriba"
+      ],
+      "block description\u0004Displays announcements in a ticker format with customizable links.": [
+        "Kuvab teateid animeeritud ribana kohandatavate linkidega."
+      ],
+      "block keyword\u0004news": [
+        "uudised"
+      ],
+      "block keyword\u0004ticker": [
+        "riba"
+      ],
+      "block keyword\u0004announcements": [
+        "teated"
+      ]
+    }
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "translation-revision-date": "2026-11-16T20:55:00+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-newsticker",
+        "lang": "da_DK",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "NEWS": [
+        "NYHEDER"
+      ],
+      "Newsticker": [
+        "Nyhedsticker"
+      ],
+      "Displays announcements in a ticker format with customizable links.": [
+        "Viser meddelelser i en animeret ticker med tilpasselige links."
+      ],
+      "news": [
+        "nyheder"
+      ],
+      "ticker": [
+        "ticker"
+      ],
+      "announcements": [
+        "meddelelser"
+      ],
+      "Scroll (Marquee)": [
+        "Rul (Marquee)"
+      ],
+      "Fade": [
+        "Ton ud (Fade)"
+      ],
+      "Slide": [
+        "Glid (Slide)"
+      ],
+      "Typing": [
+        "Skrivemaskine"
+      ],
+      "Left": [
+        "Venstre"
+      ],
+      "Right": [
+        "Højre"
+      ],
+      "Up": [
+        "Op"
+      ],
+      "Down": [
+        "Ned"
+      ],
+      "Manual announcements": [
+        "Manuelle meddelelser"
+      ],
+      "Recent posts": [
+        "Seneste indlæg"
+      ],
+      "Date": [
+        "Dato"
+      ],
+      "Title": [
+        "Titel"
+      ],
+      "Last modified": [
+        "Sidst ændret"
+      ],
+      "Random": [
+        "Tilfældig"
+      ],
+      "Comment count": [
+        "Antal kommentarer"
+      ],
+      "Descending (newest first)": [
+        "Faldende (nyeste først)"
+      ],
+      "Ascending (oldest first)": [
+        "Stigende (ældste først)"
+      ],
+      "Relative (e.g., 2 hours ago)": [
+        "Relativ (f.eks. 2 timer siden)"
+      ],
+      "Absolute (site format)": [
+        "Absolut (webstedsformat)"
+      ],
+      "Animation": [
+        "Animation"
+      ],
+      "Animation type": [
+        "Animationstype"
+      ],
+      "Choose how announcements are displayed": [
+        "Vælg hvordan meddelelser vises"
+      ],
+      "Direction": [
+        "Retning"
+      ],
+      "Speed": [
+        "Hastighed"
+      ],
+      "Higher value = faster": [
+        "Højere værdi = hurtigere"
+      ],
+      "Pause on hover": [
+        "Pause ved mus over"
+      ],
+      "RTL (Right-to-Left)": [
+        "RTL (højre mod venstre)"
+      ],
+      "Enable for Arabic, Hebrew, etc.": [
+        "Aktiver for arabisk, hebraisk osv."
+      ],
+      "Controls": [
+        "Betjening"
+      ],
+      "Show controls": [
+        "Vis betjening"
+      ],
+      "Display Play/Pause and Prev/Next buttons": [
+        "Vis knapperne Afspil/Pause og Forrige/Næste"
+      ],
+      "Controls position": [
+        "Placering af betjening"
+      ],
+      "Play/Pause button": [
+        "Afspil/Pause-knap"
+      ],
+      "Previous/Next buttons": [
+        "Forrige/Næste-knapper"
+      ],
+      "Only works with Fade/Slide/Typing animations": [
+        "Virker kun med Ton ud/Glid/Skrivemaskine"
+      ],
+      "Progress indicator": [
+        "Statusindikator"
+      ],
+      "Shows a progress bar at the bottom": [
+        "Viser en statuslinje nederst"
+      ],
+      "General Settings": [
+        "Generelle indstillinger"
+      ],
+      "Label text": [
+        "Mærkattekst"
+      ],
+      "Leave empty to hide the label on the frontend": [
+        "Lad stå tomt for at skjule mærkaten på forsiden"
+      ],
+      "Separator": [
+        "Skilletegn"
+      ],
+      "Font size (px)": [
+        "Skriftstørrelse (px)"
+      ],
+      "Height (px)": [
+        "Højde (px)"
+      ],
+      "Colors": [
+        "Farver"
+      ],
+      "Ticker background": [
+        "Ticker-baggrund"
+      ],
+      "Text color": [
+        "Tekstfarve"
+      ],
+      "Label background": [
+        "Mærkatbaggrund"
+      ],
+      "Border color": [
+        "Kantfarve"
+      ],
+      "Spacing & Borders": [
+        "Afstand & kanter"
+      ],
+      "Padding": [
+        "Indvendig afstand"
+      ],
+      "Margin": [
+        "Margen"
+      ],
+      "Border Radius": [
+        "Hjørneradius"
+      ],
+      "Border Width": [
+        "Kantbredde"
+      ],
+      "Border Style": [
+        "Kantstil"
+      ],
+      "Solid": [
+        "Fast"
+      ],
+      "Dashed": [
+        "Stiplet"
+      ],
+      "Dotted": [
+        "Prikket"
+      ],
+      "None": [
+        "Ingen"
+      ],
+      "Box Shadow": [
+        "Skygge"
+      ],
+      "Small": [
+        "Lille"
+      ],
+      "Medium": [
+        "Mellem"
+      ],
+      "Large": [
+        "Stor"
+      ],
+      "Inset": [
+        "Indvendig"
+      ],
+      "Content Source": [
+        "Indholdskilde"
+      ],
+      "Source": [
+        "Kilde"
+      ],
+      "Post type": [
+        "Indlægstype"
+      ],
+      "Number of posts": [
+        "Antal indlæg"
+      ],
+      "Filter by category": [
+        "Filtrer efter kategori"
+      ],
+      "All categories": [
+        "Alle kategorier"
+      ],
+      "Select a category to filter posts": [
+        "Vælg en kategori til filtrering af indlæg"
+      ],
+      "Filter by tag": [
+        "Filtrer efter tag"
+      ],
+      "All tags": [
+        "Alle tags"
+      ],
+      "Order by": [
+        "Sorter efter"
+      ],
+      "Order": [
+        "Rækkefølge"
+      ],
+      "Show date": [
+        "Vis dato"
+      ],
+      "Date format": [
+        "Datoformat"
+      ],
+      "Loading posts...": [
+        "Indlæser indlæg…"
+      ],
+      "Preview:": [
+        "Forhåndsvisning:"
+      ],
+      "posts found": [
+        "indlæg fundet"
+      ],
+      "No posts found with current filters": [
+        "Ingen indlæg fundet med de aktuelle filtre"
+      ],
+      "Announcement text": [
+        "Meddelelsestekst"
+      ],
+      "Link (optional)": [
+        "Link (valgfrit)"
+      ],
+      "Open in new tab": [
+        "Åbn i ny fane"
+      ],
+      "Move up": [
+        "Flyt op"
+      ],
+      "Move down": [
+        "Flyt ned"
+      ],
+      "Delete": [
+        "Slet"
+      ],
+      "Add announcement": [
+        "Tilføj meddelelse"
+      ],
+      "About": [
+        "Om"
+      ],
+      "Loading...": [
+        "Indlæser…"
+      ],
+      "No posts found": [
+        "Ingen indlæg fundet"
+      ],
+      "Add announcements in the sidebar →": [
+        "Tilføj meddelelser i sidepanelet →"
+      ],
+      "(No text)": [
+        "(Ingen tekst)"
+      ],
+      "block title\u0004Newsticker": [
+        "Nyhedsticker"
+      ],
+      "block description\u0004Displays announcements in a ticker format with customizable links.": [
+        "Viser meddelelser i en animeret ticker med tilpasselige links."
+      ],
+      "block keyword\u0004news": [
+        "nyheder"
+      ],
+      "block keyword\u0004ticker": [
+        "ticker"
+      ],
+      "block keyword\u0004announcements": [
+        "meddelelser"
+      ]
+    }
+  }
+}

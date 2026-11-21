@@ -1,0 +1,324 @@
+{
+  "translation-revision-date": "2026-11-16T20:55:00+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-newsticker",
+        "lang": "pt_PT",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "NEWS": [
+        "NOTÍCIAS"
+      ],
+      "Newsticker": [
+        "Barra de notícias"
+      ],
+      "Displays announcements in a ticker format with customizable links.": [
+        "Apresenta comunicados em formato de barra animada com ligações personalizáveis."
+      ],
+      "news": [
+        "notícias"
+      ],
+      "ticker": [
+        "barra"
+      ],
+      "announcements": [
+        "comunicados"
+      ],
+      "Scroll (Marquee)": [
+        "Deslocação (Marquee)"
+      ],
+      "Fade": [
+        "Desvanecer"
+      ],
+      "Slide": [
+        "Deslizar"
+      ],
+      "Typing": [
+        "Máquina de escrever"
+      ],
+      "Left": [
+        "Esquerda"
+      ],
+      "Right": [
+        "Direita"
+      ],
+      "Up": [
+        "Cima"
+      ],
+      "Down": [
+        "Baixo"
+      ],
+      "Manual announcements": [
+        "Comunicados manuais"
+      ],
+      "Recent posts": [
+        "Artigos recentes"
+      ],
+      "Date": [
+        "Data"
+      ],
+      "Title": [
+        "Título"
+      ],
+      "Last modified": [
+        "Última modificação"
+      ],
+      "Random": [
+        "Aleatório"
+      ],
+      "Comment count": [
+        "Número de comentários"
+      ],
+      "Descending (newest first)": [
+        "Descendente (mais recentes primeiro)"
+      ],
+      "Ascending (oldest first)": [
+        "Ascendente (mais antigos primeiro)"
+      ],
+      "Relative (e.g., 2 hours ago)": [
+        "Relativa (ex.: há 2 horas)"
+      ],
+      "Absolute (site format)": [
+        "Absoluta (formato do site)"
+      ],
+      "Animation": [
+        "Animação"
+      ],
+      "Animation type": [
+        "Tipo de animação"
+      ],
+      "Choose how announcements are displayed": [
+        "Escolha como os comunicados são apresentados"
+      ],
+      "Direction": [
+        "Direção"
+      ],
+      "Speed": [
+        "Velocidade"
+      ],
+      "Higher value = faster": [
+        "Valor mais alto = mais rápido"
+      ],
+      "Pause on hover": [
+        "Pausar ao passar o rato"
+      ],
+      "RTL (Right-to-Left)": [
+        "RTL (direita para a esquerda)"
+      ],
+      "Enable for Arabic, Hebrew, etc.": [
+        "Ativar para árabe, hebraico, etc."
+      ],
+      "Controls": [
+        "Controlos"
+      ],
+      "Show controls": [
+        "Mostrar controlos"
+      ],
+      "Display Play/Pause and Prev/Next buttons": [
+        "Mostrar botões Reproduzir/Pausar e Anterior/Seguinte"
+      ],
+      "Controls position": [
+        "Posição dos controlos"
+      ],
+      "Play/Pause button": [
+        "Botão Reproduzir/Pausar"
+      ],
+      "Previous/Next buttons": [
+        "Botões Anterior/Seguinte"
+      ],
+      "Only works with Fade/Slide/Typing animations": [
+        "Apenas funciona com Desvanecer/Deslizar/Máquina de escrever"
+      ],
+      "Progress indicator": [
+        "Indicador de progresso"
+      ],
+      "Shows a progress bar at the bottom": [
+        "Mostra uma barra de progresso na parte inferior"
+      ],
+      "General Settings": [
+        "Definições gerais"
+      ],
+      "Label text": [
+        "Texto da etiqueta"
+      ],
+      "Leave empty to hide the label on the frontend": [
+        "Deixe vazio para ocultar a etiqueta no site"
+      ],
+      "Separator": [
+        "Separador"
+      ],
+      "Font size (px)": [
+        "Tamanho da letra (px)"
+      ],
+      "Height (px)": [
+        "Altura (px)"
+      ],
+      "Colors": [
+        "Cores"
+      ],
+      "Ticker background": [
+        "Fundo da barra"
+      ],
+      "Text color": [
+        "Cor do texto"
+      ],
+      "Label background": [
+        "Fundo da etiqueta"
+      ],
+      "Border color": [
+        "Cor da margem"
+      ],
+      "Spacing & Borders": [
+        "Espaçamento e contornos"
+      ],
+      "Padding": [
+        "Espaçamento interno"
+      ],
+      "Margin": [
+        "Margem"
+      ],
+      "Border Radius": [
+        "Raio do canto"
+      ],
+      "Border Width": [
+        "Espessura do contorno"
+      ],
+      "Border Style": [
+        "Estilo do contorno"
+      ],
+      "Solid": [
+        "Contínuo"
+      ],
+      "Dashed": [
+        "Tracejado"
+      ],
+      "Dotted": [
+        "Pontilhado"
+      ],
+      "None": [
+        "Nenhum"
+      ],
+      "Box Shadow": [
+        "Sombra"
+      ],
+      "Small": [
+        "Pequena"
+      ],
+      "Medium": [
+        "Média"
+      ],
+      "Large": [
+        "Grande"
+      ],
+      "Inset": [
+        "Interna"
+      ],
+      "Content Source": [
+        "Fonte de conteúdo"
+      ],
+      "Source": [
+        "Fonte"
+      ],
+      "Post type": [
+        "Tipo de conteúdo"
+      ],
+      "Number of posts": [
+        "Número de artigos"
+      ],
+      "Filter by category": [
+        "Filtrar por categoria"
+      ],
+      "All categories": [
+        "Todas as categorias"
+      ],
+      "Select a category to filter posts": [
+        "Selecione uma categoria para filtrar artigos"
+      ],
+      "Filter by tag": [
+        "Filtrar por etiqueta"
+      ],
+      "All tags": [
+        "Todas as etiquetas"
+      ],
+      "Order by": [
+        "Ordenar por"
+      ],
+      "Order": [
+        "Ordem"
+      ],
+      "Show date": [
+        "Mostrar data"
+      ],
+      "Date format": [
+        "Formato da data"
+      ],
+      "Loading posts...": [
+        "A carregar artigos…"
+      ],
+      "Preview:": [
+        "Pré-visualização:"
+      ],
+      "posts found": [
+        "artigos encontrados"
+      ],
+      "No posts found with current filters": [
+        "Nenhum artigo encontrado com os filtros atuais"
+      ],
+      "Announcement text": [
+        "Texto do comunicado"
+      ],
+      "Link (optional)": [
+        "Ligação (opcional)"
+      ],
+      "Open in new tab": [
+        "Abrir num novo separador"
+      ],
+      "Move up": [
+        "Mover para cima"
+      ],
+      "Move down": [
+        "Mover para baixo"
+      ],
+      "Delete": [
+        "Eliminar"
+      ],
+      "Add announcement": [
+        "Adicionar comunicado"
+      ],
+      "About": [
+        "Acerca"
+      ],
+      "Loading...": [
+        "A carregar…"
+      ],
+      "No posts found": [
+        "Nenhum artigo encontrado"
+      ],
+      "Add announcements in the sidebar →": [
+        "Adicione comunicados na barra lateral →"
+      ],
+      "(No text)": [
+        "(Sem texto)"
+      ],
+      "block title\u0004Newsticker": [
+        "Barra de notícias"
+      ],
+      "block description\u0004Displays announcements in a ticker format with customizable links.": [
+        "Apresenta comunicados em formato de barra animada com ligações personalizáveis."
+      ],
+      "block keyword\u0004news": [
+        "notícias"
+      ],
+      "block keyword\u0004ticker": [
+        "barra"
+      ],
+      "block keyword\u0004announcements": [
+        "comunicados"
+      ]
+    }
+  }
+}

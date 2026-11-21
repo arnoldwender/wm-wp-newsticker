@@ -1,0 +1,324 @@
+{
+  "translation-revision-date": "2026-11-16T20:55:00+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-newsticker",
+        "lang": "ro_RO",
+        "plural-forms": "nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100>0 && n%100<20)) ? 1 : 2);"
+      },
+      "NEWS": [
+        "ȘTIRI"
+      ],
+      "Newsticker": [
+        "Bandă de știri"
+      ],
+      "Displays announcements in a ticker format with customizable links.": [
+        "Afișează anunțuri sub formă de bandă animată cu legături personalizabile."
+      ],
+      "news": [
+        "știri"
+      ],
+      "ticker": [
+        "bandă"
+      ],
+      "announcements": [
+        "anunțuri"
+      ],
+      "Scroll (Marquee)": [
+        "Derulare (Marquee)"
+      ],
+      "Fade": [
+        "Estompare"
+      ],
+      "Slide": [
+        "Glisare"
+      ],
+      "Typing": [
+        "Mașină de scris"
+      ],
+      "Left": [
+        "Stânga"
+      ],
+      "Right": [
+        "Dreapta"
+      ],
+      "Up": [
+        "Sus"
+      ],
+      "Down": [
+        "Jos"
+      ],
+      "Manual announcements": [
+        "Anunțuri manuale"
+      ],
+      "Recent posts": [
+        "Articole recente"
+      ],
+      "Date": [
+        "Dată"
+      ],
+      "Title": [
+        "Titlu"
+      ],
+      "Last modified": [
+        "Ultima modificare"
+      ],
+      "Random": [
+        "Aleatoriu"
+      ],
+      "Comment count": [
+        "Număr comentarii"
+      ],
+      "Descending (newest first)": [
+        "Descrescător (cele mai noi primele)"
+      ],
+      "Ascending (oldest first)": [
+        "Crescător (cele mai vechi primele)"
+      ],
+      "Relative (e.g., 2 hours ago)": [
+        "Relativ (de ex. acum 2 ore)"
+      ],
+      "Absolute (site format)": [
+        "Absolut (formatul site-ului)"
+      ],
+      "Animation": [
+        "Animație"
+      ],
+      "Animation type": [
+        "Tip animație"
+      ],
+      "Choose how announcements are displayed": [
+        "Alegeți modul de afișare a anunțurilor"
+      ],
+      "Direction": [
+        "Direcție"
+      ],
+      "Speed": [
+        "Viteză"
+      ],
+      "Higher value = faster": [
+        "Valoare mai mare = mai rapid"
+      ],
+      "Pause on hover": [
+        "Pauză la trecerea cursorului"
+      ],
+      "RTL (Right-to-Left)": [
+        "RTL (dreapta-la-stânga)"
+      ],
+      "Enable for Arabic, Hebrew, etc.": [
+        "Activați pentru arabă, ebraică etc."
+      ],
+      "Controls": [
+        "Comenzi"
+      ],
+      "Show controls": [
+        "Afișează comenzile"
+      ],
+      "Display Play/Pause and Prev/Next buttons": [
+        "Afișează butoanele Redare/Pauză și Anterior/Următor"
+      ],
+      "Controls position": [
+        "Poziția comenzilor"
+      ],
+      "Play/Pause button": [
+        "Buton Redare/Pauză"
+      ],
+      "Previous/Next buttons": [
+        "Butoane Anterior/Următor"
+      ],
+      "Only works with Fade/Slide/Typing animations": [
+        "Funcționează doar cu Estompare/Glisare/Mașină de scris"
+      ],
+      "Progress indicator": [
+        "Indicator de progres"
+      ],
+      "Shows a progress bar at the bottom": [
+        "Afișează o bară de progres în partea de jos"
+      ],
+      "General Settings": [
+        "Setări generale"
+      ],
+      "Label text": [
+        "Text etichetă"
+      ],
+      "Leave empty to hide the label on the frontend": [
+        "Lăsați gol pentru a ascunde eticheta pe site"
+      ],
+      "Separator": [
+        "Separator"
+      ],
+      "Font size (px)": [
+        "Dimensiune font (px)"
+      ],
+      "Height (px)": [
+        "Înălțime (px)"
+      ],
+      "Colors": [
+        "Culori"
+      ],
+      "Ticker background": [
+        "Fundal bandă"
+      ],
+      "Text color": [
+        "Culoare text"
+      ],
+      "Label background": [
+        "Fundal etichetă"
+      ],
+      "Border color": [
+        "Culoare chenar"
+      ],
+      "Spacing & Borders": [
+        "Spațiere și chenare"
+      ],
+      "Padding": [
+        "Spațiere interioară"
+      ],
+      "Margin": [
+        "Margine"
+      ],
+      "Border Radius": [
+        "Rază colțuri"
+      ],
+      "Border Width": [
+        "Lățime chenar"
+      ],
+      "Border Style": [
+        "Stil chenar"
+      ],
+      "Solid": [
+        "Continuu"
+      ],
+      "Dashed": [
+        "Întrerupt"
+      ],
+      "Dotted": [
+        "Punctat"
+      ],
+      "None": [
+        "Niciunul"
+      ],
+      "Box Shadow": [
+        "Umbră casetă"
+      ],
+      "Small": [
+        "Mică"
+      ],
+      "Medium": [
+        "Medie"
+      ],
+      "Large": [
+        "Mare"
+      ],
+      "Inset": [
+        "Interioară"
+      ],
+      "Content Source": [
+        "Sursă conținut"
+      ],
+      "Source": [
+        "Sursă"
+      ],
+      "Post type": [
+        "Tip conținut"
+      ],
+      "Number of posts": [
+        "Număr de articole"
+      ],
+      "Filter by category": [
+        "Filtrează după categorie"
+      ],
+      "All categories": [
+        "Toate categoriile"
+      ],
+      "Select a category to filter posts": [
+        "Selectați o categorie pentru filtrarea articolelor"
+      ],
+      "Filter by tag": [
+        "Filtrează după etichetă"
+      ],
+      "All tags": [
+        "Toate etichetele"
+      ],
+      "Order by": [
+        "Ordonează după"
+      ],
+      "Order": [
+        "Ordine"
+      ],
+      "Show date": [
+        "Afișează data"
+      ],
+      "Date format": [
+        "Format dată"
+      ],
+      "Loading posts...": [
+        "Se încarcă articolele…"
+      ],
+      "Preview:": [
+        "Previzualizare:"
+      ],
+      "posts found": [
+        "articole găsite"
+      ],
+      "No posts found with current filters": [
+        "Nu s-au găsit articole cu filtrele actuale"
+      ],
+      "Announcement text": [
+        "Text anunț"
+      ],
+      "Link (optional)": [
+        "Legătură (opțional)"
+      ],
+      "Open in new tab": [
+        "Deschide în filă nouă"
+      ],
+      "Move up": [
+        "Mută în sus"
+      ],
+      "Move down": [
+        "Mută în jos"
+      ],
+      "Delete": [
+        "Șterge"
+      ],
+      "Add announcement": [
+        "Adaugă anunț"
+      ],
+      "About": [
+        "Despre"
+      ],
+      "Loading...": [
+        "Se încarcă…"
+      ],
+      "No posts found": [
+        "Nu s-au găsit articole"
+      ],
+      "Add announcements in the sidebar →": [
+        "Adăugați anunțuri în bara laterală →"
+      ],
+      "(No text)": [
+        "(Fără text)"
+      ],
+      "block title\u0004Newsticker": [
+        "Bandă de știri"
+      ],
+      "block description\u0004Displays announcements in a ticker format with customizable links.": [
+        "Afișează anunțuri sub formă de bandă animată cu legături personalizabile."
+      ],
+      "block keyword\u0004news": [
+        "știri"
+      ],
+      "block keyword\u0004ticker": [
+        "bandă"
+      ],
+      "block keyword\u0004announcements": [
+        "anunțuri"
+      ]
+    }
+  }
+}

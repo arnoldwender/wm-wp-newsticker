@@ -1,0 +1,324 @@
+{
+  "translation-revision-date": "2026-11-16T20:55:00+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-newsticker",
+        "lang": "tr_TR",
+        "plural-forms": "nplurals=2; plural=(n > 1);"
+      },
+      "NEWS": [
+        "HABERLER"
+      ],
+      "Newsticker": [
+        "Haber Bandı"
+      ],
+      "Displays announcements in a ticker format with customizable links.": [
+        "Duyuruları özelleştirilebilir bağlantılarla animasyonlu bir bant biçiminde gösterir."
+      ],
+      "news": [
+        "haberler"
+      ],
+      "ticker": [
+        "bant"
+      ],
+      "announcements": [
+        "duyurular"
+      ],
+      "Scroll (Marquee)": [
+        "Kaydırma (Marquee)"
+      ],
+      "Fade": [
+        "Solma"
+      ],
+      "Slide": [
+        "Kayarak Geçiş"
+      ],
+      "Typing": [
+        "Daktilo"
+      ],
+      "Left": [
+        "Sol"
+      ],
+      "Right": [
+        "Sağ"
+      ],
+      "Up": [
+        "Yukarı"
+      ],
+      "Down": [
+        "Aşağı"
+      ],
+      "Manual announcements": [
+        "Manuel duyurular"
+      ],
+      "Recent posts": [
+        "Son yazılar"
+      ],
+      "Date": [
+        "Tarih"
+      ],
+      "Title": [
+        "Başlık"
+      ],
+      "Last modified": [
+        "Son değişiklik"
+      ],
+      "Random": [
+        "Rastgele"
+      ],
+      "Comment count": [
+        "Yorum sayısı"
+      ],
+      "Descending (newest first)": [
+        "Azalan (en yeniler önce)"
+      ],
+      "Ascending (oldest first)": [
+        "Artan (en eskiler önce)"
+      ],
+      "Relative (e.g., 2 hours ago)": [
+        "Göreli (ör. 2 saat önce)"
+      ],
+      "Absolute (site format)": [
+        "Mutlak (site biçimi)"
+      ],
+      "Animation": [
+        "Animasyon"
+      ],
+      "Animation type": [
+        "Animasyon türü"
+      ],
+      "Choose how announcements are displayed": [
+        "Duyuruların nasıl görüntüleneceğini seçin"
+      ],
+      "Direction": [
+        "Yön"
+      ],
+      "Speed": [
+        "Hız"
+      ],
+      "Higher value = faster": [
+        "Daha yüksek değer = daha hızlı"
+      ],
+      "Pause on hover": [
+        "Üzerine gelince duraklat"
+      ],
+      "RTL (Right-to-Left)": [
+        "RTL (Sağdan Sola)"
+      ],
+      "Enable for Arabic, Hebrew, etc.": [
+        "Arapça, İbranice vb. için etkinleştirin"
+      ],
+      "Controls": [
+        "Denetimler"
+      ],
+      "Show controls": [
+        "Denetimleri göster"
+      ],
+      "Display Play/Pause and Prev/Next buttons": [
+        "Oynat/Duraklat ve Önceki/Sonraki düğmelerini göster"
+      ],
+      "Controls position": [
+        "Denetim konumu"
+      ],
+      "Play/Pause button": [
+        "Oynat/Duraklat düğmesi"
+      ],
+      "Previous/Next buttons": [
+        "Önceki/Sonraki düğmeleri"
+      ],
+      "Only works with Fade/Slide/Typing animations": [
+        "Yalnızca Solma/Kayarak Geçiş/Daktilo animasyonlarıyla çalışır"
+      ],
+      "Progress indicator": [
+        "İlerleme göstergesi"
+      ],
+      "Shows a progress bar at the bottom": [
+        "Alt kısımda bir ilerleme çubuğu gösterir"
+      ],
+      "General Settings": [
+        "Genel Ayarlar"
+      ],
+      "Label text": [
+        "Etiket metni"
+      ],
+      "Leave empty to hide the label on the frontend": [
+        "Ön yüzde etiketi gizlemek için boş bırakın"
+      ],
+      "Separator": [
+        "Ayırıcı"
+      ],
+      "Font size (px)": [
+        "Yazı tipi boyutu (px)"
+      ],
+      "Height (px)": [
+        "Yükseklik (px)"
+      ],
+      "Colors": [
+        "Renkler"
+      ],
+      "Ticker background": [
+        "Bant arka planı"
+      ],
+      "Text color": [
+        "Metin rengi"
+      ],
+      "Label background": [
+        "Etiket arka planı"
+      ],
+      "Border color": [
+        "Kenarlık rengi"
+      ],
+      "Spacing & Borders": [
+        "Boşluk ve Kenarlıklar"
+      ],
+      "Padding": [
+        "İç boşluk"
+      ],
+      "Margin": [
+        "Dış boşluk"
+      ],
+      "Border Radius": [
+        "Köşe yarıçapı"
+      ],
+      "Border Width": [
+        "Kenarlık genişliği"
+      ],
+      "Border Style": [
+        "Kenarlık stili"
+      ],
+      "Solid": [
+        "Düz"
+      ],
+      "Dashed": [
+        "Kesikli"
+      ],
+      "Dotted": [
+        "Noktalı"
+      ],
+      "None": [
+        "Yok"
+      ],
+      "Box Shadow": [
+        "Kutu gölgesi"
+      ],
+      "Small": [
+        "Küçük"
+      ],
+      "Medium": [
+        "Orta"
+      ],
+      "Large": [
+        "Büyük"
+      ],
+      "Inset": [
+        "İç"
+      ],
+      "Content Source": [
+        "İçerik Kaynağı"
+      ],
+      "Source": [
+        "Kaynak"
+      ],
+      "Post type": [
+        "Yazı türü"
+      ],
+      "Number of posts": [
+        "Yazı sayısı"
+      ],
+      "Filter by category": [
+        "Kategoriye göre filtrele"
+      ],
+      "All categories": [
+        "Tüm kategoriler"
+      ],
+      "Select a category to filter posts": [
+        "Yazıları filtrelemek için bir kategori seçin"
+      ],
+      "Filter by tag": [
+        "Etikete göre filtrele"
+      ],
+      "All tags": [
+        "Tüm etiketler"
+      ],
+      "Order by": [
+        "Sıralama ölçütü"
+      ],
+      "Order": [
+        "Sıralama"
+      ],
+      "Show date": [
+        "Tarihi göster"
+      ],
+      "Date format": [
+        "Tarih biçimi"
+      ],
+      "Loading posts...": [
+        "Yazılar yükleniyor…"
+      ],
+      "Preview:": [
+        "Önizleme:"
+      ],
+      "posts found": [
+        "yazı bulundu"
+      ],
+      "No posts found with current filters": [
+        "Geçerli filtrelerle yazı bulunamadı"
+      ],
+      "Announcement text": [
+        "Duyuru metni"
+      ],
+      "Link (optional)": [
+        "Bağlantı (isteğe bağlı)"
+      ],
+      "Open in new tab": [
+        "Yeni sekmede aç"
+      ],
+      "Move up": [
+        "Yukarı taşı"
+      ],
+      "Move down": [
+        "Aşağı taşı"
+      ],
+      "Delete": [
+        "Sil"
+      ],
+      "Add announcement": [
+        "Duyuru ekle"
+      ],
+      "About": [
+        "Hakkında"
+      ],
+      "Loading...": [
+        "Yükleniyor…"
+      ],
+      "No posts found": [
+        "Yazı bulunamadı"
+      ],
+      "Add announcements in the sidebar →": [
+        "Kenar çubuğundan duyuru ekleyin →"
+      ],
+      "(No text)": [
+        "(Metin yok)"
+      ],
+      "block title\u0004Newsticker": [
+        "Haber Bandı"
+      ],
+      "block description\u0004Displays announcements in a ticker format with customizable links.": [
+        "Duyuruları özelleştirilebilir bağlantılarla animasyonlu bir bant biçiminde gösterir."
+      ],
+      "block keyword\u0004news": [
+        "haberler"
+      ],
+      "block keyword\u0004ticker": [
+        "bant"
+      ],
+      "block keyword\u0004announcements": [
+        "duyurular"
+      ]
+    }
+  }
+}

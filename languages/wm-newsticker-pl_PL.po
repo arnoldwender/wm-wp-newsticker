@@ -1,0 +1,900 @@
+# Translation of WM Newsticker in pl_PL
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-newsticker 1.6.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-newsticker\n"
+"POT-Creation-Date: 2026-11-21T10:01:28+00:00\n"
+"PO-Revision-Date: 2026-11-21 11:03+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-newsticker/"
+"issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-newsticker/"
+"issues>\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 "
+"|| n%100>14) ? 1 : 2);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-newsticker\n"
+
+#. Plugin Name of the plugin
+#: wm-newsticker.php includes/class-newsticker-integrations.php:166
+#: wm-newsticker.php:963 wm-newsticker.php:1026 wm-newsticker.php:1027
+#: wm-newsticker.php:1058 wm-newsticker.php:1077
+msgid "WM Newsticker"
+msgstr "WM Newsticker"
+
+#. Plugin URI of the plugin
+#: wm-newsticker.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-newsticker/"
+msgstr "https://arnoldwender.com/wordpress-plugins/wm-newsticker/"
+
+#. Description of the plugin
+#: wm-newsticker.php
+msgid ""
+"A Gutenberg block for animated news tickers with scroll, fade, slide and "
+"typing animations."
+msgstr ""
+"Blok Gutenberga dla animowanych pasków informacyjnych z efektami "
+"przewijania, przenikania, przesuwania i maszyny do pisania."
+
+#. Author of the plugin
+#: wm-newsticker.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-newsticker.php
+msgid "https://arnoldwender.com"
+msgstr "https://arnoldwender.com"
+
+#: includes/class-newsticker-integrations.php:48
+msgid "WM Newsticker Feed"
+msgstr "Kanał WM Newsticker"
+
+#: includes/class-newsticker-integrations.php:96
+msgid "WM Newsticker Headline"
+msgstr "Nagłówek WM Newsticker"
+
+#: includes/class-newsticker-integrations.php:100
+msgid ""
+"Outputs a cached headline from WM Newsticker inside any GenerateBlocks Text "
+"or Element block."
+msgstr ""
+"Wyświetla zapisany w pamięci podręcznej nagłówek z WM Newsticker w dowolnym "
+"bloku Tekst lub Element GenerateBlocks."
+
+#: includes/class-newsticker-integrations.php:104
+msgid "Post type slug"
+msgstr "Uproszczona nazwa typu wpisu"
+
+#: includes/class-newsticker-integrations.php:109
+msgid "Headline index (0 = newest)"
+msgstr "Indeks nagłówka (0 = najnowszy)"
+
+#: includes/class-newsticker-integrations.php:114
+msgid "Field"
+msgstr "Pole"
+
+#: includes/class-newsticker-integrations.php:119
+msgid "Headline text"
+msgstr "Tekst nagłówka"
+
+#: includes/class-newsticker-integrations.php:123
+msgid "Permalink URL"
+msgstr "Adres URL odnośnika"
+
+#: includes/class-newsticker-integrations.php:174
+msgid "Breaking News Ticker Bar"
+msgstr "Pasek pilnych wiadomości"
+
+#: includes/class-newsticker-integrations.php:175
+msgid "Full-width news ticker bar with accessible controls and recent posts."
+msgstr ""
+"Pełnoszerokościowy pasek wiadomości z dostępnymi przyciskami sterowania i "
+"najnowszymi wpisami."
+
+#: includes/class-newsticker-integrations.php:177 src/index.js:315
+msgid "NEWS"
+msgstr "PILNE"
+
+#: includes/class-newsticker-integrations.php:185
+msgid "GenerateBlocks Section with News Ticker"
+msgstr "Sekcja GenerateBlocks z paskiem wiadomości"
+
+#: includes/class-newsticker-integrations.php:186
+msgid ""
+"Two-layer GenerateBlocks section (gbp-section + gbp-section__inner) "
+"embedding WM Newsticker with GeneratePress global colour tokens."
+msgstr ""
+"Dwuwarstwowa sekcja GenerateBlocks (gbp-section + gbp-section__inner) "
+"osadzająca WM Newsticker z globalnymi tokenami kolorów GeneratePress."
+
+#: includes/class-newsticker-integrations.php:192
+msgid "AKTUELL"
+msgstr "AKTUALNOŚCI"
+
+#: includes/class-newsticker-integrations.php:213
+msgid "Get Newsticker Headlines"
+msgstr "Pobierz nagłówki paska wiadomości"
+
+#: includes/class-newsticker-integrations.php:214
+msgid ""
+"Returns sanitized, cached public headlines from WM Newsticker for a public "
+"post type."
+msgstr ""
+"Zwraca oczyszczone, zapisane w pamięci podręcznej publiczne nagłówki z WM "
+"Newsticker dla publicznego typu wpisu."
+
+#: wm-newsticker.php:478
+msgid "ago"
+msgstr "temu"
+
+#: wm-newsticker.php:635
+msgid "News ticker"
+msgstr "Pasek wiadomości"
+
+#: wm-newsticker.php:722
+msgid "Previous"
+msgstr "Poprzedni"
+
+#: wm-newsticker.php:731 wm-newsticker.php:732
+msgid "Pause"
+msgstr "Wstrzymaj"
+
+#: wm-newsticker.php:733
+msgid "Play"
+msgstr "Odtwórz"
+
+#: wm-newsticker.php:745
+msgid "Next"
+msgstr "Następny"
+
+#: wm-newsticker.php:873
+msgid "Part of the WM Suite plugin family"
+msgstr "Część rodziny wtyczek WM Suite"
+
+#: wm-newsticker.php:875
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: wm-newsticker.php:876
+msgid "Hub"
+msgstr "Tryb Hub"
+
+#: wm-newsticker.php:876
+msgid "Standalone"
+msgstr "Samodzielny"
+
+#: wm-newsticker.php:892
+msgid "LIVE"
+msgstr "NA ŻYWO"
+
+#: wm-newsticker.php:897
+msgid "Die Laufbewegung ist eine CSS-Animation (transform)"
+msgstr "Ruch przewijania wykorzystuje animację CSS (transform)"
+
+#: wm-newsticker.php:898
+msgid "Mit der Maus über dem Ticker hält die Bewegung an"
+msgstr "Najechanie kursorem na pasek zatrzymuje ruch"
+
+#: wm-newsticker.php:899
+msgid "prefers-reduced-motion stoppt die Animation"
+msgstr "prefers-reduced-motion zatrzymuje animację"
+
+#: wm-newsticker.php:900
+msgid "Dynamische Beiträge kommen 5 Minuten aus dem Transient-Cache"
+msgstr ""
+"Dynamiczne wpisy są pobierane przez 5 minut z pamięci podręcznej transient"
+
+#: wm-newsticker.php:985
+msgid "Block wm/newsticker registriert"
+msgstr "Blok wm/newsticker zarejestrowany"
+
+#: wm-newsticker.php:987
+msgid "Block wm/newsticker ist nicht registriert"
+msgstr "Blok wm/newsticker nie jest zarejestrowany"
+
+#: wm-newsticker.php:991
+msgid ""
+"Pause bei Hover und Fokus im Ticker, keine Bewegung bei prefers-reduced-"
+"motion"
+msgstr ""
+"Pauza przy najechaniu i fokusie w pasku; brak ruchu przy prefers-reduced-"
+"motion"
+
+#: wm-newsticker.php:998
+msgid "Seiten mit Ticker"
+msgstr "Strony z paskiem"
+
+#: wm-newsticker.php:1002
+msgid "Demo-Beiträge"
+msgstr "Wpisy demonstracyjne"
+
+#: wm-newsticker.php:1006
+msgid "Cache-Einträge"
+msgstr "Wpisy w pamięci podręcznej"
+
+#: wm-newsticker.php:1012
+msgid "Showcase & Handbuch öffnen"
+msgstr "Otwórz prezentację i podręcznik"
+
+#: wm-newsticker.php:1038
+msgid "WM Newsticker — Übersicht & Showcase"
+msgstr "WM Newsticker — Przegląd i prezentacja"
+
+#: wm-newsticker.php:1039
+msgid "Übersicht & Showcase"
+msgstr "Przegląd i prezentacja"
+
+#: wm-newsticker.php:1048
+msgid "WM Newsticker — Handbuch & Dokumentation"
+msgstr "WM Newsticker — Podręcznik i dokumentacja"
+
+#: wm-newsticker.php:1049 wm-newsticker.php:1295
+msgid "Handbuch"
+msgstr "Podręcznik"
+
+#: wm-newsticker.php:1057
+msgid "WM Newsticker Handbuch & Konfiguration"
+msgstr "Podręcznik i konfiguracja WM Newsticker"
+
+#: wm-newsticker.php:1076
+msgid "Gutenberg Block Integration"
+msgstr "Integracja bloku Gutenberga"
+
+#: wm-newsticker.php:1077
+msgid ""
+"ist ein nativer Gutenberg-Block. Fügen Sie ihn in jedem Beitrag oder jeder "
+"Seite über den Gutenberg-Inserter unter der Kategorie \"Widgets\" oder durch "
+"Eintippen von \"/newsticker\" ein."
+msgstr ""
+"to natywny blok Gutenberga. Wstaw go do dowolnego wpisu lub strony w "
+"kategorii \"Widżety\" albo wpisując \"/newsticker\"."
+
+#: wm-newsticker.php:1082
+msgid "Barrierefreiheit"
+msgstr "Dostępność"
+
+#: wm-newsticker.php:1083
+msgid ""
+"Die Bewegung hält bei Hover (Blockeinstellung) sowie bei Fokus auf einem "
+"Link im Ticker an und läuft nicht, wenn im System \"Bewegung reduzieren\" "
+"(prefers-reduced-motion) aktiv ist. Die Steuerung ist standardmäßig "
+"eingeblendet (mindestens 44 x 44 px) und lässt sich per Tastatur bedienen."
+msgstr ""
+"Ruch zatrzymuje się po najechaniu kursorem (ustawienie bloku) oraz po "
+"ustawieniu fokusu klawiatury na odnośniku w pasku, a przy włączonej opcji "
+"\"Ogranicz ruch\" (prefers-reduced-motion) nie uruchamia się. Przyciski "
+"sterowania są domyślnie widoczne (min. 44 x 44 px) i obsługiwane klawiaturą."
+
+#: wm-newsticker.php:1088
+msgid "Transient-Cache"
+msgstr "Pamięć podręczna Transient"
+
+#: wm-newsticker.php:1089
+msgid ""
+"Dynamische Beiträge werden für 5 Minuten im WordPress Transient Cache "
+"zwischengespeichert. Bei jeder Beitrags-Aktualisierung (save_post) oder "
+"Löschung wird der Cache automatisch invalidiert."
+msgstr ""
+"Dynamiczne wpisy są buforowane przez 5 minut w pamięci WordPress Transient "
+"Cache. Zapisanie (save_post) lub usunięcie wpisu automatycznie czyści pamięć "
+"podręczną."
+
+#: wm-newsticker.php:1093
+msgid "Block-Dokumentation:"
+msgstr "Dokumentacja bloku:"
+
+#: wm-newsticker.php:1094
+msgid "Entwickelt von WM Suite."
+msgstr "Stworzone przez WM Suite."
+
+#: wm-newsticker.php:1288
+msgid "Unzureichende Berechtigungen."
+msgstr "Niewystarczające uprawnienia."
+
+#: wm-newsticker.php:1296
+msgid "WM Newsticker — Handbuch"
+msgstr "WM Newsticker — Podręcznik"
+
+#: wm-newsticker.php:1297
+msgid ""
+"Gutenberg-Block für Laufband, Überblendung, Slide und Schreibmaschine, mit "
+"manuellen Meldungen oder den neuesten Beiträgen."
+msgstr ""
+"Blok Gutenberga dla przewijania, przenikania, wsuwania i maszyny do pisania "
+"z ręcznymi komunikatami lub najnowszymi wpisami."
+
+#. translators: %d: number of demo headlines created
+#: wm-newsticker.php:1306
+#, php-format
+msgid ""
+"Erfolg: %d Demo-Meldungen und eine interaktive Demo-Hub-Seite wurden "
+"erfolgreich erstellt."
+msgstr ""
+"Sukces: utworzono %d komunikatów demonstracyjnych oraz interaktywną stronę "
+"pokazową."
+
+#. translators: %d: number of demo posts and pages deleted
+#: wm-newsticker.php:1319
+#, php-format
+msgid ""
+"%d Demo-Beiträge und Showcase-Seiten wurden gelöscht. Der Transient-Cache "
+"wurde geleert."
+msgstr ""
+"Usunięto %d wpisów i stron demonstracyjnych. Wyczyszczono pamięć podręczną."
+
+#: wm-newsticker.php:1329
+msgid "Werkseinstellungen wiederhergestellt:"
+msgstr "Przywrócono ustawienia fabryczne:"
+
+#: wm-newsticker.php:1329
+msgid "Alle Demo-Daten und Caches wurden restlos bereinigt."
+msgstr ""
+"Wszystkie dane demonstracyjne i pamięć podręczna zostały całkowicie usunięte."
+
+#: wm-newsticker.php:1335
+msgid "Deinstallations-Einstellung gespeichert."
+msgstr "Zapisano ustawienie deinstalacji."
+
+#: wm-newsticker.php:1341
+msgid "Live-Vorschau & Ticker-Test"
+msgstr "Podgląd na żywo i test paska"
+
+#: wm-newsticker.php:1343
+msgid ""
+"Der Block, wie er im Frontend rendert: echte Ausgabe von render_block() mit "
+"vier manuellen Meldungen. Hover hält die Bewegung an, die Steuerung ist per "
+"Tastatur bedienbar."
+msgstr ""
+"Blok w takiej postaci, w jakiej renderuje się na stronie: rzeczywisty wynik "
+"render_block() z czterema komunikatami. Najechanie zatrzymuje ruch, a "
+"sterowanie działa z klawiatury."
+
+#: wm-newsticker.php:1353
+msgid "1. Block-Konfiguration (Inspector Controls)"
+msgstr "1. Konfiguracja bloku (Inspector Controls)"
+
+#: wm-newsticker.php:1364
+msgid "2. Barrierefreiheit"
+msgstr "2. Dostępność"
+
+#: wm-newsticker.php:1366
+msgid ""
+"Laufband und Überblendung bewegen sich nicht, wenn im System \"Bewegung "
+"reduzieren\" aktiv ist."
+msgstr ""
+"Przewijanie i przenikanie pozostają nieruchome, gdy w systemie włączono "
+"\"Ogranicz ruch\"."
+
+#: wm-newsticker.php:1367
+msgid ""
+"Die Steuerung ist standardmäßig aktiv, mindestens 44 x 44 px groß und "
+"besitzt sichtbare Fokusrahmen. Fokus auf einem Link im Ticker hält die "
+"Bewegung an."
+msgstr ""
+"Przyciski sterowania są domyślnie aktywne, mają co najmniej 44 x 44 px i "
+"widoczny obrys fokusu. Fokus na odnośniku w pasku wstrzymuje ruch."
+
+#: wm-newsticker.php:1368
+msgid ""
+"Landmark mit role=\"region\", aria-roledescription=\"marquee\", übersetztem "
+"Button-Status und aria-live=\"off\"."
+msgstr ""
+"Obszar z role=\"region\", aria-roledescription=\"marquee\", przetłumaczonym "
+"stanem przycisku i aria-live=\"off\"."
+
+#: wm-newsticker.php:1375
+msgid "3. PHP Hooks, Block Bindings & GenerateBlocks API"
+msgstr "3. Hooki PHP, Block Bindings i API GenerateBlocks"
+
+#: wm-newsticker.php:1377
+msgid ""
+"Erweitern Sie Abfragen und Einträge per Filter (wm_newsticker_query_args, "
+"wm_newsticker_rendered_items), binden Sie Überschriften über die WordPress "
+"Block Bindings Quelle wm-newsticker/feed ein oder nutzen Sie in "
+"GenerateBlocks 2.x das Dynamic Tag {{wm_newsticker_headline}}."
+msgstr ""
+"Filtruj zapytania i elementy za pomocą hooków (wm_newsticker_query_args, "
+"wm_newsticker_rendered_items), powiąż nagłówki przez źródło wm-newsticker/"
+"feed lub użyj znacznika {{wm_newsticker_headline}} w GenerateBlocks 2.x."
+
+#: wm-newsticker.php:1392
+msgid "4. Demodaten-Management & Werkseinstellungen (Reset)"
+msgstr "4. Zarządzanie danymi demo i reset fabryczny"
+
+#: wm-newsticker.php:1394
+msgid ""
+"Generieren Sie Beispielmeldungen und eine fertige Showcase-Gutenberg-Seite "
+"zum sofortigen Testen oder bereinigen Sie alle Caches und Beispieldaten."
+msgstr ""
+"Wygeneruj przykładowe komunikaty i gotową stronę pokazową Gutenberga lub "
+"wyczyść pamięć podręczną i dane przykładowe."
+
+#: wm-newsticker.php:1403
+msgid "Demodaten & Showcase-Seite importieren"
+msgstr "Importuj dane demo i stronę pokazową"
+
+#: wm-newsticker.php:1408
+msgid ""
+"Möchten Sie alle generierten Demo-Meldungen und Showcase-Seiten löschen?"
+msgstr ""
+"Czy chcesz usunąć wszystkie wygenerowane komunikaty i strony demonstracyjne?"
+
+#: wm-newsticker.php:1412
+msgid "Demodaten bereinigen"
+msgstr "Wyczyść dane demo"
+
+#: wm-newsticker.php:1423
+msgid ""
+"Angelegte Demo-Beiträge und Beispielseiten bei der Plugin-Deinstallation "
+"automatisch mitlöschen"
+msgstr ""
+"Automatycznie usuń utworzone przez wtyczkę wpisy i strony demonstracyjne "
+"podczas odinstalowywania"
+
+#: wm-newsticker.php:1426
+msgid "Einstellung speichern"
+msgstr "Zapisz ustawienie"
+
+#: wm-newsticker.php:1436
+msgid "Gefahrenbereich: Auf Werkseinstellungen zurücksetzen"
+msgstr "Strefa zagrożenia: przywróć ustawienia fabryczne"
+
+#: wm-newsticker.php:1439
+msgid ""
+"Löscht die vom Plugin angelegten Demo-Beiträge und die Beispielseite und "
+"leert den Ticker-Cache. Das Plugin speichert keine eigenen Einstellungen; "
+"die Blöcke in Ihren Seiten behalten ihre Attribute."
+msgstr ""
+"Usuwa utworzone przez wtyczkę wpisy demonstracyjne i stronę przykładową oraz "
+"czyści pamięć podręczną. Bloki na stronach zachowują swoje atrybuty."
+
+#: wm-newsticker.php:1441
+msgid ""
+"WARNUNG: Sind Sie sicher? Dies leert alle Ticker-Caches und setzt das Plugin "
+"zurück!"
+msgstr ""
+"OSTRZEŻENIE: czy na pewno? Spowoduje to wyczyszczenie pamięci podręcznej i "
+"zresetowanie wtyczki!"
+
+#: wm-newsticker.php:1445
+msgid "Werkseinstellungen wiederherstellen (Factory Reset)"
+msgstr "Przywróć ustawienia fabryczne (Factory Reset)"
+
+#: wm-newsticker.php:1453
+msgid "5. Häufige Fragen & Troubleshooting"
+msgstr "5. Częste pytania i rozwiązywanie problemów"
+
+#: wm-newsticker.php:1476
+msgid "Handbuch & Vorschau"
+msgstr "Podręcznik i podgląd"
+
+#: wm-newsticker.php:1484
+msgid "Dokumentation"
+msgstr "Dokumentacja"
+
+#: wm-newsticker.php:1485
+msgid "GitHub Repository"
+msgstr "Repozytorium GitHub"
+
+#: src/index.js:34
+msgid "Newsticker"
+msgstr "Pasek wiadomości"
+
+#: src/index.js:35
+msgid "Displays announcements in a ticker format with customizable links."
+msgstr ""
+"Wyświetla komunikaty w formie animowanego paska z konfigurowalnymi "
+"odnośnikami."
+
+#: src/index.js:38
+msgid "news"
+msgstr "wiadomości"
+
+#: src/index.js:38
+msgid "ticker"
+msgstr "pasek"
+
+#: src/index.js:38
+msgid "announcements"
+msgstr "ogłoszenia"
+
+#: src/index.js:355
+msgid "Scroll (Marquee)"
+msgstr "Przewijanie (Marquee)"
+
+#: src/index.js:356
+msgid "Fade"
+msgstr "Przenikanie"
+
+#: src/index.js:357
+msgid "Slide"
+msgstr "Przesuwanie"
+
+#: src/index.js:358
+msgid "Typing"
+msgstr "Maszyna do pisania"
+
+#: src/index.js:362 src/index.js:369
+msgid "Left"
+msgstr "W lewo"
+
+#: src/index.js:363 src/index.js:370
+msgid "Right"
+msgstr "W prawo"
+
+#: src/index.js:364
+msgid "Up"
+msgstr "W górę"
+
+#: src/index.js:365
+msgid "Down"
+msgstr "W dół"
+
+#: src/index.js:374
+msgid "Manual announcements"
+msgstr "Ręczne komunikaty"
+
+#: src/index.js:375
+msgid "Recent posts"
+msgstr "Najnowsze wpisy"
+
+#: src/index.js:379
+msgid "Date"
+msgstr "Data"
+
+#: src/index.js:380
+msgid "Title"
+msgstr "Tytuł"
+
+#: src/index.js:381
+msgid "Last modified"
+msgstr "Ostatnia modyfikacja"
+
+#: src/index.js:382
+msgid "Random"
+msgstr "Losowo"
+
+#: src/index.js:383
+msgid "Comment count"
+msgstr "Liczba komentarzy"
+
+#: src/index.js:387
+msgid "Descending (newest first)"
+msgstr "Malejąco (od najnowszych)"
+
+#: src/index.js:388
+msgid "Ascending (oldest first)"
+msgstr "Rosnąco (od najstarszych)"
+
+#: src/index.js:392
+msgid "Relative (e.g., 2 hours ago)"
+msgstr "Względny (np. 2 godziny temu)"
+
+#: src/index.js:393
+msgid "Absolute (site format)"
+msgstr "Bezwzględny (format witryny)"
+
+#: src/index.js:402
+msgid "Animation"
+msgstr "Animacja"
+
+#: src/index.js:404
+msgid "Animation type"
+msgstr "Typ animacji"
+
+#: src/index.js:408
+msgid "Choose how announcements are displayed"
+msgstr "Wybierz sposób wyświetlania komunikatów"
+
+#: src/index.js:411
+msgid "Direction"
+msgstr "Kierunek"
+
+#: src/index.js:417
+msgid "Speed"
+msgstr "Prędkość"
+
+#: src/index.js:422
+msgid "Higher value = faster"
+msgstr "Wyższa wartość = szybciej"
+
+#: src/index.js:425
+msgid "Pause on hover"
+msgstr "Wstrzymaj po najechaniu"
+
+#: src/index.js:430
+msgid "RTL (Right-to-Left)"
+msgstr "RTL (od prawej do lewej)"
+
+#: src/index.js:433
+msgid "Enable for Arabic, Hebrew, etc."
+msgstr "Włącz dla arabskiego, hebrajskiego itp."
+
+#: src/index.js:437
+msgid "Controls"
+msgstr "Sterowanie"
+
+#: src/index.js:439
+msgid "Show controls"
+msgstr "Pokaż sterowanie"
+
+#: src/index.js:442
+msgid "Display Play/Pause and Prev/Next buttons"
+msgstr "Wyświetl przyciski Odtwórz/Wstrzymaj oraz Poprzedni/Następny"
+
+#: src/index.js:447
+msgid "Controls position"
+msgstr "Pozycja sterowania"
+
+#: src/index.js:453
+msgid "Play/Pause button"
+msgstr "Przycisk Odtwórz/Wstrzymaj"
+
+#: src/index.js:458
+msgid "Previous/Next buttons"
+msgstr "Przyciski Poprzedni/Następny"
+
+#: src/index.js:461
+msgid "Only works with Fade/Slide/Typing animations"
+msgstr "Działa tylko z animacjami Przenikanie/Przesuwanie/Maszyna do pisania"
+
+#: src/index.js:464
+msgid "Progress indicator"
+msgstr "Wskaźnik postępu"
+
+#: src/index.js:467
+msgid "Shows a progress bar at the bottom"
+msgstr "Pokazuje pasek postępu na dole"
+
+#: src/index.js:473
+msgid "General Settings"
+msgstr "Ustawienia ogólne"
+
+#: src/index.js:475 src/index.js:548
+msgid "Label text"
+msgstr "Tekst etykiety"
+
+#: src/index.js:479
+msgid "Leave empty to hide the label on the frontend"
+msgstr "Pozostaw puste, aby ukryć etykietę na stronie"
+
+#: src/index.js:483
+msgid "Separator"
+msgstr "Separator"
+
+#: src/index.js:489
+msgid "Font size (px)"
+msgstr "Rozmiar czcionki (px)"
+
+#: src/index.js:496
+msgid "Height (px)"
+msgstr "Wysokość (px)"
+
+#: src/index.js:504
+msgid "Colors"
+msgstr "Kolory"
+
+#: src/index.js:506
+msgid "Ticker background"
+msgstr "Tło paska"
+
+#: src/index.js:520
+msgid "Text color"
+msgstr "Kolor tekstu"
+
+#: src/index.js:534
+msgid "Label background"
+msgstr "Tło etykiety"
+
+#: src/index.js:562
+msgid "Border color"
+msgstr "Kolor obramowania"
+
+#: src/index.js:579
+msgid "Spacing & Borders"
+msgstr "Odstępy i obramowania"
+
+#: src/index.js:581
+msgid "Padding"
+msgstr "Dopełnienie"
+
+#: src/index.js:591
+msgid "Margin"
+msgstr "Margines"
+
+#: src/index.js:601
+msgid "Border Radius"
+msgstr "Zaokrąglenie rogów"
+
+#: src/index.js:612
+msgid "Border Width"
+msgstr "Szerokość obramowania"
+
+#: src/index.js:622
+msgid "Border Style"
+msgstr "Styl obramowania"
+
+#: src/index.js:625
+msgid "Solid"
+msgstr "Ciągłe"
+
+#: src/index.js:626
+msgid "Dashed"
+msgstr "Kreskowane"
+
+#: src/index.js:627
+msgid "Dotted"
+msgstr "Kropkowane"
+
+#: src/index.js:628 src/index.js:638
+msgid "None"
+msgstr "Brak"
+
+#: src/index.js:635
+msgid "Box Shadow"
+msgstr "Cień"
+
+#: src/index.js:639
+msgid "Small"
+msgstr "Mały"
+
+#: src/index.js:640
+msgid "Medium"
+msgstr "Średni"
+
+#: src/index.js:641
+msgid "Large"
+msgstr "Duży"
+
+#: src/index.js:642
+msgid "Inset"
+msgstr "Wewnętrzny"
+
+#: src/index.js:648
+msgid "Content Source"
+msgstr "Źródło treści"
+
+#: src/index.js:650
+msgid "Source"
+msgstr "Źródło"
+
+#: src/index.js:659
+msgid "Post type"
+msgstr "Typ wpisu"
+
+#: src/index.js:665
+msgid "Number of posts"
+msgstr "Liczba wpisów"
+
+#: src/index.js:673
+msgid "Filter by category"
+msgstr "Filtruj według kategorii"
+
+#: src/index.js:676
+msgid "All categories"
+msgstr "Wszystkie kategorie"
+
+#: src/index.js:680
+msgid "Select a category to filter posts"
+msgstr "Wybierz kategorię do filtrowania wpisów"
+
+#: src/index.js:685
+msgid "Filter by tag"
+msgstr "Filtruj według tagu"
+
+#: src/index.js:688
+msgid "All tags"
+msgstr "Wszystkie tagi"
+
+#: src/index.js:695
+msgid "Order by"
+msgstr "Sortuj według"
+
+#: src/index.js:701
+msgid "Order"
+msgstr "Kolejność"
+
+#: src/index.js:707
+msgid "Show date"
+msgstr "Pokaż datę"
+
+#: src/index.js:713
+msgid "Date format"
+msgstr "Format daty"
+
+#: src/index.js:721
+msgid "Loading posts..."
+msgstr "Wczytywanie wpisów…"
+
+#: src/index.js:726
+msgid "Preview:"
+msgstr "Podgląd:"
+
+#: src/index.js:726
+msgid "posts found"
+msgstr "znalezionych wpisów"
+
+#: src/index.js:731
+msgid "No posts found with current filters"
+msgstr "Nie znaleziono wpisów dla bieżących filtrów"
+
+#: src/index.js:744
+msgid "Announcement text"
+msgstr "Tekst komunikatu"
+
+#: src/index.js:749
+msgid "Link (optional)"
+msgstr "Odnośnik (opcjonalnie)"
+
+#: src/index.js:755
+msgid "Open in new tab"
+msgstr "Otwórz w nowej karcie"
+
+#: src/index.js:767
+msgid "Move up"
+msgstr "Przesuń w górę"
+
+#: src/index.js:774
+msgid "Move down"
+msgstr "Przesuń w dół"
+
+#: src/index.js:781
+msgid "Delete"
+msgstr "Usuń"
+
+#: src/index.js:794
+msgid "Add announcement"
+msgstr "Dodaj komunikat"
+
+#: src/index.js:800
+msgid "About"
+msgstr "O wtyczce"
+
+#: src/index.js:849
+msgid "Loading..."
+msgstr "Wczytywanie…"
+
+#: src/index.js:849
+msgid "No posts found"
+msgstr "Nie znaleziono wpisów"
+
+#: src/index.js:850
+msgid "Add announcements in the sidebar →"
+msgstr "Dodaj komunikaty w panelu bocznym →"
+
+#: src/index.js:866
+msgid "(No text)"
+msgstr "(Brak tekstu)"
+
+#: block.json
+msgctxt "block title"
+msgid "Newsticker"
+msgstr "Pasek wiadomości"
+
+#: block.json
+msgctxt "block description"
+msgid "Displays announcements in a ticker format with customizable links."
+msgstr ""
+"Wyświetla komunikaty w formie animowanego paska z konfigurowalnymi "
+"odnośnikami."
+
+#: block.json
+msgctxt "block keyword"
+msgid "news"
+msgstr "wiadomości"
+
+#: block.json
+msgctxt "block keyword"
+msgid "ticker"
+msgstr "pasek"
+
+#: block.json
+msgctxt "block keyword"
+msgid "announcements"
+msgstr "ogłoszenia"

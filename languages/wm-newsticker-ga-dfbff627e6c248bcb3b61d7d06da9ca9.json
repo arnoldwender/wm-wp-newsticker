@@ -1,0 +1,324 @@
+{
+  "translation-revision-date": "2026-11-16T20:55:00+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-newsticker",
+        "lang": "ga",
+        "plural-forms": "nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4);"
+      },
+      "NEWS": [
+        "NUACHT"
+      ],
+      "Newsticker": [
+        "Barra Nuachta"
+      ],
+      "Displays announcements in a ticker format with customizable links.": [
+        "Taispeánann sé fógraí i bhformáid bharra bheoite le naisc inoiriúnaithe."
+      ],
+      "news": [
+        "nuacht"
+      ],
+      "ticker": [
+        "barra"
+      ],
+      "announcements": [
+        "fógraí"
+      ],
+      "Scroll (Marquee)": [
+        "Scrollú (Marquee)"
+      ],
+      "Fade": [
+        "Céimniú"
+      ],
+      "Slide": [
+        "Sleamhnú"
+      ],
+      "Typing": [
+        "Clóscríobhán"
+      ],
+      "Left": [
+        "Clé"
+      ],
+      "Right": [
+        "Deas"
+      ],
+      "Up": [
+        "Suas"
+      ],
+      "Down": [
+        "Síos"
+      ],
+      "Manual announcements": [
+        "Fógraí láimhe"
+      ],
+      "Recent posts": [
+        "Postálacha le déanaí"
+      ],
+      "Date": [
+        "Dáta"
+      ],
+      "Title": [
+        "Teideal"
+      ],
+      "Last modified": [
+        "Athraithe is déanaí"
+      ],
+      "Random": [
+        "Randamach"
+      ],
+      "Comment count": [
+        "Líon tráchtanna"
+      ],
+      "Descending (newest first)": [
+        "Íslitheach (is nuaí ar dtús)"
+      ],
+      "Ascending (oldest first)": [
+        "Ardaitheach (is sine ar dtús)"
+      ],
+      "Relative (e.g., 2 hours ago)": [
+        "Coibhneasta (m.sh. 2 uair ó shin)"
+      ],
+      "Absolute (site format)": [
+        "Absalóideach (formáid an tsuímh)"
+      ],
+      "Animation": [
+        "Beochan"
+      ],
+      "Animation type": [
+        "Cineál beochana"
+      ],
+      "Choose how announcements are displayed": [
+        "Roghnaigh conas a thaispeántar fógraí"
+      ],
+      "Direction": [
+        "Treo"
+      ],
+      "Speed": [
+        "Luas"
+      ],
+      "Higher value = faster": [
+        "Luach níos airde = níos tapúla"
+      ],
+      "Pause on hover": [
+        "Sos ar ainliú"
+      ],
+      "RTL (Right-to-Left)": [
+        "RTL (deas go clé)"
+      ],
+      "Enable for Arabic, Hebrew, etc.": [
+        "Cumasaigh d’Araibis, Eabhrais, srl."
+      ],
+      "Controls": [
+        "Rialtáin"
+      ],
+      "Show controls": [
+        "Taispeáin rialtáin"
+      ],
+      "Display Play/Pause and Prev/Next buttons": [
+        "Taispeáin cnaipí Seinn/Sos agus Roimhe/Ar aghaidh"
+      ],
+      "Controls position": [
+        "Suíomh na rialtán"
+      ],
+      "Play/Pause button": [
+        "Cnaipe Seinn/Sos"
+      ],
+      "Previous/Next buttons": [
+        "Cnaipí Roimhe/Ar aghaidh"
+      ],
+      "Only works with Fade/Slide/Typing animations": [
+        "Ní oibríonn ach le Céimniú/Sleamhnú/Clóscríobhán"
+      ],
+      "Progress indicator": [
+        "Táscaire dul chun cinn"
+      ],
+      "Shows a progress bar at the bottom": [
+        "Taispeánann barra dul chun cinn ag an mbun"
+      ],
+      "General Settings": [
+        "Socruithe Ginearálta"
+      ],
+      "Label text": [
+        "Téacs lipéid"
+      ],
+      "Leave empty to hide the label on the frontend": [
+        "Fág folamh chun an lipéad a cheilt ar an suíomh"
+      ],
+      "Separator": [
+        "Deighilteoir"
+      ],
+      "Font size (px)": [
+        "Méid cló (px)"
+      ],
+      "Height (px)": [
+        "Airde (px)"
+      ],
+      "Colors": [
+        "Dathanna"
+      ],
+      "Ticker background": [
+        "Cúlra an bharra"
+      ],
+      "Text color": [
+        "Dath an téacs"
+      ],
+      "Label background": [
+        "Cúlra an lipéid"
+      ],
+      "Border color": [
+        "Dath na teorann"
+      ],
+      "Spacing & Borders": [
+        "Spásáil & Teorainneacha"
+      ],
+      "Padding": [
+        "Stuáil"
+      ],
+      "Margin": [
+        "Imeall"
+      ],
+      "Border Radius": [
+        "Ga coirnéil"
+      ],
+      "Border Width": [
+        "Leithead teorann"
+      ],
+      "Border Style": [
+        "Stíl teorann"
+      ],
+      "Solid": [
+        "Soladach"
+      ],
+      "Dashed": [
+        "Briseadh"
+      ],
+      "Dotted": [
+        "Poncaithe"
+      ],
+      "None": [
+        "Dada"
+      ],
+      "Box Shadow": [
+        "Scáth bosca"
+      ],
+      "Small": [
+        "Beag"
+      ],
+      "Medium": [
+        "Meánach"
+      ],
+      "Large": [
+        "Mór"
+      ],
+      "Inset": [
+        "Istigh"
+      ],
+      "Content Source": [
+        "Foinse Ábhair"
+      ],
+      "Source": [
+        "Foinse"
+      ],
+      "Post type": [
+        "Cineál postála"
+      ],
+      "Number of posts": [
+        "Líon postálacha"
+      ],
+      "Filter by category": [
+        "Scag de réir catagóire"
+      ],
+      "All categories": [
+        "Gach catagóir"
+      ],
+      "Select a category to filter posts": [
+        "Roghnaigh catagóir chun postálacha a scagadh"
+      ],
+      "Filter by tag": [
+        "Scag de réir clibe"
+      ],
+      "All tags": [
+        "Gach clib"
+      ],
+      "Order by": [
+        "Ordú de réir"
+      ],
+      "Order": [
+        "Ord"
+      ],
+      "Show date": [
+        "Taispeáin dáta"
+      ],
+      "Date format": [
+        "Formáid dáta"
+      ],
+      "Loading posts...": [
+        "Ag lódáil postálacha…"
+      ],
+      "Preview:": [
+        "Réamhamharc:"
+      ],
+      "posts found": [
+        "postálacha aimsithe"
+      ],
+      "No posts found with current filters": [
+        "Níor aimsíodh postálacha leis na scagairí reatha"
+      ],
+      "Announcement text": [
+        "Téacs fógra"
+      ],
+      "Link (optional)": [
+        "Nasc (roghnach)"
+      ],
+      "Open in new tab": [
+        "Oscail i gcluaisín nua"
+      ],
+      "Move up": [
+        "Bog suas"
+      ],
+      "Move down": [
+        "Bog síos"
+      ],
+      "Delete": [
+        "Scrios"
+      ],
+      "Add announcement": [
+        "Cuir fógra leis"
+      ],
+      "About": [
+        "Maidir leis"
+      ],
+      "Loading...": [
+        "Ag lódáil…"
+      ],
+      "No posts found": [
+        "Níor aimsíodh postálacha"
+      ],
+      "Add announcements in the sidebar →": [
+        "Cuir fógraí leis sa bharra taoibh →"
+      ],
+      "(No text)": [
+        "(Gan téacs)"
+      ],
+      "block title\u0004Newsticker": [
+        "Barra Nuachta"
+      ],
+      "block description\u0004Displays announcements in a ticker format with customizable links.": [
+        "Taispeánann sé fógraí i bhformáid bharra bheoite le naisc inoiriúnaithe."
+      ],
+      "block keyword\u0004news": [
+        "nuacht"
+      ],
+      "block keyword\u0004ticker": [
+        "barra"
+      ],
+      "block keyword\u0004announcements": [
+        "fógraí"
+      ]
+    }
+  }
+}

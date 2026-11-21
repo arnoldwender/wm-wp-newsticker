@@ -1,0 +1,28 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "bom-ref": "pkg:wordpress/wm-newsticker@1.6.1",
+      "type": "application",
+      "name": "WM Newsticker",
+      "version": "1.6.1",
+      "description": "Gutenberg news ticker block with scroll, fade, slide and typing animations, Block Bindings, and GenerateBlocks 2.x Dynamic Tags.",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-or-later"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Arnold Wender",
+        "url": [
+          "https://arnoldwender.com"
+        ]
+      }
+    }
+  },
+  "components": []
+}

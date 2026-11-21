@@ -1,0 +1,324 @@
+{
+  "translation-revision-date": "2026-11-16T20:55:00+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-newsticker",
+        "lang": "bg_BG",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "NEWS": [
+        "НОВИНИ"
+      ],
+      "Newsticker": [
+        "Новинарска лента"
+      ],
+      "Displays announcements in a ticker format with customizable links.": [
+        "Показва съобщения в анимирана лента с персонализируеми връзки."
+      ],
+      "news": [
+        "новини"
+      ],
+      "ticker": [
+        "лента"
+      ],
+      "announcements": [
+        "съобщения"
+      ],
+      "Scroll (Marquee)": [
+        "Превъртане (Marquee)"
+      ],
+      "Fade": [
+        "Избледняване"
+      ],
+      "Slide": [
+        "Плъзгане"
+      ],
+      "Typing": [
+        "Пишеща машина"
+      ],
+      "Left": [
+        "Наляво"
+      ],
+      "Right": [
+        "Надясно"
+      ],
+      "Up": [
+        "Нагоре"
+      ],
+      "Down": [
+        "Надолу"
+      ],
+      "Manual announcements": [
+        "Ръчни съобщения"
+      ],
+      "Recent posts": [
+        "Последни публикации"
+      ],
+      "Date": [
+        "Дата"
+      ],
+      "Title": [
+        "Заглавие"
+      ],
+      "Last modified": [
+        "Последна промяна"
+      ],
+      "Random": [
+        "Случайно"
+      ],
+      "Comment count": [
+        "Брой коментари"
+      ],
+      "Descending (newest first)": [
+        "Низходящо (най-новите първо)"
+      ],
+      "Ascending (oldest first)": [
+        "Възходящо (най-старите първо)"
+      ],
+      "Relative (e.g., 2 hours ago)": [
+        "Относителна (напр. преди 2 часа)"
+      ],
+      "Absolute (site format)": [
+        "Абсолютна (формат на сайта)"
+      ],
+      "Animation": [
+        "Анимация"
+      ],
+      "Animation type": [
+        "Тип анимация"
+      ],
+      "Choose how announcements are displayed": [
+        "Изберете как да се показват съобщенията"
+      ],
+      "Direction": [
+        "Посока"
+      ],
+      "Speed": [
+        "Скорост"
+      ],
+      "Higher value = faster": [
+        "По-висока стойност = по-бързо"
+      ],
+      "Pause on hover": [
+        "Пауза при посочване"
+      ],
+      "RTL (Right-to-Left)": [
+        "RTL (отдясно наляво)"
+      ],
+      "Enable for Arabic, Hebrew, etc.": [
+        "Включете за арабски, иврит и др."
+      ],
+      "Controls": [
+        "Контроли"
+      ],
+      "Show controls": [
+        "Показване на контроли"
+      ],
+      "Display Play/Pause and Prev/Next buttons": [
+        "Показване на бутони Пускане/Пауза и Предишен/Следващ"
+      ],
+      "Controls position": [
+        "Позиция на контролите"
+      ],
+      "Play/Pause button": [
+        "Бутон Пускане/Пауза"
+      ],
+      "Previous/Next buttons": [
+        "Бутони Предишен/Следващ"
+      ],
+      "Only works with Fade/Slide/Typing animations": [
+        "Работи само с Избледняване/Плъзгане/Пишеща машина"
+      ],
+      "Progress indicator": [
+        "Индикатор за прогрес"
+      ],
+      "Shows a progress bar at the bottom": [
+        "Показва лента за прогрес отдолу"
+      ],
+      "General Settings": [
+        "Общи настройки"
+      ],
+      "Label text": [
+        "Текст на етикета"
+      ],
+      "Leave empty to hide the label on the frontend": [
+        "Оставете празно, за да скриете етикета в сайта"
+      ],
+      "Separator": [
+        "Разделител"
+      ],
+      "Font size (px)": [
+        "Размер на шрифта (px)"
+      ],
+      "Height (px)": [
+        "Височина (px)"
+      ],
+      "Colors": [
+        "Цветове"
+      ],
+      "Ticker background": [
+        "Фон на лентата"
+      ],
+      "Text color": [
+        "Цвят на текста"
+      ],
+      "Label background": [
+        "Фон на етикета"
+      ],
+      "Border color": [
+        "Цвят на рамката"
+      ],
+      "Spacing & Borders": [
+        "Отстояния и рамки"
+      ],
+      "Padding": [
+        "Вътрешно отстояние"
+      ],
+      "Margin": [
+        "Външно отстояние"
+      ],
+      "Border Radius": [
+        "Заобляне на ъглите"
+      ],
+      "Border Width": [
+        "Дебелина на рамката"
+      ],
+      "Border Style": [
+        "Стил на рамката"
+      ],
+      "Solid": [
+        "Плътна"
+      ],
+      "Dashed": [
+        "Пунктирана с тирета"
+      ],
+      "Dotted": [
+        "Точкова"
+      ],
+      "None": [
+        "Няма"
+      ],
+      "Box Shadow": [
+        "Сянка"
+      ],
+      "Small": [
+        "Малка"
+      ],
+      "Medium": [
+        "Средна"
+      ],
+      "Large": [
+        "Голяма"
+      ],
+      "Inset": [
+        "Вътрешна"
+      ],
+      "Content Source": [
+        "Източник на съдържание"
+      ],
+      "Source": [
+        "Източник"
+      ],
+      "Post type": [
+        "Тип публикация"
+      ],
+      "Number of posts": [
+        "Брой публикации"
+      ],
+      "Filter by category": [
+        "Филтриране по категория"
+      ],
+      "All categories": [
+        "Всички категории"
+      ],
+      "Select a category to filter posts": [
+        "Изберете категория за филтриране"
+      ],
+      "Filter by tag": [
+        "Филтриране по етикет"
+      ],
+      "All tags": [
+        "Всички етикети"
+      ],
+      "Order by": [
+        "Подреждане по"
+      ],
+      "Order": [
+        "Ред"
+      ],
+      "Show date": [
+        "Показване на дата"
+      ],
+      "Date format": [
+        "Формат на датата"
+      ],
+      "Loading posts...": [
+        "Зареждане на публикации…"
+      ],
+      "Preview:": [
+        "Преглед:"
+      ],
+      "posts found": [
+        "намерени публикации"
+      ],
+      "No posts found with current filters": [
+        "Няма намерени публикации с текущите филтри"
+      ],
+      "Announcement text": [
+        "Текст на съобщението"
+      ],
+      "Link (optional)": [
+        "Връзка (по избор)"
+      ],
+      "Open in new tab": [
+        "Отваряне в нов раздел"
+      ],
+      "Move up": [
+        "Преместване нагоре"
+      ],
+      "Move down": [
+        "Преместване надолу"
+      ],
+      "Delete": [
+        "Изтриване"
+      ],
+      "Add announcement": [
+        "Добавяне на съобщение"
+      ],
+      "About": [
+        "Относно"
+      ],
+      "Loading...": [
+        "Зареждане…"
+      ],
+      "No posts found": [
+        "Няма публикации"
+      ],
+      "Add announcements in the sidebar →": [
+        "Добавете съобщения в страничната лента →"
+      ],
+      "(No text)": [
+        "(Без текст)"
+      ],
+      "block title\u0004Newsticker": [
+        "Новинарска лента"
+      ],
+      "block description\u0004Displays announcements in a ticker format with customizable links.": [
+        "Показва съобщения в анимирана лента с персонализируеми връзки."
+      ],
+      "block keyword\u0004news": [
+        "новини"
+      ],
+      "block keyword\u0004ticker": [
+        "лента"
+      ],
+      "block keyword\u0004announcements": [
+        "съобщения"
+      ]
+    }
+  }
+}
