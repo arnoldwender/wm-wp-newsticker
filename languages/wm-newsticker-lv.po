@@ -1,0 +1,888 @@
+# Translation of WM Newsticker in lv
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-newsticker 1.6.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-newsticker\n"
+"POT-Creation-Date: 2026-11-21T10:01:28+00:00\n"
+"PO-Revision-Date: 2026-11-21 11:03+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-newsticker/"
+"issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-newsticker/"
+"issues>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==0 || (n%100>=11 && n%100<=19) ? 0 : "
+"n%10==1 && n%100!=11 ? 1 : 2);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-newsticker\n"
+
+#. Plugin Name of the plugin
+#: wm-newsticker.php includes/class-newsticker-integrations.php:166
+#: wm-newsticker.php:963 wm-newsticker.php:1026 wm-newsticker.php:1027
+#: wm-newsticker.php:1058 wm-newsticker.php:1077
+msgid "WM Newsticker"
+msgstr "WM Newsticker"
+
+#. Plugin URI of the plugin
+#: wm-newsticker.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-newsticker/"
+msgstr "https://arnoldwender.com/wordpress-plugins/wm-newsticker/"
+
+#. Description of the plugin
+#: wm-newsticker.php
+msgid ""
+"A Gutenberg block for animated news tickers with scroll, fade, slide and "
+"typing animations."
+msgstr ""
+"Gutenberg bloks animētām ziņu joslām ar ritināšanas, izbalēšanas, slīdēšanas "
+"un rakstāmmašīnas efektiem."
+
+#. Author of the plugin
+#: wm-newsticker.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-newsticker.php
+msgid "https://arnoldwender.com"
+msgstr "https://arnoldwender.com"
+
+#: includes/class-newsticker-integrations.php:48
+msgid "WM Newsticker Feed"
+msgstr "WM Newsticker plūsma"
+
+#: includes/class-newsticker-integrations.php:96
+msgid "WM Newsticker Headline"
+msgstr "WM Newsticker virsraksts"
+
+#: includes/class-newsticker-integrations.php:100
+msgid ""
+"Outputs a cached headline from WM Newsticker inside any GenerateBlocks Text "
+"or Element block."
+msgstr ""
+"Izvada kešatmiņā saglabātu WM Newsticker virsrakstu jebkurā GenerateBlocks "
+"Teksta vai Elementa blokā."
+
+#: includes/class-newsticker-integrations.php:104
+msgid "Post type slug"
+msgstr "Ieraksta veida saīsinājums"
+
+#: includes/class-newsticker-integrations.php:109
+msgid "Headline index (0 = newest)"
+msgstr "Virsraksta indekss (0 = jaunākais)"
+
+#: includes/class-newsticker-integrations.php:114
+msgid "Field"
+msgstr "Lauks"
+
+#: includes/class-newsticker-integrations.php:119
+msgid "Headline text"
+msgstr "Virsraksta teksts"
+
+#: includes/class-newsticker-integrations.php:123
+msgid "Permalink URL"
+msgstr "Pastāvīgās saites URL"
+
+#: includes/class-newsticker-integrations.php:174
+msgid "Breaking News Ticker Bar"
+msgstr "Svarīgo ziņu josla"
+
+#: includes/class-newsticker-integrations.php:175
+msgid "Full-width news ticker bar with accessible controls and recent posts."
+msgstr ""
+"Pilna platuma ziņu josla ar piekļūstamām vadīklām un jaunākajiem ierakstiem."
+
+#: includes/class-newsticker-integrations.php:177 src/index.js:315
+msgid "NEWS"
+msgstr "ZIŅAS"
+
+#: includes/class-newsticker-integrations.php:185
+msgid "GenerateBlocks Section with News Ticker"
+msgstr "GenerateBlocks sadaļa ar ziņu joslu"
+
+#: includes/class-newsticker-integrations.php:186
+msgid ""
+"Two-layer GenerateBlocks section (gbp-section + gbp-section__inner) "
+"embedding WM Newsticker with GeneratePress global colour tokens."
+msgstr ""
+"Divslāņu GenerateBlocks sadaļa (gbp-section + gbp-section__inner) ar WM "
+"Newsticker un GeneratePress globālajiem krāsu žetoniem."
+
+#: includes/class-newsticker-integrations.php:192
+msgid "AKTUELL"
+msgstr "AKTUĀLI"
+
+#: includes/class-newsticker-integrations.php:213
+msgid "Get Newsticker Headlines"
+msgstr "Iegūt ziņu joslas virsrakstus"
+
+#: includes/class-newsticker-integrations.php:214
+msgid ""
+"Returns sanitized, cached public headlines from WM Newsticker for a public "
+"post type."
+msgstr ""
+"Atgriež attīrītus, kešatmiņā saglabātus publiskus virsrakstus no WM "
+"Newsticker publiskam ieraksta veidam."
+
+#: wm-newsticker.php:478
+msgid "ago"
+msgstr "pirms"
+
+#: wm-newsticker.php:635
+msgid "News ticker"
+msgstr "Ziņu josla"
+
+#: wm-newsticker.php:722
+msgid "Previous"
+msgstr "Iepriekšējais"
+
+#: wm-newsticker.php:731 wm-newsticker.php:732
+msgid "Pause"
+msgstr "Pauze"
+
+#: wm-newsticker.php:733
+msgid "Play"
+msgstr "Atskaņot"
+
+#: wm-newsticker.php:745
+msgid "Next"
+msgstr "Nākamais"
+
+#: wm-newsticker.php:873
+msgid "Part of the WM Suite plugin family"
+msgstr "Daļa no WM Suite spraudņu saimes"
+
+#: wm-newsticker.php:875
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: wm-newsticker.php:876
+msgid "Hub"
+msgstr "Hub režīms"
+
+#: wm-newsticker.php:876
+msgid "Standalone"
+msgstr "Patstāvīgs"
+
+#: wm-newsticker.php:892
+msgid "LIVE"
+msgstr "TIEŠRAIDE"
+
+#: wm-newsticker.php:897
+msgid "Die Laufbewegung ist eine CSS-Animation (transform)"
+msgstr "Ritināšanas kustība izmanto CSS animāciju (transform)"
+
+#: wm-newsticker.php:898
+msgid "Mit der Maus über dem Ticker hält die Bewegung an"
+msgstr "Novietojot kursoru virs joslas, kustība apstājas"
+
+#: wm-newsticker.php:899
+msgid "prefers-reduced-motion stoppt die Animation"
+msgstr "prefers-reduced-motion aptur animāciju"
+
+#: wm-newsticker.php:900
+msgid "Dynamische Beiträge kommen 5 Minuten aus dem Transient-Cache"
+msgstr "Dinamiskie ieraksti 5 minūtes tiek ielādēti no pagaidu kešatmiņas"
+
+#: wm-newsticker.php:985
+msgid "Block wm/newsticker registriert"
+msgstr "Bloks wm/newsticker ir reģistrēts"
+
+#: wm-newsticker.php:987
+msgid "Block wm/newsticker ist nicht registriert"
+msgstr "Bloks wm/newsticker nav reģistrēts"
+
+#: wm-newsticker.php:991
+msgid ""
+"Pause bei Hover und Fokus im Ticker, keine Bewegung bei prefers-reduced-"
+"motion"
+msgstr ""
+"Pauze pie kursora un fokusa joslā; bez kustības ar prefers-reduced-motion"
+
+#: wm-newsticker.php:998
+msgid "Seiten mit Ticker"
+msgstr "Lapas ar joslu"
+
+#: wm-newsticker.php:1002
+msgid "Demo-Beiträge"
+msgstr "Demo ieraksti"
+
+#: wm-newsticker.php:1006
+msgid "Cache-Einträge"
+msgstr "Kešatmiņas vienumi"
+
+#: wm-newsticker.php:1012
+msgid "Showcase & Handbuch öffnen"
+msgstr "Atvērt demonstrāciju un rokasgrāmatu"
+
+#: wm-newsticker.php:1038
+msgid "WM Newsticker — Übersicht & Showcase"
+msgstr "WM Newsticker — Pārskats un demonstrācija"
+
+#: wm-newsticker.php:1039
+msgid "Übersicht & Showcase"
+msgstr "Pārskats un demonstrācija"
+
+#: wm-newsticker.php:1048
+msgid "WM Newsticker — Handbuch & Dokumentation"
+msgstr "WM Newsticker — Rokasgrāmata un dokumentācija"
+
+#: wm-newsticker.php:1049 wm-newsticker.php:1295
+msgid "Handbuch"
+msgstr "Rokasgrāmata"
+
+#: wm-newsticker.php:1057
+msgid "WM Newsticker Handbuch & Konfiguration"
+msgstr "WM Newsticker rokasgrāmata un iestatījumi"
+
+#: wm-newsticker.php:1076
+msgid "Gutenberg Block Integration"
+msgstr "Gutenberg bloka integrācija"
+
+#: wm-newsticker.php:1077
+msgid ""
+"ist ein nativer Gutenberg-Block. Fügen Sie ihn in jedem Beitrag oder jeder "
+"Seite über den Gutenberg-Inserter unter der Kategorie \"Widgets\" oder durch "
+"Eintippen von \"/newsticker\" ein."
+msgstr ""
+"ir iebūvēts Gutenberg bloks. Ievietojiet to jebkurā ierakstā vai lapā sadaļā "
+"\"Logrīki\" vai ierakstot \"/newsticker\"."
+
+#: wm-newsticker.php:1082
+msgid "Barrierefreiheit"
+msgstr "Piekļūstamība"
+
+#: wm-newsticker.php:1083
+msgid ""
+"Die Bewegung hält bei Hover (Blockeinstellung) sowie bei Fokus auf einem "
+"Link im Ticker an und läuft nicht, wenn im System \"Bewegung reduzieren\" "
+"(prefers-reduced-motion) aktiv ist. Die Steuerung ist standardmäßig "
+"eingeblendet (mindestens 44 x 44 px) und lässt sich per Tastatur bedienen."
+msgstr ""
+"Kustība tiek apturēta, novietojot kursoru (bloka iestatījums) un kad saite "
+"joslā saņem tastatūras fokusu, un nedarbojas, ja ir ieslēgts \"Samazināt "
+"kustību\" (prefers-reduced-motion). Vadīklas pēc noklusējuma ir redzamas "
+"(vismaz 44 x 44 px) un vadāmas ar tastatūru."
+
+#: wm-newsticker.php:1088
+msgid "Transient-Cache"
+msgstr "Pagaidu kešatmiņa"
+
+#: wm-newsticker.php:1089
+msgid ""
+"Dynamische Beiträge werden für 5 Minuten im WordPress Transient Cache "
+"zwischengespeichert. Bei jeder Beitrags-Aktualisierung (save_post) oder "
+"Löschung wird der Cache automatisch invalidiert."
+msgstr ""
+"Dinamiskie ieraksti tiek glabāti 5 minūtes WordPress pagaidu kešatmiņā. "
+"Saglabājot (save_post) vai dzēšot ierakstu, kešatmiņa tiek automātiski "
+"notīrīta."
+
+#: wm-newsticker.php:1093
+msgid "Block-Dokumentation:"
+msgstr "Bloka dokumentācija:"
+
+#: wm-newsticker.php:1094
+msgid "Entwickelt von WM Suite."
+msgstr "Izstrādāja WM Suite."
+
+#: wm-newsticker.php:1288
+msgid "Unzureichende Berechtigungen."
+msgstr "Nepietiekamas tiesības."
+
+#: wm-newsticker.php:1296
+msgid "WM Newsticker — Handbuch"
+msgstr "WM Newsticker — Rokasgrāmata"
+
+#: wm-newsticker.php:1297
+msgid ""
+"Gutenberg-Block für Laufband, Überblendung, Slide und Schreibmaschine, mit "
+"manuellen Meldungen oder den neuesten Beiträgen."
+msgstr ""
+"Gutenberg bloks slīdošajai joslai, izbalēšanai, slīdēšanai un rakstāmmašīnai "
+"ar manuāliem paziņojumiem vai jaunākajiem ierakstiem."
+
+#. translators: %d: number of demo headlines created
+#: wm-newsticker.php:1306
+#, php-format
+msgid ""
+"Erfolg: %d Demo-Meldungen und eine interaktive Demo-Hub-Seite wurden "
+"erfolgreich erstellt."
+msgstr ""
+"Izdevās: izveidoti %d demo paziņojumi un interaktīva demonstrācijas lapa."
+
+#. translators: %d: number of demo posts and pages deleted
+#: wm-newsticker.php:1319
+#, php-format
+msgid ""
+"%d Demo-Beiträge und Showcase-Seiten wurden gelöscht. Der Transient-Cache "
+"wurde geleert."
+msgstr "Dzēsti %d demo ieraksti un lapas. Pagaidu kešatmiņa ir notīrīta."
+
+#: wm-newsticker.php:1329
+msgid "Werkseinstellungen wiederhergestellt:"
+msgstr "Rūpnīcas iestatījumi atjaunoti:"
+
+#: wm-newsticker.php:1329
+msgid "Alle Demo-Daten und Caches wurden restlos bereinigt."
+msgstr "Visi demo dati un kešatmiņas ir pilnībā notīrīti."
+
+#: wm-newsticker.php:1335
+msgid "Deinstallations-Einstellung gespeichert."
+msgstr "Atinstalēšanas izvēle saglabāta."
+
+#: wm-newsticker.php:1341
+msgid "Live-Vorschau & Ticker-Test"
+msgstr "Tiešraides priekšskatījums un joslas tests"
+
+#: wm-newsticker.php:1343
+msgid ""
+"Der Block, wie er im Frontend rendert: echte Ausgabe von render_block() mit "
+"vier manuellen Meldungen. Hover hält die Bewegung an, die Steuerung ist per "
+"Tastatur bedienbar."
+msgstr ""
+"Bloks tāds, kāds tas redzams vietnē: reāla render_block() izvade ar četriem "
+"paziņojumiem. Kursors aptur kustību, vadīklas darbojas ar tastatūru."
+
+#: wm-newsticker.php:1353
+msgid "1. Block-Konfiguration (Inspector Controls)"
+msgstr "1. Bloka konfigurācija (Inspector Controls)"
+
+#: wm-newsticker.php:1364
+msgid "2. Barrierefreiheit"
+msgstr "2. Piekļūstamība"
+
+#: wm-newsticker.php:1366
+msgid ""
+"Laufband und Überblendung bewegen sich nicht, wenn im System \"Bewegung "
+"reduzieren\" aktiv ist."
+msgstr ""
+"Ritināšana un izbalēšana nekustas, ja sistēmā ir ieslēgts \"Samazināt "
+"kustību\"."
+
+#: wm-newsticker.php:1367
+msgid ""
+"Die Steuerung ist standardmäßig aktiv, mindestens 44 x 44 px groß und "
+"besitzt sichtbare Fokusrahmen. Fokus auf einem Link im Ticker hält die "
+"Bewegung an."
+msgstr ""
+"Vadīklas pēc noklusējuma ir aktīvas, vismaz 44 x 44 px lielas un ar redzamu "
+"fokusa rāmi. Fokuss uz saites joslā aptur kustību."
+
+#: wm-newsticker.php:1368
+msgid ""
+"Landmark mit role=\"region\", aria-roledescription=\"marquee\", übersetztem "
+"Button-Status und aria-live=\"off\"."
+msgstr ""
+"Reģions ar role=\"region\", aria-roledescription=\"marquee\", tulkotu pogas "
+"stāvokli un aria-live=\"off\"."
+
+#: wm-newsticker.php:1375
+msgid "3. PHP Hooks, Block Bindings & GenerateBlocks API"
+msgstr "3. PHP āķi, Block Bindings un GenerateBlocks API"
+
+#: wm-newsticker.php:1377
+msgid ""
+"Erweitern Sie Abfragen und Einträge per Filter (wm_newsticker_query_args, "
+"wm_newsticker_rendered_items), binden Sie Überschriften über die WordPress "
+"Block Bindings Quelle wm-newsticker/feed ein oder nutzen Sie in "
+"GenerateBlocks 2.x das Dynamic Tag {{wm_newsticker_headline}}."
+msgstr ""
+"Filtrējiet vaicājumus un vienumus ar āķiem (wm_newsticker_query_args, "
+"wm_newsticker_rendered_items), piesaistiet virsrakstus ar wm-newsticker/feed "
+"vai izmantojiet {{wm_newsticker_headline}} GenerateBlocks 2.x."
+
+#: wm-newsticker.php:1392
+msgid "4. Demodaten-Management & Werkseinstellungen (Reset)"
+msgstr "4. Demo datu pārvaldība un rūpnīcas atiestatīšana"
+
+#: wm-newsticker.php:1394
+msgid ""
+"Generieren Sie Beispielmeldungen und eine fertige Showcase-Gutenberg-Seite "
+"zum sofortigen Testen oder bereinigen Sie alle Caches und Beispieldaten."
+msgstr ""
+"Ģenerējiet parauga paziņojumus un gatavu Gutenberg lapu vai notīriet visas "
+"kešatmiņas un parauga datus."
+
+#: wm-newsticker.php:1403
+msgid "Demodaten & Showcase-Seite importieren"
+msgstr "Importēt demo datus un lapu"
+
+#: wm-newsticker.php:1408
+msgid ""
+"Möchten Sie alle generierten Demo-Meldungen und Showcase-Seiten löschen?"
+msgstr "Vai vēlaties dzēst visus ģenerētos demo paziņojumus un lapas?"
+
+#: wm-newsticker.php:1412
+msgid "Demodaten bereinigen"
+msgstr "Notīrīt demo datus"
+
+#: wm-newsticker.php:1423
+msgid ""
+"Angelegte Demo-Beiträge und Beispielseiten bei der Plugin-Deinstallation "
+"automatisch mitlöschen"
+msgstr ""
+"Atinstalējot spraudni, automātiski dzēst spraudņa izveidotos demo ierakstus "
+"un parauga lapas"
+
+#: wm-newsticker.php:1426
+msgid "Einstellung speichern"
+msgstr "Saglabāt izvēli"
+
+#: wm-newsticker.php:1436
+msgid "Gefahrenbereich: Auf Werkseinstellungen zurücksetzen"
+msgstr "Bīstamā zona: atjaunot rūpnīcas iestatījumus"
+
+#: wm-newsticker.php:1439
+msgid ""
+"Löscht die vom Plugin angelegten Demo-Beiträge und die Beispielseite und "
+"leert den Ticker-Cache. Das Plugin speichert keine eigenen Einstellungen; "
+"die Blöcke in Ihren Seiten behalten ihre Attribute."
+msgstr ""
+"Dzēš spraudņa izveidotos demo ierakstus un parauga lapu un iztukšo "
+"kešatmiņu. Bloki jūsu lapās saglabā savus atribūtus."
+
+#: wm-newsticker.php:1441
+msgid ""
+"WARNUNG: Sind Sie sicher? Dies leert alle Ticker-Caches und setzt das Plugin "
+"zurück!"
+msgstr ""
+"BRĪDINĀJUMS: vai esat pārliecināts? Tas iztukšos visas kešatmiņas un "
+"atiestatīs spraudni!"
+
+#: wm-newsticker.php:1445
+msgid "Werkseinstellungen wiederherstellen (Factory Reset)"
+msgstr "Atjaunot rūpnīcas iestatījumus (Factory Reset)"
+
+#: wm-newsticker.php:1453
+msgid "5. Häufige Fragen & Troubleshooting"
+msgstr "5. Biežāk uzdotie jautājumi un problēmu novēršana"
+
+#: wm-newsticker.php:1476
+msgid "Handbuch & Vorschau"
+msgstr "Rokasgrāmata un priekšskatījums"
+
+#: wm-newsticker.php:1484
+msgid "Dokumentation"
+msgstr "Dokumentācija"
+
+#: wm-newsticker.php:1485
+msgid "GitHub Repository"
+msgstr "GitHub krātuve"
+
+#: src/index.js:34
+msgid "Newsticker"
+msgstr "Ziņu josla"
+
+#: src/index.js:35
+msgid "Displays announcements in a ticker format with customizable links."
+msgstr "Rāda paziņojumus animētā joslā ar pielāgojamām saitēm."
+
+#: src/index.js:38
+msgid "news"
+msgstr "ziņas"
+
+#: src/index.js:38
+msgid "ticker"
+msgstr "josla"
+
+#: src/index.js:38
+msgid "announcements"
+msgstr "paziņojumi"
+
+#: src/index.js:355
+msgid "Scroll (Marquee)"
+msgstr "Ritināšana (Marquee)"
+
+#: src/index.js:356
+msgid "Fade"
+msgstr "Izbalēšana"
+
+#: src/index.js:357
+msgid "Slide"
+msgstr "Slīdēšana"
+
+#: src/index.js:358
+msgid "Typing"
+msgstr "Rakstāmmašīna"
+
+#: src/index.js:362 src/index.js:369
+msgid "Left"
+msgstr "Pa kreisi"
+
+#: src/index.js:363 src/index.js:370
+msgid "Right"
+msgstr "Pa labi"
+
+#: src/index.js:364
+msgid "Up"
+msgstr "Uz augšu"
+
+#: src/index.js:365
+msgid "Down"
+msgstr "Uz leju"
+
+#: src/index.js:374
+msgid "Manual announcements"
+msgstr "Manuāli paziņojumi"
+
+#: src/index.js:375
+msgid "Recent posts"
+msgstr "Jaunākie ieraksti"
+
+#: src/index.js:379
+msgid "Date"
+msgstr "Datums"
+
+#: src/index.js:380
+msgid "Title"
+msgstr "Nosaukums"
+
+#: src/index.js:381
+msgid "Last modified"
+msgstr "Pēdējoreiz mainīts"
+
+#: src/index.js:382
+msgid "Random"
+msgstr "Nejauši"
+
+#: src/index.js:383
+msgid "Comment count"
+msgstr "Komentāru skaits"
+
+#: src/index.js:387
+msgid "Descending (newest first)"
+msgstr "Dilstoši (jaunākie vispirms)"
+
+#: src/index.js:388
+msgid "Ascending (oldest first)"
+msgstr "Augoši (vecākie vispirms)"
+
+#: src/index.js:392
+msgid "Relative (e.g., 2 hours ago)"
+msgstr "Relatīvs (piem., pirms 2 stundām)"
+
+#: src/index.js:393
+msgid "Absolute (site format)"
+msgstr "Absolūts (vietnes formāts)"
+
+#: src/index.js:402
+msgid "Animation"
+msgstr "Animācija"
+
+#: src/index.js:404
+msgid "Animation type"
+msgstr "Animācijas veids"
+
+#: src/index.js:408
+msgid "Choose how announcements are displayed"
+msgstr "Izvēlieties paziņojumu attēlošanas veidu"
+
+#: src/index.js:411
+msgid "Direction"
+msgstr "Virziens"
+
+#: src/index.js:417
+msgid "Speed"
+msgstr "Ātrums"
+
+#: src/index.js:422
+msgid "Higher value = faster"
+msgstr "Lielāka vērtība = ātrāk"
+
+#: src/index.js:425
+msgid "Pause on hover"
+msgstr "Pauzēt uzvedot kursoru"
+
+#: src/index.js:430
+msgid "RTL (Right-to-Left)"
+msgstr "RTL (no labās uz kreiso)"
+
+#: src/index.js:433
+msgid "Enable for Arabic, Hebrew, etc."
+msgstr "Iespējot arābu, ivrita u.c. valodām"
+
+#: src/index.js:437
+msgid "Controls"
+msgstr "Vadīklas"
+
+#: src/index.js:439
+msgid "Show controls"
+msgstr "Rādīt vadīklas"
+
+#: src/index.js:442
+msgid "Display Play/Pause and Prev/Next buttons"
+msgstr "Rādīt pogas Atskaņot/Pauze un Iepriekšējais/Nākamais"
+
+#: src/index.js:447
+msgid "Controls position"
+msgstr "Vadīklu novietojums"
+
+#: src/index.js:453
+msgid "Play/Pause button"
+msgstr "Poga Atskaņot/Pauze"
+
+#: src/index.js:458
+msgid "Previous/Next buttons"
+msgstr "Pogas Iepriekšējais/Nākamais"
+
+#: src/index.js:461
+msgid "Only works with Fade/Slide/Typing animations"
+msgstr "Darbojas tikai ar Izbalēšanas/Slīdēšanas/Rakstāmmašīnas animācijām"
+
+#: src/index.js:464
+msgid "Progress indicator"
+msgstr "Progresa indikators"
+
+#: src/index.js:467
+msgid "Shows a progress bar at the bottom"
+msgstr "Apakšā rāda progresa joslu"
+
+#: src/index.js:473
+msgid "General Settings"
+msgstr "Vispārīgie iestatījumi"
+
+#: src/index.js:475 src/index.js:548
+msgid "Label text"
+msgstr "Birku teksts"
+
+#: src/index.js:479
+msgid "Leave empty to hide the label on the frontend"
+msgstr "Atstājiet tukšu, lai paslēptu birku vietnē"
+
+#: src/index.js:483
+msgid "Separator"
+msgstr "Atdalītājs"
+
+#: src/index.js:489
+msgid "Font size (px)"
+msgstr "Fonta izmērs (px)"
+
+#: src/index.js:496
+msgid "Height (px)"
+msgstr "Augstums (px)"
+
+#: src/index.js:504
+msgid "Colors"
+msgstr "Krāsas"
+
+#: src/index.js:506
+msgid "Ticker background"
+msgstr "Joslas fons"
+
+#: src/index.js:520
+msgid "Text color"
+msgstr "Teksta krāsa"
+
+#: src/index.js:534
+msgid "Label background"
+msgstr "Birkas fons"
+
+#: src/index.js:562
+msgid "Border color"
+msgstr "Apmales krāsa"
+
+#: src/index.js:579
+msgid "Spacing & Borders"
+msgstr "Atstarpes un apmales"
+
+#: src/index.js:581
+msgid "Padding"
+msgstr "Iekšējā atstarpe"
+
+#: src/index.js:591
+msgid "Margin"
+msgstr "Ārējā mala"
+
+#: src/index.js:601
+msgid "Border Radius"
+msgstr "Stūru rādiuss"
+
+#: src/index.js:612
+msgid "Border Width"
+msgstr "Apmales platums"
+
+#: src/index.js:622
+msgid "Border Style"
+msgstr "Apmales stils"
+
+#: src/index.js:625
+msgid "Solid"
+msgstr "Nepārtraukta"
+
+#: src/index.js:626
+msgid "Dashed"
+msgstr "Raustīta"
+
+#: src/index.js:627
+msgid "Dotted"
+msgstr "Punktēta"
+
+#: src/index.js:628 src/index.js:638
+msgid "None"
+msgstr "Nav"
+
+#: src/index.js:635
+msgid "Box Shadow"
+msgstr "Ēna"
+
+#: src/index.js:639
+msgid "Small"
+msgstr "Maza"
+
+#: src/index.js:640
+msgid "Medium"
+msgstr "Vidēja"
+
+#: src/index.js:641
+msgid "Large"
+msgstr "Liela"
+
+#: src/index.js:642
+msgid "Inset"
+msgstr "Iekšēja"
+
+#: src/index.js:648
+msgid "Content Source"
+msgstr "Satura avots"
+
+#: src/index.js:650
+msgid "Source"
+msgstr "Avots"
+
+#: src/index.js:659
+msgid "Post type"
+msgstr "Ieraksta veids"
+
+#: src/index.js:665
+msgid "Number of posts"
+msgstr "Ierakstu skaits"
+
+#: src/index.js:673
+msgid "Filter by category"
+msgstr "Filtrēt pēc kategorijas"
+
+#: src/index.js:676
+msgid "All categories"
+msgstr "Visas kategorijas"
+
+#: src/index.js:680
+msgid "Select a category to filter posts"
+msgstr "Izvēlieties kategoriju ierakstu filtrēšanai"
+
+#: src/index.js:685
+msgid "Filter by tag"
+msgstr "Filtrēt pēc birkas"
+
+#: src/index.js:688
+msgid "All tags"
+msgstr "Visas birkas"
+
+#: src/index.js:695
+msgid "Order by"
+msgstr "Kārtot pēc"
+
+#: src/index.js:701
+msgid "Order"
+msgstr "Secība"
+
+#: src/index.js:707
+msgid "Show date"
+msgstr "Rādīt datumu"
+
+#: src/index.js:713
+msgid "Date format"
+msgstr "Datuma formāts"
+
+#: src/index.js:721
+msgid "Loading posts..."
+msgstr "Ielādē ierakstus…"
+
+#: src/index.js:726
+msgid "Preview:"
+msgstr "Priekšskatījums:"
+
+#: src/index.js:726
+msgid "posts found"
+msgstr "atrasti ieraksti"
+
+#: src/index.js:731
+msgid "No posts found with current filters"
+msgstr "Ar pašreizējiem filtriem ieraksti netika atrasti"
+
+#: src/index.js:744
+msgid "Announcement text"
+msgstr "Paziņojuma teksts"
+
+#: src/index.js:749
+msgid "Link (optional)"
+msgstr "Saite (neobligāti)"
+
+#: src/index.js:755
+msgid "Open in new tab"
+msgstr "Atvērt jaunā cilnē"
+
+#: src/index.js:767
+msgid "Move up"
+msgstr "Pārvietot augšup"
+
+#: src/index.js:774
+msgid "Move down"
+msgstr "Pārvietot lejup"
+
+#: src/index.js:781
+msgid "Delete"
+msgstr "Dzēst"
+
+#: src/index.js:794
+msgid "Add announcement"
+msgstr "Pievienot paziņojumu"
+
+#: src/index.js:800
+msgid "About"
+msgstr "Par spraudni"
+
+#: src/index.js:849
+msgid "Loading..."
+msgstr "Ielādē…"
+
+#: src/index.js:849
+msgid "No posts found"
+msgstr "Ieraksti nav atrasti"
+
+#: src/index.js:850
+msgid "Add announcements in the sidebar →"
+msgstr "Pievienojiet paziņojumus sānjoslā →"
+
+#: src/index.js:866
+msgid "(No text)"
+msgstr "(Nav teksta)"
+
+#: block.json
+msgctxt "block title"
+msgid "Newsticker"
+msgstr "Ziņu josla"
+
+#: block.json
+msgctxt "block description"
+msgid "Displays announcements in a ticker format with customizable links."
+msgstr "Rāda paziņojumus animētā joslā ar pielāgojamām saitēm."
+
+#: block.json
+msgctxt "block keyword"
+msgid "news"
+msgstr "ziņas"
+
+#: block.json
+msgctxt "block keyword"
+msgid "ticker"
+msgstr "josla"
+
+#: block.json
+msgctxt "block keyword"
+msgid "announcements"
+msgstr "paziņojumi"

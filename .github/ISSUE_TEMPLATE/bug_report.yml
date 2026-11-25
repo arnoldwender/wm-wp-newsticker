@@ -1,0 +1,38 @@
+name: Bug Report
+description: Report a reproducible code defect in WM Newsticker (zero technical support)
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Zero Support Policy:** This repository carries **zero technical or private support** ([SUPPORT.md](../../SUPPORT.md)). Use GitHub Issues **only** for reproducible defects in the code, with no guaranteed reply or fix. **Do not** contact the author privately. Software is provided **"AS IS"** at your sole risk with zero liability.
+  - type: textarea
+    id: summary
+    attributes:
+      label: Description
+      description: Concise summary of the unexpected code behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: Exact WordPress, WP-CLI, REST, or PHP steps to reproduce the defect on a clean test install.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: WordPress version, PHP version, and web server environment.
+      placeholder: "WordPress 6.8, PHP 8.3, Nginx"
+    validations:
+      required: true
+  - type: checkboxes
+    id: acknowledgement
+    attributes:
+      label: Zero Support & AS-IS Acknowledgement
+      options:
+        - label: I confirm I read SUPPORT.md and understand this open-source plugin is provided AS IS with zero technical/private support and zero warranty.
+          required: true

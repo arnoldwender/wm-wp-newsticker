@@ -1,0 +1,324 @@
+{
+  "translation-revision-date": "2026-11-16T20:55:00+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-newsticker",
+        "lang": "hu_HU",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "NEWS": [
+        "HÍREK"
+      ],
+      "Newsticker": [
+        "Hírszalag"
+      ],
+      "Displays announcements in a ticker format with customizable links.": [
+        "Közleményeket jelenít meg animált szalagként testreszabható hivatkozásokkal."
+      ],
+      "news": [
+        "hírek"
+      ],
+      "ticker": [
+        "szalag"
+      ],
+      "announcements": [
+        "közlemények"
+      ],
+      "Scroll (Marquee)": [
+        "Görgetés (Marquee)"
+      ],
+      "Fade": [
+        "Áttűnés"
+      ],
+      "Slide": [
+        "Csúsztatás"
+      ],
+      "Typing": [
+        "Írógép"
+      ],
+      "Left": [
+        "Balra"
+      ],
+      "Right": [
+        "Jobbra"
+      ],
+      "Up": [
+        "Fel"
+      ],
+      "Down": [
+        "Le"
+      ],
+      "Manual announcements": [
+        "Kézi közlemények"
+      ],
+      "Recent posts": [
+        "Legutóbbi bejegyzések"
+      ],
+      "Date": [
+        "Dátum"
+      ],
+      "Title": [
+        "Cím"
+      ],
+      "Last modified": [
+        "Utoljára módosítva"
+      ],
+      "Random": [
+        "Véletlenszerű"
+      ],
+      "Comment count": [
+        "Hozzászólások száma"
+      ],
+      "Descending (newest first)": [
+        "Csökkenő (legújabb elöl)"
+      ],
+      "Ascending (oldest first)": [
+        "Növekvő (legrégebbi elöl)"
+      ],
+      "Relative (e.g., 2 hours ago)": [
+        "Relatív (pl. 2 órája)"
+      ],
+      "Absolute (site format)": [
+        "Abszolút (webhely formátuma)"
+      ],
+      "Animation": [
+        "Animáció"
+      ],
+      "Animation type": [
+        "Animáció típusa"
+      ],
+      "Choose how announcements are displayed": [
+        "Válassza ki a közlemények megjelenítési módját"
+      ],
+      "Direction": [
+        "Irány"
+      ],
+      "Speed": [
+        "Sebesség"
+      ],
+      "Higher value = faster": [
+        "Nagyobb érték = gyorsabb"
+      ],
+      "Pause on hover": [
+        "Szünet rámutatáskor"
+      ],
+      "RTL (Right-to-Left)": [
+        "RTL (jobbról balra)"
+      ],
+      "Enable for Arabic, Hebrew, etc.": [
+        "Engedélyezés arab, héber stb. nyelvekhez"
+      ],
+      "Controls": [
+        "Vezérlők"
+      ],
+      "Show controls": [
+        "Vezérlők megjelenítése"
+      ],
+      "Display Play/Pause and Prev/Next buttons": [
+        "Lejátszás/Szünet és Előző/Következő gombok megjelenítése"
+      ],
+      "Controls position": [
+        "Vezérlők helyzete"
+      ],
+      "Play/Pause button": [
+        "Lejátszás/Szünet gomb"
+      ],
+      "Previous/Next buttons": [
+        "Előző/Következő gombok"
+      ],
+      "Only works with Fade/Slide/Typing animations": [
+        "Csak Áttűnés/Csúsztatás/Írógép animációval működik"
+      ],
+      "Progress indicator": [
+        "Folyamatjelző"
+      ],
+      "Shows a progress bar at the bottom": [
+        "Folyamatjelző sávot jelenít meg alul"
+      ],
+      "General Settings": [
+        "Általános beállítások"
+      ],
+      "Label text": [
+        "Címke szövege"
+      ],
+      "Leave empty to hide the label on the frontend": [
+        "Hagyja üresen a címke elrejtéséhez az oldalon"
+      ],
+      "Separator": [
+        "Elválasztó"
+      ],
+      "Font size (px)": [
+        "Betűméret (px)"
+      ],
+      "Height (px)": [
+        "Magasság (px)"
+      ],
+      "Colors": [
+        "Színek"
+      ],
+      "Ticker background": [
+        "Hírszalag háttere"
+      ],
+      "Text color": [
+        "Szövegszín"
+      ],
+      "Label background": [
+        "Címke háttere"
+      ],
+      "Border color": [
+        "Szegély színe"
+      ],
+      "Spacing & Borders": [
+        "Térközök és szegélyek"
+      ],
+      "Padding": [
+        "Belső margó"
+      ],
+      "Margin": [
+        "Külső margó"
+      ],
+      "Border Radius": [
+        "Saroklekerekítés"
+      ],
+      "Border Width": [
+        "Szegély vastagsága"
+      ],
+      "Border Style": [
+        "Szegély stílusa"
+      ],
+      "Solid": [
+        "Folytonos"
+      ],
+      "Dashed": [
+        "Szaggatott"
+      ],
+      "Dotted": [
+        "Pontozott"
+      ],
+      "None": [
+        "Nincs"
+      ],
+      "Box Shadow": [
+        "Dobozárnyék"
+      ],
+      "Small": [
+        "Kicsi"
+      ],
+      "Medium": [
+        "Közepes"
+      ],
+      "Large": [
+        "Nagy"
+      ],
+      "Inset": [
+        "Belső"
+      ],
+      "Content Source": [
+        "Tartalomforrás"
+      ],
+      "Source": [
+        "Forrás"
+      ],
+      "Post type": [
+        "Bejegyzéstípus"
+      ],
+      "Number of posts": [
+        "Bejegyzések száma"
+      ],
+      "Filter by category": [
+        "Szűrés kategória szerint"
+      ],
+      "All categories": [
+        "Összes kategória"
+      ],
+      "Select a category to filter posts": [
+        "Válasszon kategóriát a szűréshez"
+      ],
+      "Filter by tag": [
+        "Szűrés címke szerint"
+      ],
+      "All tags": [
+        "Összes címke"
+      ],
+      "Order by": [
+        "Rendezés"
+      ],
+      "Order": [
+        "Sorrend"
+      ],
+      "Show date": [
+        "Dátum megjelenítése"
+      ],
+      "Date format": [
+        "Dátumformátum"
+      ],
+      "Loading posts...": [
+        "Bejegyzések betöltése…"
+      ],
+      "Preview:": [
+        "Előnézet:"
+      ],
+      "posts found": [
+        "talált bejegyzés"
+      ],
+      "No posts found with current filters": [
+        "Nem található bejegyzés a jelenlegi szűrőkkel"
+      ],
+      "Announcement text": [
+        "Közlemény szövege"
+      ],
+      "Link (optional)": [
+        "Hivatkozás (opcionális)"
+      ],
+      "Open in new tab": [
+        "Megnyitás új lapon"
+      ],
+      "Move up": [
+        "Feljebb"
+      ],
+      "Move down": [
+        "Lejjebb"
+      ],
+      "Delete": [
+        "Törlés"
+      ],
+      "Add announcement": [
+        "Közlemény hozzáadása"
+      ],
+      "About": [
+        "Névjegy"
+      ],
+      "Loading...": [
+        "Betöltés…"
+      ],
+      "No posts found": [
+        "Nem található bejegyzés"
+      ],
+      "Add announcements in the sidebar →": [
+        "Adjon hozzá közleményeket az oldalsávon →"
+      ],
+      "(No text)": [
+        "(Nincs szöveg)"
+      ],
+      "block title\u0004Newsticker": [
+        "Hírszalag"
+      ],
+      "block description\u0004Displays announcements in a ticker format with customizable links.": [
+        "Közleményeket jelenít meg animált szalagként testreszabható hivatkozásokkal."
+      ],
+      "block keyword\u0004news": [
+        "hírek"
+      ],
+      "block keyword\u0004ticker": [
+        "szalag"
+      ],
+      "block keyword\u0004announcements": [
+        "közlemények"
+      ]
+    }
+  }
+}

@@ -1,0 +1,802 @@
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: WM Newsticker 1.6.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-newsticker\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-21T10:01:28+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: wm-newsticker\n"
+
+#. Plugin Name of the plugin
+#: wm-newsticker.php
+#: includes/class-newsticker-integrations.php:166
+#: wm-newsticker.php:963
+#: wm-newsticker.php:1026
+#: wm-newsticker.php:1027
+#: wm-newsticker.php:1058
+#: wm-newsticker.php:1077
+msgid "WM Newsticker"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: wm-newsticker.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-newsticker/"
+msgstr ""
+
+#. Description of the plugin
+#: wm-newsticker.php
+msgid "A Gutenberg block for animated news tickers with scroll, fade, slide and typing animations."
+msgstr ""
+
+#. Author of the plugin
+#: wm-newsticker.php
+msgid "Arnold Wender"
+msgstr ""
+
+#. Author URI of the plugin
+#: wm-newsticker.php
+msgid "https://arnoldwender.com"
+msgstr ""
+
+#: includes/class-newsticker-integrations.php:48
+msgid "WM Newsticker Feed"
+msgstr ""
+
+#: includes/class-newsticker-integrations.php:96
+msgid "WM Newsticker Headline"
+msgstr ""
+
+#: includes/class-newsticker-integrations.php:100
+msgid "Outputs a cached headline from WM Newsticker inside any GenerateBlocks Text or Element block."
+msgstr ""
+
+#: includes/class-newsticker-integrations.php:104
+msgid "Post type slug"
+msgstr ""
+
+#: includes/class-newsticker-integrations.php:109
+msgid "Headline index (0 = newest)"
+msgstr ""
+
+#: includes/class-newsticker-integrations.php:114
+msgid "Field"
+msgstr ""
+
+#: includes/class-newsticker-integrations.php:119
+msgid "Headline text"
+msgstr ""
+
+#: includes/class-newsticker-integrations.php:123
+msgid "Permalink URL"
+msgstr ""
+
+#: includes/class-newsticker-integrations.php:174
+msgid "Breaking News Ticker Bar"
+msgstr ""
+
+#: includes/class-newsticker-integrations.php:175
+msgid "Full-width news ticker bar with accessible controls and recent posts."
+msgstr ""
+
+#: includes/class-newsticker-integrations.php:177
+#: src/index.js:315
+msgid "NEWS"
+msgstr ""
+
+#: includes/class-newsticker-integrations.php:185
+msgid "GenerateBlocks Section with News Ticker"
+msgstr ""
+
+#: includes/class-newsticker-integrations.php:186
+msgid "Two-layer GenerateBlocks section (gbp-section + gbp-section__inner) embedding WM Newsticker with GeneratePress global colour tokens."
+msgstr ""
+
+#: includes/class-newsticker-integrations.php:192
+msgid "AKTUELL"
+msgstr ""
+
+#: includes/class-newsticker-integrations.php:213
+msgid "Get Newsticker Headlines"
+msgstr ""
+
+#: includes/class-newsticker-integrations.php:214
+msgid "Returns sanitized, cached public headlines from WM Newsticker for a public post type."
+msgstr ""
+
+#: wm-newsticker.php:478
+msgid "ago"
+msgstr ""
+
+#: wm-newsticker.php:635
+msgid "News ticker"
+msgstr ""
+
+#: wm-newsticker.php:722
+msgid "Previous"
+msgstr ""
+
+#: wm-newsticker.php:731
+#: wm-newsticker.php:732
+msgid "Pause"
+msgstr ""
+
+#: wm-newsticker.php:733
+msgid "Play"
+msgstr ""
+
+#: wm-newsticker.php:745
+msgid "Next"
+msgstr ""
+
+#: wm-newsticker.php:873
+msgid "Part of the WM Suite plugin family"
+msgstr ""
+
+#: wm-newsticker.php:875
+msgid "WM Suite"
+msgstr ""
+
+#: wm-newsticker.php:876
+msgid "Hub"
+msgstr ""
+
+#: wm-newsticker.php:876
+msgid "Standalone"
+msgstr ""
+
+#: wm-newsticker.php:892
+msgid "LIVE"
+msgstr ""
+
+#: wm-newsticker.php:897
+msgid "Die Laufbewegung ist eine CSS-Animation (transform)"
+msgstr ""
+
+#: wm-newsticker.php:898
+msgid "Mit der Maus über dem Ticker hält die Bewegung an"
+msgstr ""
+
+#: wm-newsticker.php:899
+msgid "prefers-reduced-motion stoppt die Animation"
+msgstr ""
+
+#: wm-newsticker.php:900
+msgid "Dynamische Beiträge kommen 5 Minuten aus dem Transient-Cache"
+msgstr ""
+
+#: wm-newsticker.php:985
+msgid "Block wm/newsticker registriert"
+msgstr ""
+
+#: wm-newsticker.php:987
+msgid "Block wm/newsticker ist nicht registriert"
+msgstr ""
+
+#: wm-newsticker.php:991
+msgid "Pause bei Hover und Fokus im Ticker, keine Bewegung bei prefers-reduced-motion"
+msgstr ""
+
+#: wm-newsticker.php:998
+msgid "Seiten mit Ticker"
+msgstr ""
+
+#: wm-newsticker.php:1002
+msgid "Demo-Beiträge"
+msgstr ""
+
+#: wm-newsticker.php:1006
+msgid "Cache-Einträge"
+msgstr ""
+
+#: wm-newsticker.php:1012
+msgid "Showcase & Handbuch öffnen"
+msgstr ""
+
+#: wm-newsticker.php:1038
+msgid "WM Newsticker — Übersicht & Showcase"
+msgstr ""
+
+#: wm-newsticker.php:1039
+msgid "Übersicht & Showcase"
+msgstr ""
+
+#: wm-newsticker.php:1048
+msgid "WM Newsticker — Handbuch & Dokumentation"
+msgstr ""
+
+#: wm-newsticker.php:1049
+#: wm-newsticker.php:1295
+msgid "Handbuch"
+msgstr ""
+
+#: wm-newsticker.php:1057
+msgid "WM Newsticker Handbuch & Konfiguration"
+msgstr ""
+
+#: wm-newsticker.php:1076
+msgid "Gutenberg Block Integration"
+msgstr ""
+
+#: wm-newsticker.php:1077
+msgid "ist ein nativer Gutenberg-Block. Fügen Sie ihn in jedem Beitrag oder jeder Seite über den Gutenberg-Inserter unter der Kategorie \"Widgets\" oder durch Eintippen von \"/newsticker\" ein."
+msgstr ""
+
+#: wm-newsticker.php:1082
+msgid "Barrierefreiheit"
+msgstr ""
+
+#: wm-newsticker.php:1083
+msgid "Die Bewegung hält bei Hover (Blockeinstellung) sowie bei Fokus auf einem Link im Ticker an und läuft nicht, wenn im System \"Bewegung reduzieren\" (prefers-reduced-motion) aktiv ist. Die Steuerung ist standardmäßig eingeblendet (mindestens 44 x 44 px) und lässt sich per Tastatur bedienen."
+msgstr ""
+
+#: wm-newsticker.php:1088
+msgid "Transient-Cache"
+msgstr ""
+
+#: wm-newsticker.php:1089
+msgid "Dynamische Beiträge werden für 5 Minuten im WordPress Transient Cache zwischengespeichert. Bei jeder Beitrags-Aktualisierung (save_post) oder Löschung wird der Cache automatisch invalidiert."
+msgstr ""
+
+#: wm-newsticker.php:1093
+msgid "Block-Dokumentation:"
+msgstr ""
+
+#: wm-newsticker.php:1094
+msgid "Entwickelt von WM Suite."
+msgstr ""
+
+#: wm-newsticker.php:1288
+msgid "Unzureichende Berechtigungen."
+msgstr ""
+
+#: wm-newsticker.php:1296
+msgid "WM Newsticker — Handbuch"
+msgstr ""
+
+#: wm-newsticker.php:1297
+msgid "Gutenberg-Block für Laufband, Überblendung, Slide und Schreibmaschine, mit manuellen Meldungen oder den neuesten Beiträgen."
+msgstr ""
+
+#. translators: %d: number of demo headlines created
+#: wm-newsticker.php:1306
+#, php-format
+msgid "Erfolg: %d Demo-Meldungen und eine interaktive Demo-Hub-Seite wurden erfolgreich erstellt."
+msgstr ""
+
+#. translators: %d: number of demo posts and pages deleted
+#: wm-newsticker.php:1319
+#, php-format
+msgid "%d Demo-Beiträge und Showcase-Seiten wurden gelöscht. Der Transient-Cache wurde geleert."
+msgstr ""
+
+#: wm-newsticker.php:1329
+msgid "Werkseinstellungen wiederhergestellt:"
+msgstr ""
+
+#: wm-newsticker.php:1329
+msgid "Alle Demo-Daten und Caches wurden restlos bereinigt."
+msgstr ""
+
+#: wm-newsticker.php:1335
+msgid "Deinstallations-Einstellung gespeichert."
+msgstr ""
+
+#: wm-newsticker.php:1341
+msgid "Live-Vorschau & Ticker-Test"
+msgstr ""
+
+#: wm-newsticker.php:1343
+msgid "Der Block, wie er im Frontend rendert: echte Ausgabe von render_block() mit vier manuellen Meldungen. Hover hält die Bewegung an, die Steuerung ist per Tastatur bedienbar."
+msgstr ""
+
+#: wm-newsticker.php:1353
+msgid "1. Block-Konfiguration (Inspector Controls)"
+msgstr ""
+
+#: wm-newsticker.php:1364
+msgid "2. Barrierefreiheit"
+msgstr ""
+
+#: wm-newsticker.php:1366
+msgid "Laufband und Überblendung bewegen sich nicht, wenn im System \"Bewegung reduzieren\" aktiv ist."
+msgstr ""
+
+#: wm-newsticker.php:1367
+msgid "Die Steuerung ist standardmäßig aktiv, mindestens 44 x 44 px groß und besitzt sichtbare Fokusrahmen. Fokus auf einem Link im Ticker hält die Bewegung an."
+msgstr ""
+
+#: wm-newsticker.php:1368
+msgid "Landmark mit role=\"region\", aria-roledescription=\"marquee\", übersetztem Button-Status und aria-live=\"off\"."
+msgstr ""
+
+#: wm-newsticker.php:1375
+msgid "3. PHP Hooks, Block Bindings & GenerateBlocks API"
+msgstr ""
+
+#: wm-newsticker.php:1377
+msgid "Erweitern Sie Abfragen und Einträge per Filter (wm_newsticker_query_args, wm_newsticker_rendered_items), binden Sie Überschriften über die WordPress Block Bindings Quelle wm-newsticker/feed ein oder nutzen Sie in GenerateBlocks 2.x das Dynamic Tag {{wm_newsticker_headline}}."
+msgstr ""
+
+#: wm-newsticker.php:1392
+msgid "4. Demodaten-Management & Werkseinstellungen (Reset)"
+msgstr ""
+
+#: wm-newsticker.php:1394
+msgid "Generieren Sie Beispielmeldungen und eine fertige Showcase-Gutenberg-Seite zum sofortigen Testen oder bereinigen Sie alle Caches und Beispieldaten."
+msgstr ""
+
+#: wm-newsticker.php:1403
+msgid "Demodaten & Showcase-Seite importieren"
+msgstr ""
+
+#: wm-newsticker.php:1408
+msgid "Möchten Sie alle generierten Demo-Meldungen und Showcase-Seiten löschen?"
+msgstr ""
+
+#: wm-newsticker.php:1412
+msgid "Demodaten bereinigen"
+msgstr ""
+
+#: wm-newsticker.php:1423
+msgid "Angelegte Demo-Beiträge und Beispielseiten bei der Plugin-Deinstallation automatisch mitlöschen"
+msgstr ""
+
+#: wm-newsticker.php:1426
+msgid "Einstellung speichern"
+msgstr ""
+
+#: wm-newsticker.php:1436
+msgid "Gefahrenbereich: Auf Werkseinstellungen zurücksetzen"
+msgstr ""
+
+#: wm-newsticker.php:1439
+msgid "Löscht die vom Plugin angelegten Demo-Beiträge und die Beispielseite und leert den Ticker-Cache. Das Plugin speichert keine eigenen Einstellungen; die Blöcke in Ihren Seiten behalten ihre Attribute."
+msgstr ""
+
+#: wm-newsticker.php:1441
+msgid "WARNUNG: Sind Sie sicher? Dies leert alle Ticker-Caches und setzt das Plugin zurück!"
+msgstr ""
+
+#: wm-newsticker.php:1445
+msgid "Werkseinstellungen wiederherstellen (Factory Reset)"
+msgstr ""
+
+#: wm-newsticker.php:1453
+msgid "5. Häufige Fragen & Troubleshooting"
+msgstr ""
+
+#: wm-newsticker.php:1476
+msgid "Handbuch & Vorschau"
+msgstr ""
+
+#: wm-newsticker.php:1484
+msgid "Dokumentation"
+msgstr ""
+
+#: wm-newsticker.php:1485
+msgid "GitHub Repository"
+msgstr ""
+
+#: src/index.js:34
+msgid "Newsticker"
+msgstr ""
+
+#: src/index.js:35
+msgid "Displays announcements in a ticker format with customizable links."
+msgstr ""
+
+#: src/index.js:38
+msgid "news"
+msgstr ""
+
+#: src/index.js:38
+msgid "ticker"
+msgstr ""
+
+#: src/index.js:38
+msgid "announcements"
+msgstr ""
+
+#: src/index.js:355
+msgid "Scroll (Marquee)"
+msgstr ""
+
+#: src/index.js:356
+msgid "Fade"
+msgstr ""
+
+#: src/index.js:357
+msgid "Slide"
+msgstr ""
+
+#: src/index.js:358
+msgid "Typing"
+msgstr ""
+
+#: src/index.js:362
+#: src/index.js:369
+msgid "Left"
+msgstr ""
+
+#: src/index.js:363
+#: src/index.js:370
+msgid "Right"
+msgstr ""
+
+#: src/index.js:364
+msgid "Up"
+msgstr ""
+
+#: src/index.js:365
+msgid "Down"
+msgstr ""
+
+#: src/index.js:374
+msgid "Manual announcements"
+msgstr ""
+
+#: src/index.js:375
+msgid "Recent posts"
+msgstr ""
+
+#: src/index.js:379
+msgid "Date"
+msgstr ""
+
+#: src/index.js:380
+msgid "Title"
+msgstr ""
+
+#: src/index.js:381
+msgid "Last modified"
+msgstr ""
+
+#: src/index.js:382
+msgid "Random"
+msgstr ""
+
+#: src/index.js:383
+msgid "Comment count"
+msgstr ""
+
+#: src/index.js:387
+msgid "Descending (newest first)"
+msgstr ""
+
+#: src/index.js:388
+msgid "Ascending (oldest first)"
+msgstr ""
+
+#: src/index.js:392
+msgid "Relative (e.g., 2 hours ago)"
+msgstr ""
+
+#: src/index.js:393
+msgid "Absolute (site format)"
+msgstr ""
+
+#: src/index.js:402
+msgid "Animation"
+msgstr ""
+
+#: src/index.js:404
+msgid "Animation type"
+msgstr ""
+
+#: src/index.js:408
+msgid "Choose how announcements are displayed"
+msgstr ""
+
+#: src/index.js:411
+msgid "Direction"
+msgstr ""
+
+#: src/index.js:417
+msgid "Speed"
+msgstr ""
+
+#: src/index.js:422
+msgid "Higher value = faster"
+msgstr ""
+
+#: src/index.js:425
+msgid "Pause on hover"
+msgstr ""
+
+#: src/index.js:430
+msgid "RTL (Right-to-Left)"
+msgstr ""
+
+#: src/index.js:433
+msgid "Enable for Arabic, Hebrew, etc."
+msgstr ""
+
+#: src/index.js:437
+msgid "Controls"
+msgstr ""
+
+#: src/index.js:439
+msgid "Show controls"
+msgstr ""
+
+#: src/index.js:442
+msgid "Display Play/Pause and Prev/Next buttons"
+msgstr ""
+
+#: src/index.js:447
+msgid "Controls position"
+msgstr ""
+
+#: src/index.js:453
+msgid "Play/Pause button"
+msgstr ""
+
+#: src/index.js:458
+msgid "Previous/Next buttons"
+msgstr ""
+
+#: src/index.js:461
+msgid "Only works with Fade/Slide/Typing animations"
+msgstr ""
+
+#: src/index.js:464
+msgid "Progress indicator"
+msgstr ""
+
+#: src/index.js:467
+msgid "Shows a progress bar at the bottom"
+msgstr ""
+
+#: src/index.js:473
+msgid "General Settings"
+msgstr ""
+
+#: src/index.js:475
+#: src/index.js:548
+msgid "Label text"
+msgstr ""
+
+#: src/index.js:479
+msgid "Leave empty to hide the label on the frontend"
+msgstr ""
+
+#: src/index.js:483
+msgid "Separator"
+msgstr ""
+
+#: src/index.js:489
+msgid "Font size (px)"
+msgstr ""
+
+#: src/index.js:496
+msgid "Height (px)"
+msgstr ""
+
+#: src/index.js:504
+msgid "Colors"
+msgstr ""
+
+#: src/index.js:506
+msgid "Ticker background"
+msgstr ""
+
+#: src/index.js:520
+msgid "Text color"
+msgstr ""
+
+#: src/index.js:534
+msgid "Label background"
+msgstr ""
+
+#: src/index.js:562
+msgid "Border color"
+msgstr ""
+
+#: src/index.js:579
+msgid "Spacing & Borders"
+msgstr ""
+
+#: src/index.js:581
+msgid "Padding"
+msgstr ""
+
+#: src/index.js:591
+msgid "Margin"
+msgstr ""
+
+#: src/index.js:601
+msgid "Border Radius"
+msgstr ""
+
+#: src/index.js:612
+msgid "Border Width"
+msgstr ""
+
+#: src/index.js:622
+msgid "Border Style"
+msgstr ""
+
+#: src/index.js:625
+msgid "Solid"
+msgstr ""
+
+#: src/index.js:626
+msgid "Dashed"
+msgstr ""
+
+#: src/index.js:627
+msgid "Dotted"
+msgstr ""
+
+#: src/index.js:628
+#: src/index.js:638
+msgid "None"
+msgstr ""
+
+#: src/index.js:635
+msgid "Box Shadow"
+msgstr ""
+
+#: src/index.js:639
+msgid "Small"
+msgstr ""
+
+#: src/index.js:640
+msgid "Medium"
+msgstr ""
+
+#: src/index.js:641
+msgid "Large"
+msgstr ""
+
+#: src/index.js:642
+msgid "Inset"
+msgstr ""
+
+#: src/index.js:648
+msgid "Content Source"
+msgstr ""
+
+#: src/index.js:650
+msgid "Source"
+msgstr ""
+
+#: src/index.js:659
+msgid "Post type"
+msgstr ""
+
+#: src/index.js:665
+msgid "Number of posts"
+msgstr ""
+
+#: src/index.js:673
+msgid "Filter by category"
+msgstr ""
+
+#: src/index.js:676
+msgid "All categories"
+msgstr ""
+
+#: src/index.js:680
+msgid "Select a category to filter posts"
+msgstr ""
+
+#: src/index.js:685
+msgid "Filter by tag"
+msgstr ""
+
+#: src/index.js:688
+msgid "All tags"
+msgstr ""
+
+#: src/index.js:695
+msgid "Order by"
+msgstr ""
+
+#: src/index.js:701
+msgid "Order"
+msgstr ""
+
+#: src/index.js:707
+msgid "Show date"
+msgstr ""
+
+#: src/index.js:713
+msgid "Date format"
+msgstr ""
+
+#: src/index.js:721
+msgid "Loading posts..."
+msgstr ""
+
+#: src/index.js:726
+msgid "Preview:"
+msgstr ""
+
+#: src/index.js:726
+msgid "posts found"
+msgstr ""
+
+#: src/index.js:731
+msgid "No posts found with current filters"
+msgstr ""
+
+#: src/index.js:744
+msgid "Announcement text"
+msgstr ""
+
+#: src/index.js:749
+msgid "Link (optional)"
+msgstr ""
+
+#: src/index.js:755
+msgid "Open in new tab"
+msgstr ""
+
+#: src/index.js:767
+msgid "Move up"
+msgstr ""
+
+#: src/index.js:774
+msgid "Move down"
+msgstr ""
+
+#: src/index.js:781
+msgid "Delete"
+msgstr ""
+
+#: src/index.js:794
+msgid "Add announcement"
+msgstr ""
+
+#: src/index.js:800
+msgid "About"
+msgstr ""
+
+#: src/index.js:849
+msgid "Loading..."
+msgstr ""
+
+#: src/index.js:849
+msgid "No posts found"
+msgstr ""
+
+#: src/index.js:850
+msgid "Add announcements in the sidebar →"
+msgstr ""
+
+#: src/index.js:866
+msgid "(No text)"
+msgstr ""
+
+#: block.json
+msgctxt "block title"
+msgid "Newsticker"
+msgstr ""
+
+#: block.json
+msgctxt "block description"
+msgid "Displays announcements in a ticker format with customizable links."
+msgstr ""
+
+#: block.json
+msgctxt "block keyword"
+msgid "news"
+msgstr ""
+
+#: block.json
+msgctxt "block keyword"
+msgid "ticker"
+msgstr ""
+
+#: block.json
+msgctxt "block keyword"
+msgid "announcements"
+msgstr ""

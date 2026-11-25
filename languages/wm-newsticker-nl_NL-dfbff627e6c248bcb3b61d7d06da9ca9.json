@@ -1,0 +1,324 @@
+{
+  "translation-revision-date": "2026-11-16T20:55:00+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-newsticker",
+        "lang": "nl_NL",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "NEWS": [
+        "NIEUWS"
+      ],
+      "Newsticker": [
+        "Nieuwsticker"
+      ],
+      "Displays announcements in a ticker format with customizable links.": [
+        "Toont aankondigingen in een geanimeerde ticker met aanpasbare links."
+      ],
+      "news": [
+        "nieuws"
+      ],
+      "ticker": [
+        "lichtkrant"
+      ],
+      "announcements": [
+        "aankondigingen"
+      ],
+      "Scroll (Marquee)": [
+        "Scrollen (Lichtkrant)"
+      ],
+      "Fade": [
+        "Vervagen"
+      ],
+      "Slide": [
+        "Schuiven"
+      ],
+      "Typing": [
+        "Typemachine"
+      ],
+      "Left": [
+        "Links"
+      ],
+      "Right": [
+        "Rechts"
+      ],
+      "Up": [
+        "Omhoog"
+      ],
+      "Down": [
+        "Omlaag"
+      ],
+      "Manual announcements": [
+        "Handmatige aankondigingen"
+      ],
+      "Recent posts": [
+        "Recente berichten"
+      ],
+      "Date": [
+        "Datum"
+      ],
+      "Title": [
+        "Titel"
+      ],
+      "Last modified": [
+        "Laatst gewijzigd"
+      ],
+      "Random": [
+        "Willekeurig"
+      ],
+      "Comment count": [
+        "Aantal reacties"
+      ],
+      "Descending (newest first)": [
+        "Aflopend (nieuwste eerst)"
+      ],
+      "Ascending (oldest first)": [
+        "Oplopend (oudste eerst)"
+      ],
+      "Relative (e.g., 2 hours ago)": [
+        "Relatief (bijv. 2 uur geleden)"
+      ],
+      "Absolute (site format)": [
+        "Absoluut (siteopmaak)"
+      ],
+      "Animation": [
+        "Animatie"
+      ],
+      "Animation type": [
+        "Animatietype"
+      ],
+      "Choose how announcements are displayed": [
+        "Kies hoe aankondigingen worden weergegeven"
+      ],
+      "Direction": [
+        "Richting"
+      ],
+      "Speed": [
+        "Snelheid"
+      ],
+      "Higher value = faster": [
+        "Hogere waarde = sneller"
+      ],
+      "Pause on hover": [
+        "Pauzeren bij aanwijzen"
+      ],
+      "RTL (Right-to-Left)": [
+        "RTL (rechts-naar-links)"
+      ],
+      "Enable for Arabic, Hebrew, etc.": [
+        "Inschakelen voor Arabisch, Hebreeuws, enz."
+      ],
+      "Controls": [
+        "Bediening"
+      ],
+      "Show controls": [
+        "Bediening tonen"
+      ],
+      "Display Play/Pause and Prev/Next buttons": [
+        "Knoppen Afspelen/Pauzeren en Vorige/Volgende tonen"
+      ],
+      "Controls position": [
+        "Positie bediening"
+      ],
+      "Play/Pause button": [
+        "Knop Afspelen/Pauzeren"
+      ],
+      "Previous/Next buttons": [
+        "Knoppen Vorige/Volgende"
+      ],
+      "Only works with Fade/Slide/Typing animations": [
+        "Werkt alleen bij Vervagen/Schuiven/Typemachine"
+      ],
+      "Progress indicator": [
+        "Voortgangsindicator"
+      ],
+      "Shows a progress bar at the bottom": [
+        "Toont onderaan een voortgangsbalk"
+      ],
+      "General Settings": [
+        "Algemene instellingen"
+      ],
+      "Label text": [
+        "Labeltekst"
+      ],
+      "Leave empty to hide the label on the frontend": [
+        "Laat leeg om het label op de voorkant te verbergen"
+      ],
+      "Separator": [
+        "Scheidingsteken"
+      ],
+      "Font size (px)": [
+        "Tekengrootte (px)"
+      ],
+      "Height (px)": [
+        "Hoogte (px)"
+      ],
+      "Colors": [
+        "Kleuren"
+      ],
+      "Ticker background": [
+        "Ticker-achtergrond"
+      ],
+      "Text color": [
+        "Tekstkleur"
+      ],
+      "Label background": [
+        "Label-achtergrond"
+      ],
+      "Border color": [
+        "Randkleur"
+      ],
+      "Spacing & Borders": [
+        "Ruimte & randen"
+      ],
+      "Padding": [
+        "Opvulling"
+      ],
+      "Margin": [
+        "Marge"
+      ],
+      "Border Radius": [
+        "Hoekradius"
+      ],
+      "Border Width": [
+        "Randbreedte"
+      ],
+      "Border Style": [
+        "Randstijl"
+      ],
+      "Solid": [
+        "Doorgetrokken"
+      ],
+      "Dashed": [
+        "Gestreept"
+      ],
+      "Dotted": [
+        "Gestippeld"
+      ],
+      "None": [
+        "Geen"
+      ],
+      "Box Shadow": [
+        "Schaduw"
+      ],
+      "Small": [
+        "Klein"
+      ],
+      "Medium": [
+        "Gemiddeld"
+      ],
+      "Large": [
+        "Groot"
+      ],
+      "Inset": [
+        "Inwendig"
+      ],
+      "Content Source": [
+        "Inhoudsbron"
+      ],
+      "Source": [
+        "Bron"
+      ],
+      "Post type": [
+        "Berichttype"
+      ],
+      "Number of posts": [
+        "Aantal berichten"
+      ],
+      "Filter by category": [
+        "Filteren op categorie"
+      ],
+      "All categories": [
+        "Alle categorieën"
+      ],
+      "Select a category to filter posts": [
+        "Kies een categorie om berichten te filteren"
+      ],
+      "Filter by tag": [
+        "Filteren op tag"
+      ],
+      "All tags": [
+        "Alle tags"
+      ],
+      "Order by": [
+        "Sorteren op"
+      ],
+      "Order": [
+        "Volgorde"
+      ],
+      "Show date": [
+        "Datum tonen"
+      ],
+      "Date format": [
+        "Datumnotatie"
+      ],
+      "Loading posts...": [
+        "Berichten laden…"
+      ],
+      "Preview:": [
+        "Voorbeeld:"
+      ],
+      "posts found": [
+        "berichten gevonden"
+      ],
+      "No posts found with current filters": [
+        "Geen berichten gevonden met de huidige filters"
+      ],
+      "Announcement text": [
+        "Meldingstekst"
+      ],
+      "Link (optional)": [
+        "Link (optioneel)"
+      ],
+      "Open in new tab": [
+        "Openen in nieuw tabblad"
+      ],
+      "Move up": [
+        "Omhoog verplaatsen"
+      ],
+      "Move down": [
+        "Omlaag verplaatsen"
+      ],
+      "Delete": [
+        "Verwijderen"
+      ],
+      "Add announcement": [
+        "Aankondiging toevoegen"
+      ],
+      "About": [
+        "Over"
+      ],
+      "Loading...": [
+        "Laden…"
+      ],
+      "No posts found": [
+        "Geen berichten gevonden"
+      ],
+      "Add announcements in the sidebar →": [
+        "Voeg aankondigingen toe in de zijbalk →"
+      ],
+      "(No text)": [
+        "(Geen tekst)"
+      ],
+      "block title\u0004Newsticker": [
+        "Nieuwsticker"
+      ],
+      "block description\u0004Displays announcements in a ticker format with customizable links.": [
+        "Toont aankondigingen in een geanimeerde ticker met aanpasbare links."
+      ],
+      "block keyword\u0004news": [
+        "nieuws"
+      ],
+      "block keyword\u0004ticker": [
+        "lichtkrant"
+      ],
+      "block keyword\u0004announcements": [
+        "aankondigingen"
+      ]
+    }
+  }
+}

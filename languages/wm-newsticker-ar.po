@@ -1,0 +1,881 @@
+# Translation of WM Newsticker in ar
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-newsticker 1.6.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-newsticker\n"
+"POT-Creation-Date: 2026-11-21T10:01:28+00:00\n"
+"PO-Revision-Date: 2026-11-21 11:03+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-newsticker/"
+"issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-newsticker/"
+"issues>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-newsticker\n"
+
+#. Plugin Name of the plugin
+#: wm-newsticker.php includes/class-newsticker-integrations.php:166
+#: wm-newsticker.php:963 wm-newsticker.php:1026 wm-newsticker.php:1027
+#: wm-newsticker.php:1058 wm-newsticker.php:1077
+msgid "WM Newsticker"
+msgstr "WM Newsticker"
+
+#. Plugin URI of the plugin
+#: wm-newsticker.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-newsticker/"
+msgstr "https://arnoldwender.com/wordpress-plugins/wm-newsticker/"
+
+#. Description of the plugin
+#: wm-newsticker.php
+msgid ""
+"A Gutenberg block for animated news tickers with scroll, fade, slide and "
+"typing animations."
+msgstr ""
+"مكوّن غوتنبرغ لشريط الأخبار المتحرك مع تأثيرات التمرير والتلاشي والانزلاق "
+"والآلة الكاتبة."
+
+#. Author of the plugin
+#: wm-newsticker.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-newsticker.php
+msgid "https://arnoldwender.com"
+msgstr "https://arnoldwender.com"
+
+#: includes/class-newsticker-integrations.php:48
+msgid "WM Newsticker Feed"
+msgstr "خلاصة WM Newsticker"
+
+#: includes/class-newsticker-integrations.php:96
+msgid "WM Newsticker Headline"
+msgstr "عنوان WM Newsticker"
+
+#: includes/class-newsticker-integrations.php:100
+msgid ""
+"Outputs a cached headline from WM Newsticker inside any GenerateBlocks Text "
+"or Element block."
+msgstr ""
+"يعرض عنوانًا مخزنًا مؤقتًا من WM Newsticker داخل أي مكوّن نص أو عنصر في "
+"GenerateBlocks."
+
+#: includes/class-newsticker-integrations.php:104
+msgid "Post type slug"
+msgstr "الاسم اللطيف لنوع المحتوى"
+
+#: includes/class-newsticker-integrations.php:109
+msgid "Headline index (0 = newest)"
+msgstr "فهرس العنوان (0 = الأحدث)"
+
+#: includes/class-newsticker-integrations.php:114
+msgid "Field"
+msgstr "الحقل"
+
+#: includes/class-newsticker-integrations.php:119
+msgid "Headline text"
+msgstr "نص العنوان"
+
+#: includes/class-newsticker-integrations.php:123
+msgid "Permalink URL"
+msgstr "رابط دائم URL"
+
+#: includes/class-newsticker-integrations.php:174
+msgid "Breaking News Ticker Bar"
+msgstr "شريط الأخبار العاجلة"
+
+#: includes/class-newsticker-integrations.php:175
+msgid "Full-width news ticker bar with accessible controls and recent posts."
+msgstr "شريط أخبار بعرض كامل مع أزرار تحكم ميسّرة وأحدث المقالات."
+
+#: includes/class-newsticker-integrations.php:177 src/index.js:315
+msgid "NEWS"
+msgstr "أخبار"
+
+#: includes/class-newsticker-integrations.php:185
+msgid "GenerateBlocks Section with News Ticker"
+msgstr "قسم GenerateBlocks مع شريط أخبار"
+
+#: includes/class-newsticker-integrations.php:186
+msgid ""
+"Two-layer GenerateBlocks section (gbp-section + gbp-section__inner) "
+"embedding WM Newsticker with GeneratePress global colour tokens."
+msgstr ""
+"قسم GenerateBlocks ثنائي الطبقات (gbp-section + gbp-section__inner) يدمج WM "
+"Newsticker مع رموز الألوان العامة في GeneratePress."
+
+#: includes/class-newsticker-integrations.php:192
+msgid "AKTUELL"
+msgstr "عاجل"
+
+#: includes/class-newsticker-integrations.php:213
+msgid "Get Newsticker Headlines"
+msgstr "جلب عناوين شريط الأخبار"
+
+#: includes/class-newsticker-integrations.php:214
+msgid ""
+"Returns sanitized, cached public headlines from WM Newsticker for a public "
+"post type."
+msgstr "يعيد عناوين عامة منقّاة ومخزنة مؤقتًا من WM Newsticker لنوع محتوى عام."
+
+#: wm-newsticker.php:478
+msgid "ago"
+msgstr "منذ"
+
+#: wm-newsticker.php:635
+msgid "News ticker"
+msgstr "شريط الأخبار"
+
+#: wm-newsticker.php:722
+msgid "Previous"
+msgstr "السابق"
+
+#: wm-newsticker.php:731 wm-newsticker.php:732
+msgid "Pause"
+msgstr "إيقاف مؤقت"
+
+#: wm-newsticker.php:733
+msgid "Play"
+msgstr "تشغيل"
+
+#: wm-newsticker.php:745
+msgid "Next"
+msgstr "التالي"
+
+#: wm-newsticker.php:873
+msgid "Part of the WM Suite plugin family"
+msgstr "جزء من عائلة إضافات WM Suite"
+
+#: wm-newsticker.php:875
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: wm-newsticker.php:876
+msgid "Hub"
+msgstr "وضع المركز"
+
+#: wm-newsticker.php:876
+msgid "Standalone"
+msgstr "مستقل"
+
+#: wm-newsticker.php:892
+msgid "LIVE"
+msgstr "مباشر"
+
+#: wm-newsticker.php:897
+msgid "Die Laufbewegung ist eine CSS-Animation (transform)"
+msgstr "تعتمد حركة التمرير على رسوم CSS المتحركة (transform)"
+
+#: wm-newsticker.php:898
+msgid "Mit der Maus über dem Ticker hält die Bewegung an"
+msgstr "تتوقف الحركة عند تمرير المؤشر فوق الشريط"
+
+#: wm-newsticker.php:899
+msgid "prefers-reduced-motion stoppt die Animation"
+msgstr "خيار prefers-reduced-motion يوقف الحركة"
+
+#: wm-newsticker.php:900
+msgid "Dynamische Beiträge kommen 5 Minuten aus dem Transient-Cache"
+msgstr "تُجلب المقالات الديناميكية لمدة 5 دقائق من الذاكرة المؤقتة"
+
+#: wm-newsticker.php:985
+msgid "Block wm/newsticker registriert"
+msgstr "المكوّن wm/newsticker مسجّل"
+
+#: wm-newsticker.php:987
+msgid "Block wm/newsticker ist nicht registriert"
+msgstr "المكوّن wm/newsticker غير مسجّل"
+
+#: wm-newsticker.php:991
+msgid ""
+"Pause bei Hover und Fokus im Ticker, keine Bewegung bei prefers-reduced-"
+"motion"
+msgstr ""
+"يتوقف عند التمرير والتركيز داخل الشريط؛ بلا حركة مع prefers-reduced-motion"
+
+#: wm-newsticker.php:998
+msgid "Seiten mit Ticker"
+msgstr "صفحات تحتوي على الشريط"
+
+#: wm-newsticker.php:1002
+msgid "Demo-Beiträge"
+msgstr "مقالات تجريبية"
+
+#: wm-newsticker.php:1006
+msgid "Cache-Einträge"
+msgstr "عناصر الذاكرة المؤقتة"
+
+#: wm-newsticker.php:1012
+msgid "Showcase & Handbuch öffnen"
+msgstr "فتح العرض والدليل"
+
+#: wm-newsticker.php:1038
+msgid "WM Newsticker — Übersicht & Showcase"
+msgstr "WM Newsticker — نظرة عامة وعرض حي"
+
+#: wm-newsticker.php:1039
+msgid "Übersicht & Showcase"
+msgstr "نظرة عامة وعرض حي"
+
+#: wm-newsticker.php:1048
+msgid "WM Newsticker — Handbuch & Dokumentation"
+msgstr "WM Newsticker — الدليل والتوثيق"
+
+#: wm-newsticker.php:1049 wm-newsticker.php:1295
+msgid "Handbuch"
+msgstr "الدليل"
+
+#: wm-newsticker.php:1057
+msgid "WM Newsticker Handbuch & Konfiguration"
+msgstr "دليل وإعدادات WM Newsticker"
+
+#: wm-newsticker.php:1076
+msgid "Gutenberg Block Integration"
+msgstr "تكامل مكوّن غوتنبرغ"
+
+#: wm-newsticker.php:1077
+msgid ""
+"ist ein nativer Gutenberg-Block. Fügen Sie ihn in jedem Beitrag oder jeder "
+"Seite über den Gutenberg-Inserter unter der Kategorie \"Widgets\" oder durch "
+"Eintippen von \"/newsticker\" ein."
+msgstr ""
+"هو مكوّن أصلي في محرر غوتنبرغ. أدرجه في أي مقالة أو صفحة ضمن فئة \"ودجات\" أو "
+"بكتابة \"/newsticker\"."
+
+#: wm-newsticker.php:1082
+msgid "Barrierefreiheit"
+msgstr "إمكانية الوصول"
+
+#: wm-newsticker.php:1083
+msgid ""
+"Die Bewegung hält bei Hover (Blockeinstellung) sowie bei Fokus auf einem "
+"Link im Ticker an und läuft nicht, wenn im System \"Bewegung reduzieren\" "
+"(prefers-reduced-motion) aktiv ist. Die Steuerung ist standardmäßig "
+"eingeblendet (mindestens 44 x 44 px) und lässt sich per Tastatur bedienen."
+msgstr ""
+"تتوقف الحركة عند تمرير المؤشر (إعداد المكوّن) وعند تركيز لوحة المفاتيح على "
+"رابط داخل الشريط، ولا تعمل عند تفعيل \"تقليل الحركة\" (prefers-reduced-"
+"motion). أزرار التحكم ظاهرة افتراضيًا (44 × 44 بكسل على الأقل) وتعمل بلوحة "
+"المفاتيح."
+
+#: wm-newsticker.php:1088
+msgid "Transient-Cache"
+msgstr "الذاكرة المؤقتة العابرة"
+
+#: wm-newsticker.php:1089
+msgid ""
+"Dynamische Beiträge werden für 5 Minuten im WordPress Transient Cache "
+"zwischengespeichert. Bei jeder Beitrags-Aktualisierung (save_post) oder "
+"Löschung wird der Cache automatisch invalidiert."
+msgstr ""
+"تُحفظ المقالات الديناميكية لمدة 5 دقائق في ذاكرة ووردبريس المؤقتة. عند حفظ "
+"(save_post) أو حذف أي مقالة تُفرغ الذاكرة تلقائيًا."
+
+#: wm-newsticker.php:1093
+msgid "Block-Dokumentation:"
+msgstr "توثيق المكوّن:"
+
+#: wm-newsticker.php:1094
+msgid "Entwickelt von WM Suite."
+msgstr "تطوير WM Suite."
+
+#: wm-newsticker.php:1288
+msgid "Unzureichende Berechtigungen."
+msgstr "صلاحيات غير كافية."
+
+#: wm-newsticker.php:1296
+msgid "WM Newsticker — Handbuch"
+msgstr "WM Newsticker — الدليل"
+
+#: wm-newsticker.php:1297
+msgid ""
+"Gutenberg-Block für Laufband, Überblendung, Slide und Schreibmaschine, mit "
+"manuellen Meldungen oder den neuesten Beiträgen."
+msgstr ""
+"مكوّن غوتنبرغ للشريط المتحرك والتلاشي والانزلاق والآلة الكاتبة مع إعلانات "
+"يدوية أو أحدث المقالات."
+
+#. translators: %d: number of demo headlines created
+#: wm-newsticker.php:1306
+#, php-format
+msgid ""
+"Erfolg: %d Demo-Meldungen und eine interaktive Demo-Hub-Seite wurden "
+"erfolgreich erstellt."
+msgstr "تم بنجاح: أُنشئت %d إعلانات تجريبية وصفحة عرض تفاعلية."
+
+#. translators: %d: number of demo posts and pages deleted
+#: wm-newsticker.php:1319
+#, php-format
+msgid ""
+"%d Demo-Beiträge und Showcase-Seiten wurden gelöscht. Der Transient-Cache "
+"wurde geleert."
+msgstr "حُذفت %d مقالات وصفحات تجريبية وتم تفريغ الذاكرة المؤقتة."
+
+#: wm-newsticker.php:1329
+msgid "Werkseinstellungen wiederhergestellt:"
+msgstr "تمت استعادة الإعدادات الافتراضية:"
+
+#: wm-newsticker.php:1329
+msgid "Alle Demo-Daten und Caches wurden restlos bereinigt."
+msgstr "تم مسح جميع البيانات التجريبية والذاكرة المؤقتة بالكامل."
+
+#: wm-newsticker.php:1335
+msgid "Deinstallations-Einstellung gespeichert."
+msgstr "تم حفظ إعداد إلغاء التثبيت."
+
+#: wm-newsticker.php:1341
+msgid "Live-Vorschau & Ticker-Test"
+msgstr "معاينة حية واختبار الشريط"
+
+#: wm-newsticker.php:1343
+msgid ""
+"Der Block, wie er im Frontend rendert: echte Ausgabe von render_block() mit "
+"vier manuellen Meldungen. Hover hält die Bewegung an, die Steuerung ist per "
+"Tastatur bedienbar."
+msgstr ""
+"المكوّن كما يظهر في الواجهة الأمامية: مخرجات حقيقية من render_block() مع "
+"أربعة إعلانات يدوية. التمرير يوقف الحركة والتحكم متاح بلوحة المفاتيح."
+
+#: wm-newsticker.php:1353
+msgid "1. Block-Konfiguration (Inspector Controls)"
+msgstr "1. إعدادات المكوّن (Inspector Controls)"
+
+#: wm-newsticker.php:1364
+msgid "2. Barrierefreiheit"
+msgstr "2. إمكانية الوصول"
+
+#: wm-newsticker.php:1366
+msgid ""
+"Laufband und Überblendung bewegen sich nicht, wenn im System \"Bewegung "
+"reduzieren\" aktiv ist."
+msgstr "يبقى التمرير والتلاشي ثابتين عند تفعيل \"تقليل الحركة\" في النظام."
+
+#: wm-newsticker.php:1367
+msgid ""
+"Die Steuerung ist standardmäßig aktiv, mindestens 44 x 44 px groß und "
+"besitzt sichtbare Fokusrahmen. Fokus auf einem Link im Ticker hält die "
+"Bewegung an."
+msgstr ""
+"أزرار التحكم مفعّلة افتراضيًا وبحجم لا يقل عن 44 × 44 بكسل مع إطار تركيز واضح. "
+"التركيز على رابط داخل الشريط يوقف الحركة."
+
+#: wm-newsticker.php:1368
+msgid ""
+"Landmark mit role=\"region\", aria-roledescription=\"marquee\", übersetztem "
+"Button-Status und aria-live=\"off\"."
+msgstr ""
+"منطقة بسمة role=\"region\" و aria-roledescription=\"marquee\" وحالة زر "
+"مترجمة و aria-live=\"off\"."
+
+#: wm-newsticker.php:1375
+msgid "3. PHP Hooks, Block Bindings & GenerateBlocks API"
+msgstr "3. خطافات PHP و Block Bindings وواجهة GenerateBlocks"
+
+#: wm-newsticker.php:1377
+msgid ""
+"Erweitern Sie Abfragen und Einträge per Filter (wm_newsticker_query_args, "
+"wm_newsticker_rendered_items), binden Sie Überschriften über die WordPress "
+"Block Bindings Quelle wm-newsticker/feed ein oder nutzen Sie in "
+"GenerateBlocks 2.x das Dynamic Tag {{wm_newsticker_headline}}."
+msgstr ""
+"رشّح الاستعلامات والعناصر عبر الخطافات (wm_newsticker_query_args, "
+"wm_newsticker_rendered_items)، أو اربط العناوين عبر wm-newsticker/feed أو "
+"استخدم الوسم {{wm_newsticker_headline}} في GenerateBlocks 2.x."
+
+#: wm-newsticker.php:1392
+msgid "4. Demodaten-Management & Werkseinstellungen (Reset)"
+msgstr "4. إدارة البيانات التجريبية وإعادة الضبط"
+
+#: wm-newsticker.php:1394
+msgid ""
+"Generieren Sie Beispielmeldungen und eine fertige Showcase-Gutenberg-Seite "
+"zum sofortigen Testen oder bereinigen Sie alle Caches und Beispieldaten."
+msgstr ""
+"أنشئ إعلانات تجريبية وصفحة عرض جاهزة للاختبار، أو امسح جميع الذاكرات المؤقتة "
+"والبيانات التجريبية."
+
+#: wm-newsticker.php:1403
+msgid "Demodaten & Showcase-Seite importieren"
+msgstr "استيراد البيانات التجريبية وصفحة العرض"
+
+#: wm-newsticker.php:1408
+msgid ""
+"Möchten Sie alle generierten Demo-Meldungen und Showcase-Seiten löschen?"
+msgstr "هل تريد حذف جميع الإعلانات وصفحات العرض التجريبية المُنشأة؟"
+
+#: wm-newsticker.php:1412
+msgid "Demodaten bereinigen"
+msgstr "مسح البيانات التجريبية"
+
+#: wm-newsticker.php:1423
+msgid ""
+"Angelegte Demo-Beiträge und Beispielseiten bei der Plugin-Deinstallation "
+"automatisch mitlöschen"
+msgstr ""
+"حذف المقالات والصفحات التجريبية التي أنشأتها الإضافة تلقائيًا عند إلغاء "
+"التثبيت"
+
+#: wm-newsticker.php:1426
+msgid "Einstellung speichern"
+msgstr "حفظ الإعداد"
+
+#: wm-newsticker.php:1436
+msgid "Gefahrenbereich: Auf Werkseinstellungen zurücksetzen"
+msgstr "منطقة الخطر: استعادة إعدادات المصنع"
+
+#: wm-newsticker.php:1439
+msgid ""
+"Löscht die vom Plugin angelegten Demo-Beiträge und die Beispielseite und "
+"leert den Ticker-Cache. Das Plugin speichert keine eigenen Einstellungen; "
+"die Blöcke in Ihren Seiten behalten ihre Attribute."
+msgstr ""
+"يحذف المقالات والصفحة التجريبية التي أنشأتها الإضافة ويفرغ ذاكرة الشريط "
+"المؤقتة. تحتفظ المكوّنات في صفحاتك بإعداداتها."
+
+#: wm-newsticker.php:1441
+msgid ""
+"WARNUNG: Sind Sie sicher? Dies leert alle Ticker-Caches und setzt das Plugin "
+"zurück!"
+msgstr ""
+"تحذير: هل أنت متأكد؟ سيؤدي هذا إلى تفريغ جميع الذاكرات المؤقتة وإعادة ضبط "
+"الإضافة!"
+
+#: wm-newsticker.php:1445
+msgid "Werkseinstellungen wiederherstellen (Factory Reset)"
+msgstr "استعادة إعدادات المصنع (Factory Reset)"
+
+#: wm-newsticker.php:1453
+msgid "5. Häufige Fragen & Troubleshooting"
+msgstr "5. الأسئلة الشائعة واستكشاف الأخطاء"
+
+#: wm-newsticker.php:1476
+msgid "Handbuch & Vorschau"
+msgstr "الدليل والمعاينة"
+
+#: wm-newsticker.php:1484
+msgid "Dokumentation"
+msgstr "التوثيق"
+
+#: wm-newsticker.php:1485
+msgid "GitHub Repository"
+msgstr "مستودع GitHub"
+
+#: src/index.js:34
+msgid "Newsticker"
+msgstr "شريط الأخبار"
+
+#: src/index.js:35
+msgid "Displays announcements in a ticker format with customizable links."
+msgstr "يعرض الإعلانات في شريط متحرك مع روابط قابلة للتخصيص."
+
+#: src/index.js:38
+msgid "news"
+msgstr "أخبار"
+
+#: src/index.js:38
+msgid "ticker"
+msgstr "شريط"
+
+#: src/index.js:38
+msgid "announcements"
+msgstr "إعلانات"
+
+#: src/index.js:355
+msgid "Scroll (Marquee)"
+msgstr "تمرير مستمر (Marquee)"
+
+#: src/index.js:356
+msgid "Fade"
+msgstr "تلاشي"
+
+#: src/index.js:357
+msgid "Slide"
+msgstr "انزلاق"
+
+#: src/index.js:358
+msgid "Typing"
+msgstr "آلة كاتبة"
+
+#: src/index.js:362 src/index.js:369
+msgid "Left"
+msgstr "يسار"
+
+#: src/index.js:363 src/index.js:370
+msgid "Right"
+msgstr "يمين"
+
+#: src/index.js:364
+msgid "Up"
+msgstr "أعلى"
+
+#: src/index.js:365
+msgid "Down"
+msgstr "أسفل"
+
+#: src/index.js:374
+msgid "Manual announcements"
+msgstr "إعلانات يدوية"
+
+#: src/index.js:375
+msgid "Recent posts"
+msgstr "أحدث المقالات"
+
+#: src/index.js:379
+msgid "Date"
+msgstr "التاريخ"
+
+#: src/index.js:380
+msgid "Title"
+msgstr "العنوان"
+
+#: src/index.js:381
+msgid "Last modified"
+msgstr "آخر تعديل"
+
+#: src/index.js:382
+msgid "Random"
+msgstr "عشوائي"
+
+#: src/index.js:383
+msgid "Comment count"
+msgstr "عدد التعليقات"
+
+#: src/index.js:387
+msgid "Descending (newest first)"
+msgstr "تنازلي (الأحدث أولًا)"
+
+#: src/index.js:388
+msgid "Ascending (oldest first)"
+msgstr "تصاعدي (الأقدم أولًا)"
+
+#: src/index.js:392
+msgid "Relative (e.g., 2 hours ago)"
+msgstr "نسبي (مثلًا: منذ ساعتين)"
+
+#: src/index.js:393
+msgid "Absolute (site format)"
+msgstr "مطلق (تنسيق الموقع)"
+
+#: src/index.js:402
+msgid "Animation"
+msgstr "الحركة"
+
+#: src/index.js:404
+msgid "Animation type"
+msgstr "نوع الحركة"
+
+#: src/index.js:408
+msgid "Choose how announcements are displayed"
+msgstr "اختر طريقة عرض الإعلانات"
+
+#: src/index.js:411
+msgid "Direction"
+msgstr "الاتجاه"
+
+#: src/index.js:417
+msgid "Speed"
+msgstr "السرعة"
+
+#: src/index.js:422
+msgid "Higher value = faster"
+msgstr "قيمة أعلى = أسرع"
+
+#: src/index.js:425
+msgid "Pause on hover"
+msgstr "إيقاف مؤقت عند التمرير"
+
+#: src/index.js:430
+msgid "RTL (Right-to-Left)"
+msgstr "من اليمين إلى اليسار (RTL)"
+
+#: src/index.js:433
+msgid "Enable for Arabic, Hebrew, etc."
+msgstr "تفعيل للعربية والعبرية وغيرهما"
+
+#: src/index.js:437
+msgid "Controls"
+msgstr "أزرار التحكم"
+
+#: src/index.js:439
+msgid "Show controls"
+msgstr "إظهار أزرار التحكم"
+
+#: src/index.js:442
+msgid "Display Play/Pause and Prev/Next buttons"
+msgstr "إظهار أزرار تشغيل/إيقاف والسابق/التالي"
+
+#: src/index.js:447
+msgid "Controls position"
+msgstr "موضع أزرار التحكم"
+
+#: src/index.js:453
+msgid "Play/Pause button"
+msgstr "زر تشغيل/إيقاف"
+
+#: src/index.js:458
+msgid "Previous/Next buttons"
+msgstr "زرّا السابق/التالي"
+
+#: src/index.js:461
+msgid "Only works with Fade/Slide/Typing animations"
+msgstr "يعمل فقط مع حركات التلاشي/الانزلاق/الآلة الكاتبة"
+
+#: src/index.js:464
+msgid "Progress indicator"
+msgstr "مؤشر التقدم"
+
+#: src/index.js:467
+msgid "Shows a progress bar at the bottom"
+msgstr "يعرض شريط تقدم في الأسفل"
+
+#: src/index.js:473
+msgid "General Settings"
+msgstr "الإعدادات العامة"
+
+#: src/index.js:475 src/index.js:548
+msgid "Label text"
+msgstr "نص الشارة"
+
+#: src/index.js:479
+msgid "Leave empty to hide the label on the frontend"
+msgstr "اتركه فارغًا لإخفاء الشارة في الواجهة"
+
+#: src/index.js:483
+msgid "Separator"
+msgstr "الفاصل"
+
+#: src/index.js:489
+msgid "Font size (px)"
+msgstr "حجم الخط (بكسل)"
+
+#: src/index.js:496
+msgid "Height (px)"
+msgstr "الارتفاع (بكسل)"
+
+#: src/index.js:504
+msgid "Colors"
+msgstr "الألوان"
+
+#: src/index.js:506
+msgid "Ticker background"
+msgstr "خلفية الشريط"
+
+#: src/index.js:520
+msgid "Text color"
+msgstr "لون النص"
+
+#: src/index.js:534
+msgid "Label background"
+msgstr "خلفية الشارة"
+
+#: src/index.js:562
+msgid "Border color"
+msgstr "لون الإطار"
+
+#: src/index.js:579
+msgid "Spacing & Borders"
+msgstr "التباعد والحدود"
+
+#: src/index.js:581
+msgid "Padding"
+msgstr "الحشو الداخلي"
+
+#: src/index.js:591
+msgid "Margin"
+msgstr "الهامش الخارجي"
+
+#: src/index.js:601
+msgid "Border Radius"
+msgstr "استدارة الزوايا"
+
+#: src/index.js:612
+msgid "Border Width"
+msgstr "سمك الإطار"
+
+#: src/index.js:622
+msgid "Border Style"
+msgstr "نمط الإطار"
+
+#: src/index.js:625
+msgid "Solid"
+msgstr "متصل"
+
+#: src/index.js:626
+msgid "Dashed"
+msgstr "متقطع"
+
+#: src/index.js:627
+msgid "Dotted"
+msgstr "منقط"
+
+#: src/index.js:628 src/index.js:638
+msgid "None"
+msgstr "بلا"
+
+#: src/index.js:635
+msgid "Box Shadow"
+msgstr "ظل الصندوق"
+
+#: src/index.js:639
+msgid "Small"
+msgstr "صغير"
+
+#: src/index.js:640
+msgid "Medium"
+msgstr "متوسط"
+
+#: src/index.js:641
+msgid "Large"
+msgstr "كبير"
+
+#: src/index.js:642
+msgid "Inset"
+msgstr "داخلي"
+
+#: src/index.js:648
+msgid "Content Source"
+msgstr "مصدر المحتوى"
+
+#: src/index.js:650
+msgid "Source"
+msgstr "المصدر"
+
+#: src/index.js:659
+msgid "Post type"
+msgstr "نوع المحتوى"
+
+#: src/index.js:665
+msgid "Number of posts"
+msgstr "عدد المقالات"
+
+#: src/index.js:673
+msgid "Filter by category"
+msgstr "تصفية حسب التصنيف"
+
+#: src/index.js:676
+msgid "All categories"
+msgstr "كل التصنيفات"
+
+#: src/index.js:680
+msgid "Select a category to filter posts"
+msgstr "اختر تصنيفًا لتصفية المقالات"
+
+#: src/index.js:685
+msgid "Filter by tag"
+msgstr "تصفية حسب الوسم"
+
+#: src/index.js:688
+msgid "All tags"
+msgstr "كل الوسوم"
+
+#: src/index.js:695
+msgid "Order by"
+msgstr "ترتيب حسب"
+
+#: src/index.js:701
+msgid "Order"
+msgstr "الترتيب"
+
+#: src/index.js:707
+msgid "Show date"
+msgstr "إظهار التاريخ"
+
+#: src/index.js:713
+msgid "Date format"
+msgstr "تنسيق التاريخ"
+
+#: src/index.js:721
+msgid "Loading posts..."
+msgstr "جارٍ تحميل المقالات..."
+
+#: src/index.js:726
+msgid "Preview:"
+msgstr "معاينة:"
+
+#: src/index.js:726
+msgid "posts found"
+msgstr "مقالات موجودة"
+
+#: src/index.js:731
+msgid "No posts found with current filters"
+msgstr "لم يُعثر على مقالات بالفلاتر الحالية"
+
+#: src/index.js:744
+msgid "Announcement text"
+msgstr "نص الإعلان"
+
+#: src/index.js:749
+msgid "Link (optional)"
+msgstr "الرابط (اختياري)"
+
+#: src/index.js:755
+msgid "Open in new tab"
+msgstr "فتح في لسان جديد"
+
+#: src/index.js:767
+msgid "Move up"
+msgstr "تحريك لأعلى"
+
+#: src/index.js:774
+msgid "Move down"
+msgstr "تحريك لأسفل"
+
+#: src/index.js:781
+msgid "Delete"
+msgstr "حذف"
+
+#: src/index.js:794
+msgid "Add announcement"
+msgstr "إضافة إعلان"
+
+#: src/index.js:800
+msgid "About"
+msgstr "حول الإضافة"
+
+#: src/index.js:849
+msgid "Loading..."
+msgstr "جارٍ التحميل..."
+
+#: src/index.js:849
+msgid "No posts found"
+msgstr "لا توجد مقالات"
+
+#: src/index.js:850
+msgid "Add announcements in the sidebar →"
+msgstr "أضف الإعلانات من الشريط الجانبي →"
+
+#: src/index.js:866
+msgid "(No text)"
+msgstr "(بلا نص)"
+
+#: block.json
+msgctxt "block title"
+msgid "Newsticker"
+msgstr "شريط الأخبار"
+
+#: block.json
+msgctxt "block description"
+msgid "Displays announcements in a ticker format with customizable links."
+msgstr "يعرض الإعلانات في شريط متحرك مع روابط قابلة للتخصيص."
+
+#: block.json
+msgctxt "block keyword"
+msgid "news"
+msgstr "أخبار"
+
+#: block.json
+msgctxt "block keyword"
+msgid "ticker"
+msgstr "شريط"
+
+#: block.json
+msgctxt "block keyword"
+msgid "announcements"
+msgstr "إعلانات"

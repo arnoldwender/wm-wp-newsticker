@@ -1,0 +1,324 @@
+{
+  "translation-revision-date": "2026-11-16T20:55:00+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-newsticker",
+        "lang": "lt_LT",
+        "plural-forms": "nplurals=3; plural=(n%10==1 && (n%100<11 || n%100>19) ? 0 : n%10>=2 && n%10<=9 && (n%100<11 || n%100>19) ? 1 : 2);"
+      },
+      "NEWS": [
+        "NAUJIENOS"
+      ],
+      "Newsticker": [
+        "Naujienų juosta"
+      ],
+      "Displays announcements in a ticker format with customizable links.": [
+        "Rodo pranešimus animuotoje juostoje su pritaikomomis nuorodomis."
+      ],
+      "news": [
+        "naujienos"
+      ],
+      "ticker": [
+        "juosta"
+      ],
+      "announcements": [
+        "pranešimai"
+      ],
+      "Scroll (Marquee)": [
+        "Slinkimas (Marquee)"
+      ],
+      "Fade": [
+        "Išblukimas"
+      ],
+      "Slide": [
+        "Slydimas"
+      ],
+      "Typing": [
+        "Rašomoji mašinėlė"
+      ],
+      "Left": [
+        "Kairėn"
+      ],
+      "Right": [
+        "Dešinėn"
+      ],
+      "Up": [
+        "Aukštyn"
+      ],
+      "Down": [
+        "Žemyn"
+      ],
+      "Manual announcements": [
+        "Rankiniai pranešimai"
+      ],
+      "Recent posts": [
+        "Naujausi įrašai"
+      ],
+      "Date": [
+        "Data"
+      ],
+      "Title": [
+        "Pavadinimas"
+      ],
+      "Last modified": [
+        "Paskutinį kartą keista"
+      ],
+      "Random": [
+        "Atsitiktinai"
+      ],
+      "Comment count": [
+        "Komentarų skaičius"
+      ],
+      "Descending (newest first)": [
+        "Mažėjimo tvarka (naujausi viršuje)"
+      ],
+      "Ascending (oldest first)": [
+        "Didėjimo tvarka (seniausi viršuje)"
+      ],
+      "Relative (e.g., 2 hours ago)": [
+        "Santykinis (pvz., prieš 2 val.)"
+      ],
+      "Absolute (site format)": [
+        "Absoliutus (svetainės formatas)"
+      ],
+      "Animation": [
+        "Animacija"
+      ],
+      "Animation type": [
+        "Animacijos tipas"
+      ],
+      "Choose how announcements are displayed": [
+        "Pasirinkite pranešimų rodymo būdą"
+      ],
+      "Direction": [
+        "Kryptis"
+      ],
+      "Speed": [
+        "Greitis"
+      ],
+      "Higher value = faster": [
+        "Didesnė reikšmė = greičiau"
+      ],
+      "Pause on hover": [
+        "Pristabdyti užvedus pelę"
+      ],
+      "RTL (Right-to-Left)": [
+        "RTL (iš dešinės į kairę)"
+      ],
+      "Enable for Arabic, Hebrew, etc.": [
+        "Įjungti arabų, hebrajų ir kt. kalboms"
+      ],
+      "Controls": [
+        "Valdikliai"
+      ],
+      "Show controls": [
+        "Rodyti valdiklius"
+      ],
+      "Display Play/Pause and Prev/Next buttons": [
+        "Rodyti Paleisti/Pristabdyti ir Ankstesnis/Kitas mygtukus"
+      ],
+      "Controls position": [
+        "Valdiklių vieta"
+      ],
+      "Play/Pause button": [
+        "Paleisti/Pristabdyti mygtukas"
+      ],
+      "Previous/Next buttons": [
+        "Ankstesnis/Kitas mygtukai"
+      ],
+      "Only works with Fade/Slide/Typing animations": [
+        "Veikia tik su Išblukimo/Slydimo/Rašomosios mašinėlės animacijomis"
+      ],
+      "Progress indicator": [
+        "Eigos indikatorius"
+      ],
+      "Shows a progress bar at the bottom": [
+        "Rodo eigos juostą apačioje"
+      ],
+      "General Settings": [
+        "Bendrosios nuostatos"
+      ],
+      "Label text": [
+        "Žymos tekstas"
+      ],
+      "Leave empty to hide the label on the frontend": [
+        "Palikite tuščią, kad paslėptumėte žymą svetainėje"
+      ],
+      "Separator": [
+        "Skirtukas"
+      ],
+      "Font size (px)": [
+        "Šrifto dydis (px)"
+      ],
+      "Height (px)": [
+        "Aukštis (px)"
+      ],
+      "Colors": [
+        "Spalvos"
+      ],
+      "Ticker background": [
+        "Juostos fonas"
+      ],
+      "Text color": [
+        "Teksto spalva"
+      ],
+      "Label background": [
+        "Žymos fonas"
+      ],
+      "Border color": [
+        "Rėmelio spalva"
+      ],
+      "Spacing & Borders": [
+        "Tarpai ir rėmeliai"
+      ],
+      "Padding": [
+        "Vidinis tarpas"
+      ],
+      "Margin": [
+        "Paraštė"
+      ],
+      "Border Radius": [
+        "Kampų spindulys"
+      ],
+      "Border Width": [
+        "Rėmelio plotis"
+      ],
+      "Border Style": [
+        "Rėmelio stilius"
+      ],
+      "Solid": [
+        "Vientisas"
+      ],
+      "Dashed": [
+        "Brūkšninis"
+      ],
+      "Dotted": [
+        "Taškinis"
+      ],
+      "None": [
+        "Joks"
+      ],
+      "Box Shadow": [
+        "Dėžutės šešėlis"
+      ],
+      "Small": [
+        "Mažas"
+      ],
+      "Medium": [
+        "Vidutinis"
+      ],
+      "Large": [
+        "Didelis"
+      ],
+      "Inset": [
+        "Vidinis"
+      ],
+      "Content Source": [
+        "Turinio šaltinis"
+      ],
+      "Source": [
+        "Šaltinis"
+      ],
+      "Post type": [
+        "Įrašo tipas"
+      ],
+      "Number of posts": [
+        "Įrašų skaičius"
+      ],
+      "Filter by category": [
+        "Filtruoti pagal kategoriją"
+      ],
+      "All categories": [
+        "Visos kategorijos"
+      ],
+      "Select a category to filter posts": [
+        "Pasirinkite kategoriją įrašams filtruoti"
+      ],
+      "Filter by tag": [
+        "Filtruoti pagal žymą"
+      ],
+      "All tags": [
+        "Visos žymos"
+      ],
+      "Order by": [
+        "Rikiuoti pagal"
+      ],
+      "Order": [
+        "Tvarka"
+      ],
+      "Show date": [
+        "Rodyti datą"
+      ],
+      "Date format": [
+        "Datos formatas"
+      ],
+      "Loading posts...": [
+        "Įkeliami įrašai…"
+      ],
+      "Preview:": [
+        "Peržiūra:"
+      ],
+      "posts found": [
+        "rasta įrašų"
+      ],
+      "No posts found with current filters": [
+        "Pagal dabartinius filtrus įrašų nerasta"
+      ],
+      "Announcement text": [
+        "Pranešimo tekstas"
+      ],
+      "Link (optional)": [
+        "Nuoroda (neprivaloma)"
+      ],
+      "Open in new tab": [
+        "Atverti naujame kortelės lange"
+      ],
+      "Move up": [
+        "Pakelti aukštyn"
+      ],
+      "Move down": [
+        "Nuleisti žemyn"
+      ],
+      "Delete": [
+        "Ištrinti"
+      ],
+      "Add announcement": [
+        "Pridėti pranešimą"
+      ],
+      "About": [
+        "Apie"
+      ],
+      "Loading...": [
+        "Įkeliama…"
+      ],
+      "No posts found": [
+        "Įrašų nerasta"
+      ],
+      "Add announcements in the sidebar →": [
+        "Pridėkite pranešimų šoninėje juostoje →"
+      ],
+      "(No text)": [
+        "(Be teksto)"
+      ],
+      "block title\u0004Newsticker": [
+        "Naujienų juosta"
+      ],
+      "block description\u0004Displays announcements in a ticker format with customizable links.": [
+        "Rodo pranešimus animuotoje juostoje su pritaikomomis nuorodomis."
+      ],
+      "block keyword\u0004news": [
+        "naujienos"
+      ],
+      "block keyword\u0004ticker": [
+        "juosta"
+      ],
+      "block keyword\u0004announcements": [
+        "pranešimai"
+      ]
+    }
+  }
+}

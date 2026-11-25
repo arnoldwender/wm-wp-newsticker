@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Support & Liability Policy (Zero Support)
+    url: https://github.com/arnoldwender/wm-wp-newsticker/blob/main/SUPPORT.md
+    about: Zero technical or private support is provided. Reproducible bugs belong only in GitHub Issues; do not contact the author privately.
+  - name: Security Vulnerability Reporting
+    url: https://github.com/arnoldwender/wm-wp-newsticker/security/advisories/new
+    about: Please report security vulnerabilities privately via GitHub Security Advisories rather than opening a public issue or contacting privately.

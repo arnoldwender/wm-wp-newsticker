@@ -1,0 +1,324 @@
+{
+  "translation-revision-date": "2026-11-16T20:55:00+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-newsticker",
+        "lang": "lv",
+        "plural-forms": "nplurals=3; plural=(n%10==0 || (n%100>=11 && n%100<=19) ? 0 : n%10==1 && n%100!=11 ? 1 : 2);"
+      },
+      "NEWS": [
+        "ZIŅAS"
+      ],
+      "Newsticker": [
+        "Ziņu josla"
+      ],
+      "Displays announcements in a ticker format with customizable links.": [
+        "Rāda paziņojumus animētā joslā ar pielāgojamām saitēm."
+      ],
+      "news": [
+        "ziņas"
+      ],
+      "ticker": [
+        "josla"
+      ],
+      "announcements": [
+        "paziņojumi"
+      ],
+      "Scroll (Marquee)": [
+        "Ritināšana (Marquee)"
+      ],
+      "Fade": [
+        "Izbalēšana"
+      ],
+      "Slide": [
+        "Slīdēšana"
+      ],
+      "Typing": [
+        "Rakstāmmašīna"
+      ],
+      "Left": [
+        "Pa kreisi"
+      ],
+      "Right": [
+        "Pa labi"
+      ],
+      "Up": [
+        "Uz augšu"
+      ],
+      "Down": [
+        "Uz leju"
+      ],
+      "Manual announcements": [
+        "Manuāli paziņojumi"
+      ],
+      "Recent posts": [
+        "Jaunākie ieraksti"
+      ],
+      "Date": [
+        "Datums"
+      ],
+      "Title": [
+        "Nosaukums"
+      ],
+      "Last modified": [
+        "Pēdējoreiz mainīts"
+      ],
+      "Random": [
+        "Nejauši"
+      ],
+      "Comment count": [
+        "Komentāru skaits"
+      ],
+      "Descending (newest first)": [
+        "Dilstoši (jaunākie vispirms)"
+      ],
+      "Ascending (oldest first)": [
+        "Augoši (vecākie vispirms)"
+      ],
+      "Relative (e.g., 2 hours ago)": [
+        "Relatīvs (piem., pirms 2 stundām)"
+      ],
+      "Absolute (site format)": [
+        "Absolūts (vietnes formāts)"
+      ],
+      "Animation": [
+        "Animācija"
+      ],
+      "Animation type": [
+        "Animācijas veids"
+      ],
+      "Choose how announcements are displayed": [
+        "Izvēlieties paziņojumu attēlošanas veidu"
+      ],
+      "Direction": [
+        "Virziens"
+      ],
+      "Speed": [
+        "Ātrums"
+      ],
+      "Higher value = faster": [
+        "Lielāka vērtība = ātrāk"
+      ],
+      "Pause on hover": [
+        "Pauzēt uzvedot kursoru"
+      ],
+      "RTL (Right-to-Left)": [
+        "RTL (no labās uz kreiso)"
+      ],
+      "Enable for Arabic, Hebrew, etc.": [
+        "Iespējot arābu, ivrita u.c. valodām"
+      ],
+      "Controls": [
+        "Vadīklas"
+      ],
+      "Show controls": [
+        "Rādīt vadīklas"
+      ],
+      "Display Play/Pause and Prev/Next buttons": [
+        "Rādīt pogas Atskaņot/Pauze un Iepriekšējais/Nākamais"
+      ],
+      "Controls position": [
+        "Vadīklu novietojums"
+      ],
+      "Play/Pause button": [
+        "Poga Atskaņot/Pauze"
+      ],
+      "Previous/Next buttons": [
+        "Pogas Iepriekšējais/Nākamais"
+      ],
+      "Only works with Fade/Slide/Typing animations": [
+        "Darbojas tikai ar Izbalēšanas/Slīdēšanas/Rakstāmmašīnas animācijām"
+      ],
+      "Progress indicator": [
+        "Progresa indikators"
+      ],
+      "Shows a progress bar at the bottom": [
+        "Apakšā rāda progresa joslu"
+      ],
+      "General Settings": [
+        "Vispārīgie iestatījumi"
+      ],
+      "Label text": [
+        "Birku teksts"
+      ],
+      "Leave empty to hide the label on the frontend": [
+        "Atstājiet tukšu, lai paslēptu birku vietnē"
+      ],
+      "Separator": [
+        "Atdalītājs"
+      ],
+      "Font size (px)": [
+        "Fonta izmērs (px)"
+      ],
+      "Height (px)": [
+        "Augstums (px)"
+      ],
+      "Colors": [
+        "Krāsas"
+      ],
+      "Ticker background": [
+        "Joslas fons"
+      ],
+      "Text color": [
+        "Teksta krāsa"
+      ],
+      "Label background": [
+        "Birkas fons"
+      ],
+      "Border color": [
+        "Apmales krāsa"
+      ],
+      "Spacing & Borders": [
+        "Atstarpes un apmales"
+      ],
+      "Padding": [
+        "Iekšējā atstarpe"
+      ],
+      "Margin": [
+        "Ārējā mala"
+      ],
+      "Border Radius": [
+        "Stūru rādiuss"
+      ],
+      "Border Width": [
+        "Apmales platums"
+      ],
+      "Border Style": [
+        "Apmales stils"
+      ],
+      "Solid": [
+        "Nepārtraukta"
+      ],
+      "Dashed": [
+        "Raustīta"
+      ],
+      "Dotted": [
+        "Punktēta"
+      ],
+      "None": [
+        "Nav"
+      ],
+      "Box Shadow": [
+        "Ēna"
+      ],
+      "Small": [
+        "Maza"
+      ],
+      "Medium": [
+        "Vidēja"
+      ],
+      "Large": [
+        "Liela"
+      ],
+      "Inset": [
+        "Iekšēja"
+      ],
+      "Content Source": [
+        "Satura avots"
+      ],
+      "Source": [
+        "Avots"
+      ],
+      "Post type": [
+        "Ieraksta veids"
+      ],
+      "Number of posts": [
+        "Ierakstu skaits"
+      ],
+      "Filter by category": [
+        "Filtrēt pēc kategorijas"
+      ],
+      "All categories": [
+        "Visas kategorijas"
+      ],
+      "Select a category to filter posts": [
+        "Izvēlieties kategoriju ierakstu filtrēšanai"
+      ],
+      "Filter by tag": [
+        "Filtrēt pēc birkas"
+      ],
+      "All tags": [
+        "Visas birkas"
+      ],
+      "Order by": [
+        "Kārtot pēc"
+      ],
+      "Order": [
+        "Secība"
+      ],
+      "Show date": [
+        "Rādīt datumu"
+      ],
+      "Date format": [
+        "Datuma formāts"
+      ],
+      "Loading posts...": [
+        "Ielādē ierakstus…"
+      ],
+      "Preview:": [
+        "Priekšskatījums:"
+      ],
+      "posts found": [
+        "atrasti ieraksti"
+      ],
+      "No posts found with current filters": [
+        "Ar pašreizējiem filtriem ieraksti netika atrasti"
+      ],
+      "Announcement text": [
+        "Paziņojuma teksts"
+      ],
+      "Link (optional)": [
+        "Saite (neobligāti)"
+      ],
+      "Open in new tab": [
+        "Atvērt jaunā cilnē"
+      ],
+      "Move up": [
+        "Pārvietot augšup"
+      ],
+      "Move down": [
+        "Pārvietot lejup"
+      ],
+      "Delete": [
+        "Dzēst"
+      ],
+      "Add announcement": [
+        "Pievienot paziņojumu"
+      ],
+      "About": [
+        "Par spraudni"
+      ],
+      "Loading...": [
+        "Ielādē…"
+      ],
+      "No posts found": [
+        "Ieraksti nav atrasti"
+      ],
+      "Add announcements in the sidebar →": [
+        "Pievienojiet paziņojumus sānjoslā →"
+      ],
+      "(No text)": [
+        "(Nav teksta)"
+      ],
+      "block title\u0004Newsticker": [
+        "Ziņu josla"
+      ],
+      "block description\u0004Displays announcements in a ticker format with customizable links.": [
+        "Rāda paziņojumus animētā joslā ar pielāgojamām saitēm."
+      ],
+      "block keyword\u0004news": [
+        "ziņas"
+      ],
+      "block keyword\u0004ticker": [
+        "josla"
+      ],
+      "block keyword\u0004announcements": [
+        "paziņojumi"
+      ]
+    }
+  }
+}

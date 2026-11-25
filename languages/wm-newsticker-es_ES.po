@@ -1,0 +1,900 @@
+# Translation of WM Newsticker in es_ES
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-newsticker 1.6.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-newsticker\n"
+"POT-Creation-Date: 2026-11-21T10:01:28+00:00\n"
+"PO-Revision-Date: 2026-11-21 11:03+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-newsticker/"
+"issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-newsticker/"
+"issues>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-newsticker\n"
+
+#. Plugin Name of the plugin
+#: wm-newsticker.php includes/class-newsticker-integrations.php:166
+#: wm-newsticker.php:963 wm-newsticker.php:1026 wm-newsticker.php:1027
+#: wm-newsticker.php:1058 wm-newsticker.php:1077
+msgid "WM Newsticker"
+msgstr "WM Newsticker"
+
+#. Plugin URI of the plugin
+#: wm-newsticker.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-newsticker/"
+msgstr "https://arnoldwender.com/wordpress-plugins/wm-newsticker/"
+
+#. Description of the plugin
+#: wm-newsticker.php
+msgid ""
+"A Gutenberg block for animated news tickers with scroll, fade, slide and "
+"typing animations."
+msgstr ""
+"Un bloque de Gutenberg para cintillos de noticias animados con efectos de "
+"desplazamiento, fundido, deslizamiento y máquina de escribir."
+
+#. Author of the plugin
+#: wm-newsticker.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-newsticker.php
+msgid "https://arnoldwender.com"
+msgstr "https://arnoldwender.com"
+
+#: includes/class-newsticker-integrations.php:48
+msgid "WM Newsticker Feed"
+msgstr "Fuente de WM Newsticker"
+
+#: includes/class-newsticker-integrations.php:96
+msgid "WM Newsticker Headline"
+msgstr "Titular de WM Newsticker"
+
+#: includes/class-newsticker-integrations.php:100
+msgid ""
+"Outputs a cached headline from WM Newsticker inside any GenerateBlocks Text "
+"or Element block."
+msgstr ""
+"Muestra un titular en caché de WM Newsticker dentro de cualquier bloque "
+"Texto o Elemento de GenerateBlocks."
+
+#: includes/class-newsticker-integrations.php:104
+msgid "Post type slug"
+msgstr "Slug del tipo de contenido"
+
+#: includes/class-newsticker-integrations.php:109
+msgid "Headline index (0 = newest)"
+msgstr "Índice del titular (0 = más reciente)"
+
+#: includes/class-newsticker-integrations.php:114
+msgid "Field"
+msgstr "Campo"
+
+#: includes/class-newsticker-integrations.php:119
+msgid "Headline text"
+msgstr "Texto del titular"
+
+#: includes/class-newsticker-integrations.php:123
+msgid "Permalink URL"
+msgstr "URL del enlace permanente"
+
+#: includes/class-newsticker-integrations.php:174
+msgid "Breaking News Ticker Bar"
+msgstr "Barra de noticias de última hora"
+
+#: includes/class-newsticker-integrations.php:175
+msgid "Full-width news ticker bar with accessible controls and recent posts."
+msgstr ""
+"Barra de noticias a ancho completo con controles accesibles y entradas "
+"recientes."
+
+#: includes/class-newsticker-integrations.php:177 src/index.js:315
+msgid "NEWS"
+msgstr "NOTICIAS"
+
+#: includes/class-newsticker-integrations.php:185
+msgid "GenerateBlocks Section with News Ticker"
+msgstr "Sección de GenerateBlocks con cintillo de noticias"
+
+#: includes/class-newsticker-integrations.php:186
+msgid ""
+"Two-layer GenerateBlocks section (gbp-section + gbp-section__inner) "
+"embedding WM Newsticker with GeneratePress global colour tokens."
+msgstr ""
+"Sección de dos capas de GenerateBlocks (gbp-section + gbp-section__inner) "
+"con WM Newsticker y tokens globales de color de GeneratePress."
+
+#: includes/class-newsticker-integrations.php:192
+msgid "AKTUELL"
+msgstr "ÚLTIMA HORA"
+
+#: includes/class-newsticker-integrations.php:213
+msgid "Get Newsticker Headlines"
+msgstr "Obtener titulares del cintillo"
+
+#: includes/class-newsticker-integrations.php:214
+msgid ""
+"Returns sanitized, cached public headlines from WM Newsticker for a public "
+"post type."
+msgstr ""
+"Devuelve titulares públicos saneados y en caché de WM Newsticker para un "
+"tipo de contenido público."
+
+#: wm-newsticker.php:478
+msgid "ago"
+msgstr "hace"
+
+#: wm-newsticker.php:635
+msgid "News ticker"
+msgstr "Cintillo de noticias"
+
+#: wm-newsticker.php:722
+msgid "Previous"
+msgstr "Anterior"
+
+#: wm-newsticker.php:731 wm-newsticker.php:732
+msgid "Pause"
+msgstr "Pausar"
+
+#: wm-newsticker.php:733
+msgid "Play"
+msgstr "Reproducir"
+
+#: wm-newsticker.php:745
+msgid "Next"
+msgstr "Siguiente"
+
+#: wm-newsticker.php:873
+msgid "Part of the WM Suite plugin family"
+msgstr "Parte de la familia de plugins de WM Suite"
+
+#: wm-newsticker.php:875
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: wm-newsticker.php:876
+msgid "Hub"
+msgstr "Modo Hub"
+
+#: wm-newsticker.php:876
+msgid "Standalone"
+msgstr "Autónomo"
+
+#: wm-newsticker.php:892
+msgid "LIVE"
+msgstr "EN VIVO"
+
+#: wm-newsticker.php:897
+msgid "Die Laufbewegung ist eine CSS-Animation (transform)"
+msgstr "El desplazamiento continuo utiliza una animación CSS (transform)"
+
+#: wm-newsticker.php:898
+msgid "Mit der Maus über dem Ticker hält die Bewegung an"
+msgstr "Al pasar el ratón sobre el cintillo se detiene el movimiento"
+
+#: wm-newsticker.php:899
+msgid "prefers-reduced-motion stoppt die Animation"
+msgstr "prefers-reduced-motion detiene la animación"
+
+#: wm-newsticker.php:900
+msgid "Dynamische Beiträge kommen 5 Minuten aus dem Transient-Cache"
+msgstr ""
+"Las entradas dinámicas se sirven durante 5 minutos desde la caché transitoria"
+
+#: wm-newsticker.php:985
+msgid "Block wm/newsticker registriert"
+msgstr "Bloque wm/newsticker registrado"
+
+#: wm-newsticker.php:987
+msgid "Block wm/newsticker ist nicht registriert"
+msgstr "El bloque wm/newsticker no está registrado"
+
+#: wm-newsticker.php:991
+msgid ""
+"Pause bei Hover und Fokus im Ticker, keine Bewegung bei prefers-reduced-"
+"motion"
+msgstr ""
+"Pausa al pasar el ratón y al enfocar dentro del cintillo; sin movimiento con "
+"prefers-reduced-motion"
+
+#: wm-newsticker.php:998
+msgid "Seiten mit Ticker"
+msgstr "Páginas con cintillo"
+
+#: wm-newsticker.php:1002
+msgid "Demo-Beiträge"
+msgstr "Entradas de demostración"
+
+#: wm-newsticker.php:1006
+msgid "Cache-Einträge"
+msgstr "Entradas en caché"
+
+#: wm-newsticker.php:1012
+msgid "Showcase & Handbuch öffnen"
+msgstr "Abrir escaparate y manual"
+
+#: wm-newsticker.php:1038
+msgid "WM Newsticker — Übersicht & Showcase"
+msgstr "WM Newsticker — Resumen y escaparate"
+
+#: wm-newsticker.php:1039
+msgid "Übersicht & Showcase"
+msgstr "Resumen y escaparate"
+
+#: wm-newsticker.php:1048
+msgid "WM Newsticker — Handbuch & Dokumentation"
+msgstr "WM Newsticker — Manual y documentación"
+
+#: wm-newsticker.php:1049 wm-newsticker.php:1295
+msgid "Handbuch"
+msgstr "Manual"
+
+#: wm-newsticker.php:1057
+msgid "WM Newsticker Handbuch & Konfiguration"
+msgstr "Manual y configuración de WM Newsticker"
+
+#: wm-newsticker.php:1076
+msgid "Gutenberg Block Integration"
+msgstr "Integración con bloques Gutenberg"
+
+#: wm-newsticker.php:1077
+msgid ""
+"ist ein nativer Gutenberg-Block. Fügen Sie ihn in jedem Beitrag oder jeder "
+"Seite über den Gutenberg-Inserter unter der Kategorie \"Widgets\" oder durch "
+"Eintippen von \"/newsticker\" ein."
+msgstr ""
+"es un bloque nativo de Gutenberg. Insértelo en cualquier entrada o página "
+"desde el insertador en la categoría \"Widgets\" o escribiendo \"/"
+"newsticker\"."
+
+#: wm-newsticker.php:1082
+msgid "Barrierefreiheit"
+msgstr "Accesibilidad"
+
+#: wm-newsticker.php:1083
+msgid ""
+"Die Bewegung hält bei Hover (Blockeinstellung) sowie bei Fokus auf einem "
+"Link im Ticker an und läuft nicht, wenn im System \"Bewegung reduzieren\" "
+"(prefers-reduced-motion) aktiv ist. Die Steuerung ist standardmäßig "
+"eingeblendet (mindestens 44 x 44 px) und lässt sich per Tastatur bedienen."
+msgstr ""
+"El movimiento se pausa al pasar el ratón (ajuste del bloque) y al enfocar un "
+"enlace dentro del cintillo, y no se ejecuta si \"Reducir movimiento\" "
+"(prefers-reduced-motion) está activo. Los controles son visibles por defecto "
+"(mínimo 44 x 44 px) y manejables por teclado."
+
+#: wm-newsticker.php:1088
+msgid "Transient-Cache"
+msgstr "Caché transitoria"
+
+#: wm-newsticker.php:1089
+msgid ""
+"Dynamische Beiträge werden für 5 Minuten im WordPress Transient Cache "
+"zwischengespeichert. Bei jeder Beitrags-Aktualisierung (save_post) oder "
+"Löschung wird der Cache automatisch invalidiert."
+msgstr ""
+"Las entradas dinámicas se almacenan durante 5 minutos en la caché "
+"transitoria de WordPress. Al guardar (save_post) o eliminar una entrada, la "
+"caché se invalida automáticamente."
+
+#: wm-newsticker.php:1093
+msgid "Block-Dokumentation:"
+msgstr "Documentación del bloque:"
+
+#: wm-newsticker.php:1094
+msgid "Entwickelt von WM Suite."
+msgstr "Desarrollado por WM Suite."
+
+#: wm-newsticker.php:1288
+msgid "Unzureichende Berechtigungen."
+msgstr "Permisos insuficientes."
+
+#: wm-newsticker.php:1296
+msgid "WM Newsticker — Handbuch"
+msgstr "WM Newsticker — Manual"
+
+#: wm-newsticker.php:1297
+msgid ""
+"Gutenberg-Block für Laufband, Überblendung, Slide und Schreibmaschine, mit "
+"manuellen Meldungen oder den neuesten Beiträgen."
+msgstr ""
+"Bloque Gutenberg para marquesina, fundido, deslizamiento y máquina de "
+"escribir con avisos manuales o entradas recientes."
+
+#. translators: %d: number of demo headlines created
+#: wm-newsticker.php:1306
+#, php-format
+msgid ""
+"Erfolg: %d Demo-Meldungen und eine interaktive Demo-Hub-Seite wurden "
+"erfolgreich erstellt."
+msgstr ""
+"Éxito: se crearon %d avisos de demostración y una página interactiva de "
+"muestra."
+
+#. translators: %d: number of demo posts and pages deleted
+#: wm-newsticker.php:1319
+#, php-format
+msgid ""
+"%d Demo-Beiträge und Showcase-Seiten wurden gelöscht. Der Transient-Cache "
+"wurde geleert."
+msgstr ""
+"Se eliminaron %d entradas y páginas de demostración. Se vació la caché "
+"transitoria."
+
+#: wm-newsticker.php:1329
+msgid "Werkseinstellungen wiederhergestellt:"
+msgstr "Ajustes de fábrica restaurados:"
+
+#: wm-newsticker.php:1329
+msgid "Alle Demo-Daten und Caches wurden restlos bereinigt."
+msgstr ""
+"Todos los datos de demostración y las cachés se han limpiado por completo."
+
+#: wm-newsticker.php:1335
+msgid "Deinstallations-Einstellung gespeichert."
+msgstr "Preferencia de desinstalación guardada."
+
+#: wm-newsticker.php:1341
+msgid "Live-Vorschau & Ticker-Test"
+msgstr "Vista previa en vivo y prueba del cintillo"
+
+#: wm-newsticker.php:1343
+msgid ""
+"Der Block, wie er im Frontend rendert: echte Ausgabe von render_block() mit "
+"vier manuellen Meldungen. Hover hält die Bewegung an, die Steuerung ist per "
+"Tastatur bedienbar."
+msgstr ""
+"El bloque tal como se renderiza en el frontend: salida real de "
+"render_block() con cuatro avisos manuales. Pasar el ratón pausa el "
+"movimiento y los controles funcionan con teclado."
+
+#: wm-newsticker.php:1353
+msgid "1. Block-Konfiguration (Inspector Controls)"
+msgstr "1. Configuración del bloque (Inspector Controls)"
+
+#: wm-newsticker.php:1364
+msgid "2. Barrierefreiheit"
+msgstr "2. Accesibilidad"
+
+#: wm-newsticker.php:1366
+msgid ""
+"Laufband und Überblendung bewegen sich nicht, wenn im System \"Bewegung "
+"reduzieren\" aktiv ist."
+msgstr ""
+"La marquesina y el fundido permanecen estáticos cuando \"Reducir "
+"movimiento\" está activo en el sistema."
+
+#: wm-newsticker.php:1367
+msgid ""
+"Die Steuerung ist standardmäßig aktiv, mindestens 44 x 44 px groß und "
+"besitzt sichtbare Fokusrahmen. Fokus auf einem Link im Ticker hält die "
+"Bewegung an."
+msgstr ""
+"Los controles están activos por defecto, miden al menos 44 x 44 px y "
+"muestran anillos de foco visibles. Enfocar un enlace dentro del cintillo "
+"pausa el movimiento."
+
+#: wm-newsticker.php:1368
+msgid ""
+"Landmark mit role=\"region\", aria-roledescription=\"marquee\", übersetztem "
+"Button-Status und aria-live=\"off\"."
+msgstr ""
+"Región con role=\"region\", aria-roledescription=\"marquee\", estado de "
+"botón traducido y aria-live=\"off\"."
+
+#: wm-newsticker.php:1375
+msgid "3. PHP Hooks, Block Bindings & GenerateBlocks API"
+msgstr "3. Hooks PHP, Block Bindings y API de GenerateBlocks"
+
+#: wm-newsticker.php:1377
+msgid ""
+"Erweitern Sie Abfragen und Einträge per Filter (wm_newsticker_query_args, "
+"wm_newsticker_rendered_items), binden Sie Überschriften über die WordPress "
+"Block Bindings Quelle wm-newsticker/feed ein oder nutzen Sie in "
+"GenerateBlocks 2.x das Dynamic Tag {{wm_newsticker_headline}}."
+msgstr ""
+"Amplíe consultas y elementos mediante filtros (wm_newsticker_query_args, "
+"wm_newsticker_rendered_items), vincule titulares con la fuente wm-newsticker/"
+"feed de Block Bindings o use la etiqueta dinámica {{wm_newsticker_headline}} "
+"en GenerateBlocks 2.x."
+
+#: wm-newsticker.php:1392
+msgid "4. Demodaten-Management & Werkseinstellungen (Reset)"
+msgstr "4. Gestión de datos de demostración y restablecimiento"
+
+#: wm-newsticker.php:1394
+msgid ""
+"Generieren Sie Beispielmeldungen und eine fertige Showcase-Gutenberg-Seite "
+"zum sofortigen Testen oder bereinigen Sie alle Caches und Beispieldaten."
+msgstr ""
+"Genere avisos de ejemplo y una página Gutenberg lista para probar, o limpie "
+"todas las cachés y datos de muestra."
+
+#: wm-newsticker.php:1403
+msgid "Demodaten & Showcase-Seite importieren"
+msgstr "Importar datos de demostración y página de muestra"
+
+#: wm-newsticker.php:1408
+msgid ""
+"Möchten Sie alle generierten Demo-Meldungen und Showcase-Seiten löschen?"
+msgstr "¿Desea eliminar todos los avisos y páginas de demostración generados?"
+
+#: wm-newsticker.php:1412
+msgid "Demodaten bereinigen"
+msgstr "Limpiar datos de demostración"
+
+#: wm-newsticker.php:1423
+msgid ""
+"Angelegte Demo-Beiträge und Beispielseiten bei der Plugin-Deinstallation "
+"automatisch mitlöschen"
+msgstr ""
+"Eliminar automáticamente las entradas y páginas de demostración creadas por "
+"el plugin al desinstalarlo"
+
+#: wm-newsticker.php:1426
+msgid "Einstellung speichern"
+msgstr "Guardar preferencia"
+
+#: wm-newsticker.php:1436
+msgid "Gefahrenbereich: Auf Werkseinstellungen zurücksetzen"
+msgstr "Zona de peligro: restablecer valores de fábrica"
+
+#: wm-newsticker.php:1439
+msgid ""
+"Löscht die vom Plugin angelegten Demo-Beiträge und die Beispielseite und "
+"leert den Ticker-Cache. Das Plugin speichert keine eigenen Einstellungen; "
+"die Blöcke in Ihren Seiten behalten ihre Attribute."
+msgstr ""
+"Elimina las entradas de demostración y la página de ejemplo creadas por el "
+"plugin y vacía la caché. Los bloques en sus páginas conservan sus atributos."
+
+#: wm-newsticker.php:1441
+msgid ""
+"WARNUNG: Sind Sie sicher? Dies leert alle Ticker-Caches und setzt das Plugin "
+"zurück!"
+msgstr ""
+"ADVERTENCIA: ¿Está seguro? ¡Esto vaciará todas las cachés del cintillo y "
+"restablecerá el plugin!"
+
+#: wm-newsticker.php:1445
+msgid "Werkseinstellungen wiederherstellen (Factory Reset)"
+msgstr "Restablecer valores de fábrica (Factory Reset)"
+
+#: wm-newsticker.php:1453
+msgid "5. Häufige Fragen & Troubleshooting"
+msgstr "5. Preguntas frecuentes y solución de problemas"
+
+#: wm-newsticker.php:1476
+msgid "Handbuch & Vorschau"
+msgstr "Manual y vista previa"
+
+#: wm-newsticker.php:1484
+msgid "Dokumentation"
+msgstr "Documentación"
+
+#: wm-newsticker.php:1485
+msgid "GitHub Repository"
+msgstr "Repositorio de GitHub"
+
+#: src/index.js:34
+msgid "Newsticker"
+msgstr "Cintillo de noticias"
+
+#: src/index.js:35
+msgid "Displays announcements in a ticker format with customizable links."
+msgstr ""
+"Muestra avisos en formato de cintillo animado con enlaces personalizables."
+
+#: src/index.js:38
+msgid "news"
+msgstr "noticias"
+
+#: src/index.js:38
+msgid "ticker"
+msgstr "cintillo"
+
+#: src/index.js:38
+msgid "announcements"
+msgstr "avisos"
+
+#: src/index.js:355
+msgid "Scroll (Marquee)"
+msgstr "Desplazamiento (Marquesina)"
+
+#: src/index.js:356
+msgid "Fade"
+msgstr "Fundido"
+
+#: src/index.js:357
+msgid "Slide"
+msgstr "Deslizar"
+
+#: src/index.js:358
+msgid "Typing"
+msgstr "Máquina de escribir"
+
+#: src/index.js:362 src/index.js:369
+msgid "Left"
+msgstr "Izquierda"
+
+#: src/index.js:363 src/index.js:370
+msgid "Right"
+msgstr "Derecha"
+
+#: src/index.js:364
+msgid "Up"
+msgstr "Arriba"
+
+#: src/index.js:365
+msgid "Down"
+msgstr "Abajo"
+
+#: src/index.js:374
+msgid "Manual announcements"
+msgstr "Avisos manuales"
+
+#: src/index.js:375
+msgid "Recent posts"
+msgstr "Entradas recientes"
+
+#: src/index.js:379
+msgid "Date"
+msgstr "Fecha"
+
+#: src/index.js:380
+msgid "Title"
+msgstr "Título"
+
+#: src/index.js:381
+msgid "Last modified"
+msgstr "Última modificación"
+
+#: src/index.js:382
+msgid "Random"
+msgstr "Aleatorio"
+
+#: src/index.js:383
+msgid "Comment count"
+msgstr "Número de comentarios"
+
+#: src/index.js:387
+msgid "Descending (newest first)"
+msgstr "Descendente (más recientes primero)"
+
+#: src/index.js:388
+msgid "Ascending (oldest first)"
+msgstr "Ascendente (más antiguos primero)"
+
+#: src/index.js:392
+msgid "Relative (e.g., 2 hours ago)"
+msgstr "Relativo (p. ej., hace 2 horas)"
+
+#: src/index.js:393
+msgid "Absolute (site format)"
+msgstr "Absoluto (formato del sitio)"
+
+#: src/index.js:402
+msgid "Animation"
+msgstr "Animación"
+
+#: src/index.js:404
+msgid "Animation type"
+msgstr "Tipo de animación"
+
+#: src/index.js:408
+msgid "Choose how announcements are displayed"
+msgstr "Elija cómo se muestran los avisos"
+
+#: src/index.js:411
+msgid "Direction"
+msgstr "Dirección"
+
+#: src/index.js:417
+msgid "Speed"
+msgstr "Velocidad"
+
+#: src/index.js:422
+msgid "Higher value = faster"
+msgstr "Mayor valor = más rápido"
+
+#: src/index.js:425
+msgid "Pause on hover"
+msgstr "Pausar al pasar el ratón"
+
+#: src/index.js:430
+msgid "RTL (Right-to-Left)"
+msgstr "RTL (derecha a izquierda)"
+
+#: src/index.js:433
+msgid "Enable for Arabic, Hebrew, etc."
+msgstr "Activar para árabe, hebreo, etc."
+
+#: src/index.js:437
+msgid "Controls"
+msgstr "Controles"
+
+#: src/index.js:439
+msgid "Show controls"
+msgstr "Mostrar controles"
+
+#: src/index.js:442
+msgid "Display Play/Pause and Prev/Next buttons"
+msgstr "Mostrar botones Reproducir/Pausar y Anterior/Siguiente"
+
+#: src/index.js:447
+msgid "Controls position"
+msgstr "Posición de los controles"
+
+#: src/index.js:453
+msgid "Play/Pause button"
+msgstr "Botón Reproducir/Pausar"
+
+#: src/index.js:458
+msgid "Previous/Next buttons"
+msgstr "Botones Anterior/Siguiente"
+
+#: src/index.js:461
+msgid "Only works with Fade/Slide/Typing animations"
+msgstr "Solo funciona con animaciones Fundido/Deslizar/Máquina de escribir"
+
+#: src/index.js:464
+msgid "Progress indicator"
+msgstr "Indicador de progreso"
+
+#: src/index.js:467
+msgid "Shows a progress bar at the bottom"
+msgstr "Muestra una barra de progreso en la parte inferior"
+
+#: src/index.js:473
+msgid "General Settings"
+msgstr "Ajustes generales"
+
+#: src/index.js:475 src/index.js:548
+msgid "Label text"
+msgstr "Texto de la etiqueta"
+
+#: src/index.js:479
+msgid "Leave empty to hide the label on the frontend"
+msgstr "Déjelo vacío para ocultar la etiqueta en el frontend"
+
+#: src/index.js:483
+msgid "Separator"
+msgstr "Separador"
+
+#: src/index.js:489
+msgid "Font size (px)"
+msgstr "Tamaño de fuente (px)"
+
+#: src/index.js:496
+msgid "Height (px)"
+msgstr "Altura (px)"
+
+#: src/index.js:504
+msgid "Colors"
+msgstr "Colores"
+
+#: src/index.js:506
+msgid "Ticker background"
+msgstr "Fondo del cintillo"
+
+#: src/index.js:520
+msgid "Text color"
+msgstr "Color del texto"
+
+#: src/index.js:534
+msgid "Label background"
+msgstr "Fondo de la etiqueta"
+
+#: src/index.js:562
+msgid "Border color"
+msgstr "Color del borde"
+
+#: src/index.js:579
+msgid "Spacing & Borders"
+msgstr "Espaciado y bordes"
+
+#: src/index.js:581
+msgid "Padding"
+msgstr "Relleno (Padding)"
+
+#: src/index.js:591
+msgid "Margin"
+msgstr "Margen"
+
+#: src/index.js:601
+msgid "Border Radius"
+msgstr "Radio del borde"
+
+#: src/index.js:612
+msgid "Border Width"
+msgstr "Ancho del borde"
+
+#: src/index.js:622
+msgid "Border Style"
+msgstr "Estilo del borde"
+
+#: src/index.js:625
+msgid "Solid"
+msgstr "Sólido"
+
+#: src/index.js:626
+msgid "Dashed"
+msgstr "Discontinuo"
+
+#: src/index.js:627
+msgid "Dotted"
+msgstr "Punteado"
+
+#: src/index.js:628 src/index.js:638
+msgid "None"
+msgstr "Ninguno"
+
+#: src/index.js:635
+msgid "Box Shadow"
+msgstr "Sombra de caja"
+
+#: src/index.js:639
+msgid "Small"
+msgstr "Pequeña"
+
+#: src/index.js:640
+msgid "Medium"
+msgstr "Mediana"
+
+#: src/index.js:641
+msgid "Large"
+msgstr "Grande"
+
+#: src/index.js:642
+msgid "Inset"
+msgstr "Interior"
+
+#: src/index.js:648
+msgid "Content Source"
+msgstr "Fuente de contenido"
+
+#: src/index.js:650
+msgid "Source"
+msgstr "Fuente"
+
+#: src/index.js:659
+msgid "Post type"
+msgstr "Tipo de contenido"
+
+#: src/index.js:665
+msgid "Number of posts"
+msgstr "Número de entradas"
+
+#: src/index.js:673
+msgid "Filter by category"
+msgstr "Filtrar por categoría"
+
+#: src/index.js:676
+msgid "All categories"
+msgstr "Todas las categorías"
+
+#: src/index.js:680
+msgid "Select a category to filter posts"
+msgstr "Seleccione una categoría para filtrar entradas"
+
+#: src/index.js:685
+msgid "Filter by tag"
+msgstr "Filtrar por etiqueta"
+
+#: src/index.js:688
+msgid "All tags"
+msgstr "Todas las etiquetas"
+
+#: src/index.js:695
+msgid "Order by"
+msgstr "Ordenar por"
+
+#: src/index.js:701
+msgid "Order"
+msgstr "Orden"
+
+#: src/index.js:707
+msgid "Show date"
+msgstr "Mostrar fecha"
+
+#: src/index.js:713
+msgid "Date format"
+msgstr "Formato de fecha"
+
+#: src/index.js:721
+msgid "Loading posts..."
+msgstr "Cargando entradas..."
+
+#: src/index.js:726
+msgid "Preview:"
+msgstr "Vista previa:"
+
+#: src/index.js:726
+msgid "posts found"
+msgstr "entradas encontradas"
+
+#: src/index.js:731
+msgid "No posts found with current filters"
+msgstr "No se encontraron entradas con los filtros actuales"
+
+#: src/index.js:744
+msgid "Announcement text"
+msgstr "Texto del aviso"
+
+#: src/index.js:749
+msgid "Link (optional)"
+msgstr "Enlace (opcional)"
+
+#: src/index.js:755
+msgid "Open in new tab"
+msgstr "Abrir en una pestaña nueva"
+
+#: src/index.js:767
+msgid "Move up"
+msgstr "Subir"
+
+#: src/index.js:774
+msgid "Move down"
+msgstr "Bajar"
+
+#: src/index.js:781
+msgid "Delete"
+msgstr "Eliminar"
+
+#: src/index.js:794
+msgid "Add announcement"
+msgstr "Añadir aviso"
+
+#: src/index.js:800
+msgid "About"
+msgstr "Acerca de"
+
+#: src/index.js:849
+msgid "Loading..."
+msgstr "Cargando..."
+
+#: src/index.js:849
+msgid "No posts found"
+msgstr "No se encontraron entradas"
+
+#: src/index.js:850
+msgid "Add announcements in the sidebar →"
+msgstr "Añada avisos en la barra lateral →"
+
+#: src/index.js:866
+msgid "(No text)"
+msgstr "(Sin texto)"
+
+#: block.json
+msgctxt "block title"
+msgid "Newsticker"
+msgstr "Cintillo de noticias"
+
+#: block.json
+msgctxt "block description"
+msgid "Displays announcements in a ticker format with customizable links."
+msgstr ""
+"Muestra avisos en formato de cintillo animado con enlaces personalizables."
+
+#: block.json
+msgctxt "block keyword"
+msgid "news"
+msgstr "noticias"
+
+#: block.json
+msgctxt "block keyword"
+msgid "ticker"
+msgstr "cintillo"
+
+#: block.json
+msgctxt "block keyword"
+msgid "announcements"
+msgstr "avisos"

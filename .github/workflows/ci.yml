@@ -1,0 +1,59 @@
+name: CI Test Suite
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        php-version: ['7.4', '8.1', '8.2', '8.3']
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php-version }}
+          extensions: dom, mbstring, json, openssl, libxml, simplexml
+
+      - name: Lint Plugin PHP Files & Run Standalone Suite
+        run: |
+          for f in wm-newsticker.php uninstall.php includes/*.php build/*.asset.php; do php -l "$f"; done
+          php tests/test-suite.php
+          python3 .github/scripts/security-audit.py
+
+      - name: Install WP-CLI
+        if: matrix.php-version == '8.3'
+        run: |
+          mkdir -p "$HOME/bin"
+          curl -sSL https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar -o "$HOME/bin/wp"
+          chmod +x "$HOME/bin/wp"
+          echo "$HOME/bin" >> "$GITHUB_PATH"
+
+      - name: Translation catalog freshness
+        if: matrix.php-version == '8.3'
+        run: php tests/test-pot-freshness.php
+
+      - name: Setup Node.js
+        if: matrix.php-version == '8.3'
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Verify Gutenberg build & asset hardening
+        if: matrix.php-version == '8.3'
+        run: |
+          npm install --no-audit --no-fund --no-package-lock
+          npm run build
+          git checkout -- build/
+
+      - name: Mutation Check
+        if: matrix.php-version != '7.4'
+        run: bash tests/run-mutations.sh

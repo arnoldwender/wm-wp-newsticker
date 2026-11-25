@@ -1,0 +1,324 @@
+{
+  "translation-revision-date": "2026-11-16T20:55:00+01:00",
+  "generator": "WM Suite i18n Compiler 2026",
+  "source": "build/index.js",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "wm-newsticker",
+        "lang": "hr_HR",
+        "plural-forms": "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+      },
+      "NEWS": [
+        "VIJESTI"
+      ],
+      "Newsticker": [
+        "Traka vijesti"
+      ],
+      "Displays announcements in a ticker format with customizable links.": [
+        "Prikazuje obavijesti u obliku animirane trake s prilagodljivim poveznicama."
+      ],
+      "news": [
+        "vijesti"
+      ],
+      "ticker": [
+        "traka"
+      ],
+      "announcements": [
+        "obavijesti"
+      ],
+      "Scroll (Marquee)": [
+        "Klizanje (Marquee)"
+      ],
+      "Fade": [
+        "Pretapanje"
+      ],
+      "Slide": [
+        "Pomicanje"
+      ],
+      "Typing": [
+        "Pisaći stroj"
+      ],
+      "Left": [
+        "Lijevo"
+      ],
+      "Right": [
+        "Desno"
+      ],
+      "Up": [
+        "Gore"
+      ],
+      "Down": [
+        "Dolje"
+      ],
+      "Manual announcements": [
+        "Ručne obavijesti"
+      ],
+      "Recent posts": [
+        "Najnovije objave"
+      ],
+      "Date": [
+        "Datum"
+      ],
+      "Title": [
+        "Naslov"
+      ],
+      "Last modified": [
+        "Zadnja izmjena"
+      ],
+      "Random": [
+        "Nasumično"
+      ],
+      "Comment count": [
+        "Broj komentara"
+      ],
+      "Descending (newest first)": [
+        "Silazno (najnovije prvo)"
+      ],
+      "Ascending (oldest first)": [
+        "Uzlazno (najstarije prvo)"
+      ],
+      "Relative (e.g., 2 hours ago)": [
+        "Relativno (npr. prije 2 sata)"
+      ],
+      "Absolute (site format)": [
+        "Apsolutno (format weba)"
+      ],
+      "Animation": [
+        "Animacija"
+      ],
+      "Animation type": [
+        "Vrsta animacije"
+      ],
+      "Choose how announcements are displayed": [
+        "Odaberite način prikaza obavijesti"
+      ],
+      "Direction": [
+        "Smjer"
+      ],
+      "Speed": [
+        "Brzina"
+      ],
+      "Higher value = faster": [
+        "Veća vrijednost = brže"
+      ],
+      "Pause on hover": [
+        "Pauziraj pri prelasku mišem"
+      ],
+      "RTL (Right-to-Left)": [
+        "RTL (zdesna nalijevo)"
+      ],
+      "Enable for Arabic, Hebrew, etc.": [
+        "Uključi za arapski, hebrejski itd."
+      ],
+      "Controls": [
+        "Kontrole"
+      ],
+      "Show controls": [
+        "Prikaži kontrole"
+      ],
+      "Display Play/Pause and Prev/Next buttons": [
+        "Prikaži gumbe Pokreni/Pauza i Prethodno/Sljedeće"
+      ],
+      "Controls position": [
+        "Položaj kontrola"
+      ],
+      "Play/Pause button": [
+        "Gumb Pokreni/Pauza"
+      ],
+      "Previous/Next buttons": [
+        "Gumbi Prethodno/Sljedeće"
+      ],
+      "Only works with Fade/Slide/Typing animations": [
+        "Radi samo s animacijama Pretapanje/Pomicanje/Pisaći stroj"
+      ],
+      "Progress indicator": [
+        "Pokazivač napretka"
+      ],
+      "Shows a progress bar at the bottom": [
+        "Prikazuje traku napretka na dnu"
+      ],
+      "General Settings": [
+        "Opće postavke"
+      ],
+      "Label text": [
+        "Tekst oznake"
+      ],
+      "Leave empty to hide the label on the frontend": [
+        "Ostavite prazno za skrivanje oznake na webu"
+      ],
+      "Separator": [
+        "Razdjelnik"
+      ],
+      "Font size (px)": [
+        "Veličina pisma (px)"
+      ],
+      "Height (px)": [
+        "Visina (px)"
+      ],
+      "Colors": [
+        "Boje"
+      ],
+      "Ticker background": [
+        "Pozadina trake"
+      ],
+      "Text color": [
+        "Boja teksta"
+      ],
+      "Label background": [
+        "Pozadina oznake"
+      ],
+      "Border color": [
+        "Boja obruba"
+      ],
+      "Spacing & Borders": [
+        "Razmaci i obrubi"
+      ],
+      "Padding": [
+        "Unutarnji razmak"
+      ],
+      "Margin": [
+        "Margina"
+      ],
+      "Border Radius": [
+        "Zaobljenje kutova"
+      ],
+      "Border Width": [
+        "Širina obruba"
+      ],
+      "Border Style": [
+        "Stil obruba"
+      ],
+      "Solid": [
+        "Puno"
+      ],
+      "Dashed": [
+        "Isprekidano"
+      ],
+      "Dotted": [
+        "Točkasto"
+      ],
+      "None": [
+        "Ništa"
+      ],
+      "Box Shadow": [
+        "Sjena okvira"
+      ],
+      "Small": [
+        "Mala"
+      ],
+      "Medium": [
+        "Srednja"
+      ],
+      "Large": [
+        "Velika"
+      ],
+      "Inset": [
+        "Unutarnja"
+      ],
+      "Content Source": [
+        "Izvor sadržaja"
+      ],
+      "Source": [
+        "Izvor"
+      ],
+      "Post type": [
+        "Vrsta objave"
+      ],
+      "Number of posts": [
+        "Broj objava"
+      ],
+      "Filter by category": [
+        "Filtriraj po kategoriji"
+      ],
+      "All categories": [
+        "Sve kategorije"
+      ],
+      "Select a category to filter posts": [
+        "Odaberite kategoriju za filtriranje objava"
+      ],
+      "Filter by tag": [
+        "Filtriraj po oznaci"
+      ],
+      "All tags": [
+        "Sve oznake"
+      ],
+      "Order by": [
+        "Sortiraj po"
+      ],
+      "Order": [
+        "Redoslijed"
+      ],
+      "Show date": [
+        "Prikaži datum"
+      ],
+      "Date format": [
+        "Format datuma"
+      ],
+      "Loading posts...": [
+        "Učitavanje objava…"
+      ],
+      "Preview:": [
+        "Pregled:"
+      ],
+      "posts found": [
+        "pronađenih objava"
+      ],
+      "No posts found with current filters": [
+        "Nema objava s trenutnim filtrima"
+      ],
+      "Announcement text": [
+        "Tekst obavijesti"
+      ],
+      "Link (optional)": [
+        "Poveznica (neobavezno)"
+      ],
+      "Open in new tab": [
+        "Otvori u novoj kartici"
+      ],
+      "Move up": [
+        "Pomakni gore"
+      ],
+      "Move down": [
+        "Pomakni dolje"
+      ],
+      "Delete": [
+        "Izbriši"
+      ],
+      "Add announcement": [
+        "Dodaj obavijest"
+      ],
+      "About": [
+        "O dodatku"
+      ],
+      "Loading...": [
+        "Učitavanje…"
+      ],
+      "No posts found": [
+        "Nema objava"
+      ],
+      "Add announcements in the sidebar →": [
+        "Dodajte obavijesti u bočnoj traci →"
+      ],
+      "(No text)": [
+        "(Nema teksta)"
+      ],
+      "block title\u0004Newsticker": [
+        "Traka vijesti"
+      ],
+      "block description\u0004Displays announcements in a ticker format with customizable links.": [
+        "Prikazuje obavijesti u obliku animirane trake s prilagodljivim poveznicama."
+      ],
+      "block keyword\u0004news": [
+        "vijesti"
+      ],
+      "block keyword\u0004ticker": [
+        "traka"
+      ],
+      "block keyword\u0004announcements": [
+        "obavijesti"
+      ]
+    }
+  }
+}
